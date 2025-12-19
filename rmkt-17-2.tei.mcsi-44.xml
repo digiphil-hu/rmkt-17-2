@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">44.</title>
+<title key="body" n="44" type="main">PARAPHRASIS PSALMI XXX.</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-44</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi rend="bold">Diarium Apod.</hi> 270b–271b.</bibl> – A latin cím jelentése: A
+                        XXX. zsoltár paraphrázisa Salamon király lakodalmi énekének dallamára;
+                        énekeltem mint özvegy <placeName>Liszkán<idno type="ITIdata">Q20640</idno></placeName>, <date when="1638-07-15">1638. júl.
+                            15–6-án</date>. – Az ének versfői: MISKOLCIE.</p>
+<p xml:id="crit.1.p.2">A nótajelzésül megjelölt ének ismeretlen. – Csulyak <date when="1638-05-20">1638. máj.
+                            20-án</date> vesztette el ötödik feleségét, <persName>Prágai
+                            Zsuzsannát</persName>. (<bibl>Önéletrajz 299.</bibl>) – A XXX. zsoltár
+                        megfelelő verseinek sorszámára Csulyak a lapszélen utalt.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 270b–271b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 44.</fw>
+<head type="title">PARAPHRASIS PSALMI XXX.</head>
+<head type="notation">ad melodiam epithalamii Salomonis Regis Psallebam Liscae viduus 15. 16. Julii 1638.</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><hi rend="bold">M</hi>agaztalom az Urat, minden joknac Autorat:<note type="footnote"> v. 1.</note></l>
+<l rend="level_3" xml:id="l.2">hog’ engem meg tartot szegény szolgajat,</l>
+<l rend="level_3" xml:id="l.3">fel hozta régen kivant fénies napjat:</l>
+<l xml:id="l.4">el űzte az ellensegnec gonoz szandekjat.</l>
+<l xml:id="l.5">niavaliamon nemis engedte kacziagasat.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.6"><hi rend="bold">I</hi>aigatasom hogy hallá, niavaliam meg giogitá. <note type="footnote">2.</note></l>
+<l rend="level_3" xml:id="l.7">Az koporsoban be esnem nem hagia,<note type="footnote"> 3.</note></l>
+<l rend="level_3" xml:id="l.8">noha már chiak közel valéc hozzaja:</l>
+<l xml:id="l.9">mert meg kapa s az esettöl<note type="critic" xml:id="note.1"> = az eleséstől</note> meg tartoztata,</l>
+<l xml:id="l.10">halal helűt uy eletet ajandekoza.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.11"><hi rend="bold">S</hi>zentec azert Istennec velem enekeljetec,<note type="footnote"> 4.</note></l>
+<l rend="level_3" xml:id="l.12">meg érdemli neki kedveskedgietec</l>
+<l rend="level_3" xml:id="l.13">kitsintöl fogvan nagig örvendgietec.</l>
+<l xml:id="l.14">Mert haragja nem tart socka mint az embernec, <note type="footnote">5.</note></l>
+<l xml:id="l.15">de kegielme meszeb terjed, vége nints ennec.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.16"><hi rend="bold">K</hi>étség innét tavol jár mert ember oly uton jár:</l>
+<l rend="level_3" xml:id="l.17">hogy ha reggel öröme vagion kit vâr</l>
+<l rend="level_3" xml:id="l.18">estvére banat talalja kit nem vâr:</l>
+<l xml:id="l.19">miként szokta hives tavazt követni az niar,</l>
+<l xml:id="l.20">haszon utan ne várjukis bé köszön az kâr. <note type="footnote">6.</note></l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.21"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1"><hi rend="bold">O</hi>ljan hiszenben voltam midön örömben
+                                voltam:</lem>
+<rdg wit="#I" xml:id="rdg.1">[Előbb így:] Oljan kedvemben voltam; Oly gondolatban
+                                voltam; hiszemben voltam <del>midö</del></rdg>
+</app></l>
+<l rend="level_3" xml:id="l.22"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">hogy nem leszen giasz köntösöm gondoltam</lem><rdg wit="#I" xml:id="rdg.2">[Előbb így:] hogy nem
+                        leszen giasz köntösöm azt tudtam; hogy nem leszen giasz köntösöm raitam</rdg></app></l>
+<l rend="level_3" xml:id="l.23">mert Istentöl fel ekesitve voltam:</l>
+<l xml:id="l.24">de hogy tölem el fordula meg haborodtam <note type="footnote">7.</note></l>
+<l xml:id="l.25">az banatnac szinten közepiben borultam.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.26"><hi rend="bold">L</hi>átám hogy Isten dolga mindgiart kialtéc hozza:<note type="footnote"> 8.</note></l>
+<l rend="level_3" xml:id="l.27">mondéc, Uram mi hasznod halalomba, <note type="footnote">9.</note></l>
+<l rend="level_3" xml:id="l.28">bár elevenen menniekis az sirba:</l>
+<l xml:id="l.29">mert az hamu es por teged imadsagaba,</l>
+<l xml:id="l.30">nem tiztelhet, nemis tiztel akaratodra.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.31"><app xml:id="app.3">
+<lem wit="#KK" xml:id="lem.3"><hi rend="bold">C</hi>hielekedgied azt inkab, En edes
+                                Atiam, szolgad <note type="footnote">10.</note></lem>
+<rdg wit="#I" xml:id="rdg.3">Atiam, <del>tovab</del></rdg>
+</app></l>
+<l rend="level_3" xml:id="l.32">ne suitold immar, veszöd de meg vonniad,</l>
+<l rend="level_3" xml:id="l.33">regtöl fogvan kivant jomot meg adgiad:</l>
+<l xml:id="l.34">banat helűt szivem örömmel orvosoljad</l>
+<l xml:id="l.35">hog’ mindennec fénies pelda lehessec adgiad.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.36"><hi rend="bold">I</hi>sten szomat hogy halla ottan szivem meg szalla, <note type="footnote">11.</note></l>
+<l rend="level_3" xml:id="l.37">banatomat vig örömre fordita 12.</l>
+<l rend="level_3" xml:id="l.38">giasz ruhamotis rolam le szaggata</l>
+<l xml:id="l.39">melliert miglen élec az Anyaszentegyhazba 13.</l>
+<l xml:id="l.40">aldom ötet, holtom utan, az menyorszagba.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.41"><hi rend="bold">E</hi>z szokat David irta harminczadic Soltarba:</l>
+<l rend="level_3" xml:id="l.42">Istennec köszönte hog’ meg tartotta</l>
+<l rend="level_3" xml:id="l.43">haboruibol ki szabaditotta.</l>
+<l xml:id="l.44"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">Miis azért aldgiuc Istent, hogy banatunkba</lem><rdg wit="#I" xml:id="rdg.4"><sic>adgiuc</sic></rdg></app></l>
+<l xml:id="l.45">vig örömöt ajandekoz imatsagunkra.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

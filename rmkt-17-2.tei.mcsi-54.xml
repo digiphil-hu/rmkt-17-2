@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">54.</title>
+<title key="body" n="54" type="main">PRECATIONES RYTHMICAE, PRAEMITTENDA HAEC CONCIONI DE COENA DOMINI</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-54</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi rend="bold">Diarium Apod.</hi> 103a–b.</bibl> – A latin cím jelentése: Rímes
+                        könyörgés az úrvacsoráról szóló prédikáció elé.</p>
+<p xml:id="crit.1.p.2"> A <title><hi rend="italic">Diarium</hi></title> 103a–105a. lapjain négy vallásos ének található,
+                        melyeknek keletkezési idejét Csulyak nem jelölte meg. (<ref target="rmkt-17-2.tei.mcsi-54">54</ref>–<ref target="rmkt-17-2.tei.mcsi-57">57.</ref> sz.) Utánuk
+                        egy <date when="1644">1644-ben</date> írt latin vers következik (<ref target="rmkt-17-2.tei.mcsi-49">49. sz.</ref>).
+                        Valószínűleg a magyar versek Csulyak utolsó fennmaradt szerzeményei, s ezért
+                        szövegüket – a kéziratba való beírás sorrendjében – az <date when="1643-01-01">1643. jan.
+                            1-én</date> írt <ref target="rmkt-17-2.tei.mcsi-53">53. sz.</ref> ének után közöljük.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 103a–b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 54.</fw>
+<head type="title">PRECATIONES RYTHMICAE, PRAEMITTENDA HAEC CONCIONI DE COENA DOMINI</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Kereztienec kic most ez Templomban vagytoc,</l>
+<l xml:id="l.2">az Isten igejet hog’ tölem haljatoc,</l>
+<l xml:id="l.3">sziveteknek térdet jertec meg haitsatoc,</l>
+<l xml:id="l.4">es Istennec velem eckeppen szoljatoc.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Veghetetlen igaz szent Iehova Isten,</l>
+<l xml:id="l.6">ki Esaiasnal az régi idöben,</l>
+<l xml:id="l.7">szent Ianosnal penig most az uy törvenben,</l>
+<l xml:id="l.8">szerelmedböl hozzad hittal illienképpen.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Szerelmes Hiveim valakic szomjuztoc,</l>
+<l xml:id="l.10">es szép tizta vizet én tölem kivantoc,</l>
+<l xml:id="l.11">hog’ lelki sebetec meg orvosoljatoc,</l>
+<l xml:id="l.12">jertek hozzam. Ha nintsenis polturaktoc,</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Az ti adomantoc nem kel sem penzetec,</l>
+<l xml:id="l.14">mert az mitec vagion tudgiatoc enimec,</l>
+<l xml:id="l.15">penznélkűlis adoc bort es tejet nektec,</l>
+<l xml:id="l.16">melliel szűksegteket mesze űzhetitec.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Hallottuc szent Atianc hog’ igy hittal minket</l>
+<l xml:id="l.18"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">hozzad azert jöttűnc fogadgy be bennűnket </lem><rdg wit="#I" xml:id="rdg.1"><del>azert hozzad</del><add type="corr">hozzad azert</add></rdg></app></l>
+<l xml:id="l.19">gazdag kegielmednec nissad meg kut fejét,</l>
+<l xml:id="l.20">szomjuhozo lelkűnc mert ohaitia vizét.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Aztalahoz mivel Christusnac sietűnc, </lem><rdg wit="#I" xml:id="rdg.2"><del>Aztalodhoz</del><add type="corr">Aztalahoz</add></rdg></app></l>
+<l xml:id="l.22">utaltasd meg velűnc halal hozo vétkűnc,</l>
+<l xml:id="l.23">szent eledelevel hog’ részesűlhessűnc</l>
+<l xml:id="l.24">megis elégitsed meg ehezet lelkűnc.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Melnec erejevel meg erössitetvén</l>
+<l xml:id="l.26">ekes szep sereggel mehessűnc elödben</l>
+<l xml:id="l.27">Abrammal Isackal Iacobbal le űlvén</l>
+<l xml:id="l.28">vetet asztalodhoz. Mondgiuc neked Amen.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

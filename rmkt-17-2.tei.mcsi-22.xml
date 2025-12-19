@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">22.</title>
+<title key="body" n="22" type="main">COMPAR COLUMBARUM EIDEM À GYMNASTE OBLATUM</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-22</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1">Kézirata: <hi rend="bold">Diarium Apod.</hi> 220b–221b. – A
+                    latin cím jelentése: Ugyanattól az iskolamestertől hozott páros galamb. Az
+                    iskolamester Csulyak volt, aki <persName>Zombori Péter</persName> deák
+                    lakodalmára egy galambpárt vitt ajándékul. (A 69. sorban Magdolnát említi, aki
+                        <persName>Zombori Péter</persName> második felesége volt, lásd az előző
+                    éneket.) Az utolsó versszak előtt az előadásra utaló „Pausa” (szünet)
+                    megjegyzés, mint a <ref target="rmkt-17-2.tei.mcsi-18">18. sz.</ref> éneknél is.</note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 220b–221b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 22.</fw>
+<head type="title">COMPAR COLUMBARUM EIDEM À GYMNASTE OBLATUM</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Senki ajandekot <metamark function="cesura"/> jobbat mint én nem hozot.</l>
+<l xml:id="l.2">meljet az Istentöl kértem <metamark function="cesura"/> ez hazasoknac niertem;</l>
+<l xml:id="l.3">Egy bokor galambot <metamark function="cesura"/> kire visellien gondot</l>
+<l xml:id="l.4">az ki szent életet akar élni <metamark function="cesura"/> hazassagban épűlni.</l>
+<l xml:id="l.5">Mert ennec joszága <metamark function="cesura"/> házasokat példazza</l>
+<l xml:id="l.6">annakokaert fűled ide tarch <metamark function="cesura"/> ha meg nem értended meg tarch.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.7"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Az galambnac epe <metamark function="cesura"/> vagy méreg ninch bégibe<note type="critic" xml:id="note.1">bégibe = begyében</note></lem><rdg wit="#I" xml:id="rdg.1"><del>bégibe</del><add type="corr">bélibe</add></rdg></app></l>
+<l xml:id="l.8">de vagion chac nagy szilidség <metamark function="cesura"/> égy más közöt eggiesség.</l>
+<l xml:id="l.9">Igy az házasoktol <metamark function="cesura"/> minden igaz társoktol,</l>
+<l xml:id="l.10">mesze tavozzon harag iregység <metamark function="cesura"/> avagy egiéb szörnűség:</l>
+<l xml:id="l.11">szűbéli szeretet <metamark function="cesura"/> kegies szent jambor élet</l>
+<l xml:id="l.12">körniékezze<note type="critic" xml:id="note.2">körniékezze = vegye körül</note> hazasoknak agiát <metamark function="cesura"/> hogj vegiéc Christus javát.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.13">Az galamb buvaban <metamark function="cesura"/> titkon niög ö magaban</l>
+<l xml:id="l.14">bankodic egy más faidalmán <metamark function="cesura"/> nem vigad társa káran.</l>
+<l xml:id="l.15">Igy teis szent házas <metamark function="cesura"/> chac Istenedtöl halgas</l>
+<l xml:id="l.16">siry keseregy bűnöd undokságan <metamark function="cesura"/> annac szamtalanságan,</l>
+<l xml:id="l.17">társod kára károd <metamark function="cesura"/> legien, egy akaratod</l>
+<l xml:id="l.18">ha el esic fel emeljed ötet <metamark function="cesura"/> gengén tarch genge hölgyed.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.19">Az galamb orraval <metamark function="cesura"/> vért nem bochat kardgiaval</l>
+<l xml:id="l.20">körmeivel meg sem rugdos <metamark function="cesura"/> bator legien haragos.</l>
+<l xml:id="l.21">Igy teis szent házas <metamark function="cesura"/> kérlec tiztedhez ugy lás</l>
+<l xml:id="l.22">jambor feleséged meg ne rongald <metamark function="cesura"/> hasáb fával né
+                            tangald.<note type="critic" xml:id="note.3">tángál – a <abbr>NySz</abbr> csak ’specto,
+                            angehen’ (vmire néz, vkit illet) jelentésben ismeri, de a
+                                <abbr>TSz</abbr> szerint van ’ elver’ jelentése is.</note></l>
+<l xml:id="l.23">Mert nem bokrod<note type="critic" xml:id="note.4">bokrod – a <abbr>NySz</abbr> a <hi rend="italic">bokor</hi> szónak nem közli olyan jelentését, amelyik
+                            ide illene. Talán összevethető a „szidja mint a bokrot”
+                            szólással.</note> néked <metamark function="cesura"/> de segitöd
+                        melletted</l>
+<l xml:id="l.24"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">erötelenségét el szenvedgied <metamark function="cesura"/> sirosb vaját ugy vehed.</lem><rdg wit="#I" xml:id="rdg.2"><del>ugy vehed</del><add type="corr">hogy vegied</add></rdg></app></l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.25">Az galamb jo magot <metamark function="cesura"/> eszic nem rosz tök magot</l>
+<l xml:id="l.26">azon ételt vig orczaval <metamark function="cesura"/> közli<note type="critic" xml:id="note.5">közli = átadja</note> kisded fiaval:</l>
+<l xml:id="l.27">Igy teis szent házas <metamark function="cesura"/> Isten szavára halgas</l>
+<l xml:id="l.28">mihelt az ö akarattiát érted, <metamark function="cesura"/> megh tarch el se feleiched:</l>
+<l xml:id="l.29">chelédednec<note type="critic" xml:id="note.6">chelédednek – itt: feleség, mint a 46. sorban is.</note> meg mond <metamark function="cesura"/> ö töle el ne titkold</l>
+<l xml:id="l.30"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">had ö is veled menyben mehessen <metamark function="cesura"/> öröcke el ne veszen.</lem><rdg wit="#I" xml:id="rdg.3"><del>veled menyben</del><add type="corr">menyben veled</add></rdg></app></l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.31">Az galamb forrasnac <metamark function="cesura"/> örűl chorgo pataknac</l>
+<l xml:id="l.32">melybe magát mind be mártya <metamark function="cesura"/> kiért társa sem bántya.</l>
+<l xml:id="l.33">Igy az házasoktol <metamark function="cesura"/> bánkodas fusson tavol,</l>
+<l xml:id="l.34">hogy az öröc életet meg nyerjéc <metamark function="cesura"/> Isten irgalmát kérjéc:</l>
+<l xml:id="l.35">alazatossagban, <metamark function="cesura"/> éljenec jamborságban:</l>
+<l xml:id="l.36">es igy minden vizec borrá leszen, <metamark function="cesura"/> bánattioc öröm leszen.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.37">Az galamb chomóban <metamark function="cesura"/> inkáb jár egy choportban</l>
+<l xml:id="l.38">eledelec eggyűt vagion <metamark function="cesura"/> ketten hálnac égy agyón.</l>
+<l xml:id="l.39">Igy az igaz házas, <metamark function="cesura"/> ne legyen mint egy darás</l>
+<l xml:id="l.40">szomszéd baratival ne perlödgiéc <metamark function="cesura"/> am bátor sokat igiéc.</l>
+<l xml:id="l.41">Egy másnac intését <metamark function="cesura"/> fogadgiác szép beszédét</l>
+<l xml:id="l.42">fusson hazoktol szitoc feddözés <metamark function="cesura"/> sotalan étec fözés.<note type="critic" xml:id="note.7">sotalan étec fözés – e máshonnan nem ismert szólás jelentése kiderül a szövegből: szitok, feddőzés.</note></l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.43">Az galamb repűlve <metamark function="cesura"/> dolga utan sietve</l>
+<l xml:id="l.44">megyen bátorsagos helyre, <metamark function="cesura"/> nem vigiáz rest ökörre.</l>
+<l xml:id="l.45"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">Igy az igaz házas, <metamark function="cesura"/> nem ál vezteg mint ágas</lem><rdg wit="#I" xml:id="rdg.4"><del>Igy az igaz házas</del><add type="corr">Igy teis szent házas</add></rdg></app></l>
+<l xml:id="l.46">hogy cheléde meg né halljon éhel <metamark function="cesura"/> dolgozic nappal éjel.</l>
+<l xml:id="l.47">Nem űl az koczikban<note type="critic" xml:id="note.8">koczik = kucik, kuckó</note>
+<metamark function="cesura"/> lepűdvén<note type="critic" xml:id="note.9">lepűdvén =
+                            lepedvén, betakarva</note> gereznában:<note type="critic" xml:id="note.10">gerezna =
+                            „mind kívül belül szőrös ruha” (<abbr>NySz</abbr>)</note></l>
+<l xml:id="l.48">de kenyeret szépet sűt, föz, fon, szö, mert tudgia hogy aszony ö.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.49">Az galamb más fiat <metamark function="cesura"/> hogy ki költi kukoját<note type="critic" xml:id="note.11">kuko – e szót a <abbr>NySz</abbr> nem ismeri; jelentése a
+                                <abbr>TSz</abbr> szerint: tojás.</note></l>
+<l xml:id="l.50">szépen fel tartia<note type="critic" xml:id="note.12">fel tartia = felneveli</note> chirkejét <metamark function="cesura"/> -s- ugy szereti mint övét.</l>
+<l xml:id="l.51">Igy teis szent házas <metamark function="cesura"/> házad ha ninchis tágas</l>
+<l xml:id="l.52">hailekodban az szegént bé fogad <metamark function="cesura"/> ételed néki adgiad:</l>
+<l xml:id="l.53">az te adományod <metamark function="cesura"/> el nem vész, de jutalmod</l>
+<l xml:id="l.54">Christus igireti szerént leszen, <metamark function="cesura"/> mikor magához viszen.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.55">Az galamb kukoját <metamark function="cesura"/> ketten költic ki fiát,</l>
+<l xml:id="l.56">ketten örzic az heátol<note type="critic" xml:id="note.13">heátol = héjától</note> <metamark function="cesura"/> gonosz pandur machkatol.</l>
+<l xml:id="l.57">Igy teis szent házas <metamark function="cesura"/> kérlec jol ide halgas</l>
+<l xml:id="l.58"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">ha latogat magzatockal Isten <metamark function="cesura"/> töle vegied jo neven:</lem><rdg wit="#I" xml:id="rdg.5">töle<del>i</del></rdg></app></l>
+<l xml:id="l.59">kegies jo erkölchben <metamark function="cesura"/> neveljed szent életben,</l>
+<l xml:id="l.60">ha mit kezeddel talalsz megh ne id <metamark function="cesura"/> haza giermekidnec vid.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.61">Az galamb társanac <metamark function="cesura"/> tiztaságat agiánac</l>
+<l xml:id="l.62">örzi, nem toik tarsanac <metamark function="cesura"/> fészkében barattianac.</l>
+<l xml:id="l.63">Igy teis szent házas <metamark function="cesura"/> agiad lam elég tágas,</l>
+<l xml:id="l.64">mas kebelében eperjet ne szegy<note type="critic" xml:id="note.14">más kebelében eperjet ne
+                            szegy – e szólásra a <abbr>NySz</abbr> több adatot idéz. (<bibl>I,
+                                655.</bibl> Lásd még: <bibl><abbr>RMKT XVII. I</abbr>, 430. 89.
+                                sor.</bibl>)</note>
+<metamark function="cesura"/> ollian irégy kérlec légy,</l>
+<l xml:id="l.65">Szent Pál parancholja <metamark function="cesura"/> Istennec szavat szolja:</l>
+<l xml:id="l.66">meg elégedgiel feleségeddel <metamark function="cesura"/> egy jámbor hitveseddel.</l>
+</lg>
+<l xml:id="l.67">Pausa.</l>
+<lg xml:id="lg.12">
+<l xml:id="l.68">Ez én ajandékom <metamark function="cesura"/> kit hoztam jo baratom,</l>
+<l xml:id="l.69">kérlec tölem ved jo neven <metamark function="cesura"/> ladde mely szép eleven.</l>
+<l xml:id="l.70">Magdalna kedvejért <metamark function="cesura"/> sűttesd meg vendégidért,</l>
+<l xml:id="l.71">ad annac eggyket az kit szerecz, <metamark function="cesura"/> de engem el ne feleicz.</l>
+<l xml:id="l.72">Ezzel Isten kedve <metamark function="cesura"/> lakozzéc szivetekbe.</l>
+<l xml:id="l.73">Aldgia meg ágjatoc magzatockal, <metamark function="cesura"/> magatokat soc jockal.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

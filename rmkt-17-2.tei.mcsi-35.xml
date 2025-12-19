@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">35.</title>
+<title key="body" n="35" type="main">IN SECUNDAS NUPTIAS CHULIAKIANAS CUM ANNA JUHOS</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-35</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi rend="bold">Diarium Apod.</hi> 243a–244b.</bibl> – A latin cím jelentése:
+                        Csulyak második házasságára, <persName>Juhos Annával</persName>, <date when="1616-08-02">1616.
+                            aug. 2-án</date>, <placeName>Liszkán<idno type="ITIdata">Q20640</idno></placeName>.</p>
+<p xml:id="crit.1.p.2">Csulyak a cím mellé később ezt írta: quae quia voto non respondit tertiis
+                        nuptiis cum Dorothea Seres habitis applicatus. (melyet, mivel a kívánságnak
+                        nem felel meg, a <persName>Seres Dorottyával</persName> ült harmadik
+                        lakodalmához alkalmaz.) Az ének 10–3. versszakaiban elmondott kívánsága nem
+                        valósult meg, mert <persName>Juhos Annával</persName> rosszul élt. (Lásd
+                            <bibl>Önéletrajz 293–4.</bibl>) Ezért a nevek és néhány szó
+                        megváltoztatásával az éneket <date when="1622">1622-ben</date>, a <persName>Seres
+                            Dorottyával</persName> kötött harmadik házassága alkalmával átírta.
+                        Később, <date when="1635">1635-ben</date> mégegyszer átírta a neveket, oly módon, hogy
+                        negyedik feleségének, <persName>Gyulai Szabó Katalinnak</persName> elhunytát
+                        gyászolta és ötödik feleségének, <persName>Prágai Zsuzsannának</persName>
+                        örvendezett. – Az éneket első változatában közöljük, mert több részlet (pl.
+                        a 25. sor) csak első feleségére, <persName>Szikszai Juditra</persName>
+                        vonatkozhat. A javításokat csak akkor vettük figyelembe, ha azok még a vers
+                        első megfogalmazásakor történtek.</p>
+<p xml:id="crit.1.p.3">Csulyak az ének 1–3. és 6–13. versszakait később, a <ref target="rmkt-17-2.tei.mcsi-42">42. sz.</ref> ének írásánál használta fel. (Ezek ott az 1–3. és 9–16.
+                    versszakok.)</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 243a–244b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 35.</fw>
+<head type="title">IN SECUNDAS NUPTIAS CHULIAKIANAS CUM ANNA JUHOS</head>
+<head type="subtitle">Anno 1616. 2 Augusti. ♂ Liscae.
+                    </head>
+<head type="subtitle">
+                    Dialogus Servi et Dei.</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Meg holt tarsom utan fejem bunak haitvan</lem><rdg wit="#I" xml:id="rdg.1"><del><gap extent="unknown" reason="illegible" unit="char"/></del><add type="corr">Meg holt</add></rdg></app></l>
+<l rend="level_3" xml:id="l.2">en magamban igy szollék.</l>
+<l xml:id="l.3">Mi dolog Istenem, kerlek mond meg nekem</l>
+<l rend="level_3" xml:id="l.4">az mire mostan kérdlek;</l>
+<l xml:id="l.5">hogy űté giasz fejem meg hasada szivem</l>
+<l rend="level_3" xml:id="l.6">mert özvegien maradék.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.7">Lam te szolgad voltam mostis vagiok, Uram</l>
+<l rend="level_3" xml:id="l.8">leszekis miglen élek:</l>
+<l xml:id="l.9">mindent töled vartam valaholot jártam</l>
+<l rend="level_3" xml:id="l.10">miért hat hogi kesergek:</l>
+<l xml:id="l.11"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">hogy el vöd Juditom, szivem vidamitom</lem><rdg wit="#I" xml:id="rdg.2"><add place="above" type="insert">vöved Dorkom</add><note type="critic" xml:id="note.1">vöd Juditom felett</note></rdg></app></l>
+<l rend="level_3" xml:id="l.12">örömem földre esék</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.13">Chak kichint élt vala, mêg viragzik vala</l>
+<l rend="level_3" xml:id="l.14">mint szép rosa az kertben,</l>
+<l xml:id="l.15">szemérmetesseggel, mértekletesseggel</l>
+<l rend="level_3" xml:id="l.16">pelda vala rendiben,</l>
+<l xml:id="l.17">szelid, Isten félö, ember meg böchűllö</l>
+<l rend="level_3" xml:id="l.18">vala teljes élteben.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.19">Rebeccat követte dolgát ugy rendelte</l>
+<l rend="level_3" xml:id="l.20">mint az Isten köniveben.</l>
+<l xml:id="l.21">olvasta az irast, tudta az fogadast</l>
+<l rend="level_3" xml:id="l.22">meli löt kereztsegeben;</l>
+<l xml:id="l.23">akkoris te neked szolgalt, hogi izented</l>
+<l rend="level_3" xml:id="l.24">készűljön az egekben.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.25">Könivét chak el veté niakát le chűggezté<note type="critic" xml:id="note.2"><persName>Szikszai Judit</persName>
+<persName>Mihályko Jánosnak<idno type="ITIdata">Q254123</idno></persName> „Az örök életnek nyári idejéről”
+                            szóló könyvét olvasta közvetlenül halála előtt. (<bibl>Önéletrajz
+                                292.</bibl>)</note></l>
+<l rend="level_3" xml:id="l.26">az halal hogi talalá,</l>
+<l xml:id="l.27">szemeit bé duga szivét meg szoritá</l>
+<l rend="level_3" xml:id="l.28">leg ottan el ajula:</l>
+<l xml:id="l.29">monda édes Uram, hozd el az en oram,</l>
+<l rend="level_3" xml:id="l.30">végsö szava ez vala.</l>
+</lg>
+<p xml:id="p.1">R[esponsio]</p>
+<lg xml:id="lg.6">
+<l xml:id="l.31">Felele az Isten, semmi helie ninchen</l>
+<l rend="level_3" xml:id="l.32">mostani panaszodnak.</l>
+<l xml:id="l.33">Mert én hiremmel löt az mi hazadnál löt</l>
+<l rend="level_3" xml:id="l.34"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">oka en vagiok annak:</lem><rdg wit="#I" xml:id="rdg.3"><del>en vagiok oka annak</del><add type="corr">oka en vagiok annak</add></rdg></app></l>
+<l xml:id="l.35">meleg utan hideg szokot lenni hid meg</l>
+<l rend="level_3" xml:id="l.36">ez égh alat valoknak.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.37"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">En vagiok az Isten, kinek mâssom minchen</lem><rdg wit="#I" xml:id="rdg.4"><del>kinek mássa</del><add type="corr">kinek mâssom</add></rdg></app></l>
+<l rend="level_3" xml:id="l.38">mit akarok az leszen,</l>
+<l xml:id="l.39">eggiet ha fel veszek mâst az földre teszek</l>
+<l rend="level_3" xml:id="l.40">mint akarom ugy leszen,</l>
+<l xml:id="l.41">az mit chelekezem azért bizony tölem</l>
+<l rend="level_3" xml:id="l.42">senki szâmot nem veszen.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.43"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">Házas tarsot attam az mint meg fogattam</lem><rdg wit="#I" xml:id="rdg.5"><del>attam volt, mert</del><add type="corr">attam az mint</add></rdg></app></l>
+<l rend="level_3" xml:id="l.44">vala könörgesedre:</l>
+<l xml:id="l.45">melliet ismet töled el vivék mellöled,</l>
+<l rend="level_3" xml:id="l.46">hogi lenne értesedre,</l>
+<l xml:id="l.47">meli jo az segitseg, kâros az özvegség</l>
+<l rend="level_3" xml:id="l.48">az emberi nemzetbe.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.49">Mert hogi ha el esik eggik, vagy fekűszik</l>
+<l rend="level_3" xml:id="l.50">az masik fel emeli,</l>
+<l xml:id="l.51">siralmas panaszát, köny hullato buját</l>
+<l rend="level_3" xml:id="l.52">felesége kérleli,</l>
+<l xml:id="l.53">mézhez illö szava, valami talalja<note type="critic" xml:id="note.3">talalja = éri</note></l>
+<l rend="level_3" xml:id="l.54">urát, mind meg enyhiti.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.55">Eleget sirtal már, maid el mulik az niár</l>
+<l rend="level_3" xml:id="l.56">siralmodis muljon el,</l>
+<l xml:id="l.57">azt akarom, banat meli halaltol tamat</l>
+<l rend="level_3" xml:id="l.58">töled mingiárt fusson el,</l>
+<l xml:id="l.59"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">Judit helűt Annat, kivanatos Mannat</lem><rdg wit="#I" xml:id="rdg.6"><add place="above" type="insert">Dorkot <del>sarkon forgo orsot</del> társot de nem
+                                    morgot</add><note type="critic" xml:id="note.4"><hi rend="italic">Annat</hi>,
+                                        <hi rend="italic">kivanatos Mannat</hi> felett</note>
+<add type="insert">Cataert Susannat kivanatos Mannat</add><note type="critic" xml:id="note.5">a sor mellett</note></rdg></app></l>
+<l rend="level_3" xml:id="l.60">adok bizonnial hid el.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.61"><app xml:id="app.7"><lem wit="#KK" xml:id="lem.7">Neve leszen Anna mert én tölem adva</lem><rdg wit="#I" xml:id="rdg.7"><add type="corr">Dorkonac mondatic; mert tőlem adatik</add> <add type="insert">Neve lesz Susanna mert tölem lesz adva
+                        menyböl meg tapasztalod<note type="critic" xml:id="note.6">a sor mellett</note></add></rdg></app></l>
+<l rend="level_3" xml:id="l.62"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">leszen meg tapaztalod,</lem><rdg wit="#I" xml:id="rdg.8"><del>leszen</del><add place="above" type="insert">menyböl</add></rdg></app></l>
+<l xml:id="l.63">kârodat haszonra, budot vigassagra</l>
+<l rend="level_3" xml:id="l.64">valtoztattia meg latod,</l>
+<l xml:id="l.65">gondod hason felét, titkod eggik részét<note type="critic" xml:id="note.7">E sort vö. az
+                                <ref target="rmkt-17-2.tei.mcsi-20">20. sz.</ref> ének 7. sorával.</note></l>
+<l rend="level_3" xml:id="l.66">hordozza, meg probalod.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.67">Mint Sara böchűlte Abrahamot s félte</l>
+<l rend="level_3" xml:id="l.68">es szerette regenten:</l>
+<l xml:id="l.69"><app xml:id="app.9"><lem wit="#KK" xml:id="lem.9">Annais tegedet, böchűl, fél, kedvedet</lem><rdg wit="#I" xml:id="rdg.9"><add place="above" type="insert">Dorkois</add>;<note type="critic" xml:id="note.8"><hi rend="italic">Annais</hi> fölött</note>
+<add type="insert">Susannais teged bötsűl fel es kedved</add><note type="critic" xml:id="note.9">a sor mellett</note></rdg></app></l>
+<l rend="level_3" xml:id="l.70">keresi mindenekben,</l>
+<l xml:id="l.71">szeret homalj nelkűl, kedvel hiba nélkűl</l>
+<l rend="level_3" xml:id="l.72">mîg éltek ez eletben.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.73">Házad fénies napja, arvaidnak Annia,</l>
+<l rend="level_3" xml:id="l.74">hazadbannis ékesseg,</l>
+<l xml:id="l.75"><app xml:id="app.10"><lem wit="#KK" xml:id="lem.10">leszen, niugodalma lelkednec ez Anna</lem><rdg wit="#I" xml:id="rdg.10"><add place="above" type="insert">ez az szemely kit bizonnial remély</add>;<note type="critic" xml:id="note.10"><hi rend="italic">niugodalma lelkednec ez
+                                        Anna</hi> fölött</note>
+<add type="insert">leszen niugodalmod nem leszen
+                                    faidalmod</add><note type="critic" xml:id="note.11">a sor mehett</note></rdg></app></l>
+<l rend="level_3" xml:id="l.76">eletedben egesség:</l>
+<l xml:id="l.77">Illik hát örűlnöd nékem meg köszönnöd</l>
+<l rend="level_3" xml:id="l.78">hog’ nierted ez segetség.</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.79">Hogy ezeket hallám heliem sem talalam</l>
+<l rend="level_3" xml:id="l.80">noha sebem halalos,</l>
+<l xml:id="l.81">mint az ki hirtelen akar halni vizben</l>
+<l rend="level_3" xml:id="l.82">minden felé chiak kapdos,</l>
+<l xml:id="l.83">az Istent Jacobbal meg fogam ily ockal<note type="critic" xml:id="note.12">Vö. <bibl>Mózes I.
+                                32, 29.</bibl></note></l>
+<l rend="level_3" xml:id="l.84">ne legien tovab ados.</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.85">S mondék meg fogtalak elis nem bochatlak</l>
+<l rend="level_3" xml:id="l.86">mîg meg nem aldasz engem.</l>
+<l xml:id="l.87">Isten monda fejed es te feleseged</l>
+<l rend="level_3" xml:id="l.88">aldot legien elöttem</l>
+<l xml:id="l.89">az örök eletben örök dichösegben</l>
+<l rend="level_3" xml:id="l.90">legietek velem Amen.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

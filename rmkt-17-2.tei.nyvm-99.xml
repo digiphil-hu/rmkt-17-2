@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">99.</title>
+<title key="body" n="99" type="main">A’ MÚLANDO VILÁGTÓL-VALÓ BÚLCHÚZAT, AZ EÖRÖKKÉ-VALOSÁGÉRT</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-99</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadásai:</p>
+<p xml:id="crit.1.p.2">I. <bibl><title><hi rend="bold">Tintinnabulum</hi></title>.
+                                <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1636">1636</date>. 117–8.</bibl> Kiad. <bibl><hi rend="smallcaps">Imre Lajos</hi>, Figyelő 1883,
+                            XIV, 152.</bibl> valamelyik későbbi kiadás nyomán; <bibl><hi rend="smallcaps">Házi Jenő</hi>:
+                            Sopron a régi magyar irodalomban (MIR 36.) 51–2.</bibl> a XVII. század
+                        végi lőcsei kiadás nyomán. – A kötet függelékének énekei között ez az
+                        utolsó. A vers végén: „Amen”</p>
+<p xml:id="crit.1.p.3">II. <bibl><title><hi rend="bold">Tintinnabulum</hi></title>.
+                                [<placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1644">1644</date>.] 99–100.</bibl> – Teljesen megegyezik az I.
+                        változattal.</p>
+<p xml:id="crit.1.p.4">Változatlan szöveggel megjelent a <title><hi rend="italic">Tintinnabulum</hi></title> valamennyi későbbi kiadásában. Az ezekről
+                        készített másolatok a következők: <bibl><hi rend="italic">Belanszky János
+                                kézirata</hi> (<date when="1702">1702</date>) 81a–83a.</bibl> –
+                                <bibl><hi rend="italic">Szoszna Demeter-ék.</hi> (<date from="1714" to="1715">1714–5</date>) 579.</bibl> – <bibl><hi rend="italic">Kocsi
+                                Csergő István kézirata</hi> (<date from="1721" to="1726">1721–6</date>) 659.</bibl> A versszakok sorrendje itt: 1, 2, 3, 5,
+                        6, 4, 8, 9, 10, 11. A 7. vsz. hiányzik. – <hi rend="italic">Bathó
+                            István-ék.</hi> (<date from="1778" to="1785">1778–85</date>) 64–6.</p>
+<p xml:id="crit.1.p.5">Az ének egy romlott szövegű változatát <persName><hi rend="smallcap">Imre Lajos</hi><idno corresp="ITIdata">Q139276</idno></persName> adta
+                        ki (<bibl>Figyelő 1883, XIV, 155.</bibl>) a <persName>Körmöczi
+                            János<idno corresp="ITIdata">Q491331</idno></persName> versei tógás diák korából c. kézirat 58. lapjáról. A
+                        versszakok sorrendje: 1, 5, 6, 2, 3, 4, 8, 9, 10, 11. (A 7. vsz. itt is
+                        hiányzik.) Eltérései Nyéki Vörös szövegétől: 1 néked e világ 4 elenyészik 5
+                        Mit használ a királyi szék 7 Királyi szék birodalom 9 szépsége mit használ
+                        10 orcád rózsánál 11 Szépséget halál 12 És 15 Mit kristály szín szemöldöked
+                        16 tested. 18 Ha tested 21–3 Mit használ a selyem ruha Bíbor- s bársonyból
+                        szőtt gúnya A bibor szín csak csiga-vér 30 Mik; vonszák 31 Csak szín-arany
+                        36 vígságot 37 Eregy el már kedved 39 eddig ha 40 kedvemet.</p>
+<p xml:id="crit.1.p.6">Az ének szövegének átdolgozása a <bibl><hi rend="italic">Szegedi-féle Cantus
+                                catholici</hi> (<placeName>Kassa<idno type="ITIdata">Q20339</idno></placeName>
+<date when="1674">1674</date>.) 538–9.</bibl> lapján jelent meg. A
+                        strófák itt kétsoros refrénnel bővültek, a nótajelzés („Notája fol. 272.”) a
+                        megfelelő strófaszerkezetű „Salve mundi salutare…” kezdetű Szent
+                        Bernát-himnusz dallamára utal. A szöveget ezzel a dallammal közöljük, mely
+                        német énekeskönyvekben is felbukkan (<bibl><hi rend="smallcaps">Bäumker</hi> I. 232.</bibl>,
+                        <bibl><hi rend="smallcaps">Zahn</hi> 3889, 4044.</bibl>), de gregorián eredetűnek látszik.
+                        (Zárójelbe Nyéki Vörös énekének megfelelő strófaszámát tettük.)</p>
+<!--kép 501.o.-->
+<table>
+<row><cell>(1.)</cell><cell><lg xml:id="crit.1.lg.1">
+<l xml:id="crit.1.l.1">Mit használ kérlek, ez Világ;</l>
+<l xml:id="crit.1.l.2">Melly most kivül szép, mint virág:</l>
+<l xml:id="crit.1.l.3">Mit használ arany, és ezüst;</l>
+<l xml:id="crit.1.l.4">Majd el-enjésznek, mint az Füst.</l>
+<l xml:id="crit.1.l.5">Oh ember, még ez éltedben,</l>
+<l xml:id="crit.1.l.6">Lásd-meg, mint jársz jövendöben.</l>
+</lg></cell></row>
+<row><cell>(3.)</cell><cell><lg xml:id="crit.1.lg.2">
+<l xml:id="crit.1.l.7">Tested, bár frisseb rósánál,</l>
+<l xml:id="crit.1.l.8">Piross orczádis mit használ?</l>
+<l xml:id="crit.1.l.9">Halál szépséget le-kaszál,</l>
+<l xml:id="crit.1.l.10">És ròsa szint földbe kapál.</l>
+<l xml:id="crit.1.l.11">Oh ember, etc.</l>
+</lg></cell></row>
+<row><cell>(4.)</cell><cell><lg xml:id="crit.1.lg.3">
+<l xml:id="crit.1.l.12">Mit használ czifra szép hajad,</l>
+<l xml:id="crit.1.l.13">Mit kláris szinü ajakad;</l>
+<l xml:id="crit.1.l.14">Mit fényes, kristályos szemed?</l>
+<l xml:id="crit.1.l.15">Majd földben dugják hòlt fejed.</l>
+<l xml:id="crit.1.l.16">Oh ember, még ez éltedben,</l>
+<l xml:id="crit.1.l.17">Lásd-meg, mint jársz jövendöben.</l>
+</lg></cell></row>
+<row><cell>(9.)</cell><cell><lg xml:id="crit.1.lg.4">
+<l xml:id="crit.1.l.18">El-távozik é Rosz Világ;</l>
+<l xml:id="crit.1.l.19">Bolond, a’ ki Torében hág:</l>
+<l xml:id="crit.1.l.20">Mert csak bút s’ bánatot szerez;</l>
+<l xml:id="crit.1.l.21">És csak veszedelmet érez.</l>
+<l xml:id="crit.1.l.22">Oh ember etc.</l>
+</lg></cell></row>
+<row><cell/><cell><lg xml:id="crit.1.lg.5">
+<l xml:id="crit.1.l.23">Rosz Világ, csak magadnak légy;</l>
+<l xml:id="crit.1.l.24">Tölem örökké bútsút végy:</l>
+<l xml:id="crit.1.l.25">Ha porrá tészis testemben;</l>
+<l xml:id="crit.1.l.26">Lelkem él már Istenemben.</l>
+<l xml:id="crit.1.l.27">Oh ember etc.</l>
+</lg></cell></row>
+<row><cell>(11.)</cell><cell><lg xml:id="crit.1.lg.6">
+<l xml:id="crit.1.l.28">Közel már az végetlenség,</l>
+<l xml:id="crit.1.l.29">Es a’ menybéli békesség:</l>
+<l xml:id="crit.1.l.30">Testem magát földnek adgya;</l>
+<l xml:id="crit.1.l.31">Késéröim Isten áldgya.</l>
+<l xml:id="crit.1.l.32">Oh ember, még ez èltedben,</l>
+<l xml:id="crit.1.l.33">Lásd-meg mint jársz jövendöben.</l>
+</lg></cell></row></table>
+<p xml:id="crit.1.p.7">Nyéki Vörös Mátyás énekének 1., 3. és 11. versszaka egy halotti búcsúzó szövegébe
+                    is bekerült, melynek szövege <persName>Ács Mihály<idno corresp="ITIdata">Q238422</idno></persName>
+<title><hi rend="italic">Zöngedező mennyei kar</hi></title> c.
+                    gyűjteményében jelent meg. (<bibl><placeName>Lőcse<idno type="ITIdata">Q8066</idno></placeName>
+<date when="1696">1696</date>. 229–231.</bibl>; változatlan szöveggel <persName>Ács<idno corresp="Ács Mihály"/></persName>
+                        gyűjteményének későbbi kiadásaiban is megvan.) Teljes szövegét kiad.
+                    <bibl><hi rend="smallcaps">Imre Lajos</hi>, Figyelő 1883, XIV, 153–4.</bibl>, itt csak a Nyéki
+                        Vörös szövegén alapuló versszakait mutatjuk be:</p>
+<table><row><cell/><cell><p xml:id="crit.1.p.8">Notája: Szegény férgetske itt fekszem.</p></cell></row>
+<row><cell>(1.)</cell><cell><lg xml:id="crit.1.lg.7">
+<l xml:id="crit.1.l.34">Maradgy-el már csalárd világ,</l>
+<l xml:id="crit.1.l.35">Mert fénlesz szintén mint virág,</l>
+<l xml:id="crit.1.l.36">Hogy halál töriben léptem,</l>
+<l xml:id="crit.1.l.37">Világ álnokságát értem:</l>
+<l xml:id="crit.1.l.38">Oh ember mig vagy életben,</l>
+<l xml:id="crit.1.l.39">Lásd-meg mint jársz jövendöben.</l>
+</lg></cell></row>
+<row><cell>(3.)</cell><cell><lg xml:id="crit.1.lg.8">
+<l xml:id="crit.1.l.40">Tested bár frissebb Rosánál,</l>
+<l xml:id="crit.1.l.41">Piros orczád-is mit használ?</l>
+<l xml:id="crit.1.l.42">Halál szépsęged lekaszál,</l>
+<l xml:id="crit.1.l.43">És ezennél majd földben száll:</l>
+<l xml:id="crit.1.l.44">Oh ember mig vagy éltedben, etc</l>
+<l xml:id="crit.1.l.45">................................</l>
+</lg></cell></row>
+<row><cell>(11.)</cell><cell><lg xml:id="crit.1.lg.9">
+<l xml:id="crit.1.l.46">Jelen már az végetlenség,</l>
+<l xml:id="crit.1.l.47">És az mennyei dicsöség,</l>
+<l xml:id="crit.1.l.48">Testem magát földben adgya,</l>
+<l xml:id="crit.1.l.49">Kik-késęrtek Isten áldgya:</l>
+<l xml:id="crit.1.l.50">Oh ember mig vagy éltedben, etc</l>
+<l xml:id="crit.1.l.51">...............................</l>
+</lg></cell></row></table>
+<p xml:id="crit.1.p.9">Nyéki Vörös énekének az a XVIII. századi átdolgozása lett a legnépszerűbb, mely a
+                        sorokat 6 szótagosokká alakította át. Ennek a XVIII. század végéről és a
+                        XIX. század elejéről 20 kéziratos változatát ismerjük. Közülük legrégibbnek
+                        látszik – egyszersmind Nyéki Vörös szövegéhez legközelebb áll, versszakaik
+                        sorrendje is megegyezik – egy közelebbről nem datálható, de az írás alapján
+                        kb. az <date from="1760" to="1769">1760-as</date> évekből való kézirat szövege:</p>
+<p xml:id="crit.1.p.10"><title><hi rend="italic">Cantio de Vanitate Mundi</hi></title></p>
+<lg xml:id="crit.1.lg.10">
+<l xml:id="crit.1.l.52">Mit használ e’ világ,</l>
+<l xml:id="crit.1.l.53">Mondd-meg, sok pénz ’s Jószág?</l>
+<l xml:id="crit.1.l.54">Mint a’ füst és a’ szél,</l>
+<l xml:id="crit.1.l.55">Hirtelen múlik-el.</l>
+</lg>
+<lg xml:id="crit.1.lg.11">
+<l xml:id="crit.1.l.56">Mit használ Korona,</l>
+<l xml:id="crit.1.l.57">Királyi-szék, ’s Páltza?</l>
+<l xml:id="crit.1.l.58">Páltza, ’s Birodalom,</l>
+<l xml:id="crit.1.l.59">El-vész, mint Hó-halom.</l>
+</lg>
+<lg xml:id="crit.1.lg.12">
+<l xml:id="crit.1.l.60">Mit használ a’ Szépség,</l>
+<l xml:id="crit.1.l.61">Angyali ékesség?</l>
+<l xml:id="crit.1.l.62">Szépségek el-múlnak,</l>
+<l xml:id="crit.1.l.63">Rósák földre hullnak.</l>
+</lg>
+<lg xml:id="crit.1.lg.13">
+<l xml:id="crit.1.l.64">Mit használ szép hajad,</l>
+<l xml:id="crit.1.l.65">Kláris-szín ajakad?</l>
+<l xml:id="crit.1.l.66">Fényes kristály-szemed?</l>
+<l xml:id="crit.1.l.67">Majd földé lész tested.</l>
+</lg>
+<lg xml:id="crit.1.lg.14">
+<l xml:id="crit.1.l.68">Mi az Arany-alma,</l>
+<l xml:id="crit.1.l.69">Melly sárga, mint szalma?</l>
+<l xml:id="crit.1.l.70">Az Àrany sárga föld,</l>
+<l xml:id="crit.1.l.71">Ezt nagyra ne betsüld.</l>
+</lg>
+<lg xml:id="crit.1.lg.15">
+<l xml:id="crit.1.l.72">Mi a’ veres puha,</l>
+<l xml:id="crit.1.l.73">Bíbor, ’s bársony ruha?</l>
+<l xml:id="crit.1.l.74">Bíbor-szín tsiga-vér,</l>
+<l xml:id="crit.1.l.75">Ez hát sokat nem ér.</l>
+</lg>
+<lg xml:id="crit.1.lg.16">
+<l xml:id="crit.1.l.76">Selyemben mit használ,</l>
+<l xml:id="crit.1.l.77">Hogy tested talpig áll?</l>
+<l xml:id="crit.1.l.78">Ezt egy féreg fonja,</l>
+<l xml:id="crit.1.l.79">A’ mi szíved’ vonja.</l>
+</lg>
+<lg xml:id="crit.1.lg.17">
+<l xml:id="crit.1.l.80">Nézd-meg jól, mitsodák,</l>
+<l xml:id="crit.1.l.81">Mellyeket e’ Világ</l>
+<l xml:id="crit.1.l.82">Ma olly nagyra betsüll,</l>
+<l xml:id="crit.1.l.83">Vérbül ’s földbül készül.</l>
+</lg>
+<lg xml:id="crit.1.lg.18">
+<l xml:id="crit.1.l.84">Mennyj-el hát rosz Világ,</l>
+<l xml:id="crit.1.l.85">Nintsen benned jóság,</l>
+<l xml:id="crit.1.l.86">Hanem tsak el-múló</l>
+<l xml:id="crit.1.l.87">Nem örökké-való.</l>
+</lg>
+<lg xml:id="crit.1.lg.19">
+<l xml:id="crit.1.l.88">Elég, hogy sokáig,</l>
+<l xml:id="crit.1.l.89">Tsaltad szívem’ eddig,</l>
+<l xml:id="crit.1.l.90">Közelget bóldogság,</l>
+<l xml:id="crit.1.l.91">’S örökké-valóság. finis.</l>
+</lg>
+<p xml:id="crit.1.p.11">(<bibl><hi rend="italic">Menyegzői dalok</hi>, 2b.</bibl>)</p>
+<p xml:id="crit.1.p.12">Népszerűvé és elterjedtté azonban ennek az átdolgozásnak egy másik típusa
+                        vált, mely több részletében eltér a fenti szövegtől. E típust az
+                            <date from="1783" to="1797">1783–97</date> között összeírt <bibl><hi rend="italic">Salamon
+                            József-ék.</hi> 36b–37a.</bibl> lapján levő szöveggel mutatjuk be:</p>
+<lg xml:id="crit.1.lg.20">
+<l xml:id="crit.1.l.92">(1.) 1. Mit használ e’ világ</l>
+<l xml:id="crit.1.l.93">Mond meg sok kints joszág</l>
+<l xml:id="crit.1.l.94">Mint a’ füst és <sic>aszél</sic>
+</l>
+<l xml:id="crit.1.l.95">Oly hirtelen el kél.</l>
+</lg>
+<lg xml:id="crit.1.lg.21">
+<l xml:id="crit.1.l.96">(5.) 2. Mit az arany alma</l>
+<l xml:id="crit.1.l.97">Melly sárga mint szalma.</l>
+<l xml:id="crit.1.l.98">Az arany sárga föld,</l>
+<l xml:id="crit.1.l.99">Ezt nagyra ne betsüld.</l>
+</lg>
+<lg xml:id="crit.1.lg.22">
+<l xml:id="crit.1.l.100">(2.) 3. Mit használ Korona</l>
+<l xml:id="crit.1.l.101">Királlyi szék ’s páltza,</l>
+<l xml:id="crit.1.l.102">Páltza birodalom</l>
+<l xml:id="crit.1.l.103">El mul, mint hó halom.</l>
+</lg>
+<lg xml:id="crit.1.lg.23">
+<l xml:id="crit.1.l.104">(6.) 4. Mit használ a’ puha</l>
+<l xml:id="crit.1.l.105">Bibor bársony ruha,</l>
+<l xml:id="crit.1.l.106">Bársony szin tsiga vér,</l>
+<l xml:id="crit.1.l.107">Ez hát nem sokat ér.</l>
+</lg>
+<lg xml:id="crit.1.lg.24">
+<l xml:id="crit.1.l.108">(7.) 5. Sellyemben mit használ</l>
+<l xml:id="crit.1.l.109">Tested ha talpig áll,</l>
+<l xml:id="crit.1.l.110">Ezt égy <sic>fereg</sic>  fonnya,</l>
+<l xml:id="crit.1.l.111">Melly szivedet vonnya.</l>
+</lg>
+<lg xml:id="crit.1.lg.25">
+<l xml:id="crit.1.l.112">(4.) 6. Mit használ szép nyakad,</l>
+<l xml:id="crit.1.l.113">Kláris szin ajakad,</l>
+<l xml:id="crit.1.l.114">Ortzádat mit fested,</l>
+<l xml:id="crit.1.l.115">Majd földé lesz tested.</l>
+</lg>
+<lg xml:id="crit.1.lg.26">
+<l xml:id="crit.1.l.116">(3.) 7. Mit használ a’ szépség</l>
+<l xml:id="crit.1.l.117">Angyali ekesség,</l>
+<l xml:id="crit.1.l.118">Szépsegek el mulnak,</l>
+<l xml:id="crit.1.l.119">Rosák földre hulnak.</l>
+</lg>
+<lg xml:id="crit.1.lg.27">
+<l xml:id="crit.1.l.120">(8.) 8. Mond meg hát mitsodák,</l>
+<l xml:id="crit.1.l.121">Mellyeket e’ világ</l>
+<l xml:id="crit.1.l.122">Illyen nagyra betsül,</l>
+<l xml:id="crit.1.l.123">Földböl sárból keszül.</l>
+</lg>
+<lg xml:id="crit.1.lg.28">
+<l xml:id="crit.1.l.124">(9.) 9. Eredj hát rosz világ,</l>
+<l xml:id="crit.1.l.125">Nintsen benned joság,</l>
+<l xml:id="crit.1.l.126">Hanem tsak mulando,</l>
+<l xml:id="crit.1.l.127">Nem örökke való.</l>
+</lg>
+<lg xml:id="crit.1.lg.29">
+<l xml:id="crit.1.l.128">(10.) 10. Elég hogy sokáig</l>
+<l xml:id="crit.1.l.129">Vontad szivem máig,</l>
+<l xml:id="crit.1.l.130">Közelget boldogság,</l>
+<l xml:id="crit.1.l.131">Örökké valóság.</l>
+</lg>
+<p xml:id="crit.1.p.13">Egyéb változatok, melyek a részletekben többnyire a <hi rend="italic">Salamon
+                            József-ék.</hi> szövegével egyeznek meg: <hi rend="italic">Kovács
+                            Ferenc-ék.</hi> (<date when="1777">1777</date>) A versszakok sorrendje: 1, 3, 6, 7,
+                        5, 4, 9. – <hi rend="italic">Kovács András-ék.</hi> (<date from="1770" to="1797">1770–97</date>)
+                        32a–b. (Az előbbi szövegével teljesen azonos.) – <hi rend="italic">Kozma-ék.</hi> (<date from="1777" to="1781">1777–81</date>) 13b. Versszakainak sorrendje: 1,
+                        3, 4, 5. – <hi rend="italic">Nagy István gyűjteménye</hi>
+                            (<date from="1778" to="1783">1778–83</date>) 194. Versszakainak sorrendje: 1, 5, 2, 4, 3, 6,
+                        7, 9, 10. – <hi rend="italic">Tolvay-ék.</hi> (<date from="1788" to="1791">1788–91</date>) 20a–b.
+                        Versszakainak sorrendje: 1, 5, 6, 3, 7, 4, x, 9. Első strófája kissé eltérő;
+                        ezt, és az <hi rend="italic">x</hi>-szel jelölt, másutt elő nem fordulót
+                        közöljük:</p>
+<lg xml:id="crit.1.lg.30">
+<l xml:id="crit.1.l.132">1. Mit hasznal é vilag,</l>
+<l xml:id="crit.1.l.133">Mely fenylik mint virág,</l>
+<l xml:id="crit.1.l.134">Tündöklik <sic>min</sic>  ezüst,</l>
+<l xml:id="crit.1.l.135">El mulik mint a füst.</l>
+</lg>
+<lg xml:id="crit.1.lg.31">
+<l xml:id="crit.1.l.136">......................................</l>
+</lg>
+<lg xml:id="crit.1.lg.32">
+<l xml:id="crit.1.l.137">7. Mit hasznal draga gyöngy,</l>
+<l xml:id="crit.1.l.138">Ez egy darab <sic>gorony</sic>
+</l>
+<l xml:id="crit.1.l.139">Gyöngyök is él vesznek,</l>
+<l xml:id="crit.1.l.140">Majdan földe lesznek.</l>
+</lg>
+<p xml:id="crit.1.p.14"><hi rend="italic">Kulcsár-melodiárium</hi> (XVIII. sz. vége) II, 52.
+                        Versszakainak sorrendje: 1, 2, 5, 3, 4, 6, 7, 9, 10. Dallamával együtt kiad.
+                        <bibl><hi rend="smallcaps">Bartha</hi>: A XVIII. század magyar dallamai. Bp. 1935. 237–8.</bibl>
+<bibl><hi rend="smallcaps">Erdélyi János</hi> (<hi rend="italic">Népdalok és mondák</hi> III,
+                            102–3.)</bibl> egy ezzel csaknem azonos szöveget közölt. – <hi rend="italic">Zemplényi-kézirat</hi> (XVIII. sz. vége) 3b. A versszakok
+                        sorrendje: 1, 2, 3, 5, 6, 4, 7, 9. – <hi rend="italic">Lóskay-ék.</hi>
+                        (XVIII. sz. vége) 182a–b. Versszakainak sorrendje: 1, 2, 3, 5, 7, 6. – <hi rend="italic">Resetka János-ék.</hi> (<date when="1801">1801</date>) 44b–45a.
+                        Versszakainak sorrendje: 2, 1, 3, 5, 6, 3, 7, 4, 9. – <hi rend="italic">Halotti énekek</hi>. (<date when="1807">1807</date>) 45–6. A vsz.-ok sorrendje: 1,
+                        2, 6, 5, 4, 7, 9. <hi rend="italic">Melodiárium</hi> (<date when="1808">1808</date>) 77.
+                        Versszakainak sorrendje: 1, 3, 5, 4, 7, 6, 8, 9, 10. – <hi rend="italic">Battha Bálint-melodiárium</hi> (<date when="1808">1808</date>) 70–1. Az előbbi
+                        kézirat szövegével csaknem teljesen egyező változat. – <hi rend="italic">Melodiárium</hi> (<date when="1816">1816</date>) 123. Ennek szövege is csaknem
+                        azonos az előző két kézirat szövegével. – <hi rend="italic">Felviditó</hi>
+                        VI. (<date when="1824">1824</date>) 172–3. Versszakainak sorrendje: 1, 6, 3, 7, 4, 2, 5,
+                        8, 9, 10.</p>
+<p xml:id="crit.1.p.15">Az alábbi három változat szövegét, minthogy több helyen eltérnek a közölt változatoktól, és mindegyik tartalmaz új
+                    versszakokat is, teljesen közöljük:</p>
+<table><row><cell>(1.)</cell><cell><lg xml:id="crit.1.lg.33">
+<l xml:id="crit.1.l.141">Mit használ ez világ,</l>
+<l xml:id="crit.1.l.142">Mond meg sok kints, jószág,</l>
+<l xml:id="crit.1.l.143">Mit az füst és a szél,</l>
+<l xml:id="crit.1.l.144">Oly hirtelen el kél,</l>
+</lg></cell></row>
+<row><cell>(3.)</cell><cell><lg xml:id="crit.1.lg.34">
+<l xml:id="crit.1.l.145">Mit hasznal a szepség,</l>
+<l xml:id="crit.1.l.146">Angyali ékesség,</l>
+<l xml:id="crit.1.l.147">Szepsegek el-mulnak,</l>
+<l xml:id="crit.1.l.148">Rósák földre hullnak.</l>
+</lg></cell></row>
+<row><cell>(4.)</cell><cell><lg xml:id="crit.1.lg.35">
+<l xml:id="crit.1.l.149">Mit hasznal szép nyakad,</l>
+<l xml:id="crit.1.l.150">Klaris szép ajakad,</l>
+<l xml:id="crit.1.l.151">Ha ma lészen estéd,</l>
+<l xml:id="crit.1.l.152">Majd földre hull <sic>testéd</sic>.</l>
+</lg></cell></row>
+<row><cell/><cell><lg xml:id="crit.1.lg.36">
+<l xml:id="crit.1.l.153">Mit hasznal termeted,</l>
+<l xml:id="crit.1.l.154">Uri öltözeted,</l>
+<l xml:id="crit.1.l.155">Orczadat meg fested,</l>
+<l xml:id="crit.1.l.156">És porba lész tested.</l>
+</lg></cell></row>
+<row><cell>(6.)</cell><cell><lg xml:id="crit.1.lg.37">
+<l xml:id="crit.1.l.157">Mit használ a puha</l>
+<l xml:id="crit.1.l.158">Selem bibor ruha,</l>
+<l xml:id="crit.1.l.159">Barsony szin <sic>Csiko</sic> vér,</l>
+<l xml:id="crit.1.l.160">Ez hát nem sokat ér.</l>
+</lg></cell></row>
+<row><cell>(7.)</cell><cell><lg xml:id="crit.1.lg.38">
+<l xml:id="crit.1.l.161">Selemben mit hasznal,</l>
+<l xml:id="crit.1.l.162">Tested ha talpig all,</l>
+<l xml:id="crit.1.l.163">Ezt egy féreg fonnya,</l>
+<l xml:id="crit.1.l.164">Melly szivedet rontya.</l>
+</lg></cell></row>
+<row><cell>(5.)</cell><cell><lg xml:id="crit.1.lg.39">
+<l xml:id="crit.1.l.165">Mit az arany alma,</l>
+<l xml:id="crit.1.l.166">Sárga mint a szalma,</l>
+<l xml:id="crit.1.l.167">Az arany sárga föld,</l>
+<l xml:id="crit.1.l.168">Az nagyra ne becsöld.</l>
+</lg></cell></row>
+<row><cell>(2.)</cell><cell><lg xml:id="crit.1.lg.40">
+<l xml:id="crit.1.l.169">Mit az nagy uraság,</l>
+<l xml:id="crit.1.l.170">Pompa és kiralyság</l>
+<l xml:id="crit.1.l.171">Gazdag birodalom</l>
+<l xml:id="crit.1.l.172">El múl, mint hó halom.</l>
+</lg></cell></row>
+<row><cell>(9.)</cell><cell><lg xml:id="crit.1.lg.41">
+<l xml:id="crit.1.l.173">Meny el hát rosz világ,</l>
+<l xml:id="crit.1.l.174">Nintsen benned joság,</l>
+<l xml:id="crit.1.l.175">Minden tsak mulandó,</l>
+<l xml:id="crit.1.l.176">Nem örökke valo.</l>
+</lg></cell></row>
+<row><cell>(10.)</cell><cell><lg xml:id="crit.1.lg.42">
+<l xml:id="crit.1.l.177">Elég ha mind vegig</l>
+<l xml:id="crit.1.l.178">Vontad szivem addig,</l>
+<l xml:id="crit.1.l.179">Közelget a halál,</l>
+<l xml:id="crit.1.l.180">Örökké boldogság.</l>
+</lg></cell></row></table>
+<p xml:id="crit.1.p.16">(<bibl><hi rend="italic">Jankovich-ék</hi>. <date when="1789">1789</date>.
+                        35b.</bibl>)</p>
+<table><row><cell>(1.)</cell><cell><lg xml:id="crit.1.lg.43">
+<l xml:id="crit.1.l.181">Mit hasznal e’ Világ,</l>
+<l xml:id="crit.1.l.182">Mond meg sok kints ’s joszág,</l>
+<l xml:id="crit.1.l.183">Az Arany sárga fold,</l>
+<l xml:id="crit.1.l.184">’S érte magad ne törd.</l>
+</lg></cell></row>
+<row><cell>(2.)</cell><cell><lg xml:id="crit.1.lg.44">
+<l xml:id="crit.1.l.185">Mit használ korona,</l>
+<l xml:id="crit.1.l.186">Királlyi szép páltza,</l>
+<l xml:id="crit.1.l.187">Páltza ’s birodalom</l>
+<l xml:id="crit.1.l.188">El vész mint ho halom.</l>
+</lg></cell></row>
+<row><cell>(3.)</cell><cell><lg xml:id="crit.1.lg.45">
+<l xml:id="crit.1.l.189">Mit használ a’ szépség,</l>
+<l xml:id="crit.1.l.190">Angyali ékesség,</l>
+<l xml:id="crit.1.l.191">Szépségek el mulnak,</l>
+<l xml:id="crit.1.l.192">Rosák földre hulnak.</l>
+</lg></cell></row>
+<row><cell>(6.)</cell><cell><lg xml:id="crit.1.lg.46">
+<l xml:id="crit.1.l.193">Mit használ a’ puha</l>
+<l xml:id="crit.1.l.194">Bársony szin kamuka,</l>
+<l xml:id="crit.1.l.195">A’ bársony tsiga vér,</l>
+<l xml:id="crit.1.l.196">Ez hát keveset ér.</l>
+</lg></cell></row>
+<row><cell>(7.)</cell><cell><lg xml:id="crit.1.lg.47">
+<l xml:id="crit.1.l.197">Mit használ, ha tested</l>
+<l xml:id="crit.1.l.198">Talpig selyemben áll,</l>
+<l xml:id="crit.1.l.199">Azt égy féreg fonnya,</l>
+<l xml:id="crit.1.l.200">Mely szivedet vonnya.</l>
+</lg></cell></row>
+<row><cell>(4.)</cell><cell><lg xml:id="crit.1.lg.48">
+<l xml:id="crit.1.l.201">Mit használ szép nyakadt,</l>
+<l xml:id="crit.1.l.202">Kláris szin ajakad,</l>
+<l xml:id="crit.1.l.203">Férgek eledele</l>
+<l xml:id="crit.1.l.204">Mert lészen végtére.</l>
+</lg></cell></row>
+<row><cell/><cell><lg xml:id="crit.1.lg.49">
+<l xml:id="crit.1.l.205">Ugy ély e’ világban,</l>
+<l xml:id="crit.1.l.206">Futhass mennyorszagban,</l>
+<l xml:id="crit.1.l.207">Az hol vég nélkül élsz,</l>
+<l xml:id="crit.1.l.208">Senkitöl is nem félsz.</l>
+</lg></cell></row></table>
+<p xml:id="crit.1.p.17">(<bibl><hi rend="italic">Dávidné Soltári 1790–1</hi>. 132–3.</bibl>)</p>
+<p xml:id="crit.1.p.18"><hi rend="italic">Más Nóta elegantissima.</hi></p>
+<table><row><cell>(1.)</cell><cell><lg xml:id="crit.1.lg.50">
+<l xml:id="crit.1.l.209">Mit használ e világ,</l>
+<l xml:id="crit.1.l.210">Mond meg sok kints jószág,</l>
+<l xml:id="crit.1.l.211">Mint a füst és a szél</l>
+<l xml:id="crit.1.l.212">Oly hirtelen el kél.</l>
+</lg></cell></row>
+<row><cell>(4.)</cell><cell><lg xml:id="crit.1.lg.51">
+<l xml:id="crit.1.l.213">Mit használ szép nyakad,</l>
+<l xml:id="crit.1.l.214">Kláris szin ajjakad,</l>
+<l xml:id="crit.1.l.215">Mit kristájos szemed,</l>
+<l xml:id="crit.1.l.216">Majd földé lesz tested.</l>
+</lg></cell></row>
+<row><cell>(7.)</cell><cell><lg xml:id="crit.1.lg.52">
+<l xml:id="crit.1.l.217">Aranyban mit használ</l>
+<l xml:id="crit.1.l.218">Tested ha talpig áll,</l>
+<l xml:id="crit.1.l.219">Az arany sárga föld,</l>
+<l xml:id="crit.1.l.220">Azt nagyra ne betsüld.</l>
+</lg></cell></row>
+<row><cell>(6.)</cell><cell><lg xml:id="crit.1.lg.53">
+<l xml:id="crit.1.l.221">Mit használ a puha</l>
+<l xml:id="crit.1.l.222">Bibor bársony ruha,</l>
+<l xml:id="crit.1.l.223">Bársony szin csiga vér,</l>
+<l xml:id="crit.1.l.224">Ez hát nem sokat ér.</l>
+</lg></cell></row>
+<row><cell/><cell><lg xml:id="crit.1.lg.54">
+<l xml:id="crit.1.l.225">Nezd a sellyem ruhát,</l>
+<l xml:id="crit.1.l.226">Rút férgek fonalát,</l>
+<l xml:id="crit.1.l.227">Ez <sic>pundrak</sic> ruhája,</l>
+<l xml:id="crit.1.l.228">El kell hát hagynia.</l>
+</lg></cell></row>
+<row><cell>(2.)</cell><cell><lg xml:id="crit.1.lg.55">
+<l xml:id="crit.1.l.229">Mit a királyi szék,</l>
+<l xml:id="crit.1.l.230">Mit szép páltza ’s felség,</l>
+<l xml:id="crit.1.l.231">Páltza ’s birodalom</l>
+<l xml:id="crit.1.l.232">El vész mint hó halom.</l>
+</lg></cell></row>
+<row><cell>(9.)</cell><cell><lg xml:id="crit.1.lg.56">
+<l xml:id="crit.1.l.233">Távozzáll rossz világ,</l>
+<l xml:id="crit.1.l.234">Nintsen benned jóság,</l>
+<l xml:id="crit.1.l.235">Mert vagy tsak el múló,</l>
+<l xml:id="crit.1.l.236">Nem örökké való.</l>
+</lg></cell></row>
+<row><cell>(10.)</cell><cell><lg xml:id="crit.1.lg.57">
+<l xml:id="crit.1.l.237">Elég hogy sokáig</l>
+<l xml:id="crit.1.l.238">Csaltad szivem máig,</l>
+<l xml:id="crit.1.l.239">Közelget boldogság,</l>
+<l xml:id="crit.1.l.240">Örökké valóság.</l>
+</lg></cell></row>
+<row><cell>(10.)</cell><cell><lg xml:id="crit.1.lg.58">
+<l xml:id="crit.1.l.241">Eredj magad szerint,</l>
+<l xml:id="crit.1.l.242">Szemem rád nem tekint,</l>
+<l xml:id="crit.1.l.243">Meg csaltál engemet,</l>
+<l xml:id="crit.1.l.244">El loptad szivemet.</l>
+</lg></cell></row></table>
+<p xml:id="crit.1.p.19">(<bibl><hi rend="italic">Szeel Imre-ék. <date from="1790" to="1794">1790–4.</date></hi> 154–5.</bibl>)</p>
+<p xml:id="crit.1.p.20">Végül közöljük <persName>Pálóczi Horváth Ádám<idno type="ITIdata">Q146476</idno></persName>
+<date when="1813">1813-ban</date> lejegyzett szövegét is, amely az eredetitől igen
+                        erősen eltér; itt már a sorok is összekeveredtek:</p>
+<lg xml:id="crit.1.lg.59">
+<l xml:id="crit.1.l.245">Mit használ a szépség?</l>
+<l xml:id="crit.1.l.246">Mulandó ékesség?</l>
+<l xml:id="crit.1.l.247">Szépségek elmúlnak,</l>
+<l xml:id="crit.1.l.248">Rózsák földre hullnak.</l>
+</lg>
+<lg xml:id="crit.1.lg.60">
+<l xml:id="crit.1.l.249">Mit használ a puha</l>
+<l xml:id="crit.1.l.250">Bibor bársony ruha?</l>
+<l xml:id="crit.1.l.251">Ezt csak féreg fonja,</l>
+<l xml:id="crit.1.l.252">Mely szivedet vonja.</l>
+</lg>
+<lg xml:id="crit.1.lg.61">
+<l xml:id="crit.1.l.253">Mit az arany alma?</l>
+<l xml:id="crit.1.l.254">Mely sárga, mint szalma;</l>
+<l xml:id="crit.1.l.255">Az arany sárga föld,</l>
+<l xml:id="crit.1.l.256">Ezt nagyra ne becsűld.</l>
+</lg>
+<lg xml:id="crit.1.lg.62">
+<l xml:id="crit.1.l.257">Mit a bibor ruha?</l>
+<l xml:id="crit.1.l.258">Királyi szék s pálca?</l>
+<l xml:id="crit.1.l.259">Bársonyszin, csigavér,</l>
+<l xml:id="crit.1.l.260">Ez hát nem sokat ér.</l>
+</lg>
+<p xml:id="crit.1.p.21">(Ötödfélszáz énekek. Kiad. <bibl><hi rend="smallcaps">Bartha Dénes</hi> és <hi rend="smallcaps">Kiss József</hi>. Bp. 1953.
+                            329.</bibl>)</p>
+<p xml:id="crit.1.p.22">Az 1. vsz. szövegén alapul egy XVIII. századi halotti ének kezdete:</p>
+<lg xml:id="crit.1.lg.63"><l xml:id="crit.1.l.261">Csalárd színnel fénylő világ,</l>
+<l xml:id="crit.1.l.262">Csak kivül szép mint a virág.</l>
+<l xml:id="crit.1.l.263">Mint tündöklő arany, ezüst,</l>
+<l xml:id="crit.1.l.264">Elenyészik mint tűz és füst.</l></lg>
+<p xml:id="crit.1.p.23">(<bibl><hi rend="italic">Szilágyi Mihály-ék.</hi> 4a–b.</bibl> Idézi
+                        <bibl><hi rend="smallcaps">Imre Lajos</hi>, Figyelő 1883, XIV, 154.</bibl>)</p>
+<p xml:id="crit.1.p.24">A strófa 3–4. sorának képe megtalálható egy XVIII. századi szerelmi ének kezdő strófájában is:</p>
+<lg xml:id="crit.1.lg.64"><l xml:id="crit.1.l.265">Vidám kedvem hová löttél,</l>
+<l xml:id="crit.1.l.266">Hogy én töllem el sillyettel,</l>
+<l xml:id="crit.1.l.267">Eli enyéztél, mint az füst,</l>
+<l xml:id="crit.1.l.268">Tündöklöttél, mind ezüst.</l></lg>
+<p xml:id="crit.1.p.25">(Legkorábbi, <hi rend="italic">Bocskor-k.</hi>-beli szövege. [26a] Kiad.
+                        <bibl><hi rend="smallcaps">Ferenczi</hi>, EM 1898, 381.</bibl>)</p>
+</note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Tintinnabulum. <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName> 1636. 117–8.</witness>
+<witness xml:id="II">Tintinnabulum. [<placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName> 1644.] 99–100.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 99.</fw>
+<head type="title">A’ MÚLANDO VILÁGTÓL-VALÓ BÚLCHÚZAT, AZ EÖRÖKKÉ-VALOSÁGÉRT</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Mit használ, kérlek, a’ Világ,</l>
+<l xml:id="l.2">Mely most kivűl szép mint virág?</l>
+<l xml:id="l.3">Mint tűndöklő Arany, ’s Ezüst?</l>
+<l xml:id="l.4">Majd el-enyésznek, mint a’ füst.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">A’ chillamó Királyi-szék</l>
+<l xml:id="l.6">Mit használ? Mit Pálczás Felség?</l>
+<l xml:id="l.7">A’ Pálcza, ’s nagy Birodalom,</l>
+<l xml:id="l.8">El-olvad, mint a’ hó-halom.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Tested szépsége, ’s Rósánál</l>
+<l xml:id="l.10">Pirossab orczád, mit használ?</l>
+<l xml:id="l.11">Halál szépséget le-kaszál;</l>
+<l xml:id="l.12">A’ Rósa-színt főldbe kapál.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Mit használ sárga szép hajad?</l>
+<l xml:id="l.14">Mit Klaris-színű ajakad?</l>
+<l xml:id="l.15">Mit fényes Kristalyos szemed?</l>
+<l xml:id="l.16">Majd sírba dúgják hólt fejed.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Aranyba járni mit használ?</l>
+<l xml:id="l.18">’S hogy Tested abban talpig áll?</l>
+<l xml:id="l.19">A’ Szín-arany chak sárga föld:</l>
+<l xml:id="l.20">A’ főldet nagyra ne böchőld.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Mit használ szép Veres, ’s puha</l>
+<l xml:id="l.22">Bíbor- bársonnyá szőtt Ruha?</l>
+<l xml:id="l.23">A’ Bíbor színe chiga-vér:</l>
+<l xml:id="l.24">A’ Chiga-vér, sokat nem ér.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Tekéntsd-meg a’ Selyem-ruhát,</l>
+<l xml:id="l.26">Sugorgó nyűvek fonalát:</l>
+<l xml:id="l.27">El-hidd, hogy pondrók ganéja.</l>
+<l xml:id="l.28">Ganéjt chak el kel hánnia.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Ha jól meg-nézed, michodák</l>
+<l xml:id="l.30">Kik szíved Istentől vonák?</l>
+<l xml:id="l.31">Chak Chiga-vér, és sárga Sár,</l>
+<l xml:id="l.32">Es a’ mit fony egy rút Bogár.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33">Távozzál-el, te rosz Világ:</l>
+<l xml:id="l.34">Bolond, a’ ki tőrödbe hág;</l>
+<l xml:id="l.35">Mert végetlen Jót nem szerezsz,</l>
+<l xml:id="l.36">Hanem csak hiuságot keressz.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37">Eredgy: élly már magad-szerént:</l>
+<l xml:id="l.38">Soha szemem râd nem teként.</l>
+<l xml:id="l.39">Elég, hogy eddig engemet</l>
+<l xml:id="l.40">Râ vettél, ’s tartád<note type="critic" xml:id="note.1">tartád – itt valószínűleg a ritkább ’habeo’ értelemben; e szót a XVIII. századi átdolgozás a könnyebben érthető csaltad
+                        szóra változtatta.</note> szívemet.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41">Közelget már Végetlenség,</l>
+<l xml:id="l.42">És a’ Meny-béli Békeség:</l>
+<l xml:id="l.43">Istennek már szívem-szerént</l>
+<l xml:id="l.44">Szolgálok, Jámbor Szolga-ként.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">67.</title>
+<title key="body" n="67" type="main">ALMA REDEMPTORIS, ETC.</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-67</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1">Nyomtatott kiadásai: <p xml:id="crit.1.p.1">I. <bibl><hi rend="bold"><persName>Pázmány Péter<idno type="ITIdata">Q47888</idno></persName>: <title>Imadsagos
+                                    könyv</title>. <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1631">1631</date>.</hi> 547–8.</bibl> Kiad.
+                            <bibl>Pázmány ö. m. II, 250.</bibl> – Az éneket követő Vers. és Resp.,
+                        valamint ima – talán szintén Nyéki Vörös által fordított – szövege a
+                        következő:</p>
+<l>Vers. Az Urnak Angyala köszönté Mariát:</l>
+<l>Resp. Es Szent Lélektül méhében fogada.</l>
+<l>Könyörögjünk.</l>
+<p xml:id="crit.1.p.2"> Ur Isten, ki a’ Bóldog Aszony gyümölcsös szüzessége-által, örök bóldogságnak
+                        jutalmát adtad az emberi nemzetnek: adgyad kérünk, hogy érezzük annak
+                        érettünk-való esedezését, ki-által üdvösségünk meg-adóját vettük, à mi Urunk
+                        Iesus Christust: Ki teveled él, és uralkodik mind örökkön örökké. Amen.</p>
+<p xml:id="crit.1.p.3">II. <bibl><hi rend="bold"><persName>Pázmány Péter</persName>:
+                                    <title>Keresztyen imadsaagos keonyv</title>.
+                                        <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1610">1610</date>.</hi> 708–9.</bibl></p>
+<p xml:id="crit.1.p.4">III. <bibl><hi rend="bold"><persName>Pázmány Péter</persName>:
+                                    <title>Keresztyeni imadsagos keonyv</title>.
+                                        <placeName>Grác<idno type="ITIdata">Q22712</idno></placeName>
+<date when="1606">1606</date>.</hi> 214b–215a.</bibl> – A kiegészítő
+                        szövegek közül hiányzik az ima, ehelyett a kötet egy más helyén történt
+                        közlésére találunk utalást.</p>
+<p xml:id="crit.1.p.5">A Mária-antifonák sorozatának második darabja, mely a következő kettővel
+                        együtt az <title><hi rend="italic">Istenes énekek</hi></title> bécsi
+                        kiadásából – egyelőre érthetetlen módon – hiányzik. A sorozat egészére
+                        vonatkozó tudnivalókat lásd a <ref target="rmkt-17-2.tei.nyvm-65">65.</ref> és <ref target="rmkt-17-2.tei.nyvm-66">66. sz.</ref> énekek
+                        jegyzeténél.</p>
+<p xml:id="crit.1.p.6">A vers további, szövegkritikai szempontból számításba nem jövő kiadásai mind
+                        az I. változat szövegét őrzik: <persName>Pázmány<idno corresp="Pázmány Péter"/></persName>
+<title><hi rend="italic">Imádságos könyv</hi></title>-e későbbi kiadásai. –
+                                <bibl><hi rend="italic">Officium B. M. Virg.</hi>
+                                    (<placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1643">1643</date>) 121–2, 141–2.</bibl> és a későbbi
+                        kiadások. – <bibl><hi rend="italic">Cantus catholici</hi> (<date when="1651">1651</date>) 6.</bibl> és a későbbi kiadások. – <bibl><hi rend="italic">Kájoni-Cantionale</hi> (<date when="1676">1676</date>)
+                            12.</bibl> és a későbbi kiadások. – <bibl><persName>Jaklin Balázs<idno type="ITIdata">Q146837</idno></persName>: <hi rend="italic">Regulai, …. Nagy-Szombath Városában lévö Nagy Bóldog Aszszony
+                                        Congregatiojának</hi> (<placeName>Nagyszombat<idno type="ITIdata">Q14207</idno></placeName>
+<date when="1684">1684</date>) 78–9, 316–7.</bibl> – <bibl><hi rend="italic">Lelki paradicsom</hi>
+                                (<placeName>Gyulafehérvár</placeName>
+<date when="1700">1700</date>) Hhhhh1a.</bibl> – Megtalálható még a
+                        következő kéziratokban: <bibl><hi rend="italic">Petri András-ék.</hi> (<date from="1630" to="1668">1630–68</date>) 113a.</bibl> – <bibl><hi rend="italic">Zemlény-ék.</hi> (<date when="1668">1668</date>)
+                            20a-b.</bibl> – <bibl><hi rend="italic">Mihál Farkas-k.</hi> (<date when="1680">1680</date> k.) 65a.</bibl> – <bibl><hi rend="italic">Écsi-ék.</hi> (<date when="1725">1725</date>) 41.</bibl></p>
+<p xml:id="crit.1.p.7">Megjegyzendő, hogy a <hi rend="italic">Cantus catholici</hi> nyomán mind a
+                        nyomtatott, mind a kéziratos énekeskönyvekben egy 6 vsz.-os változat terjedt
+                        el, mert a vers eredeti állományához hozzáillesztették még a <ref target="rmkt-17-2.tei.nyvm-65">65. sz.</ref> alatt
+                        közölt himnusz utolsó strófáját.</p>
+<p xml:id="crit.1.p.8">Az ének dallamát a <bibl><hi rend="italic">Cantus catholici</hi> (<date when="1651">1651</date>. 6.)</bibl> közli. A régi német, cseh és
+                        szlovák énekeskönyveknek ezt a kedvelt dallamát „Ave fuit prima salus”
+                        szöveggel tartja nyilván a himnológia. Változata nálunk már <date when="1574">1574-ben</date> megjelent nyomtatásban Huszár Gál
+                        énekeskönyvében (<bibl><abbr>RMDT I</abbr>, 59/I.</bibl>). Népszerű lehetett, mert sok
+                        egykorú szöveg utal rá.</p>
+<p xml:id="crit.1.p.9">Az antifona eredeti latin szövegét <persName>Sailus</persName>
+<hi rend="italic">Thesaurus precum et Exercitiorum spiritualium</hi>
+                            (<placeName>Antwerpen</placeName>
+<date when="1609">1609</date>) című műve 318. lapjáról közöljük, zárójelben
+                        utalva a magyar vers megfelelő strófájára:</p>
+<lg xml:id="crit.1.lg.1">
+<l xml:id="crit.1.l.1">(1) Alma Redemptoris mater, quae peruia caeli</l>
+<l xml:id="crit.1.l.2">Porta manes, et stella maris;</l>
+<l xml:id="crit.1.l.3">(2) succurre cadenti</l>
+<l xml:id="crit.1.l.4">Surgere qui curat populo: tu quae genuisti,</l>
+<l xml:id="crit.1.l.5">(3) Natura mirante, tuum sanctum genitorem</l>
+<l xml:id="crit.1.l.6">(4) Virgo prius ac posteriùs, Gabrielis ab ore</l>
+<l xml:id="crit.1.l.7">Sumens illud Ave,</l>
+<l xml:id="crit.1.l.8">(5) peccat orum miserere.</l>
+</lg></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Pázmány Péter: Imadsagos könyv. <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName> 1631. 547–8.</witness>
+<witness xml:id="II">Pázmány Péter: Keresztyen imadsaagos keonyv. <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName> 1610. 708–9.</witness>
+<witness xml:id="III">Pázmány Péter: Keresztyeni imadsagos keonyv. Grác 1606. 214b–215a.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 67.</fw>
+<head type="title"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1">ALMA REDEM<corr>P</corr>TORIS, ETC.</lem>
+<rdg wit="#I" xml:id="rdg.1">Redemtoris</rdg>
+<rdg wit="#II #III" xml:id="rdg.2">Redemptoris; [<hi rend="italic">etc.</hi>
+                            hiányzik]</rdg>
+</app></head>
+<head type="subtitle"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Adventül-fogva, Gyertya-szent<corr>eleo</corr> B. A. <corr>Napiáygh</corr>.</lem><rdg wit="#I #II" xml:id="rdg.3">szent. B. A.</rdg><rdg wit="#III" xml:id="rdg.4">[Lásd a főszövegben.]</rdg></app></head>
+<!--Dallam-kép 103. o.-->
+<lg xml:id="lg.1">
+<l xml:id="l.1">Vdvözitönknek szent Annya,</l>
+<l xml:id="l.2">Mennyeknek meg-nyílt Kapuja,</l>
+<l xml:id="l.3">Tenger evezök esillagja,</l>
+<l xml:id="l.4"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">Ból<corr>d</corr>ogságos Szüz Maria:</lem><rdg wit="#I" xml:id="rdg.5"><sic>Bólgogságos</sic></rdg><rdg wit="#II #III" xml:id="rdg.6">Bodogságos</rdg></app></l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5"><app xml:id="app.4">
+<lem wit="#KK" xml:id="lem.4">Légy seg<corr>i</corr>tsége népednek,</lem>
+<rdg wit="#I" xml:id="rdg.7">segétsége</rdg>
+<rdg wit="#II #III" xml:id="rdg.8">segitsége</rdg>
+</app></l>
+<l xml:id="l.6">Az el-esett bünösöknek,</l>
+<l xml:id="l.7">Ki szüléje Istenednek,</l>
+<l xml:id="l.8"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">Annya l<corr>ö</corr>l te Teremtödnek.</lem><rdg wit="#I" xml:id="rdg.9">lél</rdg><rdg wit="#II #III" xml:id="rdg.10">löl</rdg></app></l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">A’ természetnek folyását,</l>
+<l xml:id="l.10">Es a’ szülésnek szokását,</l>
+<l xml:id="l.11">Fellyül haladád nagy átkát,</l>
+<l xml:id="l.12">Minden szüléknek igáját.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Mert Angyali köszöntéstül,</l>
+<l xml:id="l.14"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">Terhes l<corr>ö</corr>l à Szent Lélektül:</lem><rdg wit="#I" xml:id="rdg.11">lél</rdg><rdg wit="#II #III" xml:id="rdg.12">löl</rdg></app></l>
+<l xml:id="l.15"><app xml:id="app.7">
+<lem wit="#KK" xml:id="lem.7">Szüzen, terh-, fáradság-nélkül</lem>
+<rdg wit="#I" xml:id="rdg.13">nekül</rdg>
+</app></l>
+<l xml:id="l.16"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">Szülél, és fájdalom-nélkül.</lem><rdg wit="#I" xml:id="rdg.14">nekül</rdg><rdg wit="#III" xml:id="rdg.15"/></app></l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Te azért Istennek Annya,</l>
+<l xml:id="l.18"><app xml:id="app.9"><lem wit="#KK" xml:id="lem.9">Légy bünösöknek gyámolya,</lem><rdg wit="#I #II" xml:id="rdg.16">Legy az bünösök
+                        gyámolya</rdg><rdg wit="#III" xml:id="rdg.17"/></app></l>
+<l xml:id="l.19">Nyavalyánk vigasztalója,</l>
+<l xml:id="l.20">Eüdvösségünknek kapuja.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

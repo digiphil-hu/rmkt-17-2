@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">17.</title>
+<title key="body" n="17" type="main">ODAE UNGARICAE</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-17</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi rend="bold">Diarium Apod.</hi> 217a–b.</bibl> – A cím jelentése: Idegen
+                        dallamra készült magyar óda szerény tehetségünk gyakorlása céljából,
+                            <date when="1607">1607-ben</date>, [idegenből] visszatérve. – Az ének versfői:
+                        MISCOLCI.</p>
+<p xml:id="crit.1.p.2">Az ének tarcali tanítói munkájának idején, tehát <date when="1607-07-05">1607. júl. 5-e</date>
+                        után keletkezett. (Lásd a 26. sorhoz írt jegyzetet.)</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 217a–b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 17.</fw>
+<head type="title">ODAE UNGARICAE</head>
+<head type="subtitle">ad melodias exoticas factae ingenioli nostri exercendi ergô. Anno 1607 Redux</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><hi rend="bold">M</hi>egh alélt s- el busult Szivemnec reitekét.</l>
+<l rend="level_3" xml:id="l.2">Testemnec meg avult Régi szép erejét</l>
+<l rend="level_6" xml:id="l.3">Elötted meg nitom Ki vagy szabaditom</l>
+<l rend="level_9" xml:id="l.4">Banatimban légj vidamitom.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5"><hi rend="bold">I</hi>stenem en Uram Vagy erös kö váram</l>
+<l rend="level_3" xml:id="l.6">Szűksegeim koran<note type="critic" xml:id="note.1">korán = idején</note> Vagy kinches kamorám</l>
+<l rend="level_6" xml:id="l.7">Mert oltalmazom vagy Azért engem ne hagy</l>
+<l rend="level_9" xml:id="l.8">Most bövön aldomasodban agy.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9"><hi rend="bold">S</hi>okat gondolkodom Eletem rendiröl,</l>
+<l rend="level_3" xml:id="l.10">Meg nem tagadhatom Mostani tiztemröl,<note type="critic" xml:id="note.2">tiztemröl – <date when="1607-07-05">1607. júl. 5-én</date> foglalta el a tarcali iskola
+                            igazgatói állását. (<bibl>Önéletrajz 290.</bibl>)</note></l>
+<l rend="level_6" xml:id="l.11">Mint felelhessec meg Hogj ne chekenniem meg<note type="critic" xml:id="note.3">chekenniem meg – e szó inkább <hi rend="italic">megcsökönik</hi>
+                            alakban volt használatos; jelentése itt: lehanyatlik, letör,
+                            elcsügged.</note></l>
+<l rend="level_9" xml:id="l.12">Kérésem édes Atjam hald meg.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13"><hi rend="bold">C</hi>hac néked szenteltem Hiremet nevemet,</l>
+<l rend="level_3" xml:id="l.14">Benned helheztettem En reménségemet</l>
+<l rend="level_6" xml:id="l.15">Azert töled vároc Segedelmet, károc</l>
+<l rend="level_9" xml:id="l.16">S- ne terheljenec az banatoc.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17"><hi rend="bold">O</hi>laijal higichad Banatomnac sárát</l>
+<l rend="level_3" xml:id="l.18">Ismet fel uichad Ifjusagom szárát</l>
+<l rend="level_6" xml:id="l.19">Hogj ez páljat fussam Örömmel, -s, lathassam</l>
+<l rend="level_9" xml:id="l.20">Munkamnac hasznat -s- javalhassam.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Lankadot erömet Fogiatkozasomat</l>
+<l rend="level_3" xml:id="l.22">Chac egiedűl érted En kivansagomat</l>
+<l rend="level_6" xml:id="l.23">Segitsegűl tarsot<note type="critic" xml:id="note.4">tarsot – lehet, hogy feleségre gondolt, de lehet az is, hogy iskolai munkáját nehezen tudta egyedül ellátni. (Lásd a 25.
+                        sort.)</note> Kezemben istapot</l>
+<l rend="level_9" xml:id="l.24">Uram niucz, segély megh szolgadot.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25"><hi rend="bold">C</hi>ollegam szűksége Búm materiaja,</l>
+<l rend="level_3" xml:id="l.26">Könjvem meszesége Haborumnac jaija,<note type="critic" xml:id="note.5">Egy
+                            évig Németországban maradt könyvtára nélkül volt kénytelen tanítani.
+                                (<bibl>Önéletrajz 290.</bibl>)</note></l>
+<l rend="level_6" xml:id="l.27">Izgattia szivemet Furdalja fejemet</l>
+<l rend="level_9" xml:id="l.28">Ez törböl mench ki életemet.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29"><hi rend="bold">I</hi>gy ha chelekeszel Szent nevedet aldom</l>
+<l rend="level_3" xml:id="l.30">Öszve töt két kézzel Dichirlec. Es mondom</l>
+<l rend="level_6" xml:id="l.31">Teremtö szent Isten Aldot légy menniégben</l>
+<l rend="level_9" xml:id="l.32">Hogy nékem ezt meg attad érnem.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">19.</title>
+<title key="body" n="19" type="main">JOCOSERIUM</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-19</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1">Kézirata: <bibl><hi rend="bold">Diarium Apod.</hi>
+                        218a–b.</bibl> – A latin cím jelentése: Tréfálódás. Az éneket később egy
+                    ismeretlen szerző mesterségeket csúfoló versszakokkal megtoldotta; ebben a
+                    formájában több kéziratos énekeskönyvben előfordul. (Kiadva: <bibl>RMKT XVII.
+                        III, 122. szám.</bibl>) – Az ötstrófás <title><hi rend="italic">Jocoserium</hi></title> kétségtelenül Csulyak szerzeménye. Az 5. vsz.
+                        <hi rend="italic">falala</hi> refrénjével (mely egyébként olasz és német
+                    madrigálok szövegeiben igen elterjedt) a XVII. századi magyar költészetben sehol
+                    nem találkozunk, csak Csulyaknál (használja még a <ref target="rmkt-17-2.tei.mcsi-21">21. sz.</ref> énekben is); egy helyi
+                    tarcali vonatkozás (lásd a 8. sor jegyzetét) is megerősíti, hogy az éppen akkor
+                    <placeName>Tarcalon<idno type="ITIdata">Q13972</idno></placeName> tanítóskodó Csulyak szerezte. Lehet, hogy ez
+                    az ének is – mint a megelőző – <date when="1608-12-11">1608. dec. 11-i</date> eljegyzésével
+                    kapcsolatos. A 12. sor szövege talán arra utal, hogy Csulyak a verset egy
+                    diákkal adatta elő (erre későbbi verseinél is találunk példát); ilyenkor
+                    szokásos a pénzkérés.</note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 218a–b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 19.</fw>
+<head type="title">JOCOSERIUM</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Lakjatoc vigan <metamark function="cesura"/> igiatoc giakran jo jo jo jo.</l>
+<l xml:id="l.2">Az wdö mondgia <metamark function="cesura"/> gazda kivannia</l>
+<l xml:id="l.3">Fusson az bánat <metamark function="cesura"/> tölched az kannát jo jo jo jo.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.4">Boldog ez élet <metamark function="cesura"/> ha mind<note type="critic" xml:id="note.1">mind = mindig</note> igy lehet jo,</l>
+<l xml:id="l.5">Fekete keniér <metamark function="cesura"/> mostan többet ér</l>
+<l xml:id="l.6">hogj nem sűlt kappan tegnap kit lattam jo.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.7"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Nem vizet adnac <metamark function="cesura"/> inni torkodnak jo,</lem><rdg wit="#I" xml:id="rdg.1">vizet <del>inni</del> adnac</rdg></app></l>
+<l xml:id="l.8">De Tarczali bort <metamark function="cesura"/> Mézes máli bort:<note type="critic" xml:id="note.2">Mézes máli bort – Mézesmál nevű szőlőhegy
+                        <placeName>Tarcalon<idno type="ITIdata">Q13972</idno></placeName> is volt. (<bibl><abbr>Nyr
+                                III</abbr>, 431.</bibl>) Az ének kibővített változataiban a <hi rend="italic">máli</hi> szót a másolók <hi rend="italic">mádi</hi>-ra változtatták, mivel a tarcali hegy elnevezését nem
+                            ismerték, a tokajhegyaljai <placeName>Mád</placeName> község viszont
+                            híres volt boráról.</note></l>
+<l xml:id="l.9">Tölched az pohárt <metamark function="cesura"/> ne lassunc töb kárt. jo.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.10">Meg ne részegűly <metamark function="cesura"/> de gögösön űly jo,</l>
+<l xml:id="l.11">gazda agy innom <metamark function="cesura"/> régen kivanom</l>
+<l xml:id="l.12"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">űres erszéniem <metamark function="cesura"/> mert ninchen pénzem, jo.</lem><rdg wit="#I" xml:id="rdg.2"><add type="insert">rosz</add><note type="critic" xml:id="note.3">jo után más kézzel</note></rdg></app></l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.13">Ne bankodgiatoc <metamark function="cesura"/> vigan lakjatoc fa la la la</l>
+<l xml:id="l.14"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">Gazda vig, lakjunc <metamark function="cesura"/> mind estig igjunc</lem><rdg wit="#I" xml:id="rdg.3"><del>estig igjunc</del><add type="corr">estig mind</add></rdg></app></l>
+<l xml:id="l.15">maid lefekűdgjűnc <metamark function="cesura"/> -s- mind el aludgjunc, fa la la la</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

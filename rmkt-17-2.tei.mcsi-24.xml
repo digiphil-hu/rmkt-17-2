@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">24.</title>
+<title key="body" n="24" type="main">[GYÁSZVERS RÁKÓCZI ZSIGMOND HALÁLÁRA]</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-24</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi rend="bold">Diarium Apod.</hi> 214a–b.</bibl> Kiad. <bibl><hi rend="smallcaps">Zsinka Ferenc</hi>,
+                            <abbr>MPEtA</abbr> XII, 105–6.</bibl></p>
+<p xml:id="crit.1.p.2">A vers (latinul és magyarul) a <persName>Rákóczi Zsigmond<idno type="ITIdata">Q249893</idno></persName> felett
+                        elmondott halotti beszédbe van beleszőve, melyet Csulyak <date when="1609-01-21">1609. jan.
+                            21-én</date> mondott el a szerencsi templomban. A latin szöveg a
+                                <title><hi rend="italic">Diarium</hi></title> 200. levelén is
+                        olvasható, „In vexillo funero Illustris ac Magnifici domini domini
+                        Sigismundi Rakoczi etc. Anno 1608. penult. Xbris” címmel. Mint a beszédből
+                        és a latin címből kitűnik, a szöveget <persName>Rákóczi Zsigmond</persName>
+                        halotti zászlójára írták fel. De felvésték <persName>Rákóczi<idno corresp="Rákóczi Zsigmond"/></persName>
+<date when="1618">1618-ban</date> készült sírkövére is, s az jelenleg is megtalálható a
+                        szerencsi templomban. A vers szövegét innen kiadta: <bibl><hi rend="smallcaps">Paszlavszky
+                            Sándor</hi>, <title>Adalékok Zemplén vármegye történetéhez</title> 1897, 229.</bibl> –
+                            <persName>Rákóczi Zsigmond</persName> életrajzát lásd: <bibl><abbr>RMKT
+                                XVII</abbr>. I, 500.</bibl></p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 214a–b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 24.</fw>
+<head type="title"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1"><supplied>GYÁSZVERS RÁKÓCZI ZSIGMOND HALÁLÁRA</supplied></lem><rdg wit="#I" xml:id="rdg.1"/></app></head>
+<head type="subtitle">… Mi annakokaert mind ezeket jol értvén es tudvan, imez elöttwnc valo fekete viragos kamuka zaszlora, mely dichéretes
+                    emlekezetre ez templomban fel tétetic, az ö Nga nevét arany betűkkel méltan irtuc fel, imez deac verseckel.</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Hîc Sigemundus ovans post ultima fata Rakoczi,</l>
+<l rend="level_3" xml:id="l.2">Pannoniae columen pace sagoque cubat.</l>
+<l xml:id="l.3">Agria fortunam est cujus mirata secundam</l>
+<l rend="level_3" xml:id="l.4">Hectoris, amoenum Caesar et ingenium,</l>
+<l xml:id="l.5">Dacia protectorem, atrox sed Turca flagellum,</l>
+<l rend="level_3" xml:id="l.6">Nos patriae cives mite patrocinium.</l>
+<l xml:id="l.7">Quare Pannonia, Agria, Caesar, Dacia, cives,</l>
+<l rend="level_3" xml:id="l.8">Justa patri patriae solvite cum lacrumis.</l>
+</lg>
+<p xml:id="p.1"><hi rend="smallcap">MAGIARUL MAID ENNIT TESZEN</hi></p>
+<lg xml:id="lg.2">
+<l xml:id="l.9">It fekszic Rakoczi Sigmond,</l>
+<l xml:id="l.10">Az jambor felöle jot mond.</l>
+<l xml:id="l.11">Magiar orszagnac tamasza</l>
+<l xml:id="l.12"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Vala Chaszarunc tanacha.</lem><rdg wit="#I" xml:id="rdg.2"><del>Chaszarunc</del><add type="corr">Chaszarnac</add></rdg></app></l>
+<l xml:id="l.13">Szendrö chudalta erejét,</l>
+<l xml:id="l.14">Eger karját nagj elméjét.</l>
+<l xml:id="l.15">Erdélj szerette oltalmát,</l>
+<l xml:id="l.16">Az Töröc félte hatalmát.</l>
+<l xml:id="l.17">Mi honniunkban lako népec</l>
+<l xml:id="l.18">Ohaitjuc mint igaz hivec.</l>
+<l xml:id="l.19">Azért Szendrö, Magiar, Eger,</l>
+<l xml:id="l.20">Chaszar, Erdélj -s- minden ember:</l>
+<l xml:id="l.21">Sirassad édes Atiádot</l>
+<l xml:id="l.22">Megh holt Rakoczi Sigmondot.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

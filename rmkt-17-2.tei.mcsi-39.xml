@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">39.</title>
+<title key="body" n="39" type="main">CUM EX COMMENDATIONE CLARISSIMI MICHAELIS SURII TERTIAM VITAE MEAE SOCIAM
+                    DOROTHEAM SERES OBTINUISSEM, HAEC SCRIPSI DOMINO MEO COMPATR SURIO</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-39</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi rend="bold">Diarium Apod.</hi> 255b–256b.</bibl> – A latin cím jelentése:
+                    Mikor a tiszteletreméltó <persName>Suri Mihály<idno type="ITIdata">Q267120</idno></persName> ajánlására
+                            <persName>Seres Dorottyát</persName> választottam harmadik
+                        élettársamnak, ezt írtam Suri koma uramnak <date when="1622-05-18">1622. máj. 18-án</date>. –
+                        A 255. levél után egy levél ki van vágva, a vers szövege azonban (a 3.
+                        sorral) hiánytalanul folytatódik. Lehet, hogy maga Csulyak vágott ki egy
+                        elrontott levelet. – A cím utáni motto az ismert mondásnak (mens sana in
+                        corpore sano) valószínűleg Csulyak által hexameterbe foglalt változata.
+                            <persName>Seres Dorottya</persName>, Csulyak harmadik felesége,
+                            <persName>Szabó István</persName> pataki polgár özvegye volt.
+                            (<bibl>Önéletrajz 294.</bibl>) A verset Csulyak az eljegyzéskor
+                        szerezte. <persName>Suri (Orvos) Mihály</persName>
+<date from="1617">1617-től</date> sárospataki pap volt. Korábban nevezetes szerepet
+                        játszott a nyugatmagyarországi hitvitákban: egyik legfőbb vitatársa volt az
+                        áttérésre hajló <persName>Veresmarti Mihálynak<idno type="ITIdata">Q50294</idno></persName>, sőt
+                    <persName>Pázmánnyal<idno type="ITIdata">Q47888</idno></persName> is polémiát folytatott.
+                    <persName>Balásfy Tamás<idno type="ITIdata">Q40088</idno></persName> pedig ő ellene írta <title><hi rend="italic">Echo Christiana</hi></title> (<placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1616">1616</date>.) című munkáját. Választ akart írni
+                    <persName>Suri<idno corresp="Suri Mihály"/></persName> a <persName>Balassi<idno type="ITIdata">Q2101</idno></persName>–
+                    <persName>Dobokay<idno type="ITIdata">Q143967</idno></persName>-féle <title><hi rend="italic">Campianus</hi></title>-fordítás ellen is. (<bibl><hi rend="smallcaps">Ipolyi Arnold</hi>:
+                                <title>Veresmarti Mihály élete és munkái</title>. Bp. 1875. 171–2,
+                            190–8.</bibl>)</p>
+<p xml:id="crit.1.p.2">Csulyak <date when="1635">1635-ben</date> az ő özvegyét vette el feleségül. (Lásd a
+                            <ref target="rmkt-17-2.tei.mcsi-42">42. sz.</ref> éneket.)</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 255b–256b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 39.</fw>
+<head type="title">CUM EX COMMENDATIONE CLARISSIMI MICHAELIS SURII TERTIAM VITAE MEAE SOCIAM
+                    DOROTHEAM SERES OBTINUISSEM, HAEC SCRIPSI DOMINO MEO COMPATR SURIO</head>
+<head type="subtitle">Anno 1622. 18. Maji. die Jovis.</head>
+<p xml:id="p.1"><hi rend="smallcap">corpus ut in sanâ sanum sit mente, precamur</hi></p>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Istennek ajandekanac <metamark function="cesura"/> nekem Miskolci Istvannac</l>
+<l rend="level_6" xml:id="l.2">Lizkai Predikatornac,</l>
+<l xml:id="l.3">Mondatic már Seres Dorko, <metamark function="cesura"/> kit tölem chak az koporso</l>
+<l rend="level_6" xml:id="l.4">Vehet el, nem az irégy szo.</l>
+<l xml:id="l.5">Remenlem hog’ az mig élek <metamark function="cesura"/> Bizony meg felel nevénec.</l>
+<l rend="level_6" xml:id="l.6">Nem lesz serelme szivemnec.</l>
+<l xml:id="l.7">Mert ha az soc jambor szava <metamark function="cesura"/> Nem egieb hanem UR szava</l>
+<l rend="level_6" xml:id="l.8">Ebben sem lesz semmi hiba.</l>
+<l xml:id="l.9">Ditseri öt az varason <metamark function="cesura"/> Nagy es kitsiny hostatokon.<note type="critic" xml:id="note.1">hostat = külváros</note></l>
+<l rend="level_6" xml:id="l.10">Kalmar s kufar az piaczon,</l>
+<l xml:id="l.11">Nem talal benne oly gantsot <metamark function="cesura"/> Ki miat hantsunc soc hársot,</l>
+<l rend="level_6" xml:id="l.12">Rongalni valo istrangot.<note type="critic" xml:id="note.2">11–12 A hársfa háncsából kötelet szoktak fonni; rongalni = megbüntetni, fenyíteni; rongalni valo = fenyítésre, verésre
+                        szolgáló</note></l>
+<l xml:id="l.13">Ezt ajakais jelenti <metamark function="cesura"/> Melliel kedvesen igéri</l>
+<l rend="level_6" xml:id="l.14">Hűsegét, azt beszelgeti:</l>
+<l xml:id="l.15">Nem leszen mostoha anya, <metamark function="cesura"/> Hog’ magzatimnac mint kánya</l>
+<l rend="level_6" xml:id="l.16">Szemét agiabol ki vája.</l>
+<l xml:id="l.17">Nemis leszen űres hordo, <metamark function="cesura"/> Ki mindenkor inkab
+                            kongo,<note type="critic" xml:id="note.3">Vö. a <abbr>NySz</abbr> következő idézetével:
+                            „Az üres hordó kongás … pharisaeusi kérkedségednek jeles czimerei.”
+                                (<bibl>I, 1486.</bibl>)</note></l>
+<l rend="level_6" xml:id="l.18">Noha nints benne semmi jo.<note type="critic" xml:id="note.4">15–8 Csulyak itt
+                            előző feleségére, <persName>Juhos Annára</persName> céloz, aki „valódi
+                            Xanthippé”, leányai számára pedig „tökéletes mostoha” volt.
+                                (<bibl>Önéletrajz 294.</bibl>)</note></l>
+<l xml:id="l.19">Ez vala, koma, aldasod <metamark function="cesura"/> Tegnap fejemen, hogj aitód</l>
+<l rend="level_6" xml:id="l.20">Utannam, el jövén, bé töd.</l>
+<l xml:id="l.21">Isten engedgie, ne legien <metamark function="cesura"/> Tekozlo, vagy feneketlen</l>
+<l rend="level_6" xml:id="l.22">Kas,<note type="critic" xml:id="note.5">A <hi rend="italic">feneketlen
+                                kas</hi> szóláshoz lásd a <ref target="rmkt-17-2.tei.mcsi-20">20. sz.</ref> ének 12. sorához írt
+                            jegyzetet.</note> avag’ penig értetlen</l>
+<l xml:id="l.23">Beszedű, de baratimhoz <metamark function="cesura"/> Jo kedvel legien magamhoz</l>
+<l rend="level_6" xml:id="l.24">Es az en aprotskaimhoz.</l>
+<l xml:id="l.25">Koma, nem megyek tormajert, <metamark function="cesura"/> Debreczenben sem
+                            czifrajért<note type="critic" xml:id="note.6">Csulyak előző rossz felesége,
+                                <persName>Juhos Anna</persName>, debreceni származású volt.
+                                (<bibl>Önéletrajz 293.</bibl>)</note></l>
+<l rend="level_6" xml:id="l.26">El hidgied űres taskajert,</l>
+<l xml:id="l.27">Hogy ha Patakon egy Dorkot <metamark function="cesura"/> Talaltam oly ivo korsot,</l>
+<l rend="level_6" xml:id="l.28">Kiböl ihatok minden jot.</l>
+<l xml:id="l.29">Mert az űresset tölteni, <metamark function="cesura"/> El faradtam volt inteni</l>
+<l rend="level_6" xml:id="l.30">Mint falra borsót hinteni.<note type="critic" xml:id="note.7">29–30 Itt is a
+                            „Xanthippé”-re, <persName>Juhos Annára</persName> történik
+                            célzás.</note></l>
+<l xml:id="l.31">Edes komam civilitast, <metamark function="cesura"/> az en Dorkomnac ugj olvasd,</l>
+<l rend="level_6" xml:id="l.32">Hog’ jo kedved hozza mutasd.</l>
+<l xml:id="l.33">Mint volt Abraham fianac <metamark function="cesura"/> Oktatoja, legj matkamnac</l>
+<l rend="level_6" xml:id="l.34">Maid oztan komad aszonnac.</l>
+<l xml:id="l.35">Meliért az Istentöl aldast, <metamark function="cesura"/> En tölem veszesz aldomast</l>
+<l rend="level_6" xml:id="l.36">Felesegemtöl graciast.</l>
+<l xml:id="l.37">Az aldas leszen menniékben, <metamark function="cesura"/> De az aldomas pinczemben,</l>
+<l rend="level_6" xml:id="l.38">Gracias teljes éltűnkben.</l>
+<l xml:id="l.39">Isten ad meg ezt mi nekwnc <metamark function="cesura"/> Hogi mig ez testben élhetűnc</l>
+<l rend="level_6" xml:id="l.40">Egiedűl neked élhessűnc.</l>
+</lg>
+<p xml:id="p.2">Votum concepi et dixi.</p>
+</div>
+</body>
+</text>
+</TEI>

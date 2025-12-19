@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">42.</title>
+<title key="body" n="42" type="main">DIALOGUS SERVI ET DEI, DECANTATUS CUM SUSANNAM PRAGAI, REVERENDI VIRI
+                    MICHAELIS SURII VIDUAM, THALAMO VIDUO INDUXISSEM</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-42</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi rend="bold">Diarium Apod.</hi> 267a–270a.</bibl> – A latin cím jelentése: A
+                        szolga és az Isten énekelt dialógusa, amikor a tiszteletreméltó férfiúnak,
+                    <persName>Suri Mihálynak<idno type="ITIdata">Q267120</idno></persName> özvegyét házasságra vezettem <date when="1635-04-24">1635.
+                        ápr. 24-én</date>.</p>
+<p xml:id="crit.1.p.2">Csulyaknak <persName>Suri Mihály</persName> özvegyével, <persName>Prágai
+                            Zsuzsánnával</persName> (aki feltehetően nővére volt <persName>Prágai
+                                Andrásnak<idno type="ITIdata">Q249977</idno></persName>, <persName>Guevara<idno type="ITIdata">Q492302</idno></persName> fordítójának) kötött
+                        házasságáról lásd: <bibl>Önéletrajz 298.</bibl> – Az ének legtöbb versszakát
+                        Csulyak két korábbi verséből vette át: 1–3. vsz. = <ref target="rmkt-17-2.tei.mcsi-35">35. sz.</ref> ének 1–3. vsz.;
+                        4–7. vsz. = <ref target="rmkt-17-2.tei.mcsi-40">40. sz.</ref> 16–9. vsz.; 8. vsz. = <ref target="rmkt-17-2.tei.mcsi-40">40. sz.</ref> 24. vsz.; 9–16. vsz. = <ref target="rmkt-17-2.tei.mcsi-35">35.
+                        sz.</ref> 6–13. vsz.; 22–24. vsz. = <ref target="rmkt-17-2.tei.mcsi-40">40. sz.</ref> 21–3. vsz.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 267a–270a.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 42.</fw>
+<head type="title">DIALOGUS SERVI ET DEI, DECANTATUS CUM SUSANNAM PRAGAI, REVERENDI VIRI
+                    MICHAELIS SURII VIDUAM, THALAMO VIDUO INDUXISSEM</head>
+<head type="subtitle">anno Christi 1635, 24 April. ♂.</head>
+<p xml:id="p.1"><hi rend="smallcap">servus</hi></p>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Meg holt Catam<note type="critic" xml:id="note.1">Catam – Csulyak előző felesége,
+                                <persName>Gyulai Szabó Katalin</persName>, aki <date when="1634-11-15">1634. nov.
+                                15-én</date> halt meg. (<bibl>Önéletrajz 298.</bibl>)</note> utan
+                            <metamark function="cesura"/> fejem bunac haitvan</l>
+<l rend="level_6" xml:id="l.2">az Istennec igy szolléc.</l>
+<l xml:id="l.3">Mi dolog Istenem <metamark function="cesura"/> kérlec mond meg nékem</l>
+<l rend="level_6" xml:id="l.4">az mire mostan kérdlec:</l>
+<l xml:id="l.5">hogy fejem űté giasz, <metamark function="cesura"/> oljan lévéc mint váz</l>
+<l rend="level_6" xml:id="l.6">mert özvegien maradéc.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.7">Lam te szolgad voltam, <metamark function="cesura"/> vagioc mostis Uram</l>
+<l rend="level_6" xml:id="l.8"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">az is lészek mig élec</lem><rdg wit="#I" xml:id="rdg.1">lészek<del>is</del></rdg></app></l>
+<l xml:id="l.9">valaholot jártam <metamark function="cesura"/> mindent töled vártam</l>
+<l rend="level_6" xml:id="l.10">hát miért hogy kesergec?</l>
+<l xml:id="l.11">hog’ meg hala Catam <metamark function="cesura"/> egiedűl hagiatam</l>
+<l rend="level_6" xml:id="l.12">s- örömem földre eséc.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.13">Nem sokat élt vala <metamark function="cesura"/> még viragzic vala</l>
+<l rend="level_6" xml:id="l.14">mint szép rosa az kertben:</l>
+<l xml:id="l.15">mértékletesseggel <metamark function="cesura"/> szemérmetesseggel</l>
+<l rend="level_6" xml:id="l.16">példa vala rendiben:</l>
+<l xml:id="l.17">szeléd, Isten félö, <metamark function="cesura"/> emberec bötsűllö</l>
+<l rend="level_6" xml:id="l.18">vala teljes éltében.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.19">Meddig élt chiudaltam <metamark function="cesura"/> mi dolog nem tudtam</l>
+<l rend="level_6" xml:id="l.20">hog’ jo szerentse talalt:</l>
+<l xml:id="l.21">de chiudalom mostan <metamark function="cesura"/> hog’ soc öröm után</l>
+<l rend="level_6" xml:id="l.22">szivem banatban zabalt,</l>
+<l xml:id="l.23">mîg valéc békével <metamark function="cesura"/> teljes ház népével</l>
+<l rend="level_6" xml:id="l.24">melliet szivem nemis várt.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.25">Igaz okát Atiam <metamark function="cesura"/> chiak nalad talalam</l>
+<l rend="level_6" xml:id="l.26">te chieleketted velem:</l>
+<l xml:id="l.27">igaz itileted <metamark function="cesura"/> -s- mélto bűntetésed</l>
+<l rend="level_6" xml:id="l.28">noha terhes ennekem</l>
+<l xml:id="l.29">de mégis meg niugszom <metamark function="cesura"/> szent akaratodon</l>
+<l rend="level_6" xml:id="l.30"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">akar mit tegis velem.</lem><rdg wit="#I" xml:id="rdg.2"><add type="insert">mint verjis engem</add><note type="critic" xml:id="note.2"><hi rend="italic">tegis
+                                        velem</hi> felett</note></rdg></app></l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.31">Nem lész mindenkoron <metamark function="cesura"/> fergeteg hazamon</l>
+<l rend="level_6" xml:id="l.32">vagioc oly reménsegben:</l>
+<l xml:id="l.33">mert az iras mondgia <metamark function="cesura"/> Isten el nem hadgia</l>
+<l rend="level_6" xml:id="l.34">az ki hiszen Istenben,</l>
+<l xml:id="l.35"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">engem is el nem hágy <metamark function="cesura"/> noha most szörnien vág</lem><rdg wit="#I" xml:id="rdg.3"><del>engemetis nem</del><add type="corr">engem is el nem</add></rdg></app></l>
+<l rend="level_6" xml:id="l.36"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">mert niugoszom kedvében.</lem><rdg wit="#I" xml:id="rdg.4"><add type="insert">veszen jo</add><note type="critic" xml:id="note.3"><hi rend="italic">niugoszom</hi>
+                                    alatt</note></rdg></app></l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.37">Uram Isten eddég <metamark function="cesura"/> legien immar elég</l>
+<l rend="level_6" xml:id="l.38">raitam latogatasod.</l>
+<l xml:id="l.39">mint szent Jobbal régen <metamark function="cesura"/> chielekedgiel velem</l>
+<l rend="level_6" xml:id="l.40">forditsad el haragod,</l>
+<l xml:id="l.41">ekesits fel hazam <metamark function="cesura"/> puztajat ne lassam</l>
+<l rend="level_6" xml:id="l.42">legien raitam aldasod.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.43">Isten feleségem <metamark function="cesura"/> ha meg adod nékem</l>
+<l rend="level_6" xml:id="l.44">az kivel en élhessec</l>
+<l xml:id="l.45">te ditsösegedre <metamark function="cesura"/> en idvessegemre,</l>
+<l rend="level_6" xml:id="l.46">mind öröcké ditserlec,</l>
+<l xml:id="l.47">fénies peldajara <metamark function="cesura"/> mindennec hasznara</l>
+<l rend="level_6" xml:id="l.48">lészec valamig élec.</l>
+</lg>
+<p xml:id="p.2"><hi rend="smallcap">responsio dei</hi></p>
+<lg xml:id="lg.9">
+<l xml:id="l.49">Felele az Isten <metamark function="cesura"/> semmi haszna nintsen</l>
+<l rend="level_6" xml:id="l.50">jo szolgam panaszodnac:</l>
+<l xml:id="l.51">mert én hiremmel löt <metamark function="cesura"/> az mi raitad esöt</l>
+<l rend="level_6" xml:id="l.52"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">én vagioc oka annac:</lem><rdg wit="#I" xml:id="rdg.5"><del>oka
+                        én vagioc annac</del><add type="corr">én vagioc oka annac</add></rdg></app></l>
+<l xml:id="l.53">meleg utan hideg <metamark function="cesura"/> szokot lenni hid megh</l>
+<l rend="level_6" xml:id="l.54">ez földön lakozoknac.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.55">En vagioc az Isten <metamark function="cesura"/> kinec masom nintsen</l>
+<l rend="level_6" xml:id="l.56">mit akaroc meg leszen,</l>
+<l xml:id="l.57"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">eggiet ha fel veszec <metamark function="cesura"/> mást az porban vetec</lem><rdg wit="#I" xml:id="rdg.6"><add place="above" type="insert">fel emelec</add><note type="critic" xml:id="note.4"><hi rend="italic">ha fel</hi> felett</note></rdg></app></l>
+<l rend="level_6" xml:id="l.58">mint akarom ugy leszen</l>
+<l xml:id="l.59">miért chielekedgiem <metamark function="cesura"/> azért bizony tölem</l>
+<l rend="level_6" xml:id="l.60">senki számot nem veszen.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.61">Feleséget adtam <metamark function="cesura"/> az mint meg fogadtam</l>
+<l rend="level_6" xml:id="l.62">vala könyörgesedre,</l>
+<l xml:id="l.63">melliet ismet töled <metamark function="cesura"/> el rantéc mellöled,</l>
+<l rend="level_6" xml:id="l.64">hog’ lenne értésedre,</l>
+<l xml:id="l.65"><app xml:id="app.7"><lem wit="#KK" xml:id="lem.7">mely jo az segetség <metamark function="cesura"/> -s- kaaros az özvegység</lem><rdg wit="#I" xml:id="rdg.7"><add place="above" type="insert">feleseg</add>;<note type="critic" xml:id="note.5"><hi rend="italic">segetség</hi> felett</note>
+<add place="above" type="insert">s nem jo</add><note type="critic" xml:id="note.6"><hi rend="italic">kaaros az</hi> felett</note></rdg></app></l>
+<l rend="level_6" xml:id="l.66"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">ez vilagi életbe.</lem><rdg wit="#I" xml:id="rdg.8"><add place="above" type="insert">bizonnial ez</add><note type="critic" xml:id="note.7"><hi rend="italic">ez vilagi</hi> felett</note></rdg></app></l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.67"><app xml:id="app.9"><lem wit="#KK" xml:id="lem.9">Mert hog’ha el esic <metamark function="cesura"/> eggic vagy fekűszic</lem><rdg wit="#I" xml:id="rdg.9"><add place="above" type="insert">az eggic</add>;<note type="critic" xml:id="note.8"><hi rend="italic">el esic</hi> felett</note>
+<add place="above" type="insert">el esic</add>;<note type="critic" xml:id="note.9"><hi rend="italic">eggic</hi> felett</note>
+<add place="above" type="insert">fekszic</add><note type="critic" xml:id="note.10"><hi rend="italic">fekűszic</hi> felett</note></rdg></app></l>
+<l rend="level_6" xml:id="l.68">az társa fel emeli:</l>
+<l xml:id="l.69">siralmas panaszat <metamark function="cesura"/> könyvezö banattiat</l>
+<l rend="level_6" xml:id="l.70">felesege kérleli,</l>
+<l xml:id="l.71">mézhez illö szava <metamark function="cesura"/> valami talalja</l>
+<l rend="level_6" xml:id="l.72">Urat, mind meg enyhiti.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.73">Eleget sirtal már <metamark function="cesura"/> el ne muljéc az niar</l>
+<l rend="level_6" xml:id="l.74">hog’ siralmod muljon el,</l>
+<l xml:id="l.75">azt akarom banat <metamark function="cesura"/> mely halalbol tamat</l>
+<l rend="level_6" xml:id="l.76">töled mindgiart fusson el,</l>
+<l xml:id="l.77">Susannat Catajért <metamark function="cesura"/> szived kit tölem kért</l>
+<l rend="level_6" xml:id="l.78">adoc bizonnial hid el.</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.79">Az neve Susanna <metamark function="cesura"/> szagos mint az Rosa</l>
+<l rend="level_6" xml:id="l.80">leszen meg tapaztalod:</l>
+<l xml:id="l.81">kaarodat haszonra <metamark function="cesura"/> budot vigassagra</l>
+<l rend="level_6" xml:id="l.82">valtoztattia meg latod</l>
+<l xml:id="l.83">gondod hason felét, <metamark function="cesura"/> titkodnac egy reszét</l>
+<l rend="level_6" xml:id="l.84">hordozza, meg probalod.</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.85">Saara mint bötsűlte <metamark function="cesura"/> Abrahamot -s- félte</l>
+<l rend="level_6" xml:id="l.86">es szerette régenten:</l>
+<l xml:id="l.87">Susannais téged <metamark function="cesura"/> bötsűl, fél es kedved</l>
+<l rend="level_6" xml:id="l.88">keresi mindenekben,</l>
+<l xml:id="l.89">szeret homaly nélkűl, <metamark function="cesura"/> tiztel hiba nélkűl</l>
+<l rend="level_6" xml:id="l.90">meddig êltec ez testben.</l>
+</lg>
+<lg xml:id="lg.16">
+<l xml:id="l.91">Haazad fénies napja <metamark function="cesura"/> árvaidnac annia</l>
+<l rend="level_6" xml:id="l.92">aztalodnál ekesség,</l>
+<l xml:id="l.93">leszen niugodalmod, <metamark function="cesura"/> régen kivánt almod</l>
+<l rend="level_6" xml:id="l.94">szivednec lesz könniebség:</l>
+<l xml:id="l.95">illic hát örűlnöd <metamark function="cesura"/> nekem meg köszönnöd</l>
+<l rend="level_6" xml:id="l.96">hog’ adtam ily segetség.</l>
+</lg>
+<p xml:id="p.3"><hi rend="smallcap">servus</hi></p>
+<lg xml:id="lg.17">
+<l xml:id="l.97">Hogy ezeket hallám <metamark function="cesura"/> az panazt el hagiám</l>
+<l rend="level_6" xml:id="l.98">szemem könyvét el törlém,</l>
+<l xml:id="l.99">Isten igiretét <metamark function="cesura"/> biztato beszedét</l>
+<l rend="level_6" xml:id="l.100">mihelen töle értém,</l>
+<l xml:id="l.101">ottan meg változám <metamark function="cesura"/> el vetém giász ruham</l>
+<l rend="level_6" xml:id="l.102">-s- uy köntösben öltözém.</l>
+</lg>
+<lg xml:id="lg.18">
+<l xml:id="l.103">Mert Isten meg ada <metamark function="cesura"/> hog’ kéresem halla</l>
+<l rend="level_6" xml:id="l.104">Susannat feleségűl,</l>
+<l xml:id="l.105">az kit kivant lelkem <metamark function="cesura"/> bizonnial meg löltem</l>
+<l rend="level_6" xml:id="l.106">immar mellettemis űl,</l>
+<l xml:id="l.107">lattiatoc baratim <metamark function="cesura"/> kedves jo vendegim</l>
+<l rend="level_6" xml:id="l.108">már nem vagioc egiedűl.</l>
+</lg>
+<lg xml:id="lg.19">
+<l xml:id="l.109">Tovab nem bánkodom <metamark function="cesura"/> meg van liliomom</l>
+<l rend="level_6" xml:id="l.110">de ti se bankodgiatoc:</l>
+<l xml:id="l.111">kic sirtatoc velem <metamark function="cesura"/> mikoron temettem,</l>
+<l rend="level_6" xml:id="l.112">mostan már ne sirjatoc:</l>
+<l xml:id="l.113">lám jelen az tavasz <metamark function="cesura"/> senki nints itt ravasz</l>
+<l rend="level_6" xml:id="l.114">hát chiak vigan lakjatoc.</l>
+</lg>
+<p xml:id="p.4"><hi rend="smallcap">votum</hi></p>
+<lg xml:id="lg.20">
+<l xml:id="l.115">Isten hazassagát <metamark function="cesura"/> mindennec joo társát</l>
+<l rend="level_6" xml:id="l.116">az egekböl aldgiad meg:</l>
+<l xml:id="l.117">Ennekemis Uram <metamark function="cesura"/> ezt az en Susannam</l>
+<l rend="level_6" xml:id="l.118">koporsomig tartsad meg,</l>
+<l xml:id="l.119">kivant egessege <metamark function="cesura"/> hozzam nagy szerelme</l>
+<l rend="level_6" xml:id="l.120">jai ne fogiatkozzéc meg.</l>
+</lg>
+<lg xml:id="lg.21">
+<l xml:id="l.121">Szomoru szivemet <metamark function="cesura"/> banatos elmémet</l>
+<l rend="level_6" xml:id="l.122">ne terhelje mérgével,</l>
+<l xml:id="l.123">Istenes elete <metamark function="cesura"/> kegies tekentete</l>
+<l rend="level_6" xml:id="l.124">tűndököljön jo hirrel,</l>
+<l xml:id="l.125">házam ekessége <metamark function="cesura"/> lelkem könniebsege</l>
+<l rend="level_6" xml:id="l.126">legien engedelmével</l>
+</lg>
+<lg xml:id="lg.22">
+<l xml:id="l.127"><app xml:id="app.10"><lem wit="#KK" xml:id="lem.10">Faidalmas lelkemet <metamark function="cesura"/> lankadot erömet</lem><rdg wit="#I" xml:id="rdg.10"><add place="above" type="insert">Terhes vénsegemet</add><note type="critic" xml:id="note.11"><hi rend="italic">Faidalmas lelkemet</hi> felett</note></rdg></app></l>
+<l rend="level_6" xml:id="l.128">giogitsa szerelmével,</l>
+<l xml:id="l.129">mihelen latandgia <metamark function="cesura"/> bumot, vigaztalja</l>
+<l rend="level_6" xml:id="l.130">mézes szep beszedével:</l>
+<l xml:id="l.131">kövesse Rebeccat <metamark function="cesura"/> ha lát valami kaart</l>
+<l rend="level_6" xml:id="l.132">tavoztassa eszével.</l>
+</lg>
+<lg xml:id="lg.23">
+<l xml:id="l.133">Eljen velem szépen <metamark function="cesura"/> mint joo hal az vizben</l>
+<l rend="level_6" xml:id="l.134">szent engedelmessegben:</l>
+<l xml:id="l.135">ne legien morgo társ <metamark function="cesura"/> sem chiatsogo mint hars,</l>
+<l rend="level_6" xml:id="l.136">tartsa magát rendében,</l>
+<l xml:id="l.137">hazamban dolgozzon <metamark function="cesura"/> mindenre vigiazzon</l>
+<l rend="level_6" xml:id="l.138">ugy leszen bötsűlletben.</l>
+</lg>
+<lg xml:id="lg.24">
+<l xml:id="l.139">Pompat ne szeressen, <metamark function="cesura"/> mint szent Aszony éljen</l>
+<l rend="level_6" xml:id="l.140">kevelseget utaljon,</l>
+<l xml:id="l.141">mindent meg bötsűljön, <metamark function="cesura"/> az templomban menniön</l>
+<l rend="level_6" xml:id="l.142">ott Istennec szolgaljon,</l>
+<l xml:id="l.143">kegies indulattal <metamark function="cesura"/> alamisnajaval</l>
+<l rend="level_6" xml:id="l.144">szegenieket taplaljon.</l>
+</lg>
+<p xml:id="p.5"><hi rend="smallcap">Προσφώνησις.</hi><note type="critic" xml:id="note.12">A görög szó jelentése: Felszólítás.</note></p>
+<lg xml:id="lg.25">
+<l xml:id="l.145">Pragai Susannam <metamark function="cesura"/> edes Majorannam</l>
+<l rend="level_6" xml:id="l.146">az Istent teis aldgiad,</l>
+<l xml:id="l.147">hog’ Miskolci Istvant <metamark function="cesura"/> az kit szived kivant</l>
+<l rend="level_6" xml:id="l.148">immar férjednec mondhad:</l>
+<l xml:id="l.149">soc kerezted után <metamark function="cesura"/> giaszodot le vonván</l>
+<l rend="level_6" xml:id="l.150">mert lészen edes atiad.</l>
+</lg>
+<lg xml:id="lg.26">
+<l xml:id="l.151">Ezt hogy ebben hadgiuc, <metamark function="cesura"/> jer mind ketten mondgiuc:</l>
+<l rend="level_6" xml:id="l.152">Aldot légy Uram Isten,</l>
+<l xml:id="l.153">hog’ meg adtad társom <metamark function="cesura"/> es szememmel látom</l>
+<l rend="level_6" xml:id="l.154">velem űlni egy székben:</l>
+<l xml:id="l.155">Ald meg életűnket <metamark function="cesura"/> -s- holtunc utan minket</l>
+<l rend="level_6" xml:id="l.156">vigy az öröc életben.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

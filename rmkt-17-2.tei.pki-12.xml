@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">12.</title>
+<title key="body" n="12" type="main">(Ne hadgy Ur Isten kérlek el-vesznem bünömben...)</title>
+<author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.pki-12</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1">
+<p xml:id="crit.1.p.1">Nyomtatott kiadásai:</p>
+<p xml:id="crit.1.p.2">I. <bibl><hi rend="bold">Istenes Énekek. <placeName>Lőcse<idno type="ITIdata">Q8066</idno></placeName>
+<date when="1671">1671.</date></hi> 480–3.</bibl> – Címe: Mas.</p>
+<p xml:id="crit.1.p.3">II. <bibl><hi rend="bold">Istenes Énekek. <placeName>Lőcse</placeName>
+<date when="1670">1670.</date></hi> 327–9.</bibl> – Címe ugyanaz.</p>
+<p xml:id="crit.1.p.4">III. <bibl><hi rend="bold">Istenes Énekek. <placeName>Kolozsvár<idno type="ITIdata">Q258</idno></placeName>
+<date when="1677">1677.</date></hi> 253–5.</bibl> – Címe ugyanaz.</p>
+<p xml:id="crit.1.p.5">IV. <bibl><hi rend="bold">Istenes Énekek. <placeName>Bártfa<idno type="ITIdata">Q6211</idno></placeName>
+<date from="1635" to="1640">1635–40.</date></hi> 334–7.</bibl> Kiad.
+                                <bibl><hi rend="smallcaps">Vasáry</hi> 52</bibl>; <bibl><abbr><hi rend="smallcaps">Dézsi</hi>: Balassa munkái II</abbr>,
+                            339–42.</bibl> – Címe ugyanaz.</p>
+<p xml:id="crit.1.p.6">A versfők nem tartalmazzák a szerző nevét, ezért <bibl><hi rend="smallcaps">Vasáry</hi> (i. m. 32.)</bibl>
+                        bizonytalannak tartja Pécseli Király szerzőségét és egy sor hasonlóságára hivatkozva lehetségesnek látja, hogy <persName>Czemeki Mátyás</persName>
+                        szerzeménye. Mivel azonban ez az ének Pécseli neve alatt és kétségtelen hitelű versei közé beágyazva olvasható a kiadásokban,
+                        nincs okunk tőle elvitatni.</p>
+</note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Istenes Énekek. Lőcse 1671. 480–3.</witness>
+<witness xml:id="II">Istenes Énekek. Lőcse 1670. 327–9.</witness>
+<witness xml:id="III">Istenes Énekek. Kolozsvár 1677. 253–5.</witness>
+<witness xml:id="IV">Istenes Énekek. Bártfa 1635–40. 334–7.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 12.</fw>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1">Ne hadgy Ur Isten kérlek el-vesznem bünömben,</lem>
+<rdg wit="#IV" xml:id="rdg.1">[<hi rend="italic">bünömben</hi> hiányzik]</rdg>
+</app></l>
+<l xml:id="l.2">Söt légy kegyelmes és engedelmes énnékem,</l>
+<l xml:id="l.3">Te szent Fiadnak Jesus Christusnak szent haláláért fogadásáért,</l>
+<l xml:id="l.4">Mert ha meg nem szánsz, elöled el-hánsz, jaj nékem.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Tsalárdságomért, álnokságomért olly ora,</l>
+<l xml:id="l.6">Nints melyben szivem, tellyes életem halálra,</l>
+<l xml:id="l.7">Hogy nem rettegne és nem reszketne, hogy bünöm halma gondolatimra,</l>
+<l xml:id="l.8">Omlik mint edgy hegy, kin szivem tsak nyeg ohajtva.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Légy meg szánoja, szabaditoja árvádnak,</l>
+<l xml:id="l.10">Hozzád kiáltó kegyelem váró fiadnak,</l>
+<l xml:id="l.11">Oltalmazoja erös hadnagya, légy szólgálodnak bünös fiának,</l>
+<l xml:id="l.12">Nagy zokogással, téged szép szóval áldónak.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Végy bé kedvedben és kegyelmedben szent Atyám,</l>
+<l xml:id="l.14"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Mint a’ Davidot Péter szolgád<corr>o</corr>t Jehovám,</lem><rdg wit="#I #II #III" xml:id="rdg.2">szolgádat<note type="critic" xml:id="note.1">hibás belső rím</note></rdg><rdg wit="#IV" xml:id="rdg.3">az; szolgádot</rdg></app></l>
+<l xml:id="l.15">Te Szent Fiadnak Jesus Christusnak halálát nézvén kit értem-is tén,</l>
+<l xml:id="l.16">Teste szakadván, szent vére hulván kereszt-fán.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Drága intésed, ritkán törvényed szivemben,</l>
+<l xml:id="l.18">Erzettem Uram, kiért várom rám szüntelen,</l>
+<l xml:id="l.19"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">Istenségednek mint teremtömnek haragját félvén gyakran s’ rettegvén,</lem><rdg wit="#III" xml:id="rdg.4">s’ gyakran</rdg></app></l>
+<l xml:id="l.20">Melly ha rám omlik jaj mint el bomlik életem.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Meg-szabaditó kegyelem adó bölts Isten,</l>
+<l xml:id="l.22">Alázatossan bizodalmassan szüntelen,</l>
+<l xml:id="l.23"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">Adgyad el nyernem, Felsęged kérem, szent országodat, nézvén ortzádat,</lem><rdg wit="#II" xml:id="rdg.5">nyerjem</rdg></app></l>
+<l xml:id="l.24"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">Mert romlásomra, vagyon nagy búmra e’ világ.</lem><rdg wit="#IV" xml:id="rdg.6">ez</rdg></app></l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Tsillagok szerzö, Nap, Hold epitö szent Isten,<note type="critic" xml:id="note.2">Hasonló sor
+                            van <persName>Czemeki Mátyás</persName> versében: „Égteremtő, nap-,
+                            hóldszerző, csillagépítő”. (<bibl><abbr><hi rend="smallcaps">Dézsi</hi>:
+                                    Balassa munkái II</abbr>, 360.</bibl>)</note></l>
+<l xml:id="l.26">Légyen ditsössęg és nagy tisztessęg mindenben,</l>
+<l xml:id="l.27"><app xml:id="app.6">
+<lem wit="#KK" xml:id="lem.6">Istenségednek mint teremtömnek, ki uralkodol
+                                <corr>hatalmaskodol</corr>,</lem>
+<rdg wit="#I #II #IV" xml:id="rdg.7">[<hi rend="italic">hatalmaskodol</hi>
+                                hiányzik]</rdg>
+</app></l>
+<l xml:id="l.28">Földön és mennyen a’ nagy tengeren erössen.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

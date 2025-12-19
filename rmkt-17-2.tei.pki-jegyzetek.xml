@@ -1,0 +1,1731 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title key="supplement" n="1" type="main">Pécseli Király Imre</title>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.pki-jegyzetek</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="text" xml:id="d.1" xml:lang="hu">
+<head type="title">PÉCSELI KIRÁLY IMRE</head>
+<p xml:id="p.1"> ÉLETE</p>
+<p xml:id="p.2">Nevét és születési helyét illetően a szakirodalomban eltérő nézetek találhatók,
+                    pedig <persName><hi rend="smallcaps">Kálmán Farkas</hi><idno type="ITIdata">Q46110</idno></persName> ezt a kérdést <date when="1883">1883-ban</date> már
+                    kielégítően tisztázta. (<bibl>Pécseli-e vagy Péczeli? Debreceni Prot. Lap 1883,
+                        247–8.</bibl>) Eszerint születési helye a
+                    <placeName>Balatonfüredtől<idno type="ITIdata">Q14812</idno></placeName> nyugatra fekvő
+                    <placeName>Nagypécsely<idno type="ITIdata">Q21603</idno></placeName> község volt, amely eredetileg két külön
+                    faluból, <placeName>Nemespécselből<idno type="ITIdata">Q14371</idno></placeName> és
+                    <placeName>Pécselből<idno type="ITIdata">Q13255</idno></placeName> állt. A XIX. század elejének neves
+                    egyháztörténésze, <persName><hi rend="smallcaps">Tóth Ferenc</hi><idno type="ITIdata">Q246721</idno></persName> is jól tudta már Pécseli
+                    származását: <title><hi rend="italic">Analectá</hi></title>-iban egy ízben
+                    ,,Petzeli Imre de Nagy Pétsel”-nek nevezi őt. (<bibl>OSZK Fol. Hung. 936. V,
+                        83a.</bibl>) Költőnk pécselyi származásának legfontosabb bizonyítéka
+                    <persName>Kanizsai Pálfi Jánosnak<idno type="ITIdata">Q243295</idno></persName> egy <date when="1621-09-08">1621. szept.
+                        8-án</date>
+<placeName>Pápáról<idno type="ITIdata">Q23406</idno></placeName> hozzá írt levele, melyben közli, hogy a költő
+                    anyja aziránt érdeklődik, miként akar fia a <placeName>Peczel<idno type="ITIdata">Q10924</idno></placeName> és
+                    <placeName>Vaszely<idno type="ITIdata"/></placeName> szőlőhegyein fekvő apai örökségéről
+                    intézkedni. Az itt említett <placeName>Vaszely</placeName> nem lehet más, mint a
+                    mai <placeName>Vászoly<idno type="ITIdata">Q10957</idno></placeName> nevű település, mely egy órányira fekszik
+                    <placeName>Pécselytől</placeName>. (<bibl><hi rend="smallcaps">Kálmán Farkas</hi> i. h.</bibl>)
+                    <persName>Király Imre<idno type="ITIdata">Q149638</idno></persName> általában Peczeli-nek írta nevét; a <hi rend="italic">cz</hi> azonban a XVII. század elején gyakran a <hi rend="italic">cs</hi> jele volt. Hogy ő így ejtette, azt legkorábbi versének
+                    (lásd 1. sz. alatt) a versfői is bizonyítják, mert PETSELI alakban őrzik a
+                    nevét. Tévesek ezért <persName><hi rend="smallcaps">Vasáry Dániel</hi></persName> fejtegetései, aki a
+                    Péczeli alak mellett kardoskodik és a Vas megyei <placeName>Peczöl<idno type="ITIdata">Q17716</idno></placeName>
+                    községben keresi születési helyét. (<bibl><title>Péczeli Király Imre élete és
+                            énekei</title>. Esztergom 1907. 4–5.</bibl>) Helyesen jelölte meg
+                    viszont származását <persName><hi rend="smallcaps">Cs. Tóth Kálmán</hi><idno type="ITIdata">Q240599</idno></persName> a mai balatonmelléki
+                        <placeName>Pécselyben</placeName>, de állítását téves adattal igyekezett
+                    bizonyítani. Szerinte ugyanis a <title><hi rend="italic">Csurgói
+                        graduál</hi></title>-ban olvasható a következő névbejegyzés: ,,Emericus
+                    Regius Nemes Pecselianus.” (<bibl><title>A református gyülekezeti
+                            éneklés</title>. Bp. 1950. 404.</bibl>) A <title><hi rend="italic">Csurgói graduál</hi></title> 53a lapján olvasható bejegyzés azonban
+                    félreérthetetlenül a ,,Michael Kecskeme… Nemes Pecselyian..” nevet tartalmazza.
+                    <persName>Kecskeméty Mihály<idno type="ITIdata">Q146926</idno></persName>, kinek neve az 53b lapon is kétszer
+                    előfordul, a kódex egy pécselyi származású későbbi tulajdonosa lehetett. –
+                        Király Imre születési évét nem ismerjük, de mivel
+                        <date when="1608">1608-ból</date> való legrégibb verse, s <date when="1609">1609-ben</date> kezdte
+                    meg egyetemi tanulmányait, arra következtethetünk, hogy <date when="1590">1590</date> táján
+                    születhetett.</p>
+<p xml:id="p.3">Miután semmi adat sem árulkodik esetleges nemesi származásáról, valószínűleg nem
+                    a nemes községnek, <placeName>Nemespécselnek</placeName>, hanem a
+                    jobbágytelepülésnek, <placeName>Pécselnek</placeName> a szülötte volt. Ekkoriban
+                    ez utóbbi is jelentékeny hely, oppidum (mezőváros), ahol <persName><hi rend="smallcaps">Tóth
+                        Ferenc</hi></persName> szerint ,,virágzó városi reformáta Ekklésia” volt.
+                    (<bibl><hi rend="smallcaps">Kálmán Farkas</hi> i. h.</bibl>; <bibl><hi rend="smallcaps">Vasáry</hi> 6.</bibl>) Király
+                        Imre jobb módú szőlőtulajdonos mezővárosi polgár-családból
+                    származhatott s iskolai tanulmányait is feltehetően már szülőhelyén megkezdte.
+                    Iskolai tanulmányainak igazi színhelye azonban <placeName>Pápa</placeName> volt,
+                    hiszen itt volt a szülőfalujához legközelebb eső nevezetes református iskola.
+                        <date when="1608">1608-ban</date> írt első ismert versét is
+                        <placeName>Pápáról</placeName> keltezte s <persName>Szenczi Szijgyártó
+                            Lukács<idno type="ITIdata">Q492255</idno></persName>
+<date when="1610-06-07">1610. július 7-én</date> kelt levelében arra hívta fel <persName>Molnár
+                        Albert<idno type="ITIdata">Q49167</idno></persName> figyelmét, hogy a pápai viszonyokról a kint tanuló Pécseli
+                    Királytól szerezhet értesüléseket. Pápai tanulóévei azonban nem lehettek
+                    zavartalanok: a pápai vallon zsoldosok 1600. évi lázadása anarchikus állapotokat
+                    teremtett, s az iskola működését is jó időre megakasztotta. Ekkor a Dunától
+                    északra fekvő <placeName>Somorján<idno type="ITIdata">Q20525</idno></placeName> folytatta tanulmányait, ugyanis
+                    <persName>Szijgyártó Lukács<idno corresp="Szenczi Szijgyártó                         Lukács"/></persName>, aki az <date from="1602" to="1604">1602–4</date> és
+                        <date from="1605" to="1607">1605–7</date> években somorjai rektor volt,
+                        <persName>Molnárhoz<idno corresp="Szenczi Molnár Albert"/></persName>
+<date when="1611-05-07">1611. május 7-én</date> írt levelében őt mint ,,mihi discipulum quondam
+                    charissimum”-ot ajánlja figyelmébe. Igaz, hogy <persName>Szijgyártó<idno corresp="Szenczi Szijgyártó                         Lukács"/></persName>
+<date from="1604" to="1605">1604–5-ben</date> a nagymegyeri iskolában tanított, valószínűbb azonban,
+                    hogy Király Imre a nevezetesebb somorjai iskolában volt a
+                    növendéke. (<bibl><hi rend="smallcaps">Dézsi</hi>: Szenczi Molnár levelezése 311, 348.</bibl>)
+                    <persName><hi rend="smallcaps">Vasáry Dániel</hi></persName> (<bibl>i. m. 7.</bibl>) szerint
+                    <placeName>Komáromban<idno type="ITIdata">Q19695</idno></placeName> is járt iskolába, állítása azonban Pécseli
+                    retorikája ajánlásának félreértésén alapul, ebben ugyanis komáromi tanító
+                    (didascalus voltáról ír. Az említett ajánlás kétségkívül bizonyítja, hogy
+                    tanulóévei után <placeName>Komáromban</placeName> lett tanító. Így írja ezt
+                    <persName><hi rend="smallcaps">Thury Etele</hi><idno type="ITIdata">Q151417</idno></persName> (<bibl><title>A révkomáromi ev. ref. egyház
+                        története</title>. Bp. 1881. 22.</bibl>) és <persName><hi rend="smallcaps">Zoványi</hi><idno type="ITIdata">Q50694</idno></persName>
+                        (<bibl>Zovlex 348.</bibl>) is, aki szerint Pécseli már rektor is volt.
+                    Mindkettőjük szerint <date when="1609">1609-ig</date>, külföldi tanulmányútjára való
+                    távozásáig, három évet szolgált a komáromi iskolában. Ez azonban aligha
+                    lehetséges, mert <persName>Kanizsai Pálfi János</persName> feljegyzései szerint
+                    <date from="1607-06" to="1607-08">1607. nyarán</date> ő még <persName>Laskai János<idno type="ITIdata">Q156083</idno></persName> rektor
+                    vesszeje alatt végezte itt tanulmányait. A három évre vonatkozó adat feltehetően
+                    szintén Pécseli retorikájára megy vissza; ennek ajánlásában azonban nem komáromi
+                    három évére, hanem külföldi tanulmányainak harmadik esztendejére utal. (Szövegét
+                    lásd a függelékben.) Annyi azonban bizonyos, hogy <date from="1609-03" to="1609-05">1609. tavaszán</date>,
+                    midőn külföldre elindult, már rektora volt a komáromi iskolának, mert így említi
+                    őt <persName>Szenczi Szijgyártó Lukács</persName> már idézett levelében. Meg
+                    kell még jegyeznünk, hogy teljesen alaptalan <persName><hi rend="smallcaps">Szendrey
+                        Imré</hi>nek<idno type="ITIdata">Q74003</idno></persName> az az állítása, hogy Pécseli Király a század elején már
+                    komáromi lelkész volt és csak azután, <persName>Bölcskei Istvánnak</persName>
+                    (<persName><hi rend="smallcaps">Szendrey</hi>nél</persName> helytelenül: Pölöskey) átadva helyét, lett
+                    az iskola igazgatója. (<bibl><title>A révkomáromi ev. ref. főiskola
+                            története</title>. Komárom 1898. 8.</bibl>) Hasonlóképpen nem igaz
+                    <persName><hi rend="smallcaps">Ipolyi Arnold</hi><idno type="ITIdata">Q50926</idno></persName> adata, mely szerint költőnk tatai
+                    iskolamester volt. (<bibl><title>Veresmarty Mihály élete és munkái</title>. Bp.
+                        1875. 305.</bibl>) <persName><hi rend="smallcaps">Ipolyi</hi><idno corresp="Ipolyi Arnold"/></persName>
+<title><hi rend="italic">Veresmarty Megtérése históriájá</hi></title>-ban azt
+                    olvasta, hogy a <persName>Veresmarty<idno type="ITIdata">Q50294</idno></persName> kételyei megvitatására összeült
+                        <date when="1609-11-17">1609. november 17-i</date> komjáti zsinaton résztvett Emericus N.
+                    tatai prédikátor. (<bibl><hi rend="smallcaps">Ipolyi</hi>-kiad. 129.</bibl>) Ezt a személyt kontaminálta
+                    Pécseli Királlyal, akiről tudta, hogy ezidőtájt tanító volt. Egyébként az
+                    említett zsinaton Király nem is lehetett jelen, hiszen <date from="1609-03" to="1609-05">1609.
+                        tavaszán</date> már külföldre utazott.</p>
+<p xml:id="p.4">
+<date when="1609-05">1609 májusában</date> Pécseli Király Imre Németországba indult, hogy
+                    tanulmányait a heidelbergi egyetemen folytassa. A lehetőséget erre a komáromi
+                    városi és egyházi elöljárók teremtették meg, akik – mint <persName>Szenczi
+                        Szijgyártó<idno corresp="Szenczi Szijgyártó Lukács"/></persName> írja – „unanimi consensu” határozták el szép
+                    reményekre jogosító rektoruk akadémiára küldését. Hálásan emlékezik meg erről ő
+                    maga is retorikájának előszavában. Elutazása előtt
+                    <placeName>Komjátiban<idno type="ITIdata">Q7105</idno></placeName> járt és találkozott az ott lelkészkedő,
+                    kételyeivel viaskodó <persName>Veresmartyval<idno corresp="Veresmarti Mihály"/></persName>, aki írásban is
+                    összefoglalta már a református hittételekkel szembeni ellenvetéseit.
+                    <persName>Veresmarty<idno corresp="Veresmarti Mihály"/></persName> így emlékezett vissza erre a találkozásra
+                            <title><hi rend="italic">Megtérése históriájá</hi></title>-ban:
+                    „Samarjaival ekkor méne fel Heidelbergába tanuságra Péczeli Imrö is, kinek
+                    minthogy már kezökbe forgó irásom fölött szóval is adtam vala eleibe
+                    valamelyeket akadékom okairól, szinte utra eredtébe Komjátira jüvén, monda
+                    magamnak, hogy által látta dolgomat, s vészi eszébe, hogy nincs ok nélkül; de
+                    neki is oda létébe gondja lészen reá, és azért, ha nem bánom, irásomat is
+                    elviszi magával s proponálja Pareusnak és a több doktoroknak. Akartam s Isten
+                    hírével bocsátottam.” (<bibl><hi rend="smallcaps">Ipolyi</hi>-kiad. 66.</bibl>)</p>
+<p xml:id="p.5">Kiváló útitársai voltak: <persName>Kanizsai Pálfi János</persName>, a somorjai
+                    rektorságban <date from="1607">1607 óta</date>
+<persName>Szenczi Szijgyártó<idno corresp="Szenczi Szijgyártó Lukács"/></persName> utóda, és <persName>Samarjai
+                        János<idno type="ITIdata">Q159936</idno></persName> szenei rektor. Egy életre szóló barátságot kötöttek útjuk
+                    alkalmával és később a nyugatmagyat országi református szellemi élet legkiválóbb
+                    alakjai lettek. <persName>Szenczi Szijgyártó<idno corresp="Szenczi Szijgyártó Lukács"/></persName> joggal ajánlhatta őket
+                    az ekkor <placeName>Marburgban<idno type="ITIdata">Q12475</idno></placeName> tartózkodó <persName>Molnár
+                        Albertnek<idno corresp="Szenci Molnár Albert"/></persName>, Pécseli Király támogatását külön nyomatékkai kérve
+                    tőle: „Rogo, eum in omnibus admonere, informare et dirigere ne gravare,
+                    accepturus gratitudinis stipendium a nobis, a Deo vero satisfactionis
+                    retributionem nunquam interituram.” (<bibl><hi rend="smallcaps">Dézsi</hi>: <title>Szenczi Molnár
+                            levelezése</title> 310–1.</bibl>)</p>
+<p xml:id="p.6"><persName>Kanizsai Pálfi<idno corresp="Kanizsai Pálfi János"/></persName> feljegyzéseiből pontosan tudjuk, hogy
+                    <date when="1607-05-24">május 24-én</date> értek <placeName>Linzbe<idno type="ITIdata">Q22537</idno></placeName>, majd <date when="1607-05-25">25-én</date> Passauba;
+                    <date when="1607-05-27">27-én</date> <placeName>Regensburgban<idno type="ITIdata">Q22187</idno></placeName>, <date when="1607-05-28">28-án</date> már Nürnbergben voltak,
+                    s <date when="1607-06-03">június 3-án</date> érkeztek meg <placeName>Heidelbergbe<idno type="ITIdata">Q9484</idno></placeName>. (<bibl>TT 1909, 451.</bibl>) Ezzel az
+                    utóbbi dátummal ellentétben van az egyetemi anyakönyv adata, mely szerint
+                    <persName>Joannes Paulides Canisaeus</persName>, <persName>Emericus Regius
+                        Peczelius</persName> és <persName>Johannes Matthäus Samaraeus</persName>
+<date when="1609-05-30">1609. május 30-án</date> iratkoztak be. (<bibl><hi rend="smallcaps">Toepke</hi>: <title>Die Matrikel
+                            der Universität Heidelberg von 1386 bis 1662. II.</title> Heidelberg
+                        1886. 245.</bibl>) Heidelbergi tanulmányaikról is
+                    <persName>Kanizsai<idno corresp="Kanizsai Pálfi János"/></persName> tájékoztat röviden: „Ibique operam impendimus
+                    in Collegiis privatis. Logicae quidem sub M. Georgio Pauli dantiscano, Physicae
+                    sub Magistro Rectore Joanne JodocoMedicinae doctore, S.S. vero Theologiae sub
+                    doctoribus clarissimis D. Davide Pareo, D. Quirino Reutero, D. Bartholomaeo
+                    Coppenio.” (I. h.) <persName>Pareusról<idno type="ITIdata">Q492252</idno></persName>,
+                    <persName>Quirinusról<idno type="ITIdata">Q219331</idno></persName> és <persName>Coppeniusról<idno type="ITIdata">Q492256</idno></persName>
+                    Pécseli Király is megemlékezik retorikájának előszavában. Közülük nyilván a
+                    legnagyobb hatást a protestáns vallások uniójának létrehozásán fáradozó
+                        <persName>Pareus<idno corresp="Pareus Dávid"/></persName> gyakorolta rá, aki ekkor a heidelbergi szellemi
+                    élet egyik vezére, s a magyar diákok nagy pártfogója. (A heidelbergi szellemi
+                    életről lásd <bibl><hi rend="smallcaps">Turóczi Trostler József</hi> tanulmányát: <title>Szenczi Molnár
+                            Albert Heidelbergben</title>. FK 1955.</bibl>) Király Imre négy egyetemi
+                    disputációjárói tudunk, melyek megjelentek <persName>Pareus<idno corresp="Pareus Dávid"/></persName>
+<title><hi rend="italic">Collegium theologicorum</hi></title> c. gyűjteményének
+                    I. (<placeName>Heidelberg</placeName>
+<date when="1611">1611</date>.) illetve II. (<placeName>Heidelberg</placeName>
+<date when="1620">1620</date>.) kötetében. (Vö. <bibl>EM 1908, 226.; 1910, 294–5.</bibl>) Ezek a
+                    következők: <title><hi rend="italic">De baptismo</hi></title> (<date when="1609-07-02">1609. júl.
+                        2.</date>–I, 773–7.); <title><hi rend="italic">De veritatibus et
+                            falsitatibus Bellarmini, circa canonem S. Scripturarum, libro I. de
+                            verbo Dei assertis</hi></title> (<date when="1609-09-30">1609. szept. 30.</date>–II,
+                    389–96.); <title><hi rend="italic">De vanitatibus Bellarmini circa controversiam
+                            de sacramento baptismi: et de confirmatione. Libro I. et II. de
+                            baptismo</hi></title> (<date when="1610-02-10">1610. febr. 10.</date>–II, 503–10.);
+                            <title><hi rend="italic">De vanitatibus Bellarmini circa controversiam
+                            de necessitate et justitia operum: Libro IV. de justic.</hi></title>
+                        (<date when="1610-07-01">1610. júl. 1.</date>–II, 598–605.) Szorosabban vett egyetemi
+                    tanulmányait – két társával egyidőben – <date when="1610">1610-ben</date> már be is
+                    fejezhette, ők ez év második felében már haza is tértek. Pécseli Király azonban
+                    továbbra is kint maradt, és bekapcsolódott a kint tartózkodó magyarok
+                    tudományos, irodalmi tevékenységébe.</p>
+<p xml:id="p.7">Nem lehetetlen azonban, hogy <date from="1610-03" to="1610-05">1610 tavaszán</date> rövid időre
+                    hazalátogatott. <date when="1611">1611-ben</date>
+<placeName>Frankfurtban<idno type="ITIdata">Q387</idno></placeName>
+<persName>Pareus<idno corresp="Pareus Dávid"/></persName> előszavával jelent meg <persName>Újfalvi Katona
+                        Imre<idno type="ITIdata">Q160773</idno></persName> gönci prédikátor <title><hi rend="italic">Tractatus de
+                            Patrum, Conciliorum, Traditionum Authoritate circa Fidei Dogmata: cultus
+                            item moresque vivendi</hi></title> című munkája. (<bibl><abbr>RMK I</abbr>II,
+                                1095.</bibl>) Ennek kéziratát <persName>Pareus<idno corresp="Pareus Dávid"/></persName>
+<date when="1611-07">1611 júliusában</date> kelt előszava szerint Király
+                        Imre hozta Magyarországról az előző (tehát <date when="1610-05">1610.) év
+                            májusában</date>, <persName>Katona<idno corresp="Újfalvi Katona                                 Imre"/></persName> levelével együtt, melyben az
+                    könyve kiadását kéri. Ha <persName>Pareus<idno corresp="Pareus Dávid"/></persName> nem pontatlan, akkor ebből
+                    Pécseli Király <date when="1610">1610-ben</date> történt hazai látogatása következik.
+                    <persName>Katona Imre<idno corresp="Újfalvi Katona                         Imre"/></persName> egyébként nem érte meg könyve megjelenését,
+                        <date from="1610-09" to="1610-11">1610 őszén</date> meghalt; s Pécseli latin gyászversben búcsúzott
+                    tőle.</p>
+<p xml:id="p.8">Heidelbergi tanulmányai után <placeName>Marburgban</placeName> és
+                    <placeName>Oppenheimban<idno type="ITIdata">Q350095</idno></placeName> dolgozhatott <persName>Molnár
+                            Albert<idno corresp="Szenci Molnár Albert"/></persName> társaságában. Valószínűleg része volt
+                        <persName>Molnár<idno corresp="Szenci Molnár Albert"/></persName>
+<date when="1612">1612.</date> évi oppenheimi bibliakiadása (<bibl><abbr>RMK I</abbr>, 434–5.</bibl>)
+                    énekeskönyv-függelékének összeállításában; ebben egy saját verse is megjelent.
+                    (Lásd a <ref target="rmkt-17-2.tei.pki-3">3. sz.</ref> ének jegyzeteit.) Ugyancsak
+                        <placeName>Oppenheimben</placeName>
+<date when="1612">1612-ben</date> jelent meg <title><hi rend="italic">Retoriká</hi></title>-ja, a század egyik legnépszerűbb magyarországi tankönyve.
+                        (<bibl><abbr>RMK I</abbr>II, 1112.</bibl>) Ebbe nemcsak <persName>Simon
+                        Stenius</persName>, a heidelbergi retorika-professzor, hanem
+                    <persName>Goclenius<idno type="ITIdata">Q470231</idno></persName>, a marburgi egyetem nagy hírű rektora is írt
+                    üdvözlő verset, Pécseli Király tehát, nyilván <persName>Molnár<idno corresp="Szenci Molnár Albert"/></persName>
+                    közvetítésével, vele is megismerkedett. Az ő és társai irodalmi tevékenységére
+                    itthon is számítottak. <persName>Makai Máté</persName>
+<date when="1610-02-10">1610. február 10-én</date> írja <persName>Molnárnak<idno corresp="Szenci Molnár Albert"/></persName>, hogy a
+                    nagyszombati reformátusok kiküldték <placeName>Heidelbergbe</placeName>
+<persName>Donatus Visartus</persName>
+<title><hi rend="italic">De fide Jesu et Jesuitarum</hi></title> című könyvét,
+                    hogy Pécseli Király, <persName>Samarjai<idno corresp="Samarjai János"/></persName> és
+                    <persName>Kanizsai Pálfi<idno corresp="Kanizsai Pálfi János"/></persName> azt magyarra fordítsák. Egy évvel
+                    később, <date when="1611-02-22">1611. február 22-én</date>
+<persName>Rátkay György</persName> nagyszombati lelkész sürgeti a Pécselinek
+                    küldött könyv fordítását. (<bibl><hi rend="smallcaps">Dézsi</hi>: Szenczi Molnár levelezése 337,
+                        366.</bibl>) Ennek a megbízásnak, nem tudni mi okból, Pécseliék nem tettek
+                    eleget, s a könyv <persName>Kecskeméti C. János<idno type="ITIdata">Q248477</idno></persName> fordításában csak
+                        <date when="1619">1619-ben</date> látott napvilágot magyarul. (<bibl><abbr>RMK I</abbr>,
+                    484.</bibl>)</p>
+<p xml:id="p.9">Németországi tartózkodása alatt Pécseli Király a magyar
+                    szellemi élet akkori leghaladóbb körének tagja lett. <persName>Molnár
+                        Alberttel<idno corresp="Szenci Molnár Albert"/></persName> ezután sem szakadtak meg kapcsolatai; a heidelbergi
+                    mintára presbitériumokat szervező <persName>Kanizsai Pálfi<idno corresp="Kanizsai Pálfi János"/></persName>, valamint
+                    a <persName>Pareus<idno corresp="Pareus Dávid"/></persName> unionista nézeteit Magyarországon képviselő
+                    <persName>Samarjai<idno corresp="Samarjai János"/></persName> törekvéseit később is mindig támogatta. A
+                    nyugatnémetországi református egyetemek ekkor a késő-humanista költészet
+                    tűzhelyei is voltak, ami Pécseli Király költői munkásságára
+                    hathatott termékenyítően. <persName>Simon Stenius</persName> a retorika mellett
+                    a poétikát is tanította, s Pécseli az ő vezetésével
+                    valószínűleg rendszeres költői tanulmányokat is folytatott. A hazatérésre
+                    készülő ifjút jól jellemzi az a kis üdvözlő vers, melyet retorikája elé
+                    <persName>Szenczi Molnár<idno corresp="Szenci Molnár Albert"/></persName> írt, <placeName>Oppenheimban</placeName>
+<date when="1611-10-24">1611. okt. 24-én</date>. Ebben a vallásos és világi tudomány iránt
+                    egyaránt való érdeklődését emeli ki, vagyis azt, ami az ő programja is volt. A
+                    szótár- és grammatika-író <persName>Molnár<idno corresp="Szenci Molnár Albert"/></persName> saját eszméinek követőjét
+                    láthatta a retorika-író Pécseli Királyban:</p>
+<l xml:id="l.1">Quandò sacris studiis, humanam rite Sophiam</l>
+<l xml:id="l.2">Péczeli, conjungis, te bonus omnis amat.</l>
+<l xml:id="l.3">Rhetoricenque placet divae junxisse Poësi,</l>
+<l xml:id="l.4">Queis studiis Patriae commoda multa feres.</l>
+<l xml:id="l.5">Dum populo pandes sacri mysteria Verbi,</l>
+<l xml:id="l.6">Et cultis juvenes artibus erudies,</l>
+<l xml:id="l.7">Jam manifesta tui dudùm documenta dedisti</l>
+<l xml:id="l.8">Ingenii dextri, carmine, voce, stylo.</l>
+<l xml:id="l.9">Sed majora tuae doctrinae fert monimenta,</l>
+<l xml:id="l.10">Et spem praeclaram nos docet iste liber.</l>
+<p xml:id="p.10">Költőnk hazatérésének pontos dátumát nem ismerjük. <persName><hi rend="smallcaps">Zoványi</hi><idno corresp="Zoványi Jenő"/></persName>
+                    szerint már <date when="1611">1611-ben</date> komáromi állomáshelyén volt, de ez tévedés. A
+                    komáromiak ugyanis <date when="1611-01-08">1611. január 8-án</date> arra kérik a már <date when="1610-11">1610
+                        novemberében</date>
+<placeName>Somorjára</placeName> visszatért <persName>Kanizsai
+                        Pálfit<idno corresp="Kanizsai Pálfi                             János"/></persName>,hogy foglalja el iskolájuk rektori székét addig, míg
+                        Pécseli külföldről hazajön. Egyidejűleg a somorjai
+                    tanácsot is kérik rektoruk átengedésére. <persName>Kanizsai Pálfi
+                        János</persName>
+<date when="1611-01-21">január 21-én</date> át is vette a komáromi iskola vezetését, és mint
+                    itteni rektort említi <persName>Szenczi Szijgyártó Lukács</persName>
+<date when="1611-08-28">1611. augusztus 28-án</date>
+<persName>Molnárhoz<idno corresp="Szenczi Molnár Albert"/></persName> írt levelében is. Bizonyára <date to="1612-06">1612.
+                        júniusáig</date> maradt a helyén, mert a pápaiak meghívására, <date when="1612-06-01">június
+                            1-én</date> ment oda papnak. (<bibl><hi rend="smallcaps">Fabó</hi>: Codex evangelicorum Pest 1869.
+                        48–51</bibl>; <bibl><abbr>MPEtA</abbr> IV, 51–2</bibl>; <bibl>TT 1909, 452–3</bibl>;
+                    <bibl><hi rend="smallcaps">Dézsi</hi>: Szenczi Molnár levelezése 370.</bibl>) <date when="1612">1612 közepe</date>
+                    előtt tehát Pécseli aligha lehetett még itthon, ezt
+                    retorikájának ez évi oppenheimi kiadása sem tette volna lehetővé. Az év végén
+                    azonban már itthon volt, mert részt vett az ekkor tartott ürményi zsinaton, ahol
+                    az oda betoppanó már katolizált <persName>Veresmartyval<idno corresp="Veresmarti Mihály"/></persName> heves
+                    polémiába keveredett. A zsinaton éppen <persName>Lengyel Miklós</persName> papi
+                    vizsgája folyt, amikor <persName>Veresmarty<idno corresp="Veresmarti Mihály"/></persName> beleelegyedett a vitába,
+                    de Pécseli társa segítségére sietett erélyesen.
+                    <persName>Veresmarty<idno corresp="Veresmarti Mihály"/></persName> erről keserű szavakkal emlékezett meg
+                            <title><hi rend="italic">Megtérése históriájá</hi></title>-ban: „soha
+                    nem láttam vala, hogy ember ebbe orcátlanabbul cselekedjek mint Péczeli”.
+                    (<bibl><hi rend="smallcaps">Ipolyi</hi>-kiad. 268</bibl>; <bibl><hi rend="smallcaps">Thury</hi>: A dunántúli ref. egyházkerület
+                        története. Pápa 1908. 132–3.</bibl>) Mivel <persName>Szenczi Molnár
+                            Albert<idno corresp="Szenci Molnár Albert"/></persName> rövidebb hazai látogatásra éppen <date when="1612-08">1612.
+                        augusztusában</date> indult el, és szeptemberben érkezett Magyarországra,
+                    nem lehetetlen, hogy Pécseli is vele utazott, bár erre
+                    bizonyítékunk nincs. A <persName>Molnárral<idno corresp="Szenczi Molnár Albert"/></persName> való szoros kapcsolatra
+                    enged azonban következtetni, hogy <persName>Molnár<idno corresp="Szenczi Molnár Albert"/></persName>
+<date when="1613-05-13">1613. május 13-án</date> írt levelét Király Imre
+                    közvetítésével juttatta el <persName>Szenczi Csene Péter</persName> érsekújvári
+                    paphoz, és hogy ugyanez év <date when="1613-11-09">november 9-én</date> részt vett Tardoskedden
+                        Pécseli Király esküvőjén. Sajnos, azt nem jegyezte fel
+                        naplójában, hogy ki volt költőbarátjának a menyasszonya. (<bibl><hi rend="smallcaps">Dézsi</hi>: Szenczi
+                        Molnár levelezése 61, 385.</bibl>)</p>
+<p xml:id="p.11"><date when="1612">1612 végén</date> vagy <date when="1613">1613 elején</date> bizonyára elfoglalta már
+                    komáromi rektori székét. Munkájára tudatosan készült már Németországban, s
+                    retorikáját is elsősorban a komáromi iskola és tanulók érdekében írta. Ezért
+                    dedikálta munkáját a komáromi polgári, katonai és egyházi elöljáróknak, s ezért
+                    írt egy külön előszót a komáromi tanulóknak címezve. A könyve elé ajánló verset
+                    író <persName>Goclenius</persName> is azt kívánja, hogy „Per te Komaromi
+                    illustri Schola patria crescat”. A komáromi református iskola valóban illustris
+                    volt ebben az időben, s különösen azzá vált Pécseli vezetése alatt. A
+                    felső-dunamelléki református superintendentiának ez volt a legkitűnőbb iskolája.
+                    Ezért igyekeztek azt főiskolává fejleszteni, s az <date when="1619-09-01">1619. szeptember
+                        1-én</date> a Nyitra megyei <placeName>Sókon<idno type="ITIdata">Q14239</idno></placeName> tartott zsinat el
+                    is határozta, hogy a logika és retorika mellett a teológia is taníttassák
+                        <placeName>Komáromban</placeName>. Az <date from="1610" to="1619">1610-es</date> években a
+                    nyugat-magyarországi reformátusok egyetlen iskolája sem vetekedhetett a
+                    komáromival, s csak a későbbi vallásüldözések akadályozták meg, hogy ez az
+                    iskola is a debreceni, pataki, pápai, enyedi, kolozsvári kollégiumokhoz hasonló
+                    kulturális centrummá fejlődjék. (<bibl><hi rend="smallcaps">Thury Etele</hi>: A révkomáromi ev. ref.
+                        egyház története 22–5</bibl>; <bibl><abbr>MPEtA</abbr> VIII, 56</bibl>; <bibl><hi rend="smallcaps">Szendrey
+                            Imre</hi>: A révkomáromi ev. ref. főiskola története. Komárom 1898.</bibl> Ez
+                    utóbbi sajnos dilettáns munka, és bővebb adatokat nem tartalmaz erről az
+                    időről.) A színvonalas iskola nem állhatott elszigetelten
+                        <placeName>Komáromban</placeName>; a XVII. század elején művelt polgári
+                    lakosság élt itt. Lakatjártó István komáromi céhpolgár könyvtartójában
+                    <date when="1617">1617-ben</date> például <persName>Kálvin<idno type="ITIdata">Q350173</idno></persName>
+<title><hi rend="italic">Institutio</hi></title>-ját,
+                    <persName>Ovidius<idno type="ITIdata">Q334278</idno></persName> összes műveit, <persName>Palingenius<idno type="ITIdata">Q492257</idno></persName>
+                    és <persName>Bonfini<idno type="ITIdata">Q41901</idno></persName> munkáját, prosodiai és nyelvtani könyveket
+                    találunk. (<bibl><hi rend="smallcaps">Gyulai Rudolf</hi>: <title>Törökvilág Komárom megyében</title>.
+                        Komárom 1894. 131.</bibl>) <date from="1613" to="1614">1613–14-ben</date> gyakran megfordult a
+                    városban <persName>Szenczi Molnár Albert</persName> is, sőt <date from="1614-06" to="1614-08">1614
+                        nyarán</date> néhány hónapig prédikátori állást is vállalt benne. Az iskola
+                    pedig Pécseli pappá választása után is jól képzett ember kezébe került: rektor a
+                        <placeName>Heidelbergben</placeName> tanult <persName>Kanizsai
+                            Mihály<idno type="ITIdata">Q261535</idno></persName> lett. (<bibl><hi rend="smallcaps">Thury</hi>: A dunántúli ref. egyházkerület
+                        története. Pápa 1908. 437–8.</bibl>)</p>
+<p xml:id="p.12">
+                    Pécseli Király már rektor korában is tevékenyen részt vett
+                    az egyházi közéletben. Az <date when="1612">1612</date> végén tartott már említett ürményi
+                    zsinat után bizonyára jelen volt az <date when="1613-06-19">1613. június 19–20-án</date>
+<placeName>Komáromban</placeName> tartott zsinaton; <date when="1613-07-13">július 13-án</date>
+                    pedig a felsődunamelléki reformátusok egyik küldötte volt a dunántúliak
+                    pataházai összejövetelén. Sajnos a felsődunamelléki református egyházkerület
+                    jegyzőkönyvei elvesztek, s így csak igen gyér forrásanyag áll rendelkezésünkre
+                    az itteni egyházi közélet eseményeiről, s ebben Pécseli
+                        Király szerepéről. Tudjuk azonban, hogy jelen volt
+                    <persName>Samarjaival<idno corresp="Samarjai János"/></persName> és az ekkor nagyszombati rektor
+                    <persName>Czeglédy Pállal</persName> együtt az evangélikusok újlaki zsinatán
+                        <date when="1615-06-17">1615. június 17-én</date>, ahol bizonyos hittételekben próbáltak
+                    megegyezni. (<bibl><hi rend="smallcaps">Thury</hi>: A dunántúli ref. egyházkerület története
+                    359.</bibl>)</p>
+<p xml:id="p.13"> Röviddel ezután <persName>Magyari Ágh Jakab</persName> mellé komáromi
+                    prédikátorrá választották. Az <date when="1615-09-09">1615. szept. 9-i</date> komjáti zsinaton
+                    avatták pappá, s a zsinat aktáit már ebben a minőségben írta alá. Mint
+                    egyházkerületének tekintélyes prédikátora, s <persName>Ágh Jakab</persName>
+                    esperes mellett a komáromi traktus alesperese, többször részt vett kiküldöttként
+                    a dunántúliak zsinatain, így <date when="1617-05-01">1617. május 1-én</date>
+<placeName>Köveskúton<idno type="ITIdata">Q8561</idno></placeName> és <date when="1619-05-01">1619. május 1-én</date>
+<placeName>Pápán</placeName>. E két összejövete közül az első különösen
+                    érdekesnek ígérkezett, mert ennek az volt a célja, hogy <persName>Zvonarich
+                        Mihály</persName> sárvári evangélikus lelkésszel vitát folytassanak.
+                    <persName>Zvonarich<idno corresp="Zvonarich                         Mihály"/></persName> szóban és írásban egyaránt támadta a
+                    reformátusokat, s ezen a zsinaton meg akarták cáfolni vádjait. Előzetesen egy
+                    küldöttséget menesztettek hozzá, melynek Pécseli Király is
+                    tagja volt, s amely éppen akkor ért <placeName>Sárvárra<idno type="ITIdata">Q13617</idno></placeName>, mikor
+                    <persName>Zvonarich<idno corresp="Zvonarich                         Mihály"/></persName> vasárnapi prédikációját mondotta.
+                    Végighallgatták a templomban a beszédet, mely újabb támadó kijelentéseket
+                    tartalmazott, majd a templom előtt megszólítva őt tiltakoztak vádjai ellen, s
+                    egyúttal meghívták zsinatukra. <persName>Zvonarich<idno corresp="Zvonarich                         Mihály"/></persName> azonban erre nem
+                    ment el. (<bibl><abbr>MPEtA VII</abbr>, 147, 154–5, 193–4</bibl>; <bibl>VIII,
+                        40.</bibl>)</p>
+<p xml:id="p.14">Komáromi papsága alatt mind a presbiteriális, mind az unionista törekvéseket
+                    igyekezett elősegíteni. <persName>Pathay<idno corresp="Pathay István"/></persName> dunántúli püspöknek
+                        <date when="1615-11-23">1615. november 23-án</date>
+<persName>Kanizsai Pálfihoz<idno corresp="Kanizsai Pálfi János"/></persName> írt leveléből tudjuk, hogy
+                        Pécseli küldött neki egy könyvet „de presbyterii
+                        Heidelbergensis ordine”, s kéri <persName>Pálfit<idno corresp="Kanizsai Pálfi János"/></persName>, jöjjön el hozzá a
+                    könyvért. (<bibl><hi rend="smallcaps">Fabó</hi>: Codex evangelicorum 145.</bibl>) Sajnos nem tudjuk, hogy
+                    pontosan melyik könyvről volt szó, de Pécseli küldeményének
+                    szerepe lehetett a dunátúli presbitériumok létrejöttében, mivel az elsőt közülük
+                        <persName>Kanizsai Pálfi<idno corresp="Kanizsai Pálfi János"/></persName> nem sokkal ezután
+                        <placeName>Pápán</placeName> megalakította. Kezdeményezően lépett fel
+                    költőnk a protestáns felekezetek összebékítésében is, midőn megírta és
+                        <date when="1621">1621-ben</date>
+<placeName>Kassán<idno type="ITIdata">Q20339</idno></placeName> kiadta <title><hi rend="italic">Consilium
+                            Ecclesiae Catholicae Doctorum…</hi></title> című könyvét.
+                            (<bibl><abbr>RMK II</abbr>, 416.</bibl>) <persName>Remus
+                                Györgynek</persName>, <persName>Szenczi Molnár<idno corresp="Szenczi Molnár Albert"/></persName> németországi
+                    barátjának és magának <persName>Molnár Albertnek<idno corresp="Szenczi Molnár Albert"/></persName> címzett ajánlásában
+                    és könyve utószavában a keresztény felekezetek megbékélésére, egységérte
+                    buzdított. Könyvét, melynek ajánlását <date when="1620-12">1620 decemberében</date> keltezte
+                        <placeName>Komáromban</placeName>, már akkor írta, mikor megkezdődött
+                    <persName>Bethlen Gábor<idno type="ITIdata">Q41495</idno></persName> szabadságharca. Könyve elé a fejedelemhez
+                    is írt egy rövid ajánlóverset.</p>
+<p xml:id="p.15"><persName>Bethlenhez<idno corresp="Bethlen Gábor"/></persName> írt verse arról a reménységről tanúskodik, mely a
+                    diadalmasan előretörő protestáns fejedelmet övezte a nyugat-magyarországi művelt
+                    protestáns értelmiség részéről. <persName>Bethlen<idno corresp="Bethlen Gábor"/></persName> sikerétől további
+                    megerősödésüket, a komáromiak pedig iskolájuk felvirágzását várták.
+                        <placeName>Komáromnak</placeName> és magának Pécseli Király
+                        Imrének azonban a háború csak bajt és pusztulást hozott. A
+                    megpróbáltatások már korábban megkezdődtek. <date when="1617-06-03">1617. június 3-án</date>
+                    ugyanis tűzvész pusztította el <placeName>Komáromban</placeName> a templomot és
+                    az iskolát. Négy évvel később <persName>Bethlen Gábor</persName> sikertelen
+                    ostroma alkalmával újra elpusztultak összes épületeik, sőt ekkor az egész város
+                    is a lángok martaléka lett. (<bibl><hi rend="smallcaps">Thury Etele</hi>: <title>A révkomáromi ev. ref.
+                        egyház története</title> 28</bibl>; <bibl><hi rend="smallcaps">Gyulai Rudolf</hi>:
+                            <title>Törökvilág Komárom megyében</title> 21</bibl>; <bibl><hi rend="smallcaps">Borovszky</hi>:
+                            <title>Komárom vármegye és Komárom sz. kir. város monográfiája</title>.
+                                Bp. 1907. 457– 8</bibl>; <bibl><hi rend="smallcaps">Kur Géza</hi>: <title>A komáromi református
+                            egyházmegye története</title>. Bp. 1937. 62–5.</bibl>)
+                        <persName>Bethlen<idno corresp="Bethlen Gábor"/></persName> jól ismerte a város lakosainak nehéz helyzetét
+                    s kérésükre <date when="1620-07-29">1620. július 29-én</date> menlevelet állított ki az elköltözni
+                    óhajtó lakosok számára. (<bibl><hi rend="smallcaps">Takáts Sándor</hi>: <title>Lapok egy kis város
+                            múltjából</title>. Komárom 1886. 93–4.</bibl>)</p>
+<p xml:id="p.16">A két prédikátor: <persName>Magyari Ágh Jakab</persName> és <persName>Pécseli
+                        Király Imre</persName> is kénytelen volt a fejedelem adta lehetőséggel élve
+                    elmenekülni a városból. <placeName>Érsekújvárra<idno type="ITIdata">Q16602</idno></placeName> húzódtak,
+                        <persName>Szenczi Csene Péter</persName> ottani pap s akkor már felsődunai
+                    superintendens oltalma alá. Pécseli Király bajait még az a
+                    csapás is tetézte, hogy érsekújvári bujdosása során fiai meghaltak, s felesége
+                    is majdnem belehalt betegségébe. Mindez 1621 nyarán játszódott le, mert
+                    <persName>Kanizsai Pálfi<idno corresp="Kanizsai Pálfi János"/></persName>
+<date when="1621-09-08">1621. szeptember 8-án</date> hozzá írt levelében már közli, hogy
+                    <persName>Redneki János</persName> útján hallott a rá zúduló csapásokról és
+                    ezekről a nála érdeklődni járt édesanyját is tájékoztatta. (<bibl><abbr>MPEtA
+                            III</abbr>, 46–7</bibl>; magyar fordításban: <bibl>Prot. Egyh. és Isk.
+                        Lap 1874, 313–4.</bibl>) Fennmaradt költőnknek <date when="1621-09-18">szeptember 18-án</date>
+                    erre írt válaszlevele is, mely megerősíti a szomorú események hírét és joggal
+                    írja: „Nunc nunc in schola Jobi versamur, nunc nunc poenas peccatorum eluimus.”
+                    Ebben a levélben, mely barátja iránti szeretetének megható tanújele is, beszámol
+                    a hadi eseményekről, kifejezve azt a vágyát, hogy mielőbb béke legyen. Anyja
+                    után érdeklődik, barátait üdvözli és a béke felől reménykedik <date when="1622-01-05">1622. január
+                        5-én</date> kelt levelében is. A nikolsburgi béke egy nappal ezután létre is
+                    jött, s barátjához írt következő levele, <date when="1622-02-25">február 25-én</date>, már
+                    efölötti örömének ad kifejezést.</p>
+<p xml:id="p.17">E nehéz hónapokban egész kis művelt kör jöhetett össze
+                    <placeName>Újváron</placeName>. A <date when="1622-01-05">január 5-én</date> kelt levél
+                    szerint ide húzódott <persName>Matheus</persName> nyomdász, az a
+                    <persName>Bernhárd Máté<idno type="ITIdata">Q142278</idno></persName>, aki néhány év múlva
+                        <placeName>Pápán</placeName> nyomtatja majd Pécseli Király műveit. És itt
+                    volt maga a püspök, a <title><hi rend="italic">Confessio Helvetica</hi></title>
+                    fordítója, akinek könyve elé <date when="1616">1616-ban</date> többek között Pécseli is írt
+                    magyar nyelvű distichonokat. (<bibl><abbr>RMK I</abbr>, 466.</bibl>) Adatunk van
+                    arról, hogy tudományos, irodalmi kérdésekről is beszélgettek a kényszerű
+                    visszahúzódás hónapjaiban. <persName>Szenczi Csene<idno corresp="Szenczi Csene Péter"/></persName>
+<date when="1622-02-25">1622. február 25-én</date> arról ír <persName>Kanizsainak<idno corresp="Kanizsai Pálfi János"/></persName>, hogy
+                    kívánatos volna valakinek egy könyvet írni a pápák életéről, s hogy ő maga is
+                    foglalkozik ilyesmivel. Ennek érdekében sokat jegyezgetett ki híres tudósok
+                    (<persName>Platina<idno type="ITIdata">Q492258</idno></persName> és mások) munkáiból, s amit összeírt, azt
+                    „Imre urnak” is felolvasta, és tetszését megnyerte. Ez a „dominus Emericus” nem
+                    lehetett más, mint költőnk. (<bibl><abbr>MPEtA III</abbr>, 52–3.</bibl>)
+                    Sorstársával <persName>Ágh Jakabbal</persName> együtt arra vágyott azonban, hogy
+                    mielőbb visszatérjen <placeName>Komáromba</placeName>, s a béke megkötése után
+                    ebben már komolyan reménykedhetett. Erre azonban nem került sor, mert
+                    <persName>Szenczi Csene Péter<idno type="ITIdata">Q60546</idno></persName>
+<date when="1622-06-14">1622. június 14-én</date> meghalt, és az újváriak őt választották helyébe
+                    prédikátornak. A püspök halálára egy latin búcsúkölteményt is írt, amit
+                    <persName>Pálfi Jánosnak<idno type="ITIdata">Q243295</idno></persName> is elküldött <date when="1622-07-11">július 11-én</date>
+                    írt leveléhez csatolva. <persName>Kanizsai Pálfi<idno corresp="Kanizsai Pálfi János"/></persName> a levelet és a
+                    verset, saját gyászelégiájával együtt megörökítette a dunántúli egyházkerület
+                    általa vezetett jegyzőkönyvében. Mint egyházkerülete immár tekintélyes papjának,
+                    Pécselinek jelentős szerepe volt az <date when="1622-09">1622 szeptemberében</date>
+<placeName>Komjáton<idno type="ITIdata">Q8348</idno></placeName> megtartott püspökválasztó zsinat megrendezésében
+                    és az új püspök megválasztásában. <persName>Szenczi Csene<idno corresp="Szenczi Csene Péter"/></persName> utóda
+                        Pécseli Király másik régi barátja és harcostársa, az
+                    unionista <persName>Samarjai János</persName> lett; erről <date when="1622-09-19">szeptember
+                        19-én</date> értesíti levélben közös barátjukat <persName>Kanizsai
+                            Pálfit<idno corresp="Kanizsai Pálfi János"/></persName>. Leveleiben <persName>Samarjait<idno corresp="Samarjai János"/></persName> „affinis
+                    meus”-nak nevezi, ekkorra tehát valamiféle sógorsági viszonyba került már vele.
+                    (A fennmaradt levelek teljes szövegét alább közöljük.)</p>
+<p xml:id="p.18">Pécseli Király Imre
+                    <date from="1622">1622-től</date> élete végéig <placeName>Érsekújváron</placeName>
+                    lelkészkedett, s egyben a komjáti egyházmegye alesperese volt. A források
+                    hiányában sajnos alig tudunk valamit itteni működéséről, de annyi bizonyos, hogy
+                    olyan élénk és fejlődő szellemi élet, mint amilyet
+                        <placeName>Komáromban</placeName> talált, itt már nem vette körül. A
+                    komáromi iskolának, mint a Kisalföld leendő református egyházi és kulturális
+                    centrumának a fejlődése az <date when="1621">1621</date>. évi nagy pusztulás után elakadt, s
+                    a lassan tért hódító ellenreformáció egyre inkább visszaszorította a
+                    protestantizmust ezen a vidéken. Pécseli Király Imrének
+                    különösen nehéz helyzete lehetett, mert <persName>Pázmány<idno type="ITIdata">Q47888</idno></persName>
+<placeName>Érsekújvárt</placeName> az ellenreformáció egyik gócpontjává akarta
+                    megtenni, élve azzal a lehetőséggel, hogy <placeName>Érsekújvár</placeName>
+                    érseki birtok s így az ő földesúri joghatósága alá tartozott. A városban
+                    ferences kolostort alapított, melynek építését <date when="1626">1626-ban</date> kezdték
+                    meg, s amelyet <date when="1631">1631-ben</date> szenteltek fel. A protestantizmus bázisa
+                    Érsekújváron a végvári katonaság volt, Pécselinek a
+                    vitézekkel való szoros kapcsolatáról az <date when="1624">1624-ben</date> kiadott s nekik
+                    ajánlott katekizmusa is tanúskodik. (<bibl><hi rend="smallcaps">Haiczl Kálmán</hi>: <title>Érsekújvár
+                            múltjából</title>. Érsekújvár 1932. 102–3.</bibl>)</p>
+<p xml:id="p.19">Bár közvetlen adatok erről nem tanúskodnak, jelentős szerepe lehetett továbbra is
+                    az egyházi közéletben. Nyilván részt vett az <date when="1623">1623</date>. évi nevezetes
+                    komjáti zsinat munkájában, melyen elfogadták a <persName>Czeglédy Pál</persName>
+                    által szerkesztett kánonokat, s valószínűleg erőteljesen támogatta püspök
+                    barátjának unionista törekvéseit, hiszen <persName>Samarjainak<idno corresp="Samarjai János"/></persName> a
+                    protestáns uniót propagáló műve, a <title><hi rend="italic">Magyar
+                        harmonia</hi></title> ebben az időben, <date when="1628">1628-ban</date> jelent meg
+                            (<bibl><abbr>RMK I</abbr>, 573.</bibl>). <date when="1629">1629-ben</date>
+<persName>Pathay István</persName> Erdélybe távozása után, a dunántúli püspöki
+                    székbe is jó barátja, tanuló- és levelezőtársa, <persName>Kanizsai Pálfi
+                        János</persName> került, akit ez év <date when="1629-06-10">június 10-én</date> kelt levelében
+                    üdvözölt ez alkalomból. (<bibl><hi rend="smallcaps">Thury</hi>: A dunántúli ref. egyházkerület története
+                        382–3, 234.</bibl> A levél keltezését – tévesen – június 29-re teszi.) Ebből
+                    a levélből családi körülményeiről is értesülünk: felesége él és egészséges, s az
+                        <date when="1621">1621</date>. évi családi tragédia után ismét két gyermeke van, a hét
+                    éves Mihály és a még csak gügyögni kezdő Anna.</p>
+<p xml:id="p.20">Hiába állt azonban a nyugat-magyarországi reformátusság élén
+                    <persName>Samarjai<idno corresp="Samarjai János"/></persName> és <persName>Kanizsai Pálfi<idno corresp="Kanizsai Pálfi János"/></persName>, a
+                    XVII. század első felének e két kiváló, haladó gondolkodású, <persName>Szenczi
+                        Molnár<idno corresp="Szenci Molnár Albert"/></persName> eszméin nevelődött képviselője, a 10-es évek nagy
+                    fellendülése után a stagnálás és hanyatlás évtizedei következtek. Jól látható ez
+                        Pécseli Király munkásságán. Míg korábban olyan nagyobb
+                    igényű munkákat írt, mint a <title><hi rend="italic">Rhetorica</hi></title> és a
+                            <title><hi rend="italic">Consilium</hi></title>, addig érsekújvári
+                    tartózkodása alatt versein kívül csak egy katekizmus (<date when="1624">1624</date>) és egy
+                    ábécés könyv (<date when="1630">1630</date>) írásáról és kiadásáról tudunk.</p>
+<p xml:id="p.21"> Irodalmi, de főleg komáromi tanári munkássága révén jelentős tekintélyt és
+                    megbecsülést élvezett, ami élete későbbi évtizedeiben sem szűnt meg. Ezt
+                    bizonyítja számos doktori disszertáció, melyet szerzőik többek között neki is
+                    ajánlanak. így <date when="1615">1615-ben</date>
+<persName>Komáromi Seraphin Pál<idno type="ITIdata">Q181911</idno></persName> (<bibl><abbr>RMK III</abbr>,
+                        1152.</bibl>), <date when="1617">1617-ben</date>
+<persName>Kanizsai Mihály</persName> (<bibl><abbr>RMK III</abbr>, 1198.</bibl>)
+                    és <persName>Péli S. István<idno type="ITIdata">Q79111</idno></persName> (<bibl><abbr>RMK III</abbr>,
+                    1200.</bibl>), <date when="1620">1620-ban</date>
+<persName>Darnai György</persName> (<bibl><abbr>RMK III</abbr>, 1293.</bibl>),
+                        <date when="1625">1625-ben</date>
+<persName>Csúzi Cseh János<idno type="ITIdata">Q187375</idno></persName>, egykori tanítványa (<bibl><abbr>RMK
+                        III</abbr>, 1375.</bibl>) és <persName>Körmendi Thaba Tamás<idno type="ITIdata">Q262663</idno></persName>
+                            (<bibl><abbr>RMK III</abbr>, 1379.</bibl>), <date when="1628">1628-ban</date>
+<persName>Kecskeméti N. István</persName> (<bibl><abbr>RMK III</abbr>,
+                        1423.</bibl>) s végül <date when="1632">1632-ben</date>
+<persName>Sellyei P. Ferenc<idno type="ITIdata">Q183359</idno></persName> (<bibl><abbr>RMK III</abbr>,
+                    1477.</bibl>).</p>
+<p xml:id="p.22">Nagy kár, hogy nem maradt fenn Pécseli Király könyveinek
+                    jegyzéke, s így műveltségéről, olvasottságáról nem tudunk pontos képet alkotni.
+                    Egyetlen egy az utókorra megőrzött könyvéről tudunk: egy <date when="1587">1587</date>. évi
+                    antwerpeni Vulgata-kiadásról. Ennek a kötetnek a bejegyzés szerint egy bizonyos
+                    <persName>Matthias Liptoviny</persName>, alias
+                    <persName>Mercatoris</persName> után ő volt a második tulajdonosa.
+                        (<bibl>Közlöny a Debreczeni „Hittanszaki önképző-Társulat” köréből 1883,
+                        48.</bibl>) Pécseli Király Imre életének vége az
+                    ismeretlenség homályába vész. Mivel <date when="1639">1639-ben</date> jelent meg
+                    Retoriká-jának harmadik kiadása, valószínű, hogy ekkor még élt.
+                    <persName><hi rend="smallcaps">Zoványi</hi><idno corresp="Zoványi Jenő"/></persName> szerint <date when="1641">1641</date> körül halhatott
+                    meg.</p>
+<p xml:id="p.23">Az a <placeName>Heidelbergben</placeName> tanuló, s azután nagyrészt a Dunántúlon
+                    és a Kisalföldön működő prédikátor-nemzedék, melynek Pécseli
+                        Király is tagja volt, igen élénk irodalmi tevékenységet
+                    folytatott. Mint költő kétségkívül Pécseli Király a
+                    legjelentősebb közöttük, de korántsem az egyedüli. Verseket ismerünk
+                        <persName>Kanizsai Pálfi Jánostól</persName>, <persName>Czeglédy
+                        Páltól</persName> és a vele egy vidéken és egy időben tevékenykedő több más
+                    prédikátortól. Versszerzőt találunk a vele érintkezésben álló evangélikusok
+                    között is, így például <persName>Zólyomi Perina Boldizsárt<idno type="ITIdata">Q160984</idno></persName>, aki
+                    szintén részt vett a reformátusok és evangélikusok <date when="1615">1615</date>. évi újlaki
+                    egyezkedő tárgyalásán.</p>
+<p xml:id="p.24">LEVELEI</p>
+<p xml:id="p.25"><persName>Pécseli Király Imrének</persName> hat levelét ismerjük. Ezek egytől
+                    egyig latin nyelvűek és <persName>Kanizsai Pálfi Jánoshoz</persName> intézettek.
+                    Neki köszönhető a levelek fennmaradása is, mivel azokat részben leveleskönyvébe
+                        (<placeName>Pápa</placeName>, ref. egyházkerületi könyvtár), részben a
+                    dunántúli ref. egyházkerület általa vezetett jegyzőkönyvébe
+                    (<placeName>Esztergom<idno type="ITIdata">Q2103</idno></placeName>, főszékesegyházi könyvtár,
+                    Batthyány-gyűjt. Relig. III. k/1) lemásolta. Mind a hat levelet közöljük:</p>
+<p xml:id="p.26"> 1. <persName>Kanizsai Pálfi Jánosnak</persName></p>
+<p xml:id="p.27"><placeName>Érsekújvár</placeName>, <date when="1621-09-18">1621. szeptember 18.</date></p>
+<p xml:id="p.28"> Válaszol <persName>Pálfi<idno corresp="Kanizsai Pálfi János"/></persName> szeptember 8-i levelére, tájékoztatja a
+                    családját ért megpróbáltatásokról valamint a hadi eseményekről.</p>
+<p xml:id="p.29">Benedictionem, pacem a Deo atque prosperitatem perpetuam!</p>
+<p xml:id="p.30">Literas tuas, eximie et clarissime vir, 8. Septembris datas, accepi die 17
+                    eiusdem mensis, quarum lectione atque relectione fateor, affectus sum varie: Nam
+                    ex mentione filiorum nostrorum, quos exilii nostri solamina iucundissima
+                    vitaeque delicias fuisse, recte scribis, laerymae novae meos persperserunt
+                    oculos. Matris honorandae luctu, quem introducis, meus luctus naviter asperatus
+                    est: illacrymasse matrem meam nostris lacrymis acerbissime, nihil dubitamus.
+                    Etenim iam experientia, tristifica vitae magistra me fatim edocuit, quantus sit
+                    philostorgiae affectus: Sed consolatio non una nos erigere debet; divini
+                    placiti, quod indubie semper optima est, assidua cogitatio et pia consideratio;
+                    fides resurrectionis certo futurae filiorum gloria, quo venire melius est, quam
+                    hic in tantis malorum tempestatibus agitari, torqueri et affligi per se miseros.
+                    O beatos illos, qui vitae calamitosae navigium in mortis portum, qui piis
+                    malorum suorum ultima clausula est, iam religaverunt appulsum! Certe vel sola
+                    consideratio temporis istius exulceratissimi, in quo maesti non tam vivimus,
+                    quam, utcuncque vivendo morimur, et tanquam aquae in terram dilabimur, aliquid
+                    de luctu nostro decerpere potest: verum ad tuas, quae per gratae literas calamum
+                    reflecto. Charitatis tuae, quae mihi semper amabilissima fuit, est et erit, lux
+                    iucundissima, quam exoptatae tuae literae mihi praeter spem in tam difficili
+                    via, nunc adduxerunt, corculum meum tot aerumnis emaciatum et defessum ex tantis
+                    animi maeroribus, non nihil erexit, roboravit atque serenavit non nihil. Quid
+                    enim acceptius et iucundius esse potest, quam candidus (qualis absque dubio tuus
+                    est) amicorum amor, qui nos, nunc literis, nunc alia ratione consolatur et
+                    hilarat optatissime? Deus ab alto benedicat tibi, mi clarissime vir, et faxit
+                    idem, ut reciproco officii genere gratiam referre possim! Status noster praesens
+                    adhuc afflictus est: nam coniunx mea non-dum integre convaluit, nec ipse satis
+                    fausta frusiscor aura: Reverendissimus dominus superintendens noster iam diu
+                    febri laborat, carnem pene totam et sangvinem amisisse videtur: utinam non
+                    destituamur brevi, tam optimo viro! Reverendus dominus Jacobus eadem in navi
+                    versatur; nunc tamen Deo propitio melius habet; sed unicus filius eius letifero
+                    correptus morbo decumbit gravissime; Paulus ille, in quo sola residebat cura
+                    patris. Praesens iste, quem agimus, vere climactericus extitit nobis in his
+                    oris. Sed fiat optima Dei voluntas! Caeterum quid mihi de haereditate mea
+                    paterna placeat, cito determinare non possum ob mirabilem regni nostri statum;
+                    scripsi tamen aliquid matri meae cui quod optimum videtur, id faciat; vidua est,
+                    curam eius agere non potis, ideo si non totam partem tamen aliquam, si divendere
+                    velit, non ibo contradictum; Sed omnia ex bonorum agat consilio. Posonium adhuc
+                    Germani habent; nescitur quo consilio cessatum est ab oppugnatione; castra
+                    Hungarorum et Bohemorum confoederatorum satis magna ad Szenczinum sunt posita;
+                    illius infestant castra Germanorum illa, quae nos reliquerant non sine magna et
+                    ignominiosa rerum bellicarum iactura. Dei miseratio nos liberavit, iustitia
+                    superbia rerum confudit. Utinam pax fiet! in qua reducenda laborare nostri
+                    Magnates dicuntur: Utinam non, ut superiori anno! ignem, ut dici solet, gladio
+                    refodicent. Quicquid fiat, Deo nos concredamus. Egregius vir dominus Joannes
+                    Krauz Tyrnaviae non sine magno patriae damno mortuus est; sepultus 9.
+                    Septembris; amisimus et Gregorium Literatum, senem optimum; amisimus Paulum
+                    Kűrteösium, egregium quaestorem: amisimus et alios plures; Clarissimus dominus
+                    Michael Surius Patakini vivit adhuc vitam satis acerbam; nunc ab eo literas
+                    accepi, in quibus depingit suae miseriae theatrum; accepi literas et a reverendo
+                    et optimo viro Stephano Velekino pastore Cassoviensi qui similiter aegerrime
+                    valet. Nunc nunc in schola Jobi versamur, nunc nunc poenas peccatorum; eluimus.
+                    Sed speramus meliora post tempestates aevi nostri tempora. Resalutant te vir
+                    amicissime, reverendi viri dominus superintendens, et dominus Jacobus noster
+                    amantissime. Vale feliciter cum tuis.</p>
+<p xml:id="p.31">Datum raptim Vyvarini die 18 7bris 1621. Tuus vere tuus</p>
+<p xml:id="p.32">Emericus R. Peczeli.</p>
+<p xml:id="p.33">Reverendo multiiuga eruditione et virtute multimoda clarissimo viro Domino Joanni
+                    P. Canisaeo, Ministro verbi Dei apud Papaienses ornatissimo fidelissimo, nec non
+                    eius vicinarum Ecclesiarum Seniori vigilantissimo, Domino et amico pyladea fide
+                    mihi iunctissimo et perpetim amantissimo etc.</p>
+<p xml:id="p.34">(<bibl>Kanizsai Pálfi János eredeti leveleskönyve 60a–61a.</bibl> Kiad.
+                        <bibl><hi rend="smallcaps">Thury</hi>, <abbr>MPEtA IV</abbr>, 81–3.</bibl>)</p>
+<p xml:id="p.35">2. <persName>Kanizsai Pálfi Jánosnak</persName>
+</p>
+<p xml:id="p.36"><placeName>Érsekújvár</placeName>, <date when="1622-01-05">1622. január 5.</date></p>
+<p xml:id="p.37">Prédikátortársainak és Bernhárd Máté, későbbi pápai nyomdásznak sorsáról
+                    tudósítja, anyja után érdeklődik és barátainak küld üdvözletet.</p><p xml:id="p.38"> Salutem, pacem
+                    et prosperitatem in huius novi anni discursu, ex cursuque praecatur! In tam
+                    infausta temporum acerbitate, qua subinde conficimur, non invenio iucundam ad
+                    te, vir eximie, scribendi materiam. O quam infensum nobis est, quod non sicut
+                    antea, nos invium dulcioribus literarum alloquiis delectare possumus! Quicquid
+                    id sit, nolui praesentem occasionem praetermittere: Nunc ad rem. Nos, Dei
+                    gratia, hoc tempore, meliori utimur aura. Vos vero, delitiae nostrae, quali
+                    valetudine sitis, ignorare cogimur: O si bene valeatis! Omnia nostra a Dei
+                    providentia dependere necessum habent. Ad omnem infortuniis tempestatem erectis
+                    animis excipiendam, praeparari nos iuvat. Tartari multi iam advenerunt,
+                    metuendum aiunt, ne plures sub secuturi sint. Reverendus Dominus Daniel
+                    Nemesnepi omnibus fere facultatibus suis a Tartarica hac irruptione spoliatus
+                    ingemiscit. Quid amplius futurum sit, ille novit, qui omnia praenovit. De pace
+                    seu pacificatione rumor non ingratus nostris insonat auribus. Utinam ex coelo
+                    suum obtineat robur! Utinam Christianus sangvis iam effluere vel effundi
+                    desinat! Reverendus Dominus Jacobus Agh Magyarinus, compater meus honorandus iam
+                    rediit ad nos: sed ubi suis restitutus mox in morbum incidit, modo affixus lecto
+                    edomabit, E dorso in via fragosa et rigida male valere coepit. Speramus brevi
+                    convalitur. Typographus noster dominus Matheus, nunc in hoc loco versatur et
+                    commoratur, expectat bonam occasionem omnia perficiendi; Expectat tempus, quo
+                    pacis initae diplomata publicentur, uti sperantur. Quidem servare connititur,
+                    vestrum erit, et nostrum huc intendere curam, ut ille in suo cursu non deficiat.
+                    Pellem, quam nupere petebas in usum tuum emimus, et hac occasione transmisimus.
+                    Coeterum tuam reverendam pietatem amice petitam et exoratam volo, ut hasce
+                    literas, quas istis adiunxi prima occasione transmittere non gravetur ad
+                    honorandam meam genetricem, cui eas inscriptas esse manifesto patet. Nescio
+                    misera vidua qualiter affecta sit, quomodo in his tribulationum undis vitam suam
+                    satis, ut reor, afflictam vivere queat. Si quid solaminis et iuvaminis, quo
+                    vidua moestissima refocillari possit, Tua Reverenda pietas et charitas in ipsam
+                    exhibuerit, faciet mihi rem longe gratissimam et pari pietatis officio
+                    compensandam. Non est modo commoda transeundi occasio mihi suppeditata
+                    praestolor eam. Doctissimum et humanissimum virum dominum Stephanum Vaci, amicum
+                    meum amicissimum ex amore sincero salutatum volo. Utinam integre suam
+                    recuperasset santitatem, cuius iacturam nupere passum esse non obscure
+                    ferebatur. Saluto insuper alios nostros, qui nostri bene memores vivunt,
+                    fautores et amicos, puta nobiles dominos viros, egregium dominum Gasparum
+                    Literatum, Joannem Szily, Basilium Feölsö, Michaelem Literatum, Joannem Nagy,
+                    Joannem Uki, Joannem Vizkelethi, Petrum Theöly, Gregorium Koczkas, Joannem
+                    Rednekium singularem amicum, coeterosque bonos viros, qui de me aliquando bene
+                    meriti fuerunt. Deus in hoc novo anno illis omnibus et singulis benedicat
+                    clementissime. Plura scribere non vacat, occasio praeceps avocat. Vale vir
+                    eruditissime et clarissime domine Joannes Paulid, amicorum meorum, quos ista
+                    terra tenet, amicissime! Vive diu florentissime, una cum tuis, mea coniunx tuam
+                    honorandam vitae sociam ex amica benevolentia salveri iubet. Raptim ex Uyvar 5.
+                    die Januarii. Anno Patris 1622. Reverendae et amicissimae tuae charitati sincero
+                    dilectionis affectu devotissimus</p>
+<p xml:id="p.39">Emericus R. Peczeli.</p>
+<p xml:id="p.40"> Admodum Reverendo et Clarissimo viro, Domino Joanni Paulidi Canisaeo, nunc in
+                    Ecclesia Papensi Ministro verbi Dei fidelissimo, nec non eiusdem districtus
+                    inspectori vigilantissimo etc. Domino, conservo et amico plurimum observando,
+                    amando.</p>
+<p xml:id="p.41">(<bibl>Kanizsai Pálfi János eredeti leveleskönyve 94b–96a.</bibl> Kiad.
+                    <bibl><hi rend="smallcaps">Thury</hi>, <abbr>MPEtA IV</abbr>, 83–4.</bibl>)</p>
+<p xml:id="p.42">3. <persName>Kanizsai Pálfi Jánosnak</persName></p>
+<p xml:id="p.43"><placeName>Érsekújvár</placeName>, <date when="1622-02-25">1622. február 25.</date></p>
+<p xml:id="p.44">A nikolsburgi béke megkötése felett örvendezik, a komáromi menekültek
+                    lehetőségeit és terveit vázolja, <persName>Pálfi<idno corresp="Kanizsai Pálfi János"/></persName> figyelmébe ajánlja
+                    özvegy anyját, s üzeneteket küld <persName>Pathay István</persName> dunántúli
+                    püspöknek s másoknak.</p>
+<p xml:id="p.45">Salutem et pacem in utriusque boni reparatore Christo Domino precor. Laudetur
+                    nomen Domini Dei nostri, qui ex Bellonae faucibus, ut Samson, ex ipso leone
+                    dilacerato, pacis optatae favum eduxit, nobisque tot aerumnarum insultu
+                    delumbatis paterne porrexit: Utinam aurora ista tendat et extendatur in diem
+                    candidissimum, et constantissimum! Spes bona tamdiu, quamdiu mundanorum ambitio
+                    fatigata, et veluti semisepulta, somnium edormiat suum. Deus omnipotentissimus
+                    Monarcha compescat turbines istos! Porro status rerum nostrarum ita se habet:
+                    Reverendus dominus Jacobus Agh Magyarinus compater meus honorabilis, una cum sua
+                    familia, et ego cum meis domesticis, versamur adhuc in ipso praesidio, donec
+                    aderit commodior occasio redeundi ad nostros, quorum pauci adhuc sua domicilia
+                    repetere potuere. Multi hic, et quidem ex praecipuis, commorari coguntur; partim
+                    quia domus eorum in ruinis et cineribus iacent dirutae; partim vero, quia nec
+                    eos, qui redibant capere potest angariata domorum angustia, etc: De valetudine
+                    quid dicam, aut scribam, ea non satis integra est, in domino Jacobo, qui parum
+                    abfuit, quin emigraverit ex contubernio viventium: Nunc iam meliuscule se habet.
+                    Ego cum mea coniuge valemus mediocriter, Deo gratias. Domini domini commissarii
+                    peractis hoc in loco negotiis suis, Cassoviam versus descenderunt, expedituri et
+                    illic suos labores. De statu, maxime de valetudine vestra, literis tuis, vir
+                    eximie, condoce fieri cuperemus. Fac igitur, ut voti compotes, occasione prima,
+                    evadamus. Scripseramus nuper ad te, mi clarissime et charissime domine Canisaee,
+                    literas, quibus respondere praetermisisti, forsan literae non sunt perlatae, vel
+                    vero curarum illuvies obstitit scribere conanti. Rogo te, virorum optime, et
+                    amicorum iucundissime domine Joannes, ut pro nostra necessitudine, qua
+                    coniunctos nos esse confido, de honoranda matre mea certioratus, me certum
+                    reddere non graveris. Nescio num quo [?] in cardine volvatur affectae viduae
+                    conditio, nescio, num vivat, et quomodo in tanta rerum difficultate et penuria
+                    se se sustentet: nihil ad me literarum nihil nuntii transmittit. Dolori mihi per
+                    se satis afflicto est, quod tam procul a nobis misera vivere cogatur. Si Deus
+                    vitam et valetudinem conservaverit, et statum regni tot bellis attriti magis
+                    magisque tranquillaverit, transitum ad vestras partes adornare satagam. De
+                    clarissimo et reverendissimo domino Pathay nihil audire possimus, ipsum uti
+                    patrem honorandum, ex me salutatum volo, et rogo, ut si quidem consilii et
+                    solatii, suppeditare possit, per occupationes ipsi meae matri, sua reverenda
+                    paternitas, in id incumbere non dedignetur: Ego filiali promptitudine gratiam
+                    istam redhostire laborabo. Reverendum dominum Isacum monendum habeo, ut tanti
+                    sui silentii finem faciat, ac tandem et ad nos aliquid scribere non dedignetur,
+                    nec gravetur. Dominum Joannem Redneky saluto, et peto, ne succenseat, quod
+                    aliquid pecuniolae debeam ipsi, noverit nos exhaustos et attenuatos esse tot
+                    tribulationibus, quibus iam diu cincti vivimus luctuosissime. Coeterum, si
+                    humanissimus et dominus vir, dominus Stephanus Vaczy, valedixit scholae
+                    gubernaculo, commendamus iuvenem eruditione et virtute praestantissimum dominum
+                    Stephanum Saari, qui nunc apud nos hic commoratur.</p>
+<p xml:id="p.46">Fac igitur, vir optime, ut iste surrogetur et promoveatur. Relationem
+                    exspectabimus. Plura scribere non vacat. Vale feliciter. O amicitiae nostrae
+                    decus immortale, una cum tuis dilectissimis! Raptim ex Uyvar 25. Februarii, Anno
+                    Domini 1622. Reverentiae tuae charitati vera, mera, sincera charitate sinceriter
+                    addictissimus</p>
+<p xml:id="p.47">Emericus R. Peczeli P. S K, </p>
+<p xml:id="p.48">P. S. Saluto Reverendum dominum Petrum collegam tuum, et Dominum Vaczi ceterosque
+                    nostri studiosos, officiosissime.</p>
+<p xml:id="p.49">Admodum Reverendo Clarissimo et Eruditissimo Viro, Domino Joanni P. Canisaeo,
+                    Pastori Ecclesiae Papensis vigilantissimo, nec non eiusdem districtus
+                    Ministrorum Inspectori fidelissimo etc. Domino conservo et amico plurimum
+                    honorando et perpetuo colendissimo.</p>
+<p xml:id="p.50">(<bibl>Kanizsai Pálfi János eredeti leveleskönyve 97b–98b.</bibl> Kiad.
+                    <bibl><hi rend="smallcaps">Thury</hi>, <abbr>MPEtA III</abbr>, 52–3.</bibl>)</p>
+<p xml:id="p.51">4. <persName>Kanizsai Pálfi Jánosnak</persName></p>
+<p xml:id="p.52"> Beszámol <persName>Szenczi Csene Péter</persName> felsődunai superintendens
+                    haláláról, ecseteli az ezzel járó veszteségeket és hírt ad a püspökválasztás
+                    előkészületeiről.</p>
+<p xml:id="p.53">
+<placeName>Érsekújvár</placeName>, <date when="1622-07-11">1622. július 11.</date></p>
+<p xml:id="p.54">De eiusdem venerandi domini Petri Czene Superintendentis morte epistola
+                    clarissimi domini Emerici R. Peczelii certificatoria ad dominum Joannem
+                    Kanisaeum.</p>
+<p xml:id="p.55">Salutem et pacem omni prosperitate circumfusam ex animo precatur, et officio
+                    charitatis nunquam inter moriturae, tibi, tuisque, virorum amantissimorum
+                    candide <sic>poll. </sic> Hoc tempore funesto non possum ad te, vir clarissimus
+                    et charissimus, literas ex voto scribere, praesertim de statu verum modo
+                    nostrarum: obitus reverendissimi nostri Episcopi nubem doloris, et lacrymarum
+                    imbres scripturienti concitat. Luctuosa recordatio tanti damni, quod insperata
+                    mors ecclesiis nostris, satis afflictis intulit, et indicibile cordolium, quod
+                    velut volens quoddam, ex quavis levi mentione tam eximii viri subinde mihi
+                    recrudescit, mentis arcem obnubilant, digitos scribere paratos viribus
+                    exhauriunt et exarmant. O quam in effabili iactura nostrum episcopale regimen,
+                    quod non sine plurium applausu bonorum, in hoc districtu cis et intra Danubiana
+                    vigebat et florebat, repentina mors offuscavit et humiliavit! Iam non adest
+                    ille, qui tanquam aliquis Delius, insigni sua prudentia et sapientia, in
+                    ambiguis et arduis rebus nos adiuvet et promoveat! Nusquam apparet nullibi
+                    visitur, qui zelo gloriae Dei fervebat, et pro emolumento ecclesiae velisque
+                    remis, praesertim in hac tempestate, ceu peritus et fidissimus <sic>nauclarus</sic>
+                    navim nostram, ad optatum portum, auspice Christo, dirigere cogitabat,
+                    laborabat, sudabat, atque pugnabat! Ubi es, ubi es o venerande et svavissime
+                    senex! Ubi es o fervide Thesbites? quorsum abiisti Petre disertissime, et
+                    desideratissime? Ah mellitam hominis disertissimi facundiam! ea iam obmutuit!
+                    iam nos pro suo more paterno liberalique non alloquitur, non exhilarat, non
+                    refocillat! Evanuit et in aeternum non iam nobis, et aliis gratificabitur illa
+                    illa dexterrima scribendi dexteritas! Heu! quis ob tanti boni iacturam non
+                    indoleat, non lugeat, non profuse lacrymetur! Collacrymati sumus dolorose
+                    (siquid lacrymae profuissent) nos, quibus ipsius consvetudine diu (Deo gratias)
+                    hic et alibi delectari et recreari consessum fuit! Verum non tam ipsi, quam
+                    nobis orbatis cineres et lacrymas aspergere debuimus. Ille namque, post tot
+                    curarum fluctus, post tot fidei certamina et lictamina, post tot seni gravioris
+                    et morborum onera, quibus iam diu flagellabatur, excrutiabatur, et pene
+                    conficiebatur, ex terrestri synodo, eodem ipso temporis articulo, quem huic
+                    congregationi, non sine admirando Dei moderamine, praefixerat, in coelestem
+                    angelorum et patriarcharum, omniumque beatorum synodum abivit, gravamina omnia,
+                    si quae nostras ecclesias attingunt, nobis vel discutienda vel aegre toleranda
+                    reliquit. Aeviternae laevitiae navam navat operam, accepit gloriam, quam spe
+                    viva praestolatus esse suscepit coronam, pro qua legitime certavit. Iam, mi
+                    charissime et doctissime domine Joannes, quorsum oculos et cogitationes, imo
+                    sollicitudines nostras, coniicere debeamus, (vexat ne vix quidem invenire datur)
+                    clarissimus vir, dominus Johannes Samaraeus affinis meus, unacum reverendo
+                    Daniele Nemesnepio, certantibus et praevalentibus suffragiis eligebatur; at ille
+                    pedibus manibusque remique et reluctatur huic muneri et oneri gravissimo.
+                    Negotium in suspenso pendet. Si Deus volet, in futura synodo magis circumspecte
+                    et laboriose propiciendum nobis erit de successuro episcopo: quod altissimus
+                    velit esse foelix et fautissimum! Vale vir clarissimus et eruditissimus dominus
+                    Joannes. Raptim Ujvarino, die XI. Julii 1622.</p>
+<p xml:id="p.56"> Tuae magnae charitati adictissimus</p>
+<p xml:id="p.57">Emericus R. Peczelius</p>
+<p xml:id="p.58">pro tempore pastor ecclesiae Ujvariensis.</p>
+<p xml:id="p.59">Admodum Reverendo, Clarissimo, et Eruditissimo Viro, Domino Johanni P. Canisaeo,
+                    Pastori Ecclesiae Papensis, necnon vicinarum eius seniori vigilantissimo, et
+                    fidelissimo etc. Domino et amico meo mortalium amantissimo.</p>
+<p xml:id="p.60">(<bibl>A dunántúli ref. egyházkerület legrégibb jegyzőkönyve 94–5.</bibl> Kiad.
+                        <bibl><hi rend="smallcaps">Thury</hi>, <abbr>MPEtA VIII</abbr>, 96–7.</bibl>)</p>
+<p xml:id="p.61">5. <persName>Kanizsai Pálfi Jánosnak</persName></p>
+<p xml:id="p.62"><placeName>Érsekújvár</placeName>, <date when="1622-09-19">1622. szeptember 19.</date></p>
+<p xml:id="p.63">Értesíti <persName>Pálfit<idno corresp="Kanizsai Pálfi János"/></persName>, hogy a <persName>Monostori János</persName>
+                    dunamelléki superintendens elnökletével tartott zsinaton rokonát,
+                        <persName>Samarjai Jánost</persName>, választották felsődunai püspökké. </p>
+<p xml:id="p.64">Epistola certificatoria.</p>
+<p xml:id="p.65">Salutem et omne bonum ex animo precatur. Occupatissimus hoc scribendi munere
+                    defungi cogor: ideoque venia miniis terse scribenti! Nimium indoluit nobis, vir
+                    clarissime, quod ad nos transire, nostrasque difficultates, vestra utili
+                    praesentia non nihil sublevare non licuerit. Interim excusatoriae tuae, quas
+                    accepimus, istam absentiae vestrae molestiam animis nostris expectoraverunt, et
+                    annihilaverunt: charitas enim iustam excusationem amici cur non acceptaret? Deo
+                    gratias absolvimus in synodo nostra et electionem et ordinationem seu
+                    consecrationem episcopi nostri. Nam aderat venerabilis pater dominus Johannes
+                    Monostori, superintendens Keviensis qui peroportune supervenit. Electus igitur
+                    et per χtιροθεſιἀν τȣ́ πρεσbντερίȣ, consecratus est in episcopum clarissimus et
+                    eruditissimus vir, dominus Johannes Matthaeus Samaraeus affinis meus et amicus
+                    tuus honorandus, cui omnes gratulantur. Ordinati sunt in verbi-ministros,
+                    doctissimus vir dominus Georgius Darnai, et dominus Petrus Soadi etc.</p>
+<p xml:id="p.66">Raptim Ujvarini die 19. Septembris Anno 1622.</p>
+<p xml:id="p.67">Tuae Reverentiae at amabilissimae charitati sinceriter addictus</p>
+<p xml:id="p.68">Em. R. Peczeli, </p>
+<p xml:id="p.69">minister verbi Dei indignus.</p>
+<p xml:id="p.70">Reverendo et Clarissimo, multiiugaque eruditione praestantissimo viro, domino
+                    Joh. P. Canisaeo, Pastori Ecclesiae Papensis, vicinarumque eius seniori
+                    fidelissimo, domino, amico, conservo et in Christo fratri longe honorando et
+                    amando. </p>
+<p xml:id="p.71">(<bibl>A dunántúli ref. egyházkerület legrégibb jegyzőkönyve 96–7.</bibl> Kiad.
+                        <bibl><hi rend="smallcaps">Thury</hi>, <abbr>MPEtA VIII</abbr>, 99.</bibl>)</p>
+<p xml:id="p.72">6. <persName>Kanizsai Pálfi Jánosnak</persName>
+</p>
+<p xml:id="p.73"><placeName>Érsekújvár</placeName>, <date when="1629-06-10">1629. június 10.</date></p>
+<p xml:id="p.74">Üdvözli Kanizsai Pálfit dunántúli püspökké választása alkalmából, beszámol
+                    családi ügyeiről és egyházi dolgokról, valamint a Zvonarich György evangélikus
+                    prédikátorral folytatott polémiájáról. </p><p xml:id="p.75">Salutem perennaturam, et optatos ardui
+                    tui officii successus devoto precatur officiaque charitatis sine furo [?] defert
+                    sua. Occasio praesens, quam mihi proportuni obtulit harum exhibitor Petrus Also
+                    Lyndvaeus, alumnus Scholae nostrae non postremus, excitavit me, ut discussa
+                    silentii tam ingrati nube, hisce his properiter effusis, te virorum optatissime
+                    mihique faventissime charitatis haud in me frigescentis hostimentum in hac
+                    papyracea ara, tibi litarem. Officii mei esse duxi, ut ego prior, in hanc ad te
+                    scribendi palaestram erumperem, tibique, de novo honore et munere episcopali
+                    officiose gratularer. Itaque magnopere mihi gaudeo, et tibi gratulor,
+                    honorificum istud novi officii culmen, in quod te Deus et ecclesiola non sine
+                    mea tacita consensione et approbatorum, sublimaverunt. Equidem et multo pluribus
+                    verbis tibi gratularer, nisi putarem, tibi certo persuasum esse, me, pro nostra
+                    veteri, synceraque amicitia, non minus prosperis tuis, quam meis oblectari et
+                    laetari. Deus ille plurimum sitorum qui solus est tutissima navigii nostri
+                    anchora, te tuosque sympresby teros dirigat, sublevat, tueatur et consoletur.
+                    Benedictum sit nomen Domini, tempestas bellica, quae nos in hoc districtu
+                    Mathiusföldensi, diu tristavit et attrivit, non nihil interquirit. Utinam
+                    exinde, post tot procellas, dies nobis et anni parationis enitescant, et
+                    arrideant! Spes bona tamen diu, quam diu mundialium ambitioni Deus ex alto
+                    capistrum iniiciat, et obstringat potentissime. Nos quoque inter spem et metum,
+                    sub solius Dei clypeum confugientes, hactenus salvi vivimus. Ego et coniunx mea,
+                    filius Michael septimum qui iam agit annum, filiola mea Anna, quae nunc coepit
+                    lallare, dei benignitate non infausta fruimus aura. Expectamus in singulas horas
+                    R. D. J. [Samarjai János püspök] affinem, episcopum nostrum, et venerabilem et
+                    amabilem. Synodum non Comjatini, quo fuerat indicta, sed Ürmenii deo volenti,
+                    jam habimus: causam viva vox praesint exhibetis indicabit sciscitanti, cui plura
+                    et statu nostro referenda commisi. Consilium Ecclesiae Catholicae, quod Latino
+                    scripseram, et quod Ungarice Georgius quidem Zuonorich leviter oppugnavit, non
+                    expugnavit, iam Hungarica civitate donavi, et leve oppugnarem ad calcem
+                    annihilavi. Si Deus et ecclesia volent, in lucem dabo. Utinam boni isti
+                    lutherani, iam tandem publica confessione contenti, tigescere desinant, et
+                    charitatem christianam amplecti nobiscum velint! Plura scribeo non vacat.</p>
+<p xml:id="p.76">Vale vir clarissime, cum tuis fidelibus. Datum Ersek Uyvariensi Dominicae
+                    Trinitatis 1629. R. T. D. amicus</p>
+<p xml:id="p.77">Emer. R. Peczelius</p>
+<p xml:id="p.78">si mereor, experto a tua dilectione</p>
+<p xml:id="p.79">Reverendissimo et Clarissimo Viro Domino Joanni P. Canisaeo, Pastori ecclesiae
+                    Ung. Nemet Uyvariensis, fidelissimo, necnon Fratrum Helveticae Confessionis
+                    amplectentium, cis et ultra Rhabam Episcopo vigilissimo, et Domino et amico suo
+                    plurimum observando et amando Nemet Uyvariensi.</p>
+<p xml:id="p.80">(<bibl>A dunántúli ref. egyházkerület legrégibb jegyzőkönyve 216.</bibl>)</p>
+<p xml:id="p.81">PRÓZAI MŰVEI </p>
+<p xml:id="p.82">
+<hi rend="bold">1.</hi> „Isagoges Rhetoricae Libri Duo: Quorum prior de
+                    Inventione et Dispositione: posterior vero de Elocutione agit. In usum Scholae
+                    Komaromiensis ex Aristotele, Cicerone, Quintiliano et aliis quibusdam vetustis
+                    ac novis autoribus breviter adornati et perspicuis ac familiaribus exemplis ita
+                    passim illustrati, ut contineant, cum utilem ipsorum praeceptorum explicationem,
+                    tum facilem eorundem usum sive praxim, Tyronibus Eloquentiae primò et apprime
+                    necessariam. Opera et Studio Emerici Regii Peczelii Ungari. In Nobili
+                    Oppenheimio, Ex Officina Typographica Hieronymi Galleri MDCXII.” 268 l.
+                            (<bibl><abbr>RMK III</abbr>, 1112.</bibl>) A könyv ajánlását a komáromi
+                    bíráknak, katonai elöljáróknak és senatoroknak, <persName>Dobronoki
+                        Miklós</persName> püspöknek, <persName>Bölcskei István</persName> komáromi
+                    papnak és <placeName>Komárom</placeName> szabad királyi város összes lakosának
+                    címezte, és <date when="1611-11">1611 novemberében</date>
+<placeName>Heidelbergben</placeName> keltezte. Az ajánlást az üdvözlő versek
+                    követik. Ezek írói: <persName>Rodolphus Goclenius</persName>, a marburgi egyetem
+                    rektora; <persName>Simon Stenius</persName>, a retorika és poétika professzora a
+                    heidelbergi egyetemen; <persName>Petrus Trappius</persName> oppenheimi
+                    prédikátor; <persName>Szenczi Molnár Albert</persName>,
+                        <placeName>Oppenheimban</placeName>, <date when="1611-10-24">1611. okt. 24-én</date> keltezve
+                    (szövegét feljebb közöltük); <persName>Filiczki János<idno type="ITIdata">Q41528</idno></persName> (életrajzát
+                    lásd sorozatunk I. kötetében); <persName>Szepsi Korocz György<idno type="ITIdata">Q71704</idno></persName>
+                    (verseit és életrajzát lásd sorozatunk VI. kötetében); <persName>Varsányi P.
+                        Dániel</persName>, ekkor heidelbergi tanuló, később böszörményi, majd tokaji
+                    pap; végül maga a szerző Pécseli Király Imre.
+                        <persName>Filiczki János</persName> üdvözlő versét később verseinek
+                    gyűjteményes kiadásában (<bibl>Carminum liber. Basel <date when="1614">1614</date>.
+                        46.</bibl>) újra kiadta <title><hi rend="italic">In Rhetoricam ab Emerico
+                            Regio Peczelio, Hungaro, editam</hi></title> címen. Az üdvözlő verseket
+                    a szerzőnek még egy <placeName>Oppenheimban</placeName>
+<date when="1611">1611-ben</date> kelt előszava követi a komáromi tanulóifjúságnak
+                    címezve.</p>
+<p xml:id="p.83">Pécseli könyve igen kedvelt tankönyv lehetett, mert
+                        <date when="1639">1639-ben</date>
+<placeName>Nürnbergben<idno type="ITIdata">Q15246</idno></placeName> már harmadik javított kiadása jelent meg
+                            (<bibl><abbr>RMK III</abbr>, 1551.</bibl>) változatlan szöveggel. Ennek
+                    címében azonban már az „in usum scholae Komaromiensis” szöveg helyett „in usum
+                    scholarum Hungariae” áll, vagyis most már az egész ország iskoláinak szánja
+                    könyvét. Az <date when="1612">1612</date>. és <date when="1639">1639</date>. között megjelent második
+                    kiadás elveszett. Pécseli Király műve még a XVIII.
+                    században is használatos volt. (<bibl><hi rend="smallcaps">Molnár Aladár</hi>: <title>A közoktatás
+                            története Magyarországon a XVIII. században</title> 321</bibl>;
+                    <bibl><hi rend="smallcaps">Vasáry</hi> 14.</bibl>)</p>
+<p xml:id="p.84">Közöljük itt az ajánlás és az előszó szövegét; a költő saját ajánló versét lásd
+                    latin versei között.</p>
+<p xml:id="p.85"><hi rend="italic">Amplissimis Nobilibvs Strenuissimis et Consultissimis D. D.
+                        Judicibus, Tribunis Militaribus, Senatoribus Necnon Reverendis Et
+                        Clarissimis Viris Dn. Nicolao F. Dobronoki, Superattendenti, etc. Dn.
+                        Stephano Beolczkei Symmystis Optimis ac reliquis omnibus singulisque
+                        inclytae, liberae et Regiae Urbis Komaromiensis incolis.</hi></p>
+<p xml:id="p.86"> Pietate, prudentia, humanitate, experientia, militari peritia, et aliarum
+                    virtutum choragio bene conspicuis Viris D. D. et Patronis suis submissim et
+                    perpetim colendis Salutem perennem in Christo vera et unica salute precatur.
+                    Annaeus ille divini Genii et ingenii vates, Amplissimi, Nobilissimi et
+                    Consultissimi Viri, Mecaenates mei plurimum observandi, per eleganter et
+                    graviter admodum, in suo de Beneficiis libello dissertans, inter alia
+                    hujuscemodi hortamen nostris oggerit oculis: „Acceptum beneficium – inquiens, –
+                    aeternae memoriae infigendum est. En monitum adsimiliter aeterno haud indignum
+                    memoriae thesauro! Cui aureo Philosophi dicto et gravi paraenesi pie et paternè
+                    monitoriam allucet faculam ipse Divus Bernardus, inquiens: „Disce in ferendo
+                    gratias, non esse tardus, non segnus, disce ad singula dona gratias agere.” Quod
+                    equidem utrumque hortamen mihi saepenumero cogitanti, et jugem vestrorum in me
+                    beneficiorum memoriam animitùs refricanti, calcaris haud exilis instar
+                    suscitabulum existit, meque eò adigit, ut in gratiarum actionem vestris meritò
+                    debitam meritis praefidenter erumpere, et expressiore, quam anteà, sigillo me
+                    totum ad sempiternam gratitudinem vobis, ô Mecaenates optimi et summa mihi
+                    observantia colendi, de vinctum esse palam et publicitus obsignare non
+                    addubitem. Verùm ubi hoc unicè molior, et hęc affectus ac animi haud simularè
+                    obsequiosi munia absolutum iturio, protinùs intimè persentisco, cum oris tum
+                    styli mei officium vinci et deprimi magnitudine promeritorum, quibus me non
+                    affectum modo, sed penè obrutum esse candidus agnosco, gratus adsevero. Etenim,
+                    ut alia Munificentiae vestrae beneficia, quibus me toto eo temporis interstitio,
+                    quo Didascalum apud VV. AA. egi, cumulatim affecistis, hic non commemorem, Ecce
+                    triennium adequitat, et ejus exodium nostris propemodum foribus jam approximat,
+                    ex quo vestra liberalitas plane aurea largiflui sumtus aura secundis studiorum
+                    meorum velis sive laboribus, in hac inclytissima et antiquissima
+                    Archipalatinatus Academia, sedulè urgendis, benigniter et continenter
+                    adspiravit. Cujus sanè magnifici beneficii et officii bono secundum gratuitam
+                    Dei Termax. Patris benignissimi providentiam, studiis meis destinato, de quo
+                    mihi jure ac meritò gratulari licet, effectum est, ut hic diutius in tanta
+                    annonae ac aliarum rerum infausta penuria, quam proximè praeterlapso tempore
+                    funesta Martis alea sive damnata civilis belli tempestas his regionibus
+                    inflixerat, hanc piarum Musarum sedem incolere quirem, sicque tantorum et tam
+                    orthodoxorum aevi nostri Theologorum (quos hic debiti honoris et amoris ergò cum
+                    pietas in Praeceptores, animorum Parentes, tum gratitudo in benefactores
+                    honorificè nominare me jubent) putà Reverendi et Clarissimi Viri Domini Davidis
+                    Parei primarii sacrarum literarum Professoris, et hujus almae universitatis pro
+                    tempore Rectoris gravissimi. Item Cl. Dn. Quirini Reuteri S. Theologiae Doctoris
+                    eximii, et illustrissimi Collegii, quod vocant, Sapientiae, Praeceptoris
+                    primarii, necnon venerabilis Viri Dn. Bartholomaei Coppenii S. Theologiae
+                    Doctoris et locorum communium ordinarii Professoris optimi, Praeceptorum
+                    aeviternâ memoria et summa semper observantia mihi colendorum opera et
+                    laboribus, tùm publicè tùm inprimis privatim in hoc salutari Theosophiae studio
+                    et stadio, cujus gratiâ praecipuè sub initium anni à Christo nato Millesimi
+                    sexcentesimi noni patrio de solo, in spem boni majoris Ecclesiae et Reipublicae
+                    literariae futuri, promotus, in Germaniam iter direxeram, feliciùs promoveri
+                    possem. O divinam igitur et submissè mihi adorandam Jehovae Patris
+                    indulgentissimi, saluti meae ita clementer intenti providentiam! O singularem
+                    vestri coeligeni Genii bonitatem! O felicissimam denique temporis
+                    intercapedinem! quibus advòtum mihi suffragantibus hanc inclytissimam Academiam,
+                    insigne rariorum virtutum et politioris literaturae domicilium, atque adeò
+                    ipsius ὀρθοδοξίας et purae Religionis Nutricem adire, incolere, ejusque
+                    vindemiae literariae racemos omni melle et saccharo dulciores, imò quovis
+                    alexipharmaco, in hac odiosa et lacrymosa fluctuantis vitae peregrinatione
+                    degenti salutatiores, carpere mihi, una cum optimis aliarum quoque nationum
+                    alumnis, obtigit et licuit! Quo circa agnosco, agnosco, et gratus plenis decanto
+                    buccis haec à divina ac summè commemoranda liberalitate profecta vehementia esse
+                    promerita; adeoque trabalius, quod dicitur, clavis figi, et in eminentiori
+                    quodam Gratitudinis et Memoriae Pharo collocari digna beneficia, quorum memoriâ
+                    sempiterna me V.V. A.A. obstrictum esse perlibente animo ac ingenuè profiteor.
+                    Interim verò pro iis, primum tibi ô clementissime Deus, fons manalis omnium
+                    bonorum, dehinc vobis Mecaenates studiorum meorum admodùm honorandi, quod parùm
+                    cumulatè gratias agere videor, oro obtestorque ne tam meae voluntati, quae
+                    coelestis, ut spero, Gratiae spiritu succensa, hujus stadii gratitudinis probè
+                    permetiendi desiderio medullitùs flagrat, quàm paupertinae virium et facultatum
+                    imbecillitati primitùs in Adamo nostris animabus communiter inflictae postea
+                    vero et mihi ingentiae, vestris promeritis minime pari et sufficienti,
+                    tribuendum paternè velitis.</p>
+<p xml:id="p.87">Verumenimvero licet in hoc vestro beneficio, ô Mecaenates Indigetesque optimi,
+                    tanta sit magnitudo, et tanta amplitudo, ut ejus obtutu, veluti plumbeo quodam
+                    pondere depressus meis assurgere viribus non valeam, et debito surrectus modo,
+                    ad delubri vestri aram votiva, eaque satis idonea mentis et affectus mei verè
+                    officiosi libamenta in praesentiarum offerre, deponere et consecrare non possim:
+                    ne tamen, omni spe velut abjecta, animus meus in eam culpae labem sive tabem,
+                    quae ingratos cuculos turpiter inquinare nata est, et quâ tellus ipsa foedius
+                    nil producit, imò quae, ceu noxius aestus ac pestifera aura Gratiae et
+                    Munificentiae scaturiginem exsiccare citatim assolet, ignavè et ignominiosè
+                    prorsùm illapsus et resolutus esse videatur vel judicetur. En cum bono Deo redux
+                    vobis affero et offero qualemcunque Gratitudinis meae obsidem et manifestum
+                    affectus syncere obsequentis indicium, hanc videl. Artis Rhetoricae sive
+                    flexanimae et oratoriae facultatis Isagogen, quam inter majores studiorum meorum
+                    occupationes, subcisivis, ut vocant, horulis, in hac Academia, ex iis Autoribus,
+                    quos eruditos et probatos novi et indipisci potui, pro tyronibus concinnavi,
+                    illamque studiis et usibus scholae vestrae, cujus gubernamini me destinatum esse
+                    nullus ignoro, singulari studio accomodavi. Eam igitur ceu primum ingenii mei
+                    foetum favorabilibus A. A. V. V. adindo gremiis: Eam amabilissimae vestrae
+                    tutelae et curae paternae voveo, consecro. Eam almae studiosorum adolescentum
+                    cohorti, veluti quoddam amoris in eos, et charitatis Christianae symbolum, amicè
+                    et fraternè commendatam volo. Quapropter hunc libellum ô Mecaenates amplissimi,
+                    quem veluti genuinum perennantis cujusdam lauri novellum ex amoenissimis
+                    excellentium Rhetorum virectis vigilace studii mei falce defectum; et industria
+                    ac labore inoculatum, atque nunc primùm in lucem recens enatum, coram Favoris et
+                    Munificentiae tribunali in ipso domus vestrae seminario, gratioris et
+                    foecundioris terrae visceribus infigo, inplanto, sereno vultu et paterno aspectu
+                    intueamini ac tueamini quaeso, et oro. Illumque largifluo Prudentiae et
+                    Providentiae vestrae torrente rigatum amanter enutritatis et educetis velim. Ut
+                    in eo perpetim et annatim tam meae Gratitudinis et animi studiosi viror et vigor
+                    florescant, quam in ipsius <sic>Aöniae</sic> pubis, optimae Patriae, et Reipublicae
+                    literariae Spei, usum, emolumentum et ornamentum, supremi numinis aurâ clementer
+                    aspirante, baccae et laureae concrescant. Non indignum siquidem puto, ut quem
+                    aurea beneficii catena perpetuè vobis devinctum obtinetis, ejus etiam si qui
+                    sunt ingenii fructus, in vestram vestrorumque utilitatem derivatos possideatis,
+                    foveatis.</p>
+<p xml:id="p.88"> Exiguus quidem haud diffiteor iste Lauri arboris surculus in se est, et forsitan
+                    expectatione tenuior, gracilior ac proinde conspectu AA. VV. honorando non ita
+                    dignus esse primiter aestimabitur. Veruntamen si animus et gratitudinis
+                    propalandae et melioris literaturae publici boni causa propagandae studio
+                    succensus et flagrans, cujus unius modulo talia munuscula cumprimis meriti
+                    debent, ad aequioris judicii libramentum appendatur et expendatur haud
+                    difficilem, ut opinior, favoris auram adoptatò et meritò foetum istum, qui
+                    Reipublicae bono nasci prae se fert, pro mereri posse non temerè
+                    judicabitur.</p>
+<p xml:id="p.89">Unde confidenter et ego de VV. AA. mihi polliceri ausim, hanc opellam gratiosiore
+                    favoris et amoris calculo non gravatim adprobatum iri. Si enim Artaxersi
+                    Persarum Regi (quod memorabile ipsius exemplum apud omnes perpetuae laudis et
+                    admirationis locum obtinet) aquula ab indigo colono, sive cliente honorarii
+                    muneris loco, ad declarandam animi gratitudinem oblata adeo grata extitit, ut
+                    illam mille Daricis et aureo cantharo compensaret. Et pariformiter si in Vet.
+                    Foedere pili caprarum oblati ab iis, qui aurum et argentum afferre non poterant,
+                    ad exstruendum tabernaculum Domini, fuerunt bene grati et accepti. Et quod majus
+                    est. „Si Deus in terris non se contemnere dixit Nec calicis vilem frigidioris
+                    aquam.” Quid ni et ipse exiguum et levidensae istud munusculum, quod pio affectu
+                    ad aedificationem domus Domini, hoc est, Ecclesie, cujus pars non ultima sunt
+                    Scholae, nunc offero, dedico, consecro, gratiam aliquam ab AA. VV. pietate et
+                    humanitate coruscis, obtenturum esse confidam? Quod ubi optato fiet, novi
+                    profectò meis studiorum nervis sufficientur spiritus, nove sufficienter addentur
+                    vires, unde majoribus olim, auspice Deo et vita comite, rebus operam impendere
+                    connitar. De praesenti verò tenella nunc arbuscula sive opella ejusque futuro
+                    usu et fructu quid pollicear, nondum habeo, nisi hoc ex antiquorum vatum ore
+                    proloquor; Nempe: „Omnium rerum, – ut ait Cicero: – principia parva sunt, sed
+                    suis progressibus usa augentur.” Hinc et Ovidius:</p>
+<l xml:id="l.11">Tempus ut extensis tumeat facit uva racemis</l>
+<l xml:id="l.12">Vixque merum capiant grana, quod intus habent.</l>
+<l xml:id="l.13">Tempus et incanas semen producit aristas,</l>
+<l xml:id="l.14">Et ne sint tristi poma sapore facit.</l>
+<p xml:id="p.90">Ita (et Mantuano inquiente:)</p>
+<l xml:id="l.15">Nulla suo res est si sit data tempore vilis, </l>
+<l xml:id="l.16">Apta ferunt magnam tempora rebus opem.</l>
+<p xml:id="p.91">Unde et ego sic ajo et aveo:</p>
+<l xml:id="l.17">Surculus iste suo fructus producet amoenos</l>
+<l xml:id="l.18">Tempore, quod faxis Ter venerande Deus.</l>
+<p xml:id="p.92">Ad extremum itaque nam ad portum festinare cogitur oratio, quod me concernit, ego
+                    sanctè vobis Mecaenates Amplissimi, polliceor me vestri beneficii memoriam
+                    benivolentiâ sempiternâ culturum, non solùm dum animula mea in hujusce fragilis
+                    domicilii ergastulo, divinitùs adservabitur; sed etiam cum mihi ex hac luctuosa
+                    et lubrica vitae conditione in coelestem paradisum evocato monimenta vestri
+                    promeriti perennè vigebunt. In referenda autem gratia, hoc V. V. A. A.
+                    repromitto semperque praestare conabor mihi neque in juventute piis informanda
+                    literis diligentiam, neque in laudibus vestrarum virtutum studiosè decantandis
+                    gratam animi benevolentiam, neque in aliis officiis ad Reipublicae Christianae
+                    bonum spectandibus industriam et fidem unquam defuturam. Intereà Deum Teropt.
+                    Max. Patrem nostrum clementissimum imo de pectore, meis adito precibus, ut hanc
+                    instructissimam Reipublicae et Ecclesiae vestrae navem, hactenus quidem
+                    innumeris hujus vitae procellosae tempestatibus quassatam, at geminâ divinae
+                    providentiae et vestrae prudentiae anchora stabilitam diutissime salvam et
+                    incolumen ac tum puro divini verbi pabulo tum politioris literaturae saccharo
+                    circumfluentem clementer intueatur et tueatur, Amen. Heidelbergae, Anno Gratiae
+                    1611. Mense Novembri.</p>
+<p xml:id="p.93">V. V. A. A.</p>
+<p xml:id="p.94">studiosissimus cliens et alumnus</p>
+<p xml:id="p.95">Emericus Regius Peczelius</p>
+<p xml:id="p.96">(Első számozatlan ív 2a–6a.)</p>
+<p xml:id="p.97">
+<hi rend="italic">Studiosis Komaromiensibus S. P. D.</hi></p>
+<p xml:id="p.98">Gravis querela Trapezuntii est, juvenenes et adulescentes optimi ac dilectissimi:
+                    Cum mihi, inquientis, in mentem venit, quanta oratoriae facultatis tum dignitas,
+                    tum utilitas sit, non possum non vehementer dolere, quod his nostris temporibus
+                    nulla ferè bonarum artium tam abjecta, atque contempta habeatur: nam etsi
+                    nonnullae liberalium artium, ut Geometria, ut Arithmetica, et quae hujus generis
+                    sunt, omninò ab usu ceciderunt, ne non multum eas ad humanitatem pertinere
+                    dicam, non sumus tamen in ipsis tantam passi jacturam, quantam in hac
+                    humanitatis artium praeclarissima maximeque necessaria. Equidem nullus dubito,
+                    quin huic justissimae querelae suffragium Eruditorum omnium haud gravatim
+                    subscribat. Ita et ego eam altiori considerationis lance pensitans, adductus sum
+                    eo moliminis, ut huic tanto tam utilissimae facultatis occasui et deliquio,
+                    quantum à me fieri posset, succurrerem. Machinatus sum igitur istam Isagogen ceu
+                    primum ellychnium quo aliquid opis huic occidenti lumini ferre: sicque Patriae
+                    nostrae, cui ut et parentibus maximè et meritissimè debitores sumus, cujusque
+                    augmenta cogitare non improbae indolis esse duco, commodum aliquod asportare
+                    possem. Eam verò moderata brevitate sic contraxi, et facili ut opinor methodo
+                    sic digessi, ut nihil sanè sciens aut volens praetermiserim eorum, quae vel
+                    justam compendii primiter ipsis Tyronibus apprimè necessarii rationem, vel
+                    communem eorundem usum et utilitatem concernere videntur. Confeci tubulos sive
+                    canales, per quos è lympidis Ciceronis, Quintiliani, aliorumque probatae fidei
+                    et publicae autoritatis hac de re Scriptorum Comaromiense, cui multum ego debeo,
+                    ad irrigandos ingenii vestri flores, ut in fructus uberes erumpant, derivare
+                    satago. Regiam et majorum in literis nostrorum calce pressam ostendo vobis viam:
+                    in qua praeceptionum inprimis usitatarum Mercuriales statuas constituo tutè
+                    sequendas; quas si vos in hoc stadio et studio decurrendo vestris subjectas
+                    oculis diligenter observaveritis, a Schola Ciceronis, veri verae Eloquentiae
+                    parentis ad quem imprimis itandum esse, omnes boni agnoscimus, minime, ut spero,
+                    deviabitis: Sin autem eas neglexeritis in deviis et aspretis, quibus studiorum
+                    curriculum est obstructum, abnormiter haerebitis. Novam viam haud consultum est
+                    sequi: Nam saepè viatorem nova non vetus orbita fallit. Ut vero molesta et
+                    sublesta tum dictitandi tum scriptitandi mole meque meosque exonerarem, hunc
+                    libellum typis describi curavi. Non ignoro, quin liventes quidam non obscurae
+                    inscitiae aut invidiae Vernulae hunc meum laborem futili et anili κακολογία sint
+                    impetituri. Sed nihil eos moror. Quid autem morer, cum in hoc factioso seculo
+                    livoris intemperiem nemini parcere pervideamus. Commune malum est, ideòque
+                    tolerabilius: Ego in eorum numero me esse reor: Quos nec falsus honos juvat, aut
+                    mendax infamia terret. Vos mi juvenes oculissimi Valete et mihi favete.
+                    Oppenheimii Anno</p>
+<p xml:id="p.99">HInC abeVnDVM.</p>
+<p xml:id="p.100">Vester ex fide fida </p>
+<p xml:id="p.101">Em. R. Peczelius.</p>
+<p xml:id="p.102">(Első számozatlan ív 8a–b.)</p>
+<p xml:id="p.103">*</p>
+<p xml:id="p.104"><hi rend="bold">2.</hi> „Consilivm Ecclesiae Catholicae Doctorum super ista
+                    Quaestione: An homo Christianus possit et debeat se cognominare Lutheranum vel
+                    Calvinistam ad Religionem puram ab impurâ recte discernendam? Collectum ab
+                    Emerico Regio Peczelio Ministro Verbi Dei in Ecclesia Comaromien. etc.
+                    Cassoviae, Per Nicolaum Mollerum, Typographum S. Regiae Maiestatis. Anno Domini
+                    nostri I. C. 1621.” 98. l. (<bibl><abbr>RMK II</abbr>, 416.</bibl>)</p>
+<p xml:id="p.105"> A könyv <date when="1620-12">1620 decemberében</date>
+<placeName>Komáromban</placeName> kelt ajánlását <persName>Remus
+                        Györgynek</persName>, <persName>Szenczi Molnár</persName> németországi
+                    barátjának és <persName>Molnár Albertnek<idno corresp="Szenczi Molnár Albert"/></persName> címezte. A protestánsok
+                    megbékélésére buzdító előszó után a szerzőnek <persName>Bethlen
+                        Gáborhoz</persName> intézett ajánló verse, majd két üdvözlő epigramma
+                    következik „Nobilis Johannes Pajor de Magyarbél: Juratus Notarius Regiae
+                    Civitatis Comaromiensis” tollából. Ez a <persName>Pajor János</persName>
+<persName>Pécseli Király</persName> tanítványa volt, mert az epigrammákat
+                    „Praeceptori sui colendissimi” címezi, <date when="1621">1621</date>-ben. Ezután
+                        <persName>Pécseli Király</persName>
+<title><hi rend="italic">Catalogus Patrum, qui in hoc Consilio suffragia seu
+                            vocem mittunt</hi></title> címen felsorolja azokat a szerzőket, akiknek
+                    véleményét, műveit idézi könyvében. Maga a törzsszöveg nagy apparátussal
+                    készült, állandóan bőven idéz az elősorolt tekintélyek munkáiból. A könyvet az
+                    egyházak uniójára intő utószó zárja.</p>
+<p xml:id="p.106"><persName>Pécseli Király</persName> e munkájára evangélikus részről
+                    <persName>Zvonarich György</persName> válaszolt öt évvel később kiadott
+                    munkájában: „Rövid Felelet Mellyben Pecseli Imrenec, Ersec Uyvari Calvinista
+                    Praedicatornak Tanacsa meghamisséttatic, és az több Doctorok irásirais válasz
+                    adatic, im ez kérdés felöl: Az keresztyén Embernec kellessék e Lutheránusnak
+                    avagy Calvinistánac neveztetni ez végre, hogy az igaz tudomány avagy hitnec
+                    vallása az hamistul megkülömböztessec? Mellyet Isten igéjébül és az szent irás
+                    magyarázó keresztyén Doctoroknac irásokbúl szedegetet és az egyigyü hiveknec
+                    eppülettyekre közönsegesse tött Sárvári Zvonarits György. Csepregben Farkas Imre
+                    nyomtatta 1626. Esztendöben.” (<bibl><abbr>RMK I</abbr>, 554.</bibl>) Ez a
+                    rövid, mindössze 16 leveles, <persName>Batthyányné Poppel Évának<idno type="ITIdata">Q61735</idno></persName>
+                    ajánlott munka azt fejtegeti, hogy a reformátusoknak nem kellene tiltakozniok a
+                    kálvinista nevezet ellen. <persName>Zvonarits</persName> többször idéz ellenfele
+                    könyvéből magyar nyelven. <persName>Zvonarits</persName> lapszámutalásai
+                    pontosan a latin munka megfelelő helyeire utalnak. <persName>Pécseli</persName>
+                    választ írt erre a támadásra magyar nyelven, amint erről <date when="1629-06-10">1629. június
+                        10-én</date> írt leveléből értesülünk. A levél szerint válasza kiadását
+                    tervezte és remélte, de hogy ez megvalósult-e, nem tudjuk.</p>
+<p xml:id="p.107">Meg kell jegyeznünk, hogy a <title><hi rend="italic">Consilium</hi></title>
+                    egyetlen fennmaradt példányával (Debreceni Ref. Nagykönyvtár) egy 65 levélnyi
+                    kéziratos toldalék van összekötve. A könyv egy ismeretlen XVII. vagy XVIII.
+                    századi tulajdonosa ezekre a levelekre főleg imádságokat és
+                    prédikáció-vázlatokat írt.</p>
+<p xml:id="p.108">Közöljük itt a könyv ajánlását, a <title><hi rend="italic">Catalogus
+                        Patrum</hi></title>-ot és az utószót. Pécselinek a <title><hi rend="italic">Consilium</hi></title>-ban kiadott két versét lásd latin versei
+                    között.</p>
+<p xml:id="p.109"><hi rend="italic">Clarissimo vere Nobili et Sapientissimo Viro D. Georgio Remo I.
+                        V. Doctori, Augustano Inclytissime Reip. Norimberg. Consiliario
+                            </hi><sic><hi rend="italic">diguissimo</hi></sic><hi rend="italic">: Nec
+                        non Eximio et Celeberrimo Viro Dn. Alberto Molnar Szenczino, Vngaro Paribus
+                        et amicitiae et concordiae Evangelicae cultoribus: Dominis et fautoribus
+                        meis benignissimis ac amicissimis, Salutem et Pacem à Christo Domino et Deo
+                        nostro sincerè ac devote precor.</hi></p>
+<p xml:id="p.110">Sapientissimus Regum Salomon in libello Proverbiorum (Prov. 6. vers 19.) asserit
+                    Deum nostrum odisse imò detestari eum, qui discordias seminat inter Fratres. Hoc
+                    fulmine odij divini meritò feriendi sunt illi, qui Christianos reformata, ex
+                    Evangelio fidei Catholicae doctrinam amplexos, insano discordiae flabello
+                    dissociare laborant: Eos verò non postremos hujus abominandae rei fabros esse
+                    judico, qui vel seipsos schismaticè, vel alios odiosè nunc Lutheranos nunc
+                    Zvinglianos aut Calvinianos appellitant, et ab his impia et portentosa quaeque
+                    dogmata proseminari sine fonte et fronte clamitant, dicendo: Calviniani docent:
+                    Deum esse authorem peccati, Christum non esse omniscium, omnipotentem,
+                    omnipraesentem: Carnem Christi revera non esse nec manducari in S. Eucharistia:
+                    Panem et vinum inibi nuda tantùm esse signa, etc. Lutherani vero statuunt
+                    Capernaiticam et Cyclopicam in coena Domini Chreophagiam, contendentes
+                    ipsissimam Christi carnem ore et dentibus hominum arrodi, etc: Haec et similia
+                    contentiosi spiritus ac vertiginosi cerebri figmenta de ipsis hominibus
+                    Evangelicè sanioribus, istaque jam obiter attacta minimè somniantibus Orbi
+                    Christiano publicitus et privatim, scriptis et viva voce promulgare ac subindè
+                    promuslitare non cessant illi, quibus ò carnis mortiferae ductu volupe est, et
+                    suavissimus cibus seminare discordias inter hos Fratres.</p>
+<p xml:id="p.111"> Igitur ad detestandam et compescendam hanc impie discordandi libidinem, et ad
+                    excitandum Evangelicorum inter sese concordandi studium, quod solis illis ex ore
+                    Christi (Matth. 5. vers. 4. 9.) Beatis arridere promptum est, hoc salubre
+                    Consilium arripui collegi et descripsi partim ex antiquis et sanctis Patribus,
+                    partim vero ex orthodoxis et Neotericis Ecclesiae Doctoribus: illudque vobis,
+                    viri clarissimi atque placidissimi, submissim offerre et dedicare, nec non sub
+                    celebri vestro nomine juris publici facere constitui. Neque dubitare me sinit
+                    vestra magna et in quosvis ubertim effusa Humanitas: quin aequi bonivè
+                    consulturi sitis hoc munusculum, quod sanè per exiguum est, si aestimetur pretio
+                    sui, verùm si mittentis erga vos observantia, gratitudine et amore pendatur,
+                    indubitatò religiosum existit.</p>
+<p xml:id="p.112">Quapropter enixissimè à vobis, viri clarissimi, contendo, ut hunc Tractatulum eo,
+                    quo mittitur animo, hoc est, pio et Zeloso recipiatis, et pro Christianae
+                    fraternitatis emolumento propagare satagatis: eumque contra ventosos
+                    obtrectationum Euripos ac momos, quorum aetas nostra valdè ferax est, quosque
+                    parvulum hunc ingenij mei foetum experturum esse, praevidere videor,
+                    authoritatis vestrae clypeo convestiatis ac defendatis. Vt autem commodiùs hoc
+                    efficere possitis, errorum monstra, si qua in eo deprehenderitis, judicij vestri
+                    limà, veluti clavâ Herculeâ conficiatis: Consultiùs riquidem est censuram
+                    bonorum subire, quàm invidos et iniquos experiri Circios. In seliquo Deus ille
+                    Pacis amator vobis, Viri optimi, vestrisque omnibus unicè dilectis talutaria
+                    quęque coelitùs donet benignissimè! Komarini mense Decembri. Anno Patien iae: Da
+                    paCeM nobIs pIe IesV VlVIs. </p><p xml:id="p.113">Vester ex fide priscâ</p>
+<p xml:id="p.114">Emericus Regius Peczelius Vngarus.</p>
+<p xml:id="p.115">(A3a–A6a.)</p>
+<p xml:id="p.116"><hi rend="italic">Catalogus Patrum, qui in hoc Consilio suffragia seu vocem
+                    mittunt.</hi></p>
+<table xml:id="table.1">
+<row xml:id="row.1">
+<cell xml:id="cell.1">Christvs Dominus.</cell>
+<cell xml:id="cell.2">Athanasius</cell>
+</row>
+<row xml:id="row.2">
+<cell xml:id="cell.3">Lucas in Act. Apost.</cell>
+<cell xml:id="cell.4">Cyrillus Alexandr.</cell>
+</row>
+<row xml:id="row.3">
+<cell xml:id="cell.5">Paulus Apostolus.</cell>
+<cell xml:id="cell.6">Gregor. Nyssenus.</cell>
+</row>
+<row xml:id="row.4">
+<cell xml:id="cell.7">Ignatius martyr.</cell>
+<cell xml:id="cell.8">Hieronymus Str.</cell>
+</row>
+<row xml:id="row.5">
+<cell xml:id="cell.9">Lactantius Firm.</cell>
+<cell xml:id="cell.10">Eusebius Hist. Ec.</cell>
+</row>
+<row xml:id="row.6">
+<cell xml:id="cell.11">Ambrosius Episc. mart.</cell>
+<cell xml:id="cell.12">Irenaeus martyr.</cell>
+</row>
+<row xml:id="row.7">
+<cell xml:id="cell.13">Augustinus Hyppon.</cell>
+<cell xml:id="cell.14">Greg. Nazianzenus.</cell>
+</row>
+<row xml:id="row.8">
+<cell xml:id="cell.15">Iustinus martyr.</cell>
+<cell xml:id="cell.16">Rupertus Abbas T.</cell>
+</row>
+<row xml:id="row.9">
+<cell xml:id="cell.17">Chrysostomus</cell>
+<cell xml:id="cell.18">Origenes.</cell>
+</row>
+<row xml:id="row.10">
+<cell xml:id="cell.19">Epiphanius</cell>
+<cell xml:id="cell.20"/>
+</row>
+</table>
+<p xml:id="p.117">Recentiores.</p>
+<table xml:id="table.2">
+<row xml:id="row.11">
+<cell xml:id="cell.21">D. Erasmus R.</cell>
+<cell xml:id="cell.22">Gvil. Witakerus.</cell>
+</row>
+<row xml:id="row.12">
+<cell xml:id="cell.23">Cajetanus Cardinalis.</cell>
+<cell xml:id="cell.24">David Pareus.</cell>
+</row>
+<row xml:id="row.13">
+<cell xml:id="cell.25">R. Bellarminus</cell>
+<cell xml:id="cell.26">Sibrandus Lubbertus</cell>
+</row>
+<row xml:id="row.14">
+<cell xml:id="cell.27">M. Lutherus.</cell>
+<cell xml:id="cell.28">Iohan. Piscator.</cell>
+</row>
+<row xml:id="row.15">
+<cell xml:id="cell.29">Petrus Boquinus.</cell>
+<cell xml:id="cell.30">Stephan. Gönczi.</cell>
+</row>
+<row xml:id="row.16">
+<cell xml:id="cell.31">Hen. Bullinger.</cell>
+<cell xml:id="cell.32">Conradus Worstius.</cell>
+</row>
+<row xml:id="row.17">
+<cell xml:id="cell.33">Daniel Tossanus.</cell>
+<cell xml:id="cell.34">Christophorus Pezelius</cell>
+</row>
+<row xml:id="row.18">
+<cell xml:id="cell.35">Antonius Sadeel.</cell>
+<cell xml:id="cell.36">And. Hipperius.</cell>
+</row>
+<row xml:id="row.19">
+<cell xml:id="cell.37">Marcus Beumlerus.</cell>
+<cell xml:id="cell.38">Bartholom. Keckerm.</cell>
+</row>
+</table>
+<p xml:id="p.118">(A7b.)</p>
+<p xml:id="p.119"> [Utószó]</p>
+<p xml:id="p.120">Ad extremum igitur oro Te, quisquis es, amice Lector, qui vel Augustanam, vel Anglicanam et Helveticam amplecteris
+                fidei Catholicae professionem, oro, inquam, obnixè et enixè per fidem illam, quà credis Ecclesiam, verè sanctam et Catholicam
+                Sanctorumque communionem: per amorem illum, quo Christianorum sangvine Iesu purpuratorum unionem intimè prosequeris:
+                per illum divini zeli fervorem, ex quo discordias et schismata ceu diaboli flabella verè pijs odiosissima procul á nostris
+                Evangelicis abessè discupis: per ipsum denique Christum verae et fraternae pacis amatorem, in cujus nomen baptizatus vitam
+                aeternam, ex fide et spe viva praestolaris; ut huic sancto et salutari Consilio, quod Tibi tam excellentes Ecclesiae Catholicae
+                Doctores, me indice fatim impertiunt, non illibenter assentiaris atque subscribas; et sicà Fide sola verè Christiana, prout suprà
+                Pater Chrysostomus innuit, Christianus appellari velis: id quod a Te, si pacificus es, optimè sperare mihi licet. Vale itaque
+                feliciter, et vive Christo re et nomine Christianus. Devs autem Pacis, qui eduxit de mortuis Pastorem magnum ovium in sangvine
+                Testamenti seu foederis aeterni Dominum nostrum Iesum Christum, aptet nos in omni opere bonò, ut faciamus ejus voluntatem,
+                efficiens in nobis, quod gratum sit in conspectu suo per Iesum Christum, cui sit gloria in secula seculorum, Amen!</p>
+<p xml:id="p.121">(G3a–G4b.)</p>
+<p xml:id="p.122">*</p>
+<p xml:id="p.123"><hi rend="bold">3.</hi> „Catechismvs az az, a Keresztyeni Tudomannac
+                    Fundamentomirol Es Agairol valo rövid Tanitás. Irattatot Peczeli Kiraly Imre
+                    Uyvári Praedicátor által. Papan Nyomtattatot Szöpes Várallyai Bernhárd Máthé
+                    által MDCXXIIII.” (<bibl>OSzK <abbr>RMK I</abbr>, 542a.</bibl>)</p>
+<p xml:id="p.124">A kis kötet elején a szerző verses ajánlása áll az újvári lovas és gyalog
+                    elöljáróknak, seregbíróknak, hadnagyoknak, vajdáknak és az egész gyülekezetnek
+                    címezve (lásd <ref target="rmkt-17-2.tei.pki-5">5. sz.</ref> alatt). Magának a katekizmusnak csak egy részét
+                    ismerjük ebből a kiadásból, mert a könyvtáblából kiáztatott egyetlen példány
+                    csonka.</p>
+<p xml:id="p.125">A második kiadás <placeName>Lőcsén<idno type="ITIdata">Q8066</idno></placeName>
+<date when="1635">1635-ben</date> jelent meg és 66 levélből áll. (<bibl><abbr>RMK I</abbr>,
+                        653.</bibl>) Ebben a verses ajánlást még egy prózai előszó is követi „Az
+                    Istenes Olvasonak”, melyből meg tudjuk, hogy „látván az Ersek-Uyvári kisdedeknek
+                    szüksegeket” írta könyvecskéjét. E második előszót bizonyára az tette
+                    szükségessé, hogy e kiadásban a rendes katekizmus előtt még egy külön
+                    „kiskatekizmus” áll a gyermekek, vagyis az első úrvacsorázók számára. A rendes
+                    káté szövege teljesen megegyezik az első kiadással. A káté szövege után a K5–L5
+                    leveleken <title><hi rend="italic">Egynehany szep Isteni Dicseretek, Mellyeket à
+                            Catechismusnak tanulásakor mondhatni</hi></title> címmel, hét ének
+                    következik. (Ezekről lásd alább.)</p>
+<p xml:id="p.126">A második kiadás prózai előszavát itt közöljük.</p>
+<p xml:id="p.127">
+<hi rend="italic">Az Istenes Olvasonak a’ Christus jó kedvét és kegyelmét
+                        kévánom.</hi></p>
+<p xml:id="p.128"> Az mi gazdag irgalmu szent Istenünknek, a’ mi Urunk Jesus Christusnak áldot szent Attyának öröcké való dicsérettel és
+                hálá-adással tartozunk: mellyet szüntelen meg-is kel cselekednünk; hogy ez utolso nyomorult idönkben a’ mennyei tudománnak
+                szövétnekit világossan az igaz Lelki-Tanitók által hordoztattya közöttünk; Söt az kisdedeknek vékony elméjekhez erezkedvén, az
+                Isteni szolgálatnak és arrol valo rövid tanuságnak rövid modgyát-is ottan ottan Catechismus által hol egy helyben s-hol másban kiszolgáltattya
+                az ö hüsęges Safárival: Kiért áldot legyen az ö nagy neve most és minden idöben! En-is azért törvény szerént valo
+                Lelki-Pásztor lévén méltatlan mivoltomra, és látván az Ersek-Uyvári kisdedeknek szüksęgeket, irám ez kisded kettös
+                Catechismust, oly állapatomban, a’ melyben reá érkezhettem: mely munkára vitettem bizonyos okoktol: mert, elöször az ackorbeli
+                rut háboruban, mint az Halcyon madárnak, ürességem adattatván, megh-tekéntém a’ kis talent garast, mellyet a’ mennyei Ur én
+                reám bizot, hogy amaz tunya rest szolga-ként el ne ásnám azt, hanem azzal kereskedvén, ama’ szám-adáskor az én Uramnak
+                usorával meg-vinném, E’ mellet másodszor, ez-is forga szivemben, hogy fölötte szüksęges e’ mostani gonosz idöben az idvözitö
+                mennyei tudománnak tiszta magvait, ugy-mint, a’ Tiz Parancsolatot, a’ Szent Credot, a’ Mi-Atyánkat és a’ Ket nevezetes
+                Sacramentomot igaz értelemmel (mert ez a’ világos és bizonyai Catechismus) a’ viazhoz hasonlo gyönge juhotskáknak
+                elméjekben hintegetni, gyökereztetni: A’ mely kis munkámban, pók modgyára, semmit ujombol nem szoptam: hanem az meheket,
+                a’ mint lehetet, követtem, kik, tehetségek szerént, sok virágokrol szedegetik és gyüytögetik édes eleségeket, mellyel télnek idején táplállyák ö magokat: Igy én-is öket, s-nem az heréket,
+                követvén, egyéb tudós szent könyveknek virágos kertekböl szedegettem, Isten által, és e’ kis Könyvetskémnek méh kosárjában,
+                mint valami Profont avagy Elés-házban bé-rekesztettem, ime’ rövid de idvösséges tudománnak Lépes mézetskéjét, mellyel a’
+                gyenge juhok éllyenek, hizzanak; hogy a’ szem-fény vesztö késértetnek, mint valami nehéz télnek idején megh ne fogyatkozzanak
+                és el ne tévelyedgyenek az igaz ösvényröl. Ez tisztem szerént valo kis munkámmal penig senkinek véteni nem akarok, sem egyéb
+                jo Catechismusokat le-tétetni nem kévánok: hanem helyemhez idömhöz és halgatoimhoz alkolmaztatván magamot, csak az Uyvári
+                kisdedeknek igyekeztem Isten segitségéböl szolgálni és használni.</p>
+<p xml:id="p.129">Peczeli Kiraly Imre P.</p>
+<p xml:id="p.130">(2. kiad. A4a–A5a.)</p>
+<p xml:id="p.131">*</p>
+<p xml:id="p.132"><hi rend="bold">4.</hi> Abecedarium Latino-Hungaricum Seu Elementa Lingvae
+                    Latinae et Ungaricae. Papae Typis Matthaei Bernhardi. Anno MDCXXX.
+                            (<bibl><abbr>RMK II</abbr>, 466</bibl>; valamint <bibl>OSzK <abbr>RMK
+                            I</abbr>, 594a.</bibl> Vö. <bibl><abbr>MKsze</abbr> 1881,
+                    245–6.</bibl>)</p>
+<p xml:id="p.133">A címlap hátán az ábécés könyvet fiaiknak dedikálják: a következők:
+                        <persName>Kanizsai Pálfi János</persName> püspök, <persName>Samarjai
+                            János</persName> püspök, <persName>Nemesnépi Dániel</persName> komjáti
+                    esperes, <persName>Czeglédy Pál</persName> pápai pap és esperes,
+                        <persName>Magyari Ágh Jakab</persName> komáromi pap és esperes,
+                        <persName>Szenczi Szijgyártó Lukács</persName> somorjai pap és esperes,
+                        <persName>Kanizsai Mihály</persName> nagyszombati pap, <persName>Bernhárd
+                            Máté<idno type="ITIdata">Q142278</idno></persName> pápai nyomdász és <persName>Pécseli Király Imre</persName>
+                    újvári pap. Á következő lapon előszó helyett néhány bibliai ige áll „Emericus R.
+                    Peczelius Minister” aláírással. Ebből, valamint azon körülményből, hogy a
+                    dedikáló személyek között neve az utolsó helyen, – a nyomdászé után – áll,
+                    következik Pécseli Király szerzősége. <persName><hi rend="smallcaps">Zoványi</hi><idno corresp="Zoványi Jenő"/></persName> – nem tudni
+                    minő alapon – ezt az <date when="1630">1630-ban</date> megjelent abecedariumot már második
+                    kiadásnak tartja. (<bibl><abbr>ZovLex</abbr> 348.</bibl>)</p>
+<p xml:id="p.134"> LATIN VERSEI</p>
+<p xml:id="p.135"><hi rend="bold">1.</hi>
+<hi rend="italic">Epigramma Threnologicvm In posthumum Clarissimi et Doctissimi
+                        viri Emerici K. Uyfalvii Librum quem paulò ante obitum
+                    concinnaverat.</hi></p>
+<l xml:id="l.19">Phoebe Pater, quid fles fusca redimite cupresso?</l>
+<l rend="level_3" xml:id="l.20">Occidit Uyfalvi gloria honorque meus.</l>
+<l xml:id="l.21">Et tu quid pullo squales velamine Pallas?</l>
+<l rend="level_3" xml:id="l.22">Occidit Uyfalvi gloria honor que meus.</l>
+<l xml:id="l.23">Tu quoque Thespiadum cur fles pia turba sororum?</l>
+<l rend="level_3" xml:id="l.24">Occidit Uyfalvi gloria, noster honos.</l>
+<l xml:id="l.25">O fallax rerum species! O lurida lethi</l>
+<l rend="level_3" xml:id="l.26">Ingluvies! vitae ô lubrica conditio!</l>
+<l xml:id="l.27">Siccine Morta ferox Emericum praepete telo</l>
+<l rend="level_3" xml:id="l.28">Concutis, ah! nostri stemma decusque soli?</l>
+<l xml:id="l.29">Siccine doctrinae hunc thesaurum praeripis orbi</l>
+<l rend="level_3" xml:id="l.30">Invida et Aonio perniciosa choro?</l>
+<l xml:id="l.31">Ah misera! ah nimium infelix haec gloria mundi!</l>
+<l rend="level_3" xml:id="l.32">Praecoce quae fato corruit atque perit!</l>
+<l xml:id="l.33">Munera perpacant invictos grata Monarchas</l>
+<l rend="level_3" xml:id="l.34">Iratum placant vel pia vota Iovem,</l>
+<l xml:id="l.35">Gutta cavat saxum, ferrum vis ignea flectit,</l>
+<l rend="level_3" xml:id="l.36">Mollit et indomitum tandem adamanta cruor;</l>
+<l xml:id="l.37">Ast heu! nec precio nedum prece, viribus ullis</l>
+<l rend="level_3" xml:id="l.38">Nec lacrumis temet flectere Morta sinis.</l>
+<l xml:id="l.39">Sed fuit in fatis ita: sic erit, omnibus ist haec</l>
+<l rend="level_3" xml:id="l.40">Parca noverca bonis, parca noverca malis.</l>
+<l xml:id="l.41">Ilicet istud erat non evitabile telum,</l>
+<l rend="level_3" xml:id="l.42">Obtigit huicce tamen tres habitare locos;</l>
+<l xml:id="l.43">Membra fovet tellus curis exuta malignis,</l>
+<l rend="level_3" xml:id="l.44">Spiritus in coeli sede quiescit ovans,</l>
+<l xml:id="l.45">Tamque diu hîc, facies donec mutabitur orbis,</l>
+<l rend="level_3" xml:id="l.46">Fama cluet: Virtus quod pia jure refert.</l>
+<l xml:id="l.47">Te nunc ergo sacris studiis addicta juventus,</l>
+<l rend="level_3" xml:id="l.48">Pone modum lacrumis tristiciaeque precor.</l>
+<l xml:id="l.49">Dulcis adempta quidem tibi vivi vox Emerici <sic>ē,</sic>
+</l>
+<l rend="level_3" xml:id="l.50">Verùm docta ejus posthuma scripta vigent,</l>
+<l xml:id="l.51">Quae si sollicitis oculis animisque frequentes,</l>
+<l rend="level_3" xml:id="l.52">Spirat in his potior pars loquiturque viri.</l>
+<l xml:id="l.53">Haec tibi praesolers Doctoris cura Parei</l>
+<l rend="level_3" xml:id="l.54">Edidit in lucem, quae pia cura, senis.</l>
+<l xml:id="l.55">Magne Paree, Pater nostrae quoque gentis honorus</l>
+<l rend="level_3" xml:id="l.56">Es, studiis eciam dum colis ipse piis.</l>
+<l xml:id="l.57">Vive diu Nobis, aliis simul: hic cito Coelum</l>
+<l rend="level_3" xml:id="l.58">Ne invideat nobis, Vive valeque precor.</l>
+<p xml:id="p.136">Emericus Regius Peczelius</p>
+<p xml:id="p.137">Ungarus <hi rend="italic">αἰτοχεδίως</hi> F.</p>
+<p xml:id="p.138">(Kiadva: <bibl><persName>Újfalvi Katona<idno type="ITIdata">Q160773</idno></persName>: <title><hi rend="italic">Tractatus…</hi></title>
+<placeName>Frankfurt<idno type="ITIdata">Q387</idno></placeName>
+<date when="1611">1611</date>.</bibl> [<bibl><abbr>RMK III</abbr>, 1095.</bibl>] III.
+                    számozatlan ív 8a–b. Első hat sorát kiadta <persName><hi rend="smallcaps">Czwittinger
+                        Dávid</hi><idno type="ITIdata">Q240836</idno></persName> is [<bibl>Specimen 202.</bibl>] – <persName>Ujfalvi Katona
+                        Imre</persName> munkájáról, haláláról s a vers keletkezési körülményeiről
+                    lásd Király Imre életrajzát.) </p>
+<p xml:id="p.139"><hi rend="bold">2.</hi> ὈΚΤÓΣΤΙΧΟΝ</p>
+<p xml:id="p.140"><hi rend="italic">Authoris ad Librum.</hi></p>
+<l xml:id="l.59">Ito tenelle cito, belle, quo mirto libelle,</l>
+<l rend="level_3" xml:id="l.60">Formatum Ausonii bella labella gregis.</l>
+<l xml:id="l.61">Parvus es, at non pravus eris discentibus, ut me</l>
+<l rend="level_3" xml:id="l.62">Spes tenet, ito igitur belle libelle citò.</l>
+<l xml:id="l.63">Forte times livente premet quia dente malignus</l>
+<l rend="level_3" xml:id="l.64">Te? haud perimet; semper prominet Artis honos,</l>
+<l xml:id="l.65">Ipse fremat licet et tremat atro percitus aestro</l>
+<l rend="level_3" xml:id="l.66">Livor non alium, at se premit et perimit.</l>
+<p xml:id="p.141">(Kiadva: <bibl>Pécseli Király: Rhetorica I. számozatlan ív 8a.</bibl> – A <hi rend="italic">Rhetoricá</hi>ról lásd Pécseli Király prózai művei közt. 1.
+                    sz. alatt.)</p>
+<p xml:id="p.142"><hi rend="bold">3.</hi>
+<hi rend="italic">Dedicatorium ad Serenissimum Principem Gabrielem, electum
+                        Hungariae, Sclavoniae, Croatiae, Dalmatiae etc. Regem, et Transyl. P. S. C.
+                        Patrem Patriae communem obsequiosa subjectione colendissimum.</hi></p>
+<l xml:id="l.67">Salve Pannonici sydus, Venus aurea, coeli,</l>
+<l rend="level_3" xml:id="l.68">Rex Gabriel, Christi cui per amica fidet.</l>
+<l xml:id="l.69">Suscipe Consilium Rex clementissime nostrum,</l>
+<l rend="level_3" xml:id="l.70">Nobile, credo, Tibi hoc si placuerit, erit.</l>
+<l xml:id="l.71">Olim Artaxerxes pomum susceperat unum,</l>
+<l rend="level_3" xml:id="l.72">Perplacide: Sic Tu spero benignus eris:</l>
+<l xml:id="l.73">Regia mens etenim clementer respicit illos,</l>
+<l rend="level_3" xml:id="l.74">Quos pia simplicitas jussit adire thronum.</l>
+<l xml:id="l.75">Te Deus in multos conservet Nestoris annos</l>
+<l rend="level_3" xml:id="l.76">In Patria ac Gentis commoda multa tuae!</l>
+<p xml:id="p.143">R. T. M. Humillimus cliens</p>
+<p xml:id="p.144">Em. R. Peczelius.</p>
+<p xml:id="p.145">(Kiadva: <bibl>Pécseli Király: Consilium A2a–b.</bibl> – A kötetről lásd prózai
+                    művei közt 2. sz. alatt.)</p>
+<p xml:id="p.146"><hi rend="bold">4.</hi>
+<hi rend="italic">Vox Authoris ipsius.</hi></p>
+<p xml:id="p.147">Dogmata Fidei Christiane̮ certò Catholica recipio non sub titulo vel nomine Lutheri, Zvinglij vel Calvini, neque sub authoritate
+                Lutheri, quae qualis et quanta sit, non disputo, sed sub nomine Christi, et sub authoritate scritpturae S. tanquam immobilissimo
+                Fidei Catholicae fundamento, nec non sub authoritate primitivae Ecclesiae, ut causa fidelissimè proponente in symbolis
+                (Apostolico videlicet, Nicaeno, Constantinopolitano, Ephesino, 
+               Chalcedonensi et Athanasiano) fidei verae et salvificae doctrinam. Ad hanc eminentissimam authoritatem in omnibus meis
+                difficultatibus et tentationibus, tanquam ad sacram Anchoram et Dei praepotentis Asylum subinde confugere et provocare soleo:
+                Quare,
+</p>
+<l xml:id="l.77">Biblia sacra meae fidei sint anchora firma,</l>
+<l rend="level_3" xml:id="l.78">Biblia per Sanctos dogmata dentque Patres.</l>
+<l xml:id="l.79">Vnde ego Christianus, non verò Lutherianus,</l>
+<l rend="level_3" xml:id="l.80">Nec Calvinianus dicier ipse volo:</l>
+<l xml:id="l.81">Nam non Lutherus, nec non Calvine redemptor</l>
+<l rend="level_3" xml:id="l.82">Es mihi; sed solus, qui colit astra lógos</l>
+<l xml:id="l.83">Dices: Non satis est verbi meminisse sacrati,</l>
+<l rend="level_3" xml:id="l.84">Et nomen Christi saepe tonare sacrum:</l>
+<l xml:id="l.85">Hoc etenim possunt Falsi quoque dicere Fratres,</l>
+<l rend="level_3" xml:id="l.86">Atque hoc praetextu pingere dogma suum,</l>
+<l xml:id="l.87">Percipe: si exacte cupias dignoscere verum</l>
+<l rend="level_3" xml:id="l.88">Christianum ex fidei fructibus huncce scias.</l>
+<l xml:id="l.89">Vanus enim titulus sine re, vel nomina vana</l>
+<l rend="level_3" xml:id="l.90">Non mihi Christianum reddere ritè queunt.</l>
+<l xml:id="l.91">Si tamen expresse et nomen posuisse necessum est,</l>
+<l rend="level_3" xml:id="l.92">Quae Confessio sit publica quaeque Fides.</l>
+<l xml:id="l.93">Augustana Fides vel quos Helvetica sancit</l>
+<l rend="level_3" xml:id="l.94">Purior: hinc ponant nomina certa pij.</l>
+<l xml:id="l.95">Hos ego consulto, quibus haec confessio bina</l>
+<l rend="level_3" xml:id="l.96">Rite placet. Christi nomen habere volo.</l>
+<l xml:id="l.97">Hos ego Christianos, verae pietatis amantes,</l>
+<l rend="level_3" xml:id="l.98">Non alias sectas conciliare volo:</l>
+<l xml:id="l.99">Nam re discordes nemo sociare valebit</l>
+<l rend="level_3" xml:id="l.100">Haereticos: istis nec mea musa favet.</l>
+<p xml:id="p.148">(Kiadva: <bibl>Pécseli Király: Consilium G2a–G3a.</bibl>)</p>
+<p xml:id="p.149">5. <hi rend="italic">Dialogus epitaphicus</hi></p>
+<l rend="level_3" xml:id="l.101">Gregorius filius maior.</l>
+<l xml:id="l.102">Chare pater fugis hinc? fugis o dulcissime rerum,</l>
+<l rend="level_3" xml:id="l.103">O mea spes, fulcrum svave, decusque meum!</l>
+<p xml:id="p.150">Pater.</p>
+<l xml:id="l.104">Mi fili! moneo te, mi charissime fili,</l>
+<l rend="level_3" xml:id="l.105">Ne nostro ex obitu corda dolore premas.</l>
+<p xml:id="p.151">Stephanus filius minor.</p>
+<l xml:id="l.106">Mi pater, heu! nostras cur tam cito deseris aedes?</l>
+<l rend="level_3" xml:id="l.107">Cur nos, in tanto turbine, linquis humi?</l>
+<l xml:id="l.108">O o nos miseros! miseros, quas ore querelas</l>
+<l rend="level_3" xml:id="l.109">Fundam? Lux vitae nam mihi tota cadit!</l>
+<p xml:id="p.152">Pater.</p>
+<l xml:id="l.110">Desine, mi fili, nimio tua pectora planctu</l>
+<l rend="level_3" xml:id="l.111">Frangere: non laceret, corda tenella dolor,</l>
+<l xml:id="l.112">Paulisper tantum, mi fili, desero vestrum,</l>
+<l rend="level_3" xml:id="l.113">Aspectum: capiet nos iterum una domus,</l>
+<l xml:id="l.114">Mox aderit Christus, qui et vos e turbine mundi</l>
+<l rend="level_3" xml:id="l.115">Eripiet, vobis meque videre dabit.</l>
+<p xml:id="p.153">Joannes filius minimus.</p>
+<l xml:id="l.116">Ah pater haud facile est lachrymis imponere metam,</l>
+<l rend="level_3" xml:id="l.117">In tanto luctu cor dolet atque stupet.</l>
+<l xml:id="l.118">Sic stupeo, ut saevi qui tactus fulminis ictu,</l>
+<l rend="level_3" xml:id="l.119">Vivit; sed vitae nescius ipse suae est.</l>
+<l xml:id="l.120">Ah! nullus flendi modus est mihi: namque reliquit</l>
+<l rend="level_3" xml:id="l.121">Me mea lux, vitae gloria tota meae.</l>
+<l xml:id="l.122">Heu quid agam, et quo me vertam ...............</l>
+<l rend="level_3" xml:id="l.123">........... Ignoro orphanus!<note type="critic" xml:id="note.1">A kéziratban is így,
+                        hiányosan!</note></l>
+<p xml:id="p.154">Pater.</p>
+<l xml:id="l.124">Quid facis, o fili, quo te dolor abripit excors?</l>
+<l rend="level_3" xml:id="l.125">Num moritur mecum, cura paterna Dei?</l>
+<l xml:id="l.126">Non sic, mi fili, non sic tua corda querelis</l>
+<l rend="level_3" xml:id="l.127">Examines, quin sit spes tibi cura Dei.</l>
+<l xml:id="l.128">Cura Dei patris, qui prospicit omnibus unus,</l>
+<l rend="level_3" xml:id="l.129">Orphanis, viduis, spem tibi sola creet.</l>
+<l xml:id="l.130">Id quod sancte Deus faxis pro nominis alma</l>
+<l rend="level_3" xml:id="l.131">Laude tui: hinc animam suscipe iamque meam.</l>
+<p xml:id="p.155">Emericus Regius Peczelius</p>
+<p xml:id="p.156">minister verbi Dei in ecclesia Ujvariensi</p>
+<p xml:id="p.157">(Kézirata: <bibl>A dunántúli ref. egyházkerület legrégibb jegyzőkönyve
+                        92–3.</bibl> Kiad. <bibl><hi rend="smallcaps">Thury</hi>, <abbr>MPEtA VIII</abbr>, 93–4.</bibl> – <persName>Szenczi
+                        Csene Péter</persName> püspök halálára készült <date when="1622">1622-ben</date>.)</p>
+<p xml:id="p.158">JEGYZETEK A VERSEKHEZ</p>
+<p xml:id="p.159"><persName>Pécseli Király Imrétől<idno type="ITIdata">Q149638</idno></persName> 15 magyar nyelvű verset ismerünk.
+                    Ezek közül kilencnek a versfőiben megtaláljuk nevét (<ref target="rmkt-17-2.tei.pki-1">1</ref>, <ref target="rmkt-17-2.tei.pki-2">2</ref>,
+                        <ref target="rmkt-17-2.tei.pki-6">6</ref>, <ref target="rmkt-17-2.tei.pki-7">7</ref>, <ref target="rmkt-17-2.tei.pki-8">8</ref>, <ref target="rmkt-17-2.tei.pki-9">9</ref>, <ref target="rmkt-17-2.tei.pki-10">10</ref>,
+                        <ref>11</ref>, <ref target="rmkt-17-2.tei.pki-13">13. sz.</ref>); kettő általa aláírva jelent meg
+                        (<ref target="rmkt-17-2.tei.pki-4">4</ref>, <ref target="rmkt-17-2.tei.pki-5">5. sz.</ref>); négyet pedig még az ő életében hitelt
+                    érdemlően neki tulajdonítva adtak ki, illetve másoltak le (<ref target="rmkt-17-2.tei.pki-3">3</ref>,
+                        <ref target="rmkt-17-2.tei.pki-12">12</ref>, <ref target="rmkt-17-2.tei.pki-14">14</ref>, <ref target="rmkt-17-2.tei.pki-15">15. sz.</ref>). – Ezeken kívül az
+                    egyháztörténeti és irodalomtörténeti kutatás még több éneket is – tévesen, vagy
+                    nem bizonyítottan – neki tulajdonított.</p>
+<p xml:id="p.160">A tévesen neki tulajdonított énekek egyik csoportja az <hi rend="italic">Istenes
+                        énekek</hi> bártfai <date from="1635" to="1640">1635–40</date>. táján megjelent kiadásában került
+                    először kinyomtatásra. Ebben a kiadásban a 291. lapon, az itt olvasható alcím,
+                    és az itt kezdődő élőfejek szerint, Pécseli Király versei kezdődnek. Bár az
+                    élőfejek a kötet végéig tartanak, és új alcím már nem következik, csak az első
+                    tíz itt szereplő ének tulajdonítható bizonyossággal Pécseli Királynak. A sorban
+                    tizedik „Paisa szegény fejemnek” kezdetű ének az utolsó, amelyben költőnk neve a
+                    versfőkben megtalálható. A hátra levő öt ének közül a „Magasztallak én Istenem”
+                    kezdetű ének versfőiben a MATTHIAS CZEMEKI név szerepel, bizonyos tehát, hogy az
+                    utolsó öt éneket nem lehet mechanikusan Pócselinek tulajdonítani. A kérdéses
+                    énekek közül kettő előtt a szerzők monogrammjai láthatók. Hogy ebben a kiadásban
+                    az énekek elé írt névkezdőbetűk a szerzőt jelölik, arra az a bizonyítók, hogy a
+                    kötet különböző szerzők műveiből összeállított részében az Sz. Ts. M. monogramm
+                    alatt álló ének valóban Szepsi Csombor Márton műve. Ezért az I. P. C. jelzésű
+                    „Ne szály pörben én velem”, valamint az S. K. jelzésű „Könyvem forrási” kezdetű
+                    énekeket is azok írták, akiknek nevét az említett betűk jelzik. Az I. P. C.
+                    monogrammba eddig általában Pécseli Király Imre nevét olvasták bele, noha
+                    költőnk nevének sem magyar, sem latin alakjának nem ezek a kezdőbetűi. Az I. P.
+                    C. jel nem is jelölhet mást, mint Joannes Paulides Canisaeust, azaz <persName>Kanizsai
+                    Pálfi Jánost</persName>, s így ez az ének sem származhat költőnktől. Az S. K. monogramm
+                    alatt már többen (így <bibl><hi rend="smallcaps">Alszeghy</hi>: <title>A XVII. század lírai
+                            költészete</title>. ItK 1935, 16.</bibl>) a Komjátiban és Ürményben
+                    tanítóskodó és lelkészkedő Kőrösi Istvánt sejtettek. Ez annál is valószínűbb,
+                    mert ismerünk olyan éneket, melyet versfői szerint valóban Kőrösi István írt, s
+                    már kortársai is számon tartották, mint tehetséges verselőt. (<bibl><hi rend="smallcaps">Thury</hi>: A
+                        dunántúli ref. egyházkerület története 439.</bibl>) A „Könyvem forrási”
+                    kezdetű ének előtt álló monogramm azonban az előző énekre is érvényes, mert a
+                    szerző jele így szerepel: „Ejusdem S. K.” Az előző éneket a „Bün testéből
+                    s-tömlötzéböl” kezdetűt tehát szintén Kőrösinek kell tulajdonítanunk. A kérdéses
+                    öt énekből tehát négyről sikerült megállapítanunk, hogy mástól származnak.
+                    Egyedül a sorrendben utolsó, „Miként Aegyiptusban edgy Pellikán madár” kezdetű
+                    ének szerzősége kétséges. Itt semmi olyan mozzanat sincs, amely kizárná Pécseli
+                    Király szerzőségét, de nem is bizonyítja azt semmi. S mivel ezt az éneket négy
+                    idegen költőtől származó ének választja el a Pécseli-énekek sorozatától,
+                    bizonytalan eredetűnek kell tartanunk, s énekei közé nem sorolhatjuk. A Pécseli
+                    Király nevével jelzett részbe a későbbi kiadások bevették a „Mire bánkódol ó te
+                    én szivem” kezdetű XVI. századi éneket is, s ennek alapján Kálmán Farkas ezt is
+                    szerzőnknek tulajdonította. (<bibl>Mire bánkódol ó te én szivem! Debr. Prot. Lap
+                        1883, 326–7, 350–2.</bibl>) Később azonban e tévedését korrigálta.
+                        (<bibl>Pro domo. Uo. 1884, 296–7.</bibl>)</p>
+<p xml:id="p.161">Az <hi rend="italic">Istenes énekek</hi> köteteiben, de nem a Pécseli Király
+                    nevével jelzett részben még egy tévesen Pécseli Királynak tulajdonított ének
+                    található: „Dicsöült helyeken mennyei Paradicsomban”. Ez az ének Balassi versei
+                    közé van beiktatva, mintegy analógiaként a 148. zsoltárnak Balassitól való
+                    fordításához. Az ének előtt ezt olvassuk: „Azon Psalmus J. P. C.” Nyilvánvaló
+                    tehát, hogy ez is <persName>Kanizsai Pálfi János</persName> szerzeménye. Többen,
+                    köztük <persName><hi rend="smallcaps">Zoványi</hi><idno corresp="Zoványi Jenő"/></persName> (i. h.), úgy vélekedtek, hogy a Pécseli
+                    Király katekizmusa második (<placeName>Lőcse</placeName>
+<date when="1635">1635</date>.) kiadásának függelékében lévő énekek is tőle
+                    származnak. Könnyen megállapítható azonban, hogy az itt közreadott hét ének nem
+                    az ő verseiből való gyűjtemény. Közülük hármat már XVI. századi énekeskönyvekben
+                    is megtalálunk: „Mindenható Ur Isten mi bünös emberek” (<hi rend="italic">Váradi-ék.</hi> 1566. 21–3); „Oh Izrael szeretö népem” (<persName>Huszár
+                            Gál<idno type="ITIdata">Q45572</idno></persName> 111a–113a.) és „Mondgyatok dicséretet Körösztyének az Ur
+                    Istennek” (<hi rend="italic">Bártfai-ék.</hi> 1593. 356–7.). Egy további megvan
+                    az <date when="1600">1600</date> körül megjelent első unitárius énekeskönyvben: „Egész
+                    Izraelt Dávid felgyüjté” (225 – 9.). Nem lehet övé az „Ur Isten mely sokan
+                    vannak” kezdetű sem, mely <persName>Molnár Albert<idno corresp="Szenczi Molnár Albert"/></persName> zsoltárai első
+                    kiadásának (<placeName>Herborn<idno type="ITIdata">Q350094</idno></placeName>
+<date when="1607">1607</date>.) függelékében már megjelent s talán magától a
+                    zsoltárfordítótól származik. A „Mennyei Atyánk Ur Isten” kezdetű ének korábbi
+                    kiadásáról ugyan nem tudunk, de a katekizmussal egyidejűleg megjelent az <date when="1635">1635</date>. évi lőcsei énekeskönyvben is. Figyelmet érdemel,
+                    hogy ez az énekeskönyv egyetlen Pécseli Király verset sem közöl. Az ének
+                    egyidejű megjelenése két lőcsei kiadványban viszont azt valószínűsíti, hogy a
+                    katekizmus függelékében levő énekeket nem annak szerzője, hanem a nyomdász
+                    állította össze, kiadványának nagyobb terjedelme és kelendősége érdekében. Az
+                    egyetlen olyan ének, melynél Pécseli Király szerzőségének ellentmondó körülmény
+                    nem forog fenn, a 23. psalmus egy átköltése „Az Mennyei Ur Pásztorom énnekem”
+                    kezdettel. Ez a vers más forrásból nem ismeretes. A katekizmus függelékének
+                    énekei közül ezt az egyet <persName><hi rend="smallcaps">Vasáry</hi><idno corresp="Vasáry Dániel"/></persName> is Pécseidének tartja
+                        (<bibl>i. m. 33.</bibl>). Mivel az elmondottakból az következik, hogy
+                    költőnknek aligha lehetett köze a katekizmusához biggyesztett kis antológiához,
+                    ezt az utolsó éneket sincs jogunk Pécseli alkotásaihoz sorolni, hanem
+                    bizonytalan eredetűnek kell tekintenünk.</p>
+<p xml:id="p.162">Mint látjuk, Pécseli Király Imre énekeinek leggazdagabb gyűjteményét, s egyben
+                    egyetlen korabeli összeállítását az <hi rend="italic">Istenes énekek</hi>
+                    kiadásai őrzik. Az itt közreadott versek esetében az <date from="1635" to="1640">1635–40</date>. táján megjelent bártfai kiadás szövege a leghitelesebb,
+                    hiszen ekkor jelentek meg e versek először, a további kiadások pedig már mind a
+                    szerző halála után, tőle függetlenül készültek. Mégis kiadásunk alapjául nem
+                    vehettük a bártfai kiadást, sem a közvetlenül ezen alapuló <date when="1665">1665</date>. évi kassai kiadást, mert mindkettőnek egyetlen fennmaradt
+                    példánya éppen ezen a helyen rendkívül megcsonkult. A bártfai kiadás unicum
+                    példányában például csak egyetlen Pécseli-éneknek találjuk meg a teljes
+                    szövegét, négy másiknak pedig kisebb-nagyobb töredékeit. Az egységesebb és
+                    áttekinthetőbb eljárás kedvéért ezért az egyetlen ilyen éneknél és a
+                    töredékeknél sem a legrégibb kiadást vettük alapul, hanem minden esetben a
+                    lőcsei <date when="1671">1671</date>. évi editiót. Igaz, hogy az <date when="1670">1670</date>. évi lőcsei kiadás a legkorábbi csonkítatlanul ránk
+                    maradt és a váradi rendezett kiadásokat híven követő editio, de ebben számos
+                    sajtóhiba van, melyeket az <date when="1671">1671</date>. évi kiadás korrigált.
+                    Fel kellett használnunk a kolozsvári <date when="1677">1677</date>. évi kiadás
+                    variánsait is, mivel ez utóbbi a lőcsei editióktól függetlenül alapul a váradi
+                    kiadásokon, s így eseteiiként hívebben őrizheti az eredeti szöveget. Az <date when="1671">1671</date>. évi kiadáson alapuló főszöveghez ezért az <date when="1670">1670</date>. évi lőcsei, az <date when="1677">1677</date>. évi
+                    kolozsvári, a bártfai és a kassai kiadás eltéréseit idézzük, amennyiben szövegük
+                    nem veszett el. Az <hi rend="italic">Istenes énekek</hi> többi kiadásai
+                    szövegkritikai szempontból már érdektelenek, mert vagy a lőcsei, vagy a
+                    kolozsvári kiadásokon alapulnak. Ezek a kiadások a bártfai kiadásban közreadott
+                    valamennyi Pécseli Király-éneket rendre lenyomtatták, a „Dicsérlek Uram téged”
+                    kezdetű kivételével, melyet már a váradi kiadások elhagytak. (Lásd a 3. sz. ének
+                    jegyzetét.) Egyedül az <date when="1699">1699</date>. évi nagyszombati katolikus
+                    kiadás válogat az énekek közül és csak az „Én nyavalyás lelkem”, az „El jö még
+                    az idő” valamint a „Paisa szegény fejemnek” kezdetűeket veszi föl. (Vö.
+                    <bibl><hi rend="smallcaps">Dézsi</hi>: <title>Balassa és Rimay „Istenes Énekei”-nek
+                            bibliographiája</title>, <persName><hi rend="smallcaps">Radvánszky Béla</hi><idno type="ITIdata">Q149913</idno></persName>
+                            Rimay-kiadása függelékeként. Bp. 1904</bibl>; <bibl><hi rend="smallcaps">Eckhardt</hi> Balassi-kiad.
+                        I, 20–3</bibl>; ua. <bibl>Egy ismeretlen Balassi-kiadás. <abbr>MKsze</abbr>
+                            1955, 118–9</bibl>; <bibl><hi rend="smallcaps">Klaniczay</hi>: <title>Hozzászólás Balassi és Rimay
+                            verseinek kritikai kiadásához</title>. I. OK. XI, 325.</bibl>)</p>
+<p xml:id="p.163">Pécseli Király énekei közül csak hatnak a keletkezési idejét ismerjük. Ezeket a datálható énekeket közöljük előbb, majd
+                ezután következnek az <hi rend="italic">Istenes énekek</hi> köteteiben levő keltezetlen versek, s a sort a kéziratokban megőrzött énekek zárják be.</p>
+</div>
+</body>
+</text>
+</TEI>

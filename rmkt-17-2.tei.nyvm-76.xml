@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">76.</title>
+<title key="body" n="76" type="main">PAENITENTIÁRA VALÓ</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-76</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadása: <bibl><hi rend="bold"><title>Istenes énekek</title>.
+                                    <placeName>Bécs</placeName> [<date from="1635" to="1636">1635–36</date>].</hi>
+                    132–5.</bibl> Kiad. <bibl><hi rend="smallcaps">Varjas</hi>, i. m. 132–5.</bibl> – A cím előtt:
+                        „Mas.” A cím és a szöveg között egy feszület előtt térdelő Mária Magdolnát
+                        ábrázoló metszet látható. (Lásd: 19. sz. tábla.)</p>
+<p xml:id="crit.1.p.2">Az ének versfői nem adnak értelmes szöveget: MAAKHILTADHLK, de az első betűkből kitűnik, hogy Nyéki Vörös
+                    eredetileg bele akarta foglalni nevét (Matthias ….) a versfőkbe.</p>
+<p xml:id="crit.1.p.3">Az ének bizonyos változtatásokkal és a szerző nevének elhallgatásával
+                        belekerült <persName>Beniczky Péter<idno type="ITIdata">Q41111</idno></persName> verseinek gyűjteményébe: <hi rend="italic">Magyar rithmusok</hi> (<placeName>Nagyszombat<idno type="ITIdata">Q14207</idno></placeName>
+<date when="1664">1664</date>) és ezt követően valamennyi későbbi
+                        <persName>Beniczky<idno corresp="Beniczky Péter"/></persName>-kiadásba. (Lásd pl. <bibl>OSzK XVII. sz.-i
+                            csonka példánya, <abbr>RMK I</abbr>, 1611b. 58–63.</bibl>) Itt a
+                        következő szövegeltéréseket találjuk: 11 Negindes 19 im hólt 27 kinek
+                        büntetéssel ölnek 30 Eltem végsö óráján 35 Rontsd el a’ rosz szokást 53
+                        s-illyen inségemért 55 S illyen 57 Eröd, fa levelen, kit a’ szél hirtelen 59
+                        fizet 63 Ki bünösökért 65 Felségedhez mégyünk, üdvösséget kérünk 66
+                        igazúllyunk 69 Verésedben.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Istenes énekek. <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName> [<date from="1635" to="1636">1635–36</date>]. 132–5</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 76.</fw>
+<head type="title">PAENITENTIÁRA VALÓ</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Mennyei nagy Felségh, kit rettegh föld s’ mind égh,</l>
+<l xml:id="l.2">Hatalmas rémüléssel,</l>
+<l xml:id="l.3">Féli haragodat lelkem mert sok jódat,</l>
+<l xml:id="l.4">Vette fertelmes kézzel,</l>
+<l xml:id="l.5">Jó téteményidért, sem böchült sem diehért</l>
+<l xml:id="l.6">Hálá-ado hivséggel.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.7">Alazatosságom s’ kichin buzgoságom,</l>
+<l xml:id="l.8">Ha teczett valamiben,</l>
+<l xml:id="l.9">Nem vólt alhatatos, mert megh<note type="critic" xml:id="note.1"> = megint, ismét</note> utálatos</l>
+<l xml:id="l.10">Dolgot fogott kezében,</l>
+<l xml:id="l.11">Negédes ingerlés, bünre lett vezérlés,</l>
+<l xml:id="l.12">Test hitegetésiben.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.13">Az ki tántorodást, s’ lelki háborodást</l>
+<l xml:id="l.14">Hozott sok veszélyekkel,</l>
+<l xml:id="l.15">Idegen nyavalyát, büntetesnek súllyát,</l>
+<l xml:id="l.16">Rettegö kissebséggel,</l>
+<l xml:id="l.17">Szomorú útálást, meszsze tüled haylást</l>
+<l xml:id="l.18">Nehéz szám kivetéssel.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.19">Kinek inségéböl imhol mélységéböl</l>
+<l xml:id="l.20">Ur Isten már kiáltok,</l>
+<l xml:id="l.21">Noha nem érdemlem, hogy jöijön kegyelem,</l>
+<l xml:id="l.22">Irgalmasságot várok,</l>
+<l xml:id="l.23">Könyörülly én raytam mert im el bódúltam,</l>
+<l xml:id="l.24">Mayd kárhozatra jutok,</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.25">Haragod rettegem, s’ vétkemet kesergem,</l>
+<l xml:id="l.26">Esetimen jaygatván,</l>
+<l xml:id="l.27">Rútsági az kiknek büntetésül ülnek</l>
+<l xml:id="l.28">Búsúlt lelkem aytaján,</l>
+<l xml:id="l.29">Szabadích mérgétöl, dühösködésétöl,</l>
+<l xml:id="l.30">Ne tarchon chélchapàsán,</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.31">Irgalmazz ennekem, legyen reménségem</l>
+<l xml:id="l.32">Te nagy kegyelmed felöl,</l>
+<l xml:id="l.33">Régi boszszontásim, s’ talált álnokságim,</l>
+<l xml:id="l.34">Ne vonnyanak kedvedtöl,</l>
+<l xml:id="l.35">Ronch el gonosz szokást, akadályt tantorgàst,</l>
+<l xml:id="l.36">Külgy malasztot mennyekböl,</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.37">Látod az természet gyarlo és meg veszett,</l>
+<l xml:id="l.38">Rakva sok kivánsággal,</l>
+<l xml:id="l.39">Nyalánkságon ragad, boszszúságra dagad,</l>
+<l xml:id="l.40">Kevély sok változassal,</l>
+<l xml:id="l.41">Az tiltott dolgokon akarmi kis okonn</l>
+<l xml:id="l.42">Múlat sok akarattal.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.43">Te azért egyedül, kitöl minden épül,</l>
+<l xml:id="l.44">Fordíthacz szent életre,</l>
+<l xml:id="l.45">Minden setétséget, ronthacz ellenséget,</l>
+<l xml:id="l.46">Ki vitt rút esetekre,</l>
+<l xml:id="l.47">Te ellened valo, meg nem szamlálhato</l>
+<l xml:id="l.48">Gonosz chelekedetre.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.49">Az kik boszszú állást, végtelen kín vallást</l>
+<l xml:id="l.50">Te töled érdemlenek,</l>
+<l xml:id="l.51">Igaz itíleted szerent el veztheted</l>
+<l xml:id="l.52">Lelkem s’ ellened meggyek?<note type="critic" xml:id="note.2">meggyek? = mit tegyek?</note></l>
+<l xml:id="l.53">Hatalmasságodért, illy inségemért<note type="critic" xml:id="note.3">A sor második feléből egy szótag hiányzik. Nem tudtuk pótolni, mert többféle megoldás lehetséges, nemcsak az, mely
+                        <persName>Beniczky<idno type="ITIdata">Q41111</idno></persName> kötetében olvasható.</note></l>
+<l xml:id="l.54">Ki elött panaszt tegyek.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.55">De illy kis erötlen gyenge féreg ellen</l>
+<l xml:id="l.56">Mi haszon meg mutatnod,</l>
+<l xml:id="l.57">Eröd fa level ellen kitt az gyors szél<note type="critic" xml:id="note.4">A sor első feléből egy szótag hiányzik.</note></l>
+<l xml:id="l.58">El hány, azt nyomorgatnod,</l>
+<l xml:id="l.59">Nem teczik meg avval ha fizecz pokollal,</l>
+<l xml:id="l.60">Régi irgalmasságod.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.61">Hiszem te nem eorülsz, mert senkit nem gyülölz,</l>
+<l xml:id="l.62">Hogy valaki el veszszen,</l>
+<l xml:id="l.63">Ed az bünösökért jöttél váltsàgokért,</l>
+<l xml:id="l.64">Hogy senki ne rettegjén,</l>
+<l xml:id="l.65">Felségedhez mennyi idvösség keresni,</l>
+<l xml:id="l.66">Igazúllyon meg ingyen.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.67">Légy kegyelmes azért, és sok büneimért,</l>
+<l xml:id="l.68">Méltó ostort ne bocháss,</l>
+<l xml:id="l.69"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Vereség<corr>töl k</corr>émélly, irgalmassaggal élly</lem><rdg wit="#I" xml:id="rdg.1">Vereség .... émélly<note type="critic" xml:id="note.5">kiszakadt</note></rdg></app></l>
+<l xml:id="l.70">Ne foggyon vigasztalás,</l>
+<l xml:id="l.71">Szánnya szent Felséged, kis kelletlen ferged,</l>
+<l xml:id="l.72">Az ki bizony nyavalyás.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.73">Külgy szentelö lelket, érzékenségimet</l>
+<l xml:id="l.74">Ki maganak foglallya,</l>
+<l xml:id="l.75">S’ minden indúlatot, ki bünnel múlatott</l>
+<l xml:id="l.76">Környülem, megh tapodgya,</l>
+<l xml:id="l.77">Akaratom bírja, s’ gyarloságtól óyja</l>
+<l xml:id="l.78">Legyen földed lakoja.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

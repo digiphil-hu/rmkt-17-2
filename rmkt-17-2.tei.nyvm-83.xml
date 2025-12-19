@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">83.</title>
+<title key="body" n="83" type="main">AZ IRGALMAS NAGY SZÜZHÖZ, AZ ISTENNEK SZENT ANNYÁHOZ</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-83</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1">Nyomtatott kiadása: <bibl><hi rend="bold">Istenes
+                            énekek.</hi> <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName> [<date from="1635" to="1636">1635–36</date>]. 161–5.</bibl> Kiad. <bibl>VARJAS, i. m.
+                        161–5.</bibl> – A cím és a szöveg között metszetet találunk, mely a
+                    holdsarlón ülő, dicsfénnyel övezett Máriát mutatja, ölében a gyermekkel. (Lásd:
+                    20. sz. tábla.) Ez a metszet különbözik az ék. 158. lapján látható, hasonló
+                    tárgyú képtől. (Lásd a <ref target="rmkt-17-2.tei.nyvm-73">73. sz. ének</ref> jegyzetét.)</note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Istenes énekek. <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName> [<date from="1635" to="1636">1635–36</date>]. 161–5.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 83.</fw>
+<head type="title">AZ IRGALMAS NAGY SZÜZHÖZ, AZ ISTENNEK SZENT ANNYÁHOZ</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Idvöz légy bóldog szüz, Malasztal buzgo tüz,</l>
+<l xml:id="l.2">Isten tiszta szekrénye,</l>
+<l xml:id="l.3">Bünösek istápja, erös küsziklája,</l>
+<l xml:id="l.4">Irgalmasság örvénye,</l>
+<l xml:id="l.5">Magyarok Aszszonya, s’ reménségek tornya,</l>
+<l xml:id="l.6">Idvössegek ösvénye.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.7">Idvöz légy szép Rósa, drágalátos s’ choda</l>
+<l xml:id="l.8">Paradichom szép kerte</l>
+<l xml:id="l.9">Szent Lélek gyümölche, tiztaság erkölche</l>
+<l xml:id="l.10">Szent vagy mind világ szerte,</l>
+<l xml:id="l.11">Mert te benned vídúlt, mi Atyánk hogy pírúlt</l>
+<l xml:id="l.12">Régen hogy történt este.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.13">Idvöz légy szép chillag, egyedül az ki chak</l>
+<l xml:id="l.14">Fénlesz nagy tiztasággal,</l>
+<l xml:id="l.15">Mert néked nem ártott, s’ mint Evát nem mártott</l>
+<l xml:id="l.16">Bünben rút kivánsággal,</l>
+<l xml:id="l.17">Amaz tíltott alma, sem annak siralma</l>
+<l xml:id="l.18">Nem sértett faydalommal.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.19">Idvöz légy tiszta szüz, kihez semmí rút büz,</l>
+<l xml:id="l.20">Nem fér, sem meg vesztö szenny,</l>
+<l xml:id="l.21">Az te szent fiadhoz, hogy idvösséget hoz</l>
+<l xml:id="l.22">Bünös Népeidért menny,</l>
+<l xml:id="l.23">Az te érdemedböl, mi tunya testünkböl</l>
+<l xml:id="l.24">Minden szeplöt úgy ki kenny.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.25">Idvöz légy szép virág, kitöl mind ez vilagh</l>
+<l xml:id="l.26">Veszen vidám illatot,</l>
+<l xml:id="l.27">Az te haylékodban, mi ábrázatunkban</l>
+<l xml:id="l.28">Eoltözöt, s’ velünk lakott</l>
+<l xml:id="l.29">Az ki az halálnak, ördögnek világnak</l>
+<l xml:id="l.30">Rabságától megh váltott.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.31">Idvöz légy szüzeknek es mínden szenteknek,</l>
+<l xml:id="l.32">Dichöséges aszszonya,</l>
+<l xml:id="l.33">Eorvendezz és vigádgy, és minket el ne hadgy,</l>
+<l xml:id="l.34">Mert nagy átkot el vonya,</l>
+<l xml:id="l.35">Gyümölche méhednek, fia az Istennek</l>
+<l xml:id="l.36">Mert rólunk vólt nagy gondgya.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.37">Idvöz légy szegények, Arvák és Eozvegyek,</l>
+<l xml:id="l.38">Gondviselö aszszonya,</l>
+<l xml:id="l.39">Menyország kapúja, irgalmasság Annya</l>
+<l xml:id="l.40">El esteknek gyámolya</l>
+<l xml:id="l.41">Kjket tántorított, szegénységre hozott</l>
+<l xml:id="l.42">Az gyílkos bünnek rongya.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.43">Idvöz légy Aszszonyunk, kegyelmes gyamolyunk,</l>
+<l xml:id="l.44">Országunk dichösége,</l>
+<l xml:id="l.45">Oltalom várasa, békesseg szállása,</l>
+<l xml:id="l.46">Nemzetségünk szépsége,</l>
+<l xml:id="l.47"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Irgalmasság fészke, boldogságunk szék<corr>e</corr></lem><rdg wit="#I" xml:id="rdg.1"><sic>széké</sic></rdg></app></l>
+<l xml:id="l.48">Várasunk tiszta ege.<note>A sor végén a költő lakóhelyére,
+                        <placeName>Győrre<idno type="ITIdata">Q128</idno></placeName> céloz.</note></l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.49">Te hozzád kiáltunk az kik itt nyavalygunk,</l>
+<l xml:id="l.50">Völgyen ez siralomnak,</l>
+<l xml:id="l.51">Nézz szent szemeiddel, takargas kezeddel,</l>
+<l xml:id="l.52">Ne hadgy minket árváknak,</l>
+<l xml:id="l.53">Tarch meg te kedvedet, nagy segedelmedet,</l>
+<l xml:id="l.54">Kit adtal Magyaroknak.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.55">Mutas kegyes gondot, mert téged valasztott</l>
+<l xml:id="l.56">Hadd viselö Nemzetünk,</l>
+<l xml:id="l.57">Regen szószóllónak, kegyes Aszszonyának</l>
+<l xml:id="l.58">Kiért ha mi ellenünk,</l>
+<l xml:id="l.59">Ellensegünk föl ült, rútúl meg szegyenült,</l>
+<l xml:id="l.60">Mert vóltál fejedelmünk.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.61">Keesz vólt az segétség, mig az Erettnekségh</l>
+<l xml:id="l.62">Minket meg nem rútíta,</l>
+<l xml:id="l.63">Tiszteleted mellöl, rút nagy szemtelenöl,</l>
+<l xml:id="l.64">Tévelygés nem fordíta,</l>
+<l xml:id="l.65">De már szörnyü romlás, jay, rút viszavonyás,</l>
+<l xml:id="l.66">Látod mint el púsztíta.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.67">Most se hadgy el íninket, esmerjük vétkünket,</l>
+<l xml:id="l.68">Ki sanyarétott minket,</l>
+<l xml:id="l.69">Néked esedezünk, nyerj kegyelmet nékünk,</l>
+<l xml:id="l.70">Szánnyad mi esetünket,</l>
+<l xml:id="l.71">Veszszen minden gonosz, karjaidon hordozz,</l>
+<l xml:id="l.72">Mondgyanak hiveidnek.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.73">Mutasd hogy Anyánk vagy, szánakodásod nagy,</l>
+<l xml:id="l.74">Mi nyomorúsaginkon,</l>
+<l xml:id="l.75">Oldozd meg kötelünk, hogy az Kik közzülünk,</l>
+<l xml:id="l.76">El búydostanak vakon,</l>
+<l xml:id="l.77">Vegyenek Malasztot, s’ legyenek valasztott</l>
+<l xml:id="l.78">Népeid ez világon.</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.79">Hogy egyenlö szivel, s’ meg igazúlt kédvel,</l>
+<l xml:id="l.80">Ismet szent tiszteletet,</l>
+<l xml:id="l.81">Adhassunk Fiadnak mi édes Urunknak,</l>
+<l xml:id="l.82">Ki érted el nem vetett,</l>
+<l xml:id="l.83">S’ meg<note> = megint, ismét</note> hozzá fogadott, békességet adott,</l>
+<l xml:id="l.84">Ingyen meg kegyelmezett.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

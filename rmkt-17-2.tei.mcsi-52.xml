@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">52.</title>
+<title key="body" n="52" type="main">ANNO 1641 ULTIMA HEBDOMADA DECEMBRIS</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-52</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi rend="bold">Diarium Apod.</hi> 326a–b.</bibl> – A latin cím jelentése:
+                            <date when="1641-12">1641 decemberének</date> utolsó hetében.</p>
+<p xml:id="crit.1.p.2">A vers főképpen azokról a viszályokról szól, melyeknek során <placeName>Liszka<idno type="ITIdata">Q20640</idno></placeName> privilégiumai veszélyben forogtak. A következő
+                    ének 6–10. versszakában már az ügynek Liszkára nézve kedvező eldőléséről olvashatunk.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 326a–b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div xml:id="d.1"><fw type="originalNum">[RMKT XVII/2:] 52.</fw>
+<head type="title">ANNO 1641 ULTIMA HEBDOMADA DECEMBRIS</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Egy uy hirt hallottam tavaly esztendöben</lem><rdg wit="#I" xml:id="rdg.1"><del>Egy uy <sic>hart</sic></del><add type="corr">Egy uy hirt</add></rdg></app></l>
+<l xml:id="l.2">nektekis meg mondom jol juta eszemben</l>
+<l xml:id="l.3">noha talam ide nem illic a Czehben<note type="critic" xml:id="note.1">Czeh – itt ’symposium,
+                            vendégség, összejövetel’ jelentésben. (A szónak ezt a jelentését a
+                        <abbr>NySz</abbr> csak <persName>Szenczi Molnár<idno type="ITIdata">Q49167</idno></persName> szótára
+                            alapján közli.)</note></l>
+<l xml:id="l.4">ha nem kedvellitec vessétec a Pesben.<note type="critic" xml:id="note.2">pes = vizelet</note></l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Vagyon varasunkba <metamark function="cesura"/> Pűspöc Uram monda</l>
+<l rend="level_6" xml:id="l.6">ollian Judas arulo,<note type="critic" xml:id="note.3">5–6 A „Püspöc Uram”
+                                <persName>Hosszútóthi László</persName> prépost, a
+                        <placeName>Liszka<idno type="ITIdata">Q20640</idno></placeName> privilégiumaira törő harc fő
+                            képviselője, aki a tiszttartót (a „Judas arulo”-t) állította bűnbakul,
+                            amikor a város jogtalan követelések miatt tiltakozott. (<bibl><hi rend="smallcaps">R. Péter Katalin</hi>: i. m. 433–4.</bibl>)</note></l>
+<l xml:id="l.7">privilegiomunc <metamark function="cesura"/> nemes szabadsagunc</l>
+<l rend="level_6" xml:id="l.8">akarja legien romlo:</l>
+<l xml:id="l.9">az mit mond mind patvar <metamark function="cesura"/> vizet azert zavar</l>
+<l rend="level_6" xml:id="l.10">hogy hala legyen Pontyo.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.11">De Pontyo pondrosul <metamark function="cesura"/> ha űres lesz sotul</l>
+<l rend="level_6" xml:id="l.12">azt minniajan tudgiatoc,</l>
+<l xml:id="l.13">öis meg avasul <metamark function="cesura"/> kosul jár vagy bakul<note type="critic" xml:id="note.4">kosul jár vagy bakul – ritka szólás, amely előfordul a
+                                <abbr>NySz</abbr>
+<persName>Geleji Katonától<idno type="ITIdata">Q159395</idno></persName> idézett egyik példamondatában:
+                            Engedetlen szolgáival úri módon kezd bánni és nolle velle is, kosúl
+                            bakúl a dobszó alá fog velünk hallgattatni.</note></l>
+<l rend="level_6" xml:id="l.14">chiak békével várjatoc</l>
+<l xml:id="l.15">ha Istenhez nem tér <metamark function="cesura"/> vetkeböl ki nem ter</l>
+<l rend="level_6" xml:id="l.16">vakot vet<note type="critic" xml:id="note.5"> = szerencsétlenül jár</note> meg lattiatoc.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.17">Mert Isten nem szeret <metamark function="cesura"/> tökelletlenseget</l>
+<l rend="level_6" xml:id="l.18">bár mindgiart ne verjeis</l>
+<l xml:id="l.19">varja meg terését <metamark function="cesura"/> hog el hagia vetket</l>
+<l rend="level_6" xml:id="l.20">azert kedvez neki is,</l>
+<l xml:id="l.21">de ha el nem hadgia <metamark function="cesura"/> eletetöl foztia</l>
+<l rend="level_6" xml:id="l.22">bűdös leszen neveis.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.23">Lizka hogy az Isten <metamark function="cesura"/> allassa oly rendben</l>
+<l rend="level_6" xml:id="l.24">allapatod az mint volt,</l>
+<l xml:id="l.25">az Istent ugy aldgiad <metamark function="cesura"/> szived neki adgiad</l>
+<l rend="level_6" xml:id="l.26">kin ne legyen semmi folt,</l>
+<l xml:id="l.27">ugy leszen kivánt jód <metamark function="cesura"/> privilegiomod</l>
+<l rend="level_6" xml:id="l.28">az mint regentennis volt.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.29">Uram Isten szivét <metamark function="cesura"/> fordits hozzanc kedvét</l>
+<l rend="level_6" xml:id="l.30">Urainknac immaran,</l>
+<l xml:id="l.31">nem Fondornac szavát <metamark function="cesura"/> de varasunc hasznat</l>
+<l rend="level_6" xml:id="l.32">akarhassac minniajan</l>
+<l xml:id="l.33">ne legienec Parchac <metamark function="cesura"/> sem penig mostohac</l>
+<l rend="level_6" xml:id="l.34">hozzanc akarattiokban.</l>
+</lg></div>
+</body>
+</text>
+</TEI>

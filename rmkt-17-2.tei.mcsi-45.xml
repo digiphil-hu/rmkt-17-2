@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">45.</title>
+<title key="body" n="45" type="main">PARAPHRASIS PSALMI XXVII.</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-45</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi rend="bold">Diarium Apod.</hi> 271b–272a.</bibl> – A latin cím jelentése: A
+                        XXVII. zsoltár paraphrázisa a Durch Adams fall ist gantz verderbt dallamára,
+                            <date when="1638-07-29">1638. júl. 29-én</date> és <date when="1638-07-30">30-án</date>. – Az ének versfői:
+                        JSTVAN KJRAL. – A margón levő számok a zsoltár megfelelő verseire
+                        utalnak.</p>
+<p xml:id="crit.1.p.2">A nótajelzésben szereplő német korál szövegének szerzője <persName>Lasarus
+                        Spengler<idno type="ITIdata">Q492303</idno></persName> volt. A korál dallamai közül Németországban az
+                        terjedt el legjobban, amelyet <persName>Klug<idno type="ITIdata">Q492304</idno></persName> közölt először,
+                        <date when="1535">1535-ben</date> kiadott énekeskönyvében. (<bibl><hi rend="smallcaps">Zahn</hi> 7549</bibl>,
+                        <bibl><hi rend="smallcaps">Bäumker</hi> II. 258a.</bibl>) Világi eredetű lehet, mert – mint
+                        <persName><hi rend="smallcaps">Bőhme</hi></persName> kimutatta – eredetileg az <date when="1525">1525</date>.
+                        évi páviai csatáról szóló dalhoz kapcsolódott.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 271b–272a. </witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 45.</fw>
+<head type="title">PARAPHRASIS PSALMI XXVII.</head>
+<head type="notation">ad melodiam, Durch Adams fall ist gantz verderbt 29 et. 30 Julii 1638.</head>
+<!--Dallam-kép 73. o.-->
+<lg xml:id="lg.1">
+<l xml:id="l.1"><hi rend="bold">J</hi>ehova vilagossagom <metamark function="cesura"/> az
+                        setétben ennekem :/: <note type="footnote">1.</note></l>
+<l xml:id="l.2">űdvössegem töle várom, <metamark function="cesura"/> nem lehet hát felelmem:</l>
+<l xml:id="l.3">ellenseg ellen oltalmom <metamark function="cesura"/> volt leszenis segedem, <note type="footnote">2.</note></l>
+<l xml:id="l.4">ellenem hát ugy tamadgion <metamark function="cesura"/> hog’ hatra fut elöttem.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5"><hi rend="bold">S</hi>űrű taborral jöjönis <metamark function="cesura"/> bár az ellenseg ream :/: <note type="footnote">3.</note></l>
+<l xml:id="l.6">szivem nem retteghet ugis: <metamark function="cesura"/> ha sebet vagis raitam</l>
+<l xml:id="l.7">remensegemet ackoris <metamark function="cesura"/> tebenned edes Atiam</l>
+<l xml:id="l.8">helheztetem, mert nintsenis <metamark function="cesura"/> kivöled kihez bizzam.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9"><hi rend="bold">T</hi>öled chiak egy dolgot kértem <metamark function="cesura"/> mostannis azt kivanom :/:
+                            <note type="footnote">4.</note></l>
+<l xml:id="l.10">valamig testemben lelkem <metamark function="cesura"/> jo voltodbol hordozom:</l>
+<l xml:id="l.11">szent hazadban legien heliem <metamark function="cesura"/> mindenkoron lakasom,</l>
+<l xml:id="l.12">hol szépsegedet nézhessem <metamark function="cesura"/> ez minden akaratom.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13"><hi rend="bold">V</hi>eszedelemben nem eitesz <metamark function="cesura"/> ha közelitis hozzam :/: <note type="footnote">5.</note></l>
+<l xml:id="l.14">mert satorodban el reitesz <metamark function="cesura"/> oly gondod vagion ream,</l>
+<l xml:id="l.15">söt még kösziklara viszesz <metamark function="cesura"/> hog’ romlasom ne lassam, <note type="footnote">6.</note></l>
+<l xml:id="l.16">ellensegimtöl meg mentesz <metamark function="cesura"/> ne omoljanac ream.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17"><hi rend="bold">A</hi>ldozatomat fel viszem <metamark function="cesura"/> örömnec aldozattiat :/:</l>
+<l xml:id="l.18">es satoraban le teszem <metamark function="cesura"/> ajakaimnac tulkat,</l>
+<l xml:id="l.19"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">teli torockal eneklem <metamark function="cesura"/> el nem titkolom dolgát,</lem><rdg wit="#I" xml:id="rdg.1">titkolom (titkat) dolgát,</rdg></app></l>
+<l xml:id="l.20">verseimmelis hirdetem <metamark function="cesura"/> szentseges akarattiat.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21"><hi rend="bold">N</hi>e halgas midön kialtoc <metamark function="cesura"/> En Istenem te hozzad :/: <note type="footnote">7.</note></l>
+<l xml:id="l.22">söt midön titkon ohaitoc <metamark function="cesura"/> fűleidet meg nissad,</l>
+<l xml:id="l.23">beszedimre kiket mondoc <metamark function="cesura"/> irgalmassagod niuytsad:</l>
+<l xml:id="l.24"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">az en szivem mi nem alnoc, <metamark function="cesura"/> rolad mit mondgion haliad. <note type="footnote">8.</note></lem><rdg wit="#I" xml:id="rdg.2"><del>halgasd</del><add type="corr">haliad</add></rdg></app></l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25"><hi rend="bold">K</hi>eressétec az en orcziam <metamark function="cesura"/> en hiveim kivanom :/:</l>
+<l xml:id="l.26">meg keresem edes Atiam <metamark function="cesura"/> az minden akaratom.</l>
+<l xml:id="l.27">ne űz el szined had lassam <metamark function="cesura"/> te szolgad azt ohaitom, <note type="footnote">9.</note></l>
+<l xml:id="l.28">segetseged legien raitam <metamark function="cesura"/> Idvezitö Christusom.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29"><hi rend="bold">J</hi>o hogy atiam s aniam engem <metamark function="cesura"/> chiak egiedűl hagyanac :/:
+                            <note type="footnote">10.</note></l>
+<l xml:id="l.30">mert kezem fogá Istenem <metamark function="cesura"/> s nem hagia a banatnac:</l>
+<l xml:id="l.31">mutasd meg azert ennekem <metamark function="cesura"/> jarasat utaidnac, <note type="footnote">11.</note></l>
+<l xml:id="l.32"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">ne tudgion meg ellensegem <metamark function="cesura"/> noha felesen vagynac.</lem><rdg wit="#I" xml:id="rdg.3"><del>ne talaljon</del><add type="corr">ne tudgion</add></rdg></app></l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33"><hi rend="bold">R</hi>ut kivansagat ne tegied <metamark function="cesura"/> az irégy ellensegnec <note type="footnote">12.</note></l>
+<l xml:id="l.34">inkab fogokot ki törjed <metamark function="cesura"/> mint hamis embereknec:</l>
+<l xml:id="l.35"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">hog’ hazugsagockal neked <metamark function="cesura"/> terhet ne szerezzenec,</lem><rdg wit="#I" xml:id="rdg.4"><del>hog’ hazug szavockal</del><add type="corr">hog’ hazugsagockal</add></rdg></app></l>
+<l xml:id="l.36"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">es engem valaztot neped <metamark function="cesura"/> halalban ne eitsenec.</lem><rdg wit="#I" xml:id="rdg.5">es <del>mink</del> engem</rdg></app></l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37"><hi rend="bold">A</hi>zt hittem teljes éltemben <metamark function="cesura"/> mostis hiszem, Istennec <note type="footnote">13.</note></l>
+<l xml:id="l.38">draga jo voltat földében <metamark function="cesura"/> meg latom az élöknec:</l>
+<l xml:id="l.39">melliet ha szivem nem hiszen <metamark function="cesura"/> bár minden remensegnec</l>
+<l xml:id="l.40">botsut adgion, neis hidgien <metamark function="cesura"/> Isten igeretinec.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41"><hi rend="bold">L</hi>ankadot szivem az Urat <metamark function="cesura"/> várjad bizodalommal <note type="footnote">14.</note></l>
+<l xml:id="l.42">es erösits meg karodat <metamark function="cesura"/> mert hozzad jö bizonnial,</l>
+<l xml:id="l.43">meg adgia igért oltalmat. <metamark function="cesura"/> Azt mondgia szent Daviddal</l>
+<l xml:id="l.44">huszon hetedic Soltarat <metamark function="cesura"/> midön ira rhytmussal.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

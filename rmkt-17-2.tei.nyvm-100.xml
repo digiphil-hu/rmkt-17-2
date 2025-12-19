@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">100.</title>
+<title key="body" n="100" type="main">EGY SZENTELT VITÉZNEK KESZÜLÖT-FUJO TROMBITAJA
+                    AZ EMBERI GYARLOSÁGRÓL</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-100</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadása: <bibl><hi rend="bold">Tintinnabulum</hi>. [<placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1644">1644</date>.] 162–7.</bibl> – A kötet utolsó verse. A vers végén:
+                        „Finis. Sit Nomen Domini Benedictum.”</p>
+<p xml:id="crit.1.p.2">A vers változatlan szöveggel megjelent a <title><hi rend="italic">Tintinnabulum</hi></title> valamennyi későbbi katolikus típusú
+                        kiadásában. Ezek felsorolását lásd a <ref target="rmkt-17-2.tei.nyvm-93">93. sz.</ref> éneknél. A protestáns kiadások
+                        közül egyedül a <persName>Tótfalusié<idno type="ITIdata">Q151555</idno></persName>
+                        (<placeName>Kolozsvár<idno type="ITIdata">Q258</idno></placeName>
+<date when="1701">1701</date>) hozza, <title><hi rend="italic">Toldalék</hi></title>
+                        címmel, a kötet többi részétől elválasztva. A <title><hi rend="italic">Tintinnabulum</hi></title>
+<date when="1644">1644-i</date>, vagy valamelyik elveszett kiadásából az ének első
+                        kilenc strófája bekerült a <hi rend="italic">Zemlény-ék.</hi>
+                            (<date when="1668">1668</date>) 69b–70b. lapjára, a <ref target="rmkt-17-2.tei.nyvm-96">96. sz.</ref> Nyéki Vörös
+                        verssel együtt, annak szomszédságába.</p>
+<p xml:id="crit.1.p.3">Megtalálható a <hi rend="italic">Kájoni-Cantionale</hi>-ban
+                            (<date when="1676">1676</date>. 742–5.) is, feltehetően a <title><hi rend="italic">Tintinnabulum</hi></title> valamelyik kiadása nyomán, mert
+                        közvetlenül utána <persName>Kájoninál<idno type="ITIdata">Q153204</idno></persName> Nyéki Vörös ugyanott
+                        található <ref target="rmkt-17-2.tei.nyvm-97">97. sz.</ref> verse áll. A <hi rend="italic">Kájoni-Cantionale</hi> szövegében észlelhető néhány kisebb
+                        szövegváltoztatás ezért minden bizonnyal magától
+                            <persName>Kájonitól<idno corresp="Kájoni János"/></persName> ered, aki a popularitás, illetve a
+                        könnyebb énekelhetőség érdekében módosított néhány soron. Legalább is az
+                        eltérések erre vallanak. (Pl. 34. sor, <hi rend="italic">profontod</hi>
+                        helyett: <hi rend="italic">takarmányod</hi>; 52. sor, <hi rend="italic">Vajóh- ’s Jajnál</hi> helyett: <hi rend="italic">siralomnál</hi>.) A
+                            <hi rend="italic">Kájoni-Cantionale</hi> nyomán az ének a későbbi
+                        kiadásokba és más katolikus nyomtatott, ill. kéziratos énekeskönyvbe is
+                        eljutott: <persName>Illyés<idno type="ITIdata">Q59001</idno></persName>: <hi rend="italic"><title>Halotti
+                                énekek</title></hi> (<date when="1693">1693</date>) 69–74. – <hi rend="italic">Mihál Farkas-k.</hi> (<date when="1680">1680</date> k.) 37a–41a. Hiányzik itt a 9–
+                        13., 27. és 32. vsz. – <hi rend="italic">Szoszna Demeter-ék.</hi> (1714–5)
+                        517. <persName>Illyés<idno corresp="Illyés István"/></persName> énekeskönyve révén a vers a nép körében is
+                        elterjedt, s <persName><hi rend="smallcaps">Lajtha László</hi><idno type="ITIdata">Q156054</idno></persName>
+<date when="1954">1954-ben</date>, a Sopron-megyei <placeName>Bősárkány</placeName>
+                        községben le is jegyezte az éneknek a – 15. vsz. híján teljes – szövegét és
+                        dallamát. (<bibl><title>Sopronmegyei virrasztó énekek</title>. Bp. 1956.
+                            315–8. 158. sz.</bibl>)</p>
+<p xml:id="crit.1.p.4">Az ének versfőinek második fele értelmes szöveget ad: SLEIHMVKDVNKERNTS
+                        PAVPER PECCATOR M. Nyéki Vörös több versénél is tapasztalhattuk, hogy a
+                        versfők csak egy töredékes akrostichont adnak. (Vö. <ref target="rmkt-17-2.tei.mcsi-22">22</ref>, <ref target="rmkt-17-2.tei.mcsi-24">24.
+                            sz.</ref> versek.) Lehet, hogy ez esetben is lemondott az értelmes
+                        szöveg erőltetéséről.</p>
+<p xml:id="crit.1.p.5">Nótajelzést a <hi rend="italic">Kájoni-Cantionale</hi> ad: „Mit bizik e’
+                        Világ etc.”, s <persName>Illyés<idno corresp="Illyés István"/></persName> is erre hivatkozik.
+                        <persName>Jacopone da Todi<idno type="ITIdata">Q492309</idno></persName> Európa-szerte ismert himnusza (<hi rend="italic">Cur mundus militat</hi>) e régi fordításának ugyan három
+                        dallamát is ismerik XVII–XVIII. századi énekeskönyveink, de magyar szöveggel
+                        a XVII. században csak az egyik kapcsolatos, – feltehetően a régi német
+                        eredetű hagyományos dallam, – melyet az <hi rend="italic">Eperjesi-graduál</hi> (<date from="1635" to="1652">1635–52</date>, 384b.) és a <title><hi rend="italic">Cantus catholici</hi></title> (<date when="1651">1651</date>.
+                        249.) tartott fenn. (Lásd <bibl><abbr>RMDT I</abbr>, 188.</bibl>)
+                        Véleményünk szerint <persName>Kájoni<idno corresp="Kájoni János"/></persName> is,
+                        <persName>Illyés<idno corresp="Illyés István"/></persName> is erre a dallamra gondolhatott.
+                        <persName>Illyés<idno corresp="Illyés István"/></persName> azonkívül
+                        hivatkozik még <persName>Uz Bálint</persName> „Véletlen embernek utolsó
+                        órája” kezdetű halottas éneke dallamára is, amely éppen az ő gyűjteményében
+                        jelent meg először (<date when="1639">1639</date>. 61–2.). Itt az előbbi dallamot adjuk
+                        a <hi rend="italic">Cant. cath.</hi> alapján, míg a másikat – amely
+                        egyébként a „Mit bizik e világ” távoli variánsának tekinthető – a <ref target="rmkt-17-2.tei.nyvm-93">93.
+                            sz.</ref> vers jegyzeteiben közöljük „Ó ti kik a napfényt”
+                        szöveggel.</p>
+<p xml:id="crit.1.p.6">Ezt a verset <persName><hi rend="smallcaps">Toldy Ferenc</hi><idno type="ITIdata">Q151328</idno></persName> Nyéki Vörösnek tulajdonította,
+                        mivel a <title><hi rend="italic">Tintinnabulum</hi></title>-mal és a
+                                <title><hi rend="italic">Dialogus</hi></title>-sal egy kötetben
+                        találta. (<bibl><title>A magyar költészet története</title>. 2. kiad. Pest
+                            1867. 212.</bibl>) Mások azonban határozottan tagadták, hogy tőle
+                        származik. (<bibl><hi rend="smallcaps">Kőmíves</hi> i. m. 60.</bibl>) Nyéki Vörös szerzősége mellett
+                        az szól, hogy a <title><hi rend="italic">Tintinnabulum</hi></title>
+<date when="1644">1644</date>. évi kiadása minden valószínűség szerint magának a
+                        költőnek az összeállítása és szándéka szerint jelent meg, s hogy az ének
+                        minden más előfordulása a Nyéki Vörös-gyűjtemény különböző kiadásaira megy
+                        vissza. A vers témája és stílusa egyébként is szorosan kapcsolódik Nyéki
+                        Vörös későbbi korszakának műveihez, s az itt alapul választott
+                        trombita-motívum megvan már a <title><hi rend="italic">Tintinnabulum</hi></title>-ban (pl. 622. sor) is. A vers keletkezésének
+                        pontos idejét nem tudjuk. De mivel a <title><hi rend="italic">Tintinnabulum</hi></title> 1636. évi kiadásában még nincs benn,
+                        valószínűleg ez után, <date when="1640">1640</date> körül készülhetett. Így ezt
+                        tekinthetjük Nyéki Vörös utolsó ismert énekének.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Tintinnabulum. [<placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName> 1644.] 162–7.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 100.</fw>
+<head type="title">EGY SZENTELT VITÉZNEK KESZÜLÖT-FUJO TROMBITAJA
+                    AZ EMBERI GYARLOSÁGRÓL</head>
+<!--Dallam-kép 100. o.-->
+<lg xml:id="lg.1">
+<l xml:id="l.1">Szegény gyarlo Ember, Jaj mely nyomorúlt vagy!</l>
+<l xml:id="l.2">Nem ládd-e, nyavalyád minden-felöl mely nagy?</l>
+<l xml:id="l.3">Bár látnál dolgodhoz a’ míg az úton vagy;</l>
+<l xml:id="l.4">Irnád Ratió-dat,<note type="critic" xml:id="note.1">Ratió – itt: elszámolás, számadás</note> mert szám-adásod nagy.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Látod jól, mindennap esendö példákban,</l>
+<l xml:id="l.6">Hogy a’ Halál siet, nem késik dolgában;</l>
+<l xml:id="l.7">A’ kit elöl utól talál, hálójában</l>
+<l xml:id="l.8">Kerget kegyetlenül, ’s nehéz rabságában.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Egész gyermekséged idejétöl-fogva,</l>
+<l xml:id="l.10">Valamit miveltél, fel <sic>vann</sic> nálla róva;</l>
+<l xml:id="l.11">Chak mi kis bünöd-is nem lész el-titkolva;</l>
+<l xml:id="l.12">E’ világ láttára ki lesz nyilatkozva.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Ingyen sem gondolnád, mely kichiny vétkedért,</l>
+<l xml:id="l.14">Mely nehéz bajod lesz, egy trágár beszédért:</l>
+<l xml:id="l.15">Hát gyilkos, parázna, ochmány életedért,</l>
+<l xml:id="l.16">Részeges, kóborlo, mit reménylhetsz azért?</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Hazug, szentség-törö, fondor, rágalmazo,</l>
+<l xml:id="l.18">Fösvény, ’s jóra túnya, roszra langodozo,<note type="critic" xml:id="note.2">langodozo = égő, lángra lobbanó</note></l>
+<l xml:id="l.19">Hamis törvény-tévö, Arvát nyomoríto;</l>
+<l xml:id="l.20">Ezért, ’s mit ád néked amaz igaz Bíro?</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Mit gondolsz, ki a’ Bünt mint a’ vizet iszod?</l>
+<l xml:id="l.22">Talám azt tudod,<note type="critic" xml:id="note.3">azt tudod = úgy tudod, azt hiszed</note> hogy ninch Itélö Bíród;</l>
+<l xml:id="l.23">Vagy hogy e’ Világot mind örökké bírod;</l>
+<l xml:id="l.24">Eletedet mingyárt hogy meg nem jobbítod?</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Vagyon-e híreddel, hogy Készülöt fúttak?</l>
+<l xml:id="l.26">Készen a’ Trombitás, majd Indúlót fújnak.</l>
+<l xml:id="l.27">El kell menned, el-hidd, bizony itt nem hadnak.</l>
+<l xml:id="l.28">Mint lesz dolgod, hogy-ha készületlen kapnak?</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Kérlek, siketségre ne vedd Intésemet:</l>
+<l xml:id="l.30">A’ míg idöd vagyon, jobbítsd életedet:</l>
+<l xml:id="l.31">Sok roszsz dolgaidról kövesd Istenedet;</l>
+<l xml:id="l.32">Fordítsd e’ Trombita-szóra füleidet.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33">De mindenek-fölött erre légyen gondod,</l>
+<l xml:id="l.34">Hogy ez te útadra légyen böv profontod;</l>
+<l xml:id="l.35">Tár-szekered meg kell jól éléssel raknod,</l>
+<l xml:id="l.36">Ne légyen e’ hadban hogy fogyatkozásod.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37">Vaj, ki chudás törvény vagyon e’ Táborban!</l>
+<l xml:id="l.38">Ott semmi mód ninchen a’ szabad Sákmányban:</l>
+<l xml:id="l.39">Szükség, hogy jó kinched légyen tarsolyodban,</l>
+<l xml:id="l.40">Haszonnal ha akarsz harczolni e’ hadban.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41">Nem hadnak ott semmit erövel el-venni:</l>
+<l xml:id="l.42">Innét a’ mi élést viszsz, azzal kell élni.</l>
+<l xml:id="l.43">Ha jó készülettel oda nem fogsz menni,</l>
+<l xml:id="l.44">Veszedelem, éhség, rabság, kezd követni.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.45">Kegyetlenek pedig ott a’ Tömlöcz-tartók:</l>
+<l xml:id="l.46">Szépen ök nem szólnak, mert igen káromlók.</l>
+<l xml:id="l.47">Akár-mint sírjanak ott a’ szegény Rabok,</l>
+<l xml:id="l.48">Nem lészen ott a’ ki könyörüllyön rajtok.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.49">Egy chöpp víz sem lesz ott, akár-mint szomjúzzál;</l>
+<l xml:id="l.50">Párna-sák-is ninch ott, a’ mellyen aludgyál;</l>
+<l xml:id="l.51">Vagy egy pertzentésig hogy köztök nyughassál:</l>
+<l xml:id="l.52">Mert ott egyébb ninchen örök Vajóh- ’s Jajnál.<note type="critic" xml:id="note.4">A <hi rend="italic">Vajóh</hi> szót egyetlen szótárban sem sikerült
+                            megtalálnunk. Feltehetőleg a <hi rend="italic">Jaj</hi> szóval
+                            egyenértékű (<hi rend="italic">Vaj! Oh!</hi>), s a költő az állandó
+                            jajgatásra, siránkozásra utal vele.</note></l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.53">Régi adosságid írva elö-hozzák,</l>
+<l xml:id="l.54">’S a’ menyi summaval tartozol, meg-láttyák.</l>
+<l xml:id="l.55">Usorával töled azt mind meg-kívánnyák.</l>
+<l xml:id="l.56">Ha meg nem fizethetsz, böröd-is le-vonnyák.</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.57">Nem lehet ki-menned e’ Fogságból addig,</l>
+<l xml:id="l.58">Míg meg nem fizethetsz utólso fillyérig.</l>
+<l xml:id="l.59">Azért ne halaszszad térésed sokkáig:</l>
+<l xml:id="l.60">Mert azt nem tudhatod ha élsz virrattáig.</l>
+</lg>
+<lg xml:id="lg.16">
+<l xml:id="l.61">Tehát jól meg-gondold nyomorúlt-vóltodat,</l>
+<l xml:id="l.62">Hamis reménséggel ne biztasd magadat:</l>
+<l xml:id="l.63">Meg-tréfál e’ Világ, meg-ójad magadat,</l>
+<l xml:id="l.64">Véletlen veszélybe ne szakaszd nyakadat.</l>
+</lg>
+<lg xml:id="lg.17">
+<l xml:id="l.65">Siess, engeszteld-meg a’ te Istenedet;</l>
+<l xml:id="l.66">Ne halazd sokkáig te meg-térésedet;</l>
+<l xml:id="l.67">Meg-jobbítani ne késsél életedet.</l>
+<l xml:id="l.68">Ma kezd-el: mert késö hólnap véghez vinned.</l>
+</lg>
+<lg xml:id="lg.18">
+<l xml:id="l.69">Penitentziára, a’ míg idöd vagyon,</l>
+<l xml:id="l.70">Addig visely gondot, dolgod míg jól vagyon:</l>
+<l xml:id="l.71">El rántyák a’ gyéként, melly alattad vagyon.</l>
+<l xml:id="l.72">Chak úgy élly, utánnad hogy minden jót mongyon.</l>
+</lg>
+<lg xml:id="lg.19">
+<l xml:id="l.73">Abban bizonyos vagy, hogy meg kellyen halnod:</l>
+<l xml:id="l.74">De idejét, helyét annak nem tudhatod.</l>
+<l xml:id="l.75">Kemény szám-adásra elö kell állanod:</l>
+<l xml:id="l.76">Ezer szóra sem lesz eggyet mit mondanod.</l>
+</lg>
+<lg xml:id="lg.20">
+<l xml:id="l.77">Vigyázz dolgaidra hát, ’s légy igen készen,</l>
+<l xml:id="l.78">Es e’ Trombita-szó talállyon oly Hitben:</l>
+<l xml:id="l.79">Hogy mihelyt meg-virrad, indúlhass örömben,</l>
+<l xml:id="l.80">’S jól éltedért kedves fizetésed légyen.</l>
+</lg>
+<lg xml:id="lg.21">
+<l xml:id="l.81">Panaszolkodóknak nyisd-meg füleidet:</l>
+<l xml:id="l.82">Az Alamisnára nyújtsd-ki kezeidet;</l>
+<l xml:id="l.83">A’ szükölködőktül ne kíméld pénzedet:</l>
+<l xml:id="l.84">Ezért Meny-országban meg-adgyák béredet.</l>
+</lg>
+<lg xml:id="lg.22">
+<l xml:id="l.85">Ehezöknek ne szánd; szegd-meg kenyeredet:</l>
+<l xml:id="l.86">Gyakorta a’ szegény Rabok tömlöczöket</l>
+<l xml:id="l.87">Meg-látogasd, osztán a’ kór betegeket:</l>
+<l xml:id="l.88">Es a’ meg-hóltaknak el-temesd testöket.</l>
+</lg>
+<lg xml:id="lg.23">
+<l xml:id="l.89">Rongyost ruházz, mutasd Keresztyén-vóltodat:</l>
+<l xml:id="l.90">Ne egyék chak férgek sok takarmányodat:<note type="critic" xml:id="note.5">takarmány = összeharácsolt vagyon</note></l>
+<l xml:id="l.91">Ne töltsd chak duskára<note type="critic" xml:id="note.6">duskát inni = versenyt inni, ész nélkül inni</note> sok hordó-borodat:</l>
+<l xml:id="l.92">Ne tartsd mint rabodat szegény Jobbágyodat.</l>
+</lg>
+<lg xml:id="lg.24">
+<l xml:id="l.93">Pogány módra meg ne rontsd a’ Törvényeket:</l>
+<l xml:id="l.94">Oltalmazd az Arvát és az Eözvegyeket:</l>
+<l xml:id="l.95">Cheléded-közt chinálly Istenes rendeket:</l>
+<l xml:id="l.96">Mert meg-kéri<note type="critic" xml:id="note.7">meg-kéri = számonkéri</note> Isten kezedböl lelkeket.</l>
+</lg>
+<lg xml:id="lg.25">
+<l xml:id="l.97">Egész életednek tellyes napjaiban,</l>
+<l xml:id="l.98">Vagy észel, vagy iszol, vagy nyugszol ágyadban,</l>
+<l xml:id="l.99">Ejjeli nappali sok fáratságidban;</l>
+<l xml:id="l.100">E’ Trombita-szóra vígyázz dolgaidban.</l>
+</lg>
+<lg xml:id="lg.26">
+<l xml:id="l.101">Chinálly barátokat a’ hamis Mammon-ból;<note type="critic" xml:id="note.8">A sor értelme homályos; mindenesetre a halál utáni időszak számára való érdemszerzésről van szó.</note></l>
+<l xml:id="l.102">Hogy mikor meg-fordúlsz szarándokságodból,<note type="critic" xml:id="note.9">A zarándokságból való megfordulás itt a halált jelenti.</note></l>
+<l xml:id="l.103">Ki ne rekesztessél az örök hajlékból,</l>
+<l xml:id="l.104">A’ bóldog Szenteknek szép társaságából.</l>
+</lg>
+<lg xml:id="lg.27">
+<l xml:id="l.105">Cheréld-meg magadnak az el-múlo Jókon,<note type="critic" xml:id="note.10">Cheréld-meg – cseréld el, szerezd meg csere útján. – A sor értelme: a múlandó földi javakat cseréld el a
+                        mennyországért.</note></l>
+<l xml:id="l.106">Váltsd-meg<note type="critic" xml:id="note.11">Váltsd-meg – ugyanazt jelenti, mint az előző sorban a cheréld-meg.</note> Meny-országot sok gazdagságidon.</l>
+<l xml:id="l.107">Ne kapdoss heában e’ chalárd Világon:</l>
+<l xml:id="l.108">Mert meg-halsz, mint mások, te-is azon módon.</l>
+</lg>
+<lg xml:id="lg.28">
+<l xml:id="l.109">A’ Pállya-futóknak tudd-e szokásokat?</l>
+<l xml:id="l.110">Mind addig fáradnak, a’ míg jutalmokat</l>
+<l xml:id="l.111">El-vévén, örömmel nyugottyák magokat;</l>
+<l xml:id="l.112">El-múlt kis munkáért látván sok hasznokat.</l>
+</lg>
+<lg xml:id="lg.29">
+<l xml:id="l.113">Te-néked-is <sic>fel-vann</sic>  téve a’ Jutalom,</l>
+<l xml:id="l.114">A’ Meny-országbéli bóldog nyugodalom.</l>
+<l xml:id="l.115">Fussad jól pallyádat: ’s ez a Birodalom</l>
+<l xml:id="l.116">Néked meg-adatik, igaz Hittel vallom.</l>
+</lg>
+<lg xml:id="lg.30">
+<l xml:id="l.117">Oh Fölséges Isten, Menynek Földnek Ura,</l>
+<l xml:id="l.118">Tekínts kegyelmessen rám, szegény szolgádra:</l>
+<l xml:id="l.119">Segély, hogy juthassak jó pállya-futásra,</l>
+<l xml:id="l.120">Utamat igazgasd te szent Országodra.</l>
+</lg>
+<lg xml:id="lg.31">
+<l xml:id="l.121">Reám ki-árasztott számtalan sok jódért,</l>
+<l xml:id="l.122">En-is szent Nevedet, kegyelmességedért,</l>
+<l xml:id="l.123">Aldom ’s. magasztalom te nagy jó-vóltodért,</l>
+<l xml:id="l.124">Erdem fölött-valo irgalmasságodért.</l>
+</lg>
+<lg xml:id="lg.32">
+<l xml:id="l.125">Mondván, Szent, Szent, Szent, a’ Seregeknek Ura;</l>
+<l xml:id="l.126">Minden állat ötet álgya ’s magasztallya;</l>
+<l xml:id="l.127">Nekie szolgállyon, és ötet imádgya.</l>
+<l xml:id="l.128">Ugy légyen, úgy légyen; Amen, minden mongya.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

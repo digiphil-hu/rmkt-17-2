@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">51.</title>
+<title key="body" n="51" type="main">IBIDEM TEMPORE PRANDII FILIUS STEPHANUS VOTUM VOTO CUMULAVIT</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-51</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1">Kézirata: <hi rend="bold">Diarium Apod.</hi> 325a–326a, 324b. (Csulyak a 12. sor után egy B betűt írt, s a 3–4. versszakot a 324b. lapra,
+                    utólag írta le ezzel a megjegyzéssel: „Sequentia post literam B. a dextris.”) – A latin cím jelentése: Ugyanott ebédkor István fiam
+                    kívánságot kívánságra halmozott. Az ének tehát – mint az előző – Deli István bíróvá választásának megünneplésekor, 1640 végén
+                    keletkezett.</note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 325a–326a, 324b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 51.</fw>
+<head type="title">IBIDEM TEMPORE PRANDII FILIUS STEPHANUS VOTUM VOTO CUMULAVIT</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Nemes Polgar rendec, <metamark function="cesura"/> kic ide jöttetec</l>
+<l rend="level_6" xml:id="l.2">Biro Uram hazaban,</l>
+<l xml:id="l.3">hogy Birot tegietec, <metamark function="cesura"/> oztan ebéljetec:<note type="critic" xml:id="note.1">ebéljetec = ebédeljetek</note></l>
+<l rend="level_6" xml:id="l.4">karatson ajandekban:</l>
+<l xml:id="l.5">adgion Isten soc jot, <metamark function="cesura"/> penzel teli saktsot</l>
+<l rend="level_6" xml:id="l.6">Mindenitec hazaban.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.7">Lassan<note type="critic" xml:id="note.2"> = halkan</note> zajogjatoc <metamark function="cesura"/> szomot meg haljatoc</l>
+<l rend="level_6" xml:id="l.8">mi nem kortsoman vagytoc</l>
+<l xml:id="l.9">jozanon igiatoc <metamark function="cesura"/> es ugy mulassatoc</l>
+<l rend="level_6" xml:id="l.10">Istent meg ne bantsatoc</l>
+<l xml:id="l.11">szép regulat mondoc <metamark function="cesura"/> kit meg tanuljatoc</l>
+<l rend="level_6" xml:id="l.12"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">ha fö emberec vagytoc.</lem><rdg wit="#I" xml:id="rdg.1"><del>ha fő emberec vadtoc</del><add type="corr">ha fö emberec vagytoc</add></rdg></app></l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.13">Deli Istvan neve <metamark function="cesura"/> noha most nints kedve</l>
+<l rend="level_6" xml:id="l.14">mert nagy gond űtte fejét</l>
+<l xml:id="l.15">de Isten meg menti <metamark function="cesura"/> ha esztendöt éri</l>
+<l rend="level_6" xml:id="l.16">soc gondtol haza nepét</l>
+<l xml:id="l.17">ha enis azt erem <metamark function="cesura"/> im mostan igerem</l>
+<l rend="level_6" xml:id="l.18">mondom kedvesb versemet.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.19">Biro Uram intlec <metamark function="cesura"/> ne bankodgial kerlec</l>
+<l rend="level_6" xml:id="l.20">hog’ nagy emberré löttél.</l>
+<l xml:id="l.21">Birova töt Isten <metamark function="cesura"/> mert hasonlo nintsen</l>
+<l rend="level_6" xml:id="l.22">hozzad szép emberseggel</l>
+<l xml:id="l.23">ha ki ezt tagadgia, <metamark function="cesura"/> ne mondgiam, meg tiltia</l>
+<l rend="level_6" xml:id="l.24">bottal űzd el elöled.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.25">Adot Isten Birót <metamark function="cesura"/> ugy hallom nem sirót</l>
+<l rend="level_6" xml:id="l.26">Ifjat nem igen aggot:</l>
+<l xml:id="l.27">ki nem szeret lopót <metamark function="cesura"/> kevélt, szitkozodot,</l>
+<l rend="level_6" xml:id="l.28">hizelkedöt, hazugot,</l>
+<l xml:id="l.29">részegest, tobzodot, <metamark function="cesura"/> tragart, hir harangot</l>
+<l rend="level_6" xml:id="l.30">jambor ember chiufolót.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.31"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Tizted Biro Uram <metamark function="cesura"/> ez legyen neked am</lem><rdg wit="#I" xml:id="rdg.2"><del>ez legyen te neked</del><add type="corr">ez legyen neked</add></rdg></app></l>
+<l rend="level_6" xml:id="l.32">minden embernec ne hidgy:</l>
+<l xml:id="l.33"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">mert ha hamar hiszel <metamark function="cesura"/> hamar meg eshetel</lem><rdg wit="#I" xml:id="rdg.3"><del>meg chialatol hamar</del><add type="corr">hamar meg eshetel</add></rdg></app></l>
+<l rend="level_6" xml:id="l.34">mert az ember szava hig:<note type="critic" xml:id="note.3">hig – itt talán ’hajló, állhatatlan’ jelentésben. (Vö. NySz I, 1424.)</note></l>
+<l xml:id="l.35">hogy bizvast hihessél <metamark function="cesura"/> mindenkor mindennec</l>
+<l rend="level_6" xml:id="l.36">soha magadis ne hid.<note type="critic" xml:id="note.4"> = ne hidd el, ne bízd el magad</note></l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.37">Az Isten törvénye <metamark function="cesura"/> legyen szemed fénye</l>
+<l rend="level_6" xml:id="l.38">midön űlsz törvény szekbe,</l>
+<l xml:id="l.39"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">az legyen kezedben <metamark function="cesura"/> a mit aad elödben</lem><rdg wit="#I" xml:id="rdg.4"><del>es a mit parantsol</del><add type="corr">mit aad elödben</add></rdg></app></l>
+<l rend="level_6" xml:id="l.40">chiak azt chielekedgied te</l>
+<l xml:id="l.41"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">ember dagaljatol<note type="critic" xml:id="note.5">dagaljatol = haragjától</note> <metamark function="cesura"/> mint Isten atkatol</lem><rdg wit="#I" xml:id="rdg.5"><del>soha mint az Isten</del><add type="corr">mint Isten atkato</add></rdg></app></l>
+<l rend="level_6" xml:id="l.42"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">sohais ne rettegy te.</lem><rdg wit="#I" xml:id="rdg.6"><del>haragiatol ne fély te.</del><add type="corr">sohais ne rettegy te.</add></rdg></app></l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.43">Keveset magadtol <metamark function="cesura"/> de mindent tanatsbol</l>
+<l rend="level_6" xml:id="l.44">chielekedgiel tiztedben</l>
+<l xml:id="l.45">mert az eggies szemnél <metamark function="cesura"/> többet lat az soc szem</l>
+<l rend="level_6" xml:id="l.46">többis van az elmében,</l>
+<l xml:id="l.47">ugy nem eshetel el <metamark function="cesura"/> meg sem botolhatol</l>
+<l rend="level_6" xml:id="l.48">mert jo istap kezedben.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.49">Am bár magossan űly <metamark function="cesura"/> de mindent meg bötsűly</l>
+<l rend="level_6" xml:id="l.50">mindenkoris jozan legy:</l>
+<l xml:id="l.51">az személre ne néz <metamark function="cesura"/> nagy kitsint<note type="critic" xml:id="note.6">nagy kitsint = nagyot, kicsit</note> meg halgas</l>
+<l rend="level_6" xml:id="l.52">ajandekotis ne végy,</l>
+<l xml:id="l.53">nenédért, batiadért <metamark function="cesura"/> avagy baratodért</l>
+<l rend="level_6" xml:id="l.54">sohais törvént ne tégy.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.55">Az Isten könyvéböl <metamark function="cesura"/> nem tölem tanuld meg</l>
+<l rend="level_6" xml:id="l.56">tiztedet Biro Uram:</l>
+<l xml:id="l.57">mert én gyermec vagioc <metamark function="cesura"/> ahoz nemis tudoc,</l>
+<l rend="level_6" xml:id="l.58">mert más az en oskolám:</l>
+<l xml:id="l.59"><app xml:id="app.7"><lem wit="#KK" xml:id="lem.7">söt ha más ekéjén <metamark function="cesura"/> mostis nem szantanec<note type="critic" xml:id="note.7">A sor értelme: sőt ha nem másnak a szövegét mondanám. (A verset ui. Csulyak írta, és fia, István mondta el.)</note></lem><rdg wit="#I" xml:id="rdg.7">ekéjén <del>eztis</del></rdg></app></l>
+<l rend="level_6" xml:id="l.60">bizony eztis nem tudnam.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.61">Legy jo egessegben <metamark function="cesura"/> edes Biro Uram</l>
+<l rend="level_6" xml:id="l.62">Lizkai Birosagban,</l>
+<l xml:id="l.63">esztendö el telvén <metamark function="cesura"/> tiztedet le tévén</l>
+<l rend="level_6" xml:id="l.64"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">niugodgial meg honniodban</lem><rdg wit="#I" xml:id="rdg.8"><del>maradgial</del><add type="corr">niugodgial</add></rdg></app></l>
+<l xml:id="l.65">jo forgolodasod <metamark function="cesura"/> Isten meg fizeti</l>
+<l rend="level_6" xml:id="l.66">az magas menyorszagban.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.67">Ha te az vers mondót <metamark function="cesura"/> ez szép Regulakért</l>
+<l rend="level_6" xml:id="l.68">Baratom meg gunyolod:</l>
+<l xml:id="l.69">Antal<note type="critic" xml:id="note.8"> Vö. a <ref target="rmkt-17-2.tei.mcsi-49">49. sz.</ref> ének 21. sorához írt jegyzettel. – boza = valamiféle szeszesital. Ugyanez a tréfás átkozódás már
+                        az 1540-es évekből való Szendrői Hegedősénekben is előfordult: jtallyok pyros bozza legyön. (ItK 1953, 231.)</note> legyen neved <metamark function="cesura"/> boza étec leved:</l>
+<l rend="level_6" xml:id="l.70">ha nem lész más baratod:</l>
+<l xml:id="l.71"><app xml:id="app.9"><lem wit="#KK" xml:id="lem.9">igiad meg Balassal <metamark function="cesura"/> birsaggos batkaval<note type="critic" xml:id="note.9">Balázs régi szólásainkban a meggondolatlan és hebehurgya ember neve. A NySz Baranyai Decsi Adagiáiból idézi:
+                        Bele balaz, louat ád Isten. Egy másik szólás Decsi Adagiáiból (203): Ego tibi alliis loquor tu respondes de cepis, Találád, mint
+                        Balás pap à veczernyét. – birsaggos = bírságként fizetett. – batka = kisértékű pénzdarab</note></lem><rdg wit="#I" xml:id="rdg.9">birsag<del>ban</del></rdg></app></l>
+<l rend="level_6" xml:id="l.72"><app xml:id="app.10"><lem wit="#KK" xml:id="lem.10">talam zebem meg töltöd.</lem><rdg wit="#I" xml:id="rdg.10"><del>sz</del><add type="corr">z</add>ebem</rdg></app></l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

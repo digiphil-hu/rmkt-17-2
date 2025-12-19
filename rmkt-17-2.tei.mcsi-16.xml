@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">16.</title>
+<title key="body" n="16" type="main">PARAPHRASIS EX GERMANICO, IN GRATIAM NTLB</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-16</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <hi rend="bold">Diarium Apod.</hi> 223a. – A cím magyarul: Paraphrasis németből NTLB
+                    tiszteletére. <placeName>Heidelbergben<idno type="ITIdata">Q9484</idno></placeName>, <date when="1603">1603</date>.</p>
+<p xml:id="crit.1.p.2">Egy jelenleg ismeretlen német szerelmes vers átköltése Csulyak heidelbergi diákoskodása idejéből, <date when="1603">1603-ból</date>. Az
+                    átdolgozás feltehetően <persName>Thököly Miklós</persName> számára készült; a névbetűk valószínű feloldása: Nicolaus Thököly Liber Baro.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 223a.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 16.</fw>
+<head type="title">PARAPHRASIS EX GERMANICO, IN GRATIAM NTLB</head>
+<head type="subtitle">Heidelbergae 1603</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Menny él édes követem</l>
+<l xml:id="l.2">hegyen völgiön elöttem,</l>
+<l rend="level_3" xml:id="l.3">kegiesem az ablakon</l>
+<l rend="level_3" xml:id="l.4">szommal köszönched titkon</l>
+<l xml:id="l.5">mondgiad szolgalatomat</l>
+<l xml:id="l.6">jelench baratsagomat.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.7">Mondgiad ezt. Oh en szivem</l>
+<l xml:id="l.8">ha élsz, örvendez lelkem</l>
+<l rend="level_3" xml:id="l.9">bár chac ma engedtetnéc</l>
+<l rend="level_3" xml:id="l.10">hogy en veled lehetnéc</l>
+<l xml:id="l.11">örömem megh ujulna</l>
+<l xml:id="l.12">banatomis el mulna.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.13">Gerjedec szerelmedért</l>
+<l xml:id="l.14">mert Venus s Cupido sért</l>
+<l rend="level_3" xml:id="l.15">ki tömlöczében vetet</l>
+<l rend="level_3" xml:id="l.16">kimilletlenűl veret,</l>
+<l xml:id="l.17">ha nem leszesz szabadság</l>
+<l xml:id="l.18">halal leszen orvossagh.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.19">Elljen sokaigh, mondgiad</l>
+<l xml:id="l.20">kegiesem, s vigaztaljad,</l>
+<l rend="level_3" xml:id="l.21">rövid nap<note type="critic" xml:id="note.1">rövid nap = rövid idő múlva</note> vele leszek</l>
+<l rend="level_3" xml:id="l.22">ha egessegben leszek</l>
+<l xml:id="l.23">szivem szivebe vegie</l>
+<l xml:id="l.24">égnie se engedgie.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

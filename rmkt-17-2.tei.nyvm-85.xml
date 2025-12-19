@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">85.</title>
+<title key="body" n="85" type="main">BÓLDOG ASZSZONRÓL VALO ÉNEK</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-85</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadása: <bibl><hi rend="bold">Istenes énekek.</hi> <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName> [<date from="1635" to="1636">1635–36</date>]. 172–5.</bibl>
+                    Kiad. <bibl><hi rend="smallcaps">Varjas</hi>, i. m. 172–5.</bibl> – A cím alatt metszet: a holdsarlón
+                        álló Mária dicsfénnyel övezve, karján a gyermekkel. (Lásd: 21. sz.
+                        tábla.)</p>
+<p xml:id="crit.1.p.2">Az ének verselése több helyen bizonytalan. A költő 10 szótagos sorokra
+                        törekedett, de ettől több helyen eltért. így a 2., 7., 14., 20., 25., 65. és
+                        68. sorok 11-esek, a 16. pedig 9-es. Feltűnő azonban, hogy a 26. sortól – a
+                        záróstrófát nem számítva – egyöntetű a verselés. A szótagszám hasonló
+                        ingadozása figyelhető meg a <ref target="rmkt-17-2.tei.nyvm-74">74. sz.</ref> éneknél is. Lehet, hogy a
+                        költő e két esetben olyan dallamot vett alapul, mely a szótagszám pontos
+                        betartását nem követelte meg.</p>
+<p xml:id="crit.1.p.3">Az ének megírásában a költőt erősen inspirálta <persName>Vásárhelyi
+                        András<idno type="ITIdata">Q246971</idno></persName> Mária-himnusza. (<bibl><abbr>RMKT I</abbr>, 2. kiad.
+                            236–8.</bibl>)</p>
+<p xml:id="crit.1.p.4">Különösen a vers első két strófája őrzi erősen a középkori himnusz hatását. A
+                        hasonló sorokra külön-külön utalunk. Jellemző az is, hogy
+                            <persName>Vásárhelyi<idno corresp="Vásárhelyi András"/></persName> is 10 szótagú sorokban írt, melyekbe
+                        helyenként 11-esek keveredtek.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Istenes énekek. <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName> [<date from="1635" to="1636">1635–36</date>]. 172–5.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 85.</fw>
+<head type="title">BÓLDOG ASZSZONRÓL VALO ÉNEK</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Maria szent Háromságh leánya</l>
+<l xml:id="l.2">Atya Istennek drága kínch tartója,<note type="critic" xml:id="note.1">Vö.
+                        <persName>Vásárhelyi<idno type="ITIdata">Q246971</idno></persName> 22. sor: „zenth athyanak draga kench
+                            tartoya”.</note></l>
+<l xml:id="l.3">Jesus Christusnak bóldogh szent Annya,<note type="critic" xml:id="note.2"><persName>Vásárhelyi<idno type="ITIdata">Q246971</idno></persName> 2. sor: „Wr ihusnak bodogsagws
+                            Annya”.</note></l>
+<l xml:id="l.4">Eudvöz légy szent Leleknek templomja.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Angyaloknak Királyné Aszszonya,<note type="critic" xml:id="note.3"><persName>Vásárhelyi<idno type="ITIdata">Q246971</idno></persName> 1. sor: „Angeloknak nagsagws
+                            azzonnya”.</note></l>
+<l xml:id="l.6">Meny Országnak örvendetes úttya,<note type="critic" xml:id="note.4"><persName>Vásárhelyi<idno type="ITIdata">Q246971</idno></persName> 3. sor: „meńorsagnak zephseges
+                            aytoya”.</note></l>
+<l xml:id="l.7">Paradichomnak tündöklö kapuja,<note type="critic" xml:id="note.5"><persName>Vásárhelyi<idno type="ITIdata">Q246971</idno></persName> 4 sor: „paradychomnak vagh zeles
+                            kapwya”.</note></l>
+<l xml:id="l.8">Eudvöz légy életnek kegyes Annya.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Az szent írás, téged élö fának</l>
+<l xml:id="l.10">Méltán nevez Mennyei rosának,</l>
+<l xml:id="l.11">Elö kenyér hordozo hajónak,</l>
+<l xml:id="l.12">Vizen járok fényes chillagjának.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Mákula nélkül való tükörnek</l>
+<l xml:id="l.14">Aaron, Moses, és Jesse veszszejének,</l>
+<l xml:id="l.15">Es be zárlatott múlató kertnek,</l>
+<l xml:id="l.16">Szörnyünek, mint rendelt seregeknek.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Szent szeretet, és élet Annyának,</l>
+<l xml:id="l.18">Szent Várasnak, s’ bölchyeség házának</l>
+<l xml:id="l.19">Jacob Patriarcha laytrájának,</l>
+<l xml:id="l.20">Szám kivetettek lako várasának.<note type="critic" xml:id="note.6"><persName>Vásárhelyi<idno type="ITIdata">Q246971</idno></persName> 44. sor: „zankyweteseknek megh
+                            bodogeytoya”.</note></l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Lépes méznek, és frigy szekrényének,</l>
+<l xml:id="l.22">Israëlnek tellyes örömének:</l>
+<l xml:id="l.23">Es Jerusálem düchyösségének:</l>
+<l xml:id="l.24">Mint az hóld és az Nap olly ékesnek:</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25">El éghetetlen lángozo chipkének:</l>
+<l xml:id="l.26">Salamonnak Királyi székének:</l>
+<l xml:id="l.27">Az Istennek reytek szent helyének:</l>
+<l xml:id="l.28">Tövis között fel nött Liliumnak:</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Az Felséges Isten Sátorának:</l>
+<l xml:id="l.30">Fel készitett fényes arany háznak:</l>
+<l xml:id="l.31">Az Gedeon Herczegh gyapjújának:</l>
+<l xml:id="l.32">Es szent Dávid Királyi tornyának.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33">Te haynali szép chillag Maria;</l>
+<l xml:id="l.34">Te vagy keresztyénségh Coronája:</l>
+<l xml:id="l.35">Es nyomorúltak vigasztalója:</l>
+<l xml:id="l.36">Búdosók vezére, s’ táplálója.<note type="critic" xml:id="note.7"><persName>Vásárhelyi<idno type="ITIdata">Q246971</idno></persName> 41. sor: „Arwasagnak kegyes
+                            taplaloya”</note></l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37">Magyar Országnak jó szószóllója<note type="critic" xml:id="note.8"><persName>Vásárhelyi<idno type="ITIdata">Q246971</idno></persName> 60. sor: „magyaroknak megh
+                            oltalmazoya”.</note></l>
+<l xml:id="l.38">Es örökös Királyné Aszszonya</l>
+<l xml:id="l.39">Ellenségitöl oltalmazója<note type="critic" xml:id="note.9"><persName>Vásárhelyi<idno type="ITIdata">Q246971</idno></persName>
+                            60. sor: „magyaroknak megh oltalmazoya”.</note></l>
+<l xml:id="l.40">Nagy szükségiben gyámolítója.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41">Ohaytással te hozzád kiáltunk;</l>
+<l xml:id="l.42">Mert felette mi megh nyomorodtunk;</l>
+<l xml:id="l.43">Veszedelemtöl környül vétettünk,</l>
+<l xml:id="l.44">Isten ellen kik sokat vétettünk.<note type="critic" xml:id="note.10"><persName>Vásárhelyi<idno type="ITIdata">Q246971</idno></persName> 38–39. sor: „es mynekönk my sok
+                            vetkezetönk rettenetes nekönk vethkezetönk”.</note></l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.45">Tekinch nepeid nyavalyáira,</l>
+<l xml:id="l.46">Pogánságtól el pusztulásira,</l>
+<l xml:id="l.47">Eretnekségtöl el romlásira,</l>
+<l xml:id="l.48">Es légy jóra igazgatásira.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.49">Inkabb most kel nekünk segétséged,</l>
+<l xml:id="l.50">Szükséginkben te esedezésed,</l>
+<l xml:id="l.51">Szent fiadnál buzgó könyörgésed,</l>
+<l xml:id="l.52">Megh szánásból Anyai jó téted.</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.53">Ne mondhassák az sok ellenségek,</l>
+<l xml:id="l.54">Az ördögök, az eretnekségek,</l>
+<l xml:id="l.55">Az pogányok, sok kegyetlenségek,</l>
+<l xml:id="l.56">Ez vilagi gonosz mesterségek:</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.57">Hogy nem használtál illy nagy igyünkben,</l>
+<l xml:id="l.58">Hogy megh gyözettettél népeidben,</l>
+<l xml:id="l.59">Híában biztunk kegyességedben</l>
+<l xml:id="l.60">Ne mondgyanak káromlást ezekben.</l>
+</lg>
+<lg xml:id="lg.16">
+<l xml:id="l.61">Rémüllyön megh az pogány ellenségh,</l>
+<l xml:id="l.62">Romollyon megh minden eretnekségh,</l>
+<l xml:id="l.63">Szállyon közinkben az Szent bekesség,</l>
+<l xml:id="l.64">Díchirtessék mindenben Istenségh.</l>
+</lg>
+<lg xml:id="lg.17">
+<l xml:id="l.65">Aldott légy mindeneknek teremptöje,</l>
+<l xml:id="l.66">Aldott légy, világ Idvözitöje,</l>
+<l xml:id="l.67">Aldott légy hiveknek szentelöje</l>
+<l xml:id="l.68">Áldassek megh, ez szóknak éneklöje.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

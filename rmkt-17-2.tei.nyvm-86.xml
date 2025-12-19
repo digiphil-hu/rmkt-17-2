@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">86.</title>
+<title key="body" n="86" type="main">HOMO VANITATI SIMILIS FACTUS EST; DIES EJUS SICUT UMBRA PRAETEREUNT.</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-86</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadása: <bibl><hi rend="bold">Istenes énekek</hi>. <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName> [<date from="1635" to="1636">1635–36</date>]. 185–7.</bibl> Kiad. <bibl><hi rend="smallcaps">Varjas</hi>, i. m.
+                            185–7.</bibl> – A zsoltár-idézet és a latin vers között fametszet:
+                        meztelen angyal bal kezével halálfejre, jobbjával egy homokórára
+                        támaszkodik. (Lásd: 21. sz. tábla.)</p>
+<p xml:id="crit.1.p.2">Ezt a verset, valamint az utána következő hármat (<ref target="rmkt-17-2.tei.nyvm-87">87</ref>–<ref target="rmkt-17-2.tei.nyvm-89">89. sz.</ref>) eddig nem
+                        tulajdonították Nyéki Vörösnek. A kötetben való elhelyezkedésük, valamint az
+                        a körülmény, hogy a Nyéki Vörös által szerkesztett kiadványon kívül soha
+                        másutt nem jelentek meg, az ő szerzősége mellett szól. (Lásd még a versek
+                        jegyzeteinek bevezetésében mondottakat is.) A jelen vers esetében Nyéki
+                        Vörös szerzőségét még az is valószínűsíti, hogy egyik könyvébe,
+                        <persName>Lackner Kristóf<idno type="ITIdata">Q56168</idno></persName>
+<title><hi rend="italic">Coronae Hungariae</hi></title> emblematica
+                        descriptio című műve kéziratos toldalékénak 111a lapjára az alapul vett
+                        latin epigrammát saját kezűleg bejegyezte. (Könyvtára 22. sz.) A latin
+                        verset tehát – melynek szerzőjét nem sikerült megállapítanunk – Nyéki Vörös
+                        jól ismerte, s ez további érv a magyar parafrázis tőle való származtatása
+                        mellett. E könyvbejegyzés a vers keltezéséhez is hozzásegít. Mivel a
+                        <persName>Lackner<idno corresp="Lackner Kristóf"/></persName>-kötet <date when="1615">1615-ben</date> jelent meg, a
+                        latin vers bejegyzésére feltehetően <date from="1615" to="1620">1615–20</date> körül került sor, s
+                        nyilván ekkortájt a magyar fordításra is. A
+                        <persName>Lackner<idno corresp="Lackner Kristóf"/></persName>-kötet kéziratos toldalékából az is kiderül,
+                        hogy a költő ezekben az években fokozott érdeklődéssel fordult a morális
+                        kérdések felé, melyek ennek s a következő három versnek a tematikáját is
+                        meghatározzák.</p>
+<p xml:id="crit.1.p.3">A vers előtti zsoltár-idézet magyarul: Az ember hasonlóvá lőtt az hiusághoz:
+                        az ő napjai mint az árnyék el-mulnak. (<persName>Káldi<idno type="ITIdata">Q153214</idno></persName> ford.)</p>
+<p xml:id="crit.1.p.4">A latin epigramma jelentése:</p>
+<lg xml:id="crit.1.lg.1"><l xml:id="crit.1.l.1">Sírva születtem én e világra, s sírva temetnek,</l>
+<l xml:id="crit.1.l.2">S számtalan könny közt éltem az életemet.</l>
+<l xml:id="crit.1.l.3">Ó, be siralmas, esendő, s bús vagy, emberi nemzet,</l>
+<l xml:id="crit.1.l.4">Mert hamuból lettél, és hamuvá leszel is.</l></lg>
+<p xml:id="crit.1.p.5">(<persName>Gerézdi Rabán<idno type="ITIdata">Q242134</idno></persName> fordítása.)</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Istenes énekek. <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName> [<date from="1635" to="1636">1635–36</date>]. 185–7.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 86.</fw>
+<head type="title">HOMO VANITATI SIMILIS FACTUS EST; DIES EJUS SICUT UMBRA PRAETEREUNT.</head>
+<head type="subtitle">Psal. 143.</head>
+<div xml:id="d.2"><lg xml:id="lg.7">
+<l xml:id="l.25">Flens ego sum genitus, celebrantur funera fletu</l>
+<l xml:id="l.26">Transactaque innumeris vita fuit lacrymis.</l>
+<l xml:id="l.27">O genus humanum lacrymabile, triste caducum</l>
+<l xml:id="l.28">Quod factum ex cinere est, solvitur in cinerem.</l>
+</lg></div>
+<div xml:id="d.3"><p xml:id="p.2">MAGYARÚL</p>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Sirva és sok kínnal Anyám ez világra</l>
+<l xml:id="l.30">Szült, és nehéz gondal nevelt fáydalmakra,</l>
+<l xml:id="l.31">Szállottam keserves testi nyavalyákra</l>
+<l xml:id="l.32">Sok változo kedvel tántorodásokra.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33">Az mi kevés napok adatnak az égböl.</l>
+<l xml:id="l.34">Azokis üressek az öldöklö büntöl</l>
+<l xml:id="l.35">Ninchenek, az Testnek gyors ingerlésiböl</l>
+<l xml:id="l.36">Ez földnek magával hozott sok szennyéböl.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37">Oh azért siralmas emberi állapat,</l>
+<l xml:id="l.38">Az jószágos dolog hól igen el apatt,</l>
+<l xml:id="l.39">S’ tiszta elömentet gyarloság nem kaphat,</l>
+<l xml:id="l.40">Boszszú, sok irígység s’ kissebség hól áratt.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41">Nem choda sokáig hát mint meg maradgyon,</l>
+<l xml:id="l.42">Por hamuból épült haza sokká állyon,</l>
+<l xml:id="l.43">Ez föld szépsége halálra ne szállyon<note>A sorból hiányzik egy szótag.</note></l>
+<l xml:id="l.44">El változásából hogy meg ne rútúllyon.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.45">Te azért nagy Isten kinek alkotója</l>
+<l xml:id="l.46">Két kezeddel vóltál öszve raggatója,</l>
+<l xml:id="l.47">Ne szenvedd hogy ördög legyen rongálója,</l>
+<l xml:id="l.48">Ki szent haláloddal lettél meg váltója.</l>
+</lg></div>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">66.</title>
+<title key="body" n="66" type="main">SALVE REGINA</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-66</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadásai:</p>
+<p xml:id="crit.1.p.2">I. <bibl><hi rend="bold"><title>Istenes énekek</title>.
+                        <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName> [<date from="1635" to="1636">1635–36</date>].</hi>
+                        183–4.</bibl> Kiad. <bibl><hi rend="smallcaps">Varjas</hi>, i. m. 183–4.</bibl> – A verset
+                        megelőzik a hozzá tartozó latin szövegek a 182–3. lapon. A 182. lapon
+                        olvasható cím után metszet következik, mely egy félköríves ablakfülkében,
+                        összetett kézzel imádkozó Máriát ábrázol. (Lásd: 21. sz. tábla.) Ezt követi
+                        a <hi rend="italic">Salve Regina</hi> antifona latin szövege, majd a hozzá
+                        tartozó Vers. és Resp. A 183. lapon az antifonához tartozó ima latin
+                        szövege, majd „Azon Salve Regina, etc. Magyarúl.” cím után kezdődik a magyar
+                        vers, szakaszonként folyamatosan szedve. A vers után, a 184. lapon a Vers.
+                        és Resp. valamint az ima magyar fordítása áll, mely talán szintén Nyéki
+                        Vöröstől származik. Ezek szövegét ezért ide iktatjuk:</p>
+<lg xml:id="crit.1.lg.1"><l xml:id="crit.1.l.1">V. Imádkozzál értünk Istennek szent Annya.</l>
+<l xml:id="crit.1.l.2">R. Hogy méltók légyünk à Christus igíretire.</l>
+<l xml:id="crit.1.l.3">Könyörögjünk.</l></lg>
+<p xml:id="crit.1.p.3">Eorök mindenható Ur Isten, ki à düchösséges Szüz Mariának testét és lelkét, Szent Lélek által fel-ékesítéd, hogy à te Szent
+                        Fiadnak méltó hajléka és lakó-helye lenne: engedd, hogy à melly Isten Annyának emlekezetiben örvendezünk, kegyes
+                        könyörgése-által, minden következendö nyavalyáinktúl, és az örök haláltúl meg-öriztessünk: Ugyan azon mi Urunk Jesus
+                        Christus-által. Amen.</p>
+<p xml:id="crit.1.p.4">II. <bibl><hi rend="bold"><persName>Pázmány Péter<idno type="ITIdata">Q47888</idno></persName>: <title>Imadsagos könyv</title>.
+                        <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1631">1631</date>.</hi> 546–7.</bibl> Kiad. <bibl>Pázmány ö. m. II,
+                            249.</bibl> – A kiegészítő magyar szövegek itt is megvannak.</p>
+<p xml:id="crit.1.p.5">III. <bibl><hi rend="bold"><persName>Pázmány Péter:
+                                    </persName><title>Keresztyen imadsaagos keonyv</title>.
+                                        <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1610">1610</date>.</hi> 707–8.</bibl></p>
+<p xml:id="crit.1.p.6">IV. <bibl><hi rend="bold"><persName>Pázmány Péter</persName>:
+                                    <title>Keresztyéni imadsagos keonyv</title>.
+                                        <placeName>Grác<idno type="ITIdata">Q22712</idno></placeName>
+<date when="1606">1606</date>.</hi> 214a-b.</bibl> – Az ünnepekre
+                        való utalás itt nem a címben, hanem a margón olvasható, s ez alatt meg a „1.
+                        Thess. 2. v. 19.” és „Philip. 4. v. 1.” utalások. A kiegészítő szövegek
+                        közül itt csak a Vers. és Resp. található, az imát illetően a kötet egy
+                        korábbi helyére történik utalás.</p>
+<p xml:id="crit.1.p.7">Ezzel a verssel kezdődik a Mária-antifonák sorozata. Miként az előző,
+                            <ref target="rmkt-17-2.tei.nyvm-65">65. sz.</ref> éneket, a szerző ezt is kétszer dolgozta át.
+                        Szövegkritikai eljárásunk pontosan megegyezik az ott elmondottakkal.
+                        Ugyancsak ott ismertettük a Nyéki Vörös szerzősége mellett szóló
+                        érveket.</p>
+<p xml:id="crit.1.p.8">A vers további, szövegkritikailag számításba nem jövő kiadásai mind az utolsó
+                        redakció szövegét közvetítik. Közülük az I. változatot őrzi: <bibl><hi rend="italic">Istenes énekek</hi> (<placeName>Nagyszombat<idno type="ITIdata">Q14207</idno></placeName>
+<date when="1699">1699</date>) 172.</bibl> – A II. alapján közük a
+                        szöveget az alábbiak: <persName>Pázmány<idno corresp="Pázmány Péter"/></persName>
+<hi rend="italic">Imádságos könyv-e</hi> későbbi kiadásai. – <bibl><hi rend="italic">Officium B. M. Virg.</hi> (<placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1643">1643</date>) 60–1.</bibl> és a későbbi kiadások. –
+                                <bibl><hi rend="italic">Cantus catholici</hi> (<date when="1651">1651</date>) 113–4.</bibl> és a későbbi kiadások. – <bibl><hi rend="italic">Kájoni-Cantionale</hi> (<date when="1676">1676</date>)
+                                    370.</bibl> és a későbbi kiadások. – <bibl><persName>Jaklin Balázs<idno type="ITIdata">Q146837</idno></persName>: <hi rend="italic">Regulai, ..... Nagy-Szombath Városában lévö Nagy
+                                Bóldog Aszszony Congregatiojának</hi>
+                                (<placeName>Nagyszombat</placeName>
+<date when="1684">1684</date>) 77, 315.</bibl> – <bibl><hi rend="italic">Lelki paradicsom</hi> (<placeName>Gyulafehérvár<idno type="ITIdata">Q16686</idno></placeName>
+<date when="1700">1700</date>) Hhhhh1a.</bibl> – <bibl><hi rend="italic">Az Isten mindenhatóságának tárháza</hi>
+                                (<placeName>Bécs</placeName>
+<date when="1708">1708</date>) 300.</bibl> – Megtalálható még a
+                        következő kéziratokban: <bibl><hi rend="italic">Mihál Farkas-k.</hi> (<date when="1680">1680</date> k.) 64b.</bibl> – <bibl>Jankovich: <hi rend="italic">Nemzeti dalok VII.</hi> (<date when="1800">1800</date>
+                            k.) 14a.</bibl></p>
+<p xml:id="crit.1.p.9">A <bibl><hi rend="italic">Kuun-k.</hi> (<date from="1634" to="1642">1634–42</date>) 116–7.</bibl>
+                        lapján versünk 2. és 3. szakaszát a <ref target="rmkt-17-2.tei.nyvm-65">65. sz.</ref> énekbe beolvasztva közli. –
+                        <bibl>Derkay György: <hi rend="italic">Az örök eletnek uttya</hi>
+                            (<placeName>Nagyszombat</placeName>
+<date when="1678">1678</date>) R1b</bibl> lapján három strófás egyveleget közöl,
+                        melynek első szakasza énekünk első strófája. A második az előző szám alatt
+                        közölt himnusz első szakasza, majd ez a strófa:</p>
+<lg xml:id="crit.1.lg.2"><l xml:id="crit.1.l.4">Maria, malasztnak Annya, Légy lelkünk óltalmazója,</l>
+<l xml:id="crit.1.l.5">Irgalmasságnak Aszszonya, S’ vég órán bé-fogadója.</l></lg>
+<p xml:id="crit.1.p.10">A <hi rend="italic">Kájoni-Cantionale</hi> (<date when="1676">1676</date>) a vers szövege
+                        után annak egy módosított formáját is közli:</p>
+<lg xml:id="crit.1.lg.3"><l xml:id="crit.1.l.6">Azon Enek Mas Notara.</l>
+<l xml:id="crit.1.l.7">Menyországnak Királynéja. O Maria.</l>
+<l xml:id="crit.1.l.8">Irgalmasságnak Szent Annya. O Maria.</l>
+<l xml:id="crit.1.l.9">Elet, édesség, reménség. O Maria.</l>
+<l xml:id="crit.1.l.10">Idvez-légy szép Szüz Maria. Christus Annya.</l>
+<l xml:id="crit.1.l.11">Reliqua ut supra.</l></lg>
+<p xml:id="crit.1.p.11">Nótajelzést a <bibl><hi rend="italic">Cantus catholici</hi>
+                                (<date when="1651">1651</date>. 113.)</bibl> ad: „Nota: Üdvözitönknek.” Ez a
+                        következő, <ref target="rmkt-17-2.tei.nyvm-67">67. sz.</ref> alatt közölt antifonára utal. Ugyanezt a
+                        nótajelzést adja a <hi rend="italic">Kájoni-Cantionale</hi>
+                            (<date when="1676">1676</date>) is. A Cantus alapján közöljük a dallamot, lásd erről
+                        a <ref target="rmkt-17-2.tei.nyvm-67">67. sz.</ref> vers jegyzetét. Ismeretes azonban az ének egy másik
+                        dallama is, melyet e szöveggel <persName>Bozóki<idno type="ITIdata">Q142986</idno></persName> énekeskönyve
+                                (<bibl><hi rend="italic">Katólikus kar-béli énekes könyv.…</hi>Vác
+                            1797. 230.</bibl>) közöl először, nyilvánvalóan a XVIII. századi
+                        gyakorlatot tükrözve. Ez a dallam is korábbi melódiára vezethető vissza (vö.
+                                <bibl><hi rend="italic">Cantus catholici</hi>
+<date when="1651">1651</date>. 116: <hi rend="italic">O gloriosa
+                            virginum</hi></bibl>), de benne az idegen jambikus lejtést a magyar
+                        prozódiának jobban megfelelő kiegyenlített ritmussal cserélték fel. Nyílt
+                        kérdés, mikortól fogva énekelték az antifonát ezzel a másik dallammal. Mivel
+                        máig is így énekük, szükségesnek tartjuk itt a jegyzetben ezt is
+                        közölni:</p>
+<p xml:id="crit.1.p.12">Az <bibl><hi rend="italic">Istenes énekek</hi> (<placeName>Bécs</placeName>
+<date from="1632" to="1635">1632–35</date>) 182.</bibl> lapjáról közöljük a vers alapjául
+                        szolgáló latin antifonát. Az egyes sorok előtti zárójelbe tett számok a
+                        magyar vers megfelelő szakaszára utalnak.</p>
+<lg xml:id="crit.1.lg.4"><l xml:id="crit.1.l.12">(1) Salve Regina, mater misericordiae; vita, dulcedo, et spes nostra salve.</l>
+<l xml:id="crit.1.l.13">(2) Ad te clamamus exules filij Evae.</l>
+<l xml:id="crit.1.l.14">(3) Ad te suspiramus gementes et flentes in hac lacrymarum valle.</l>
+<l xml:id="crit.1.l.15">(4) Eja ergo advocata nostra, illos tuos misericordes oculos ad nos converte.</l>
+<l xml:id="crit.1.l.16">(5) Et Jesum benedictum fructum ventris tui nobis post hoc exilium ostende. O clemens, o pia, o dulcis virgo Maria.</l></lg></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Istenes énekek. <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName> [<date from="1635" to="1636">1635–36</date>]. 183–4.</witness>
+<witness xml:id="II">Pázmány Péter: Imadsagos könyv. <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName> 1631. 546–7.</witness>
+<witness xml:id="III">Pázmány Péter: Keresztyen imadsaagos keonyv. <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName> 1610. 707–8.</witness>
+<witness xml:id="IV">Pázmány Péter: Keresztyéni imadsagos keonyv. Grác 1606. 214a-b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 66.</fw>
+<head type="title">SALVE REGINA</head>
+<head type="subtitle"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1"><corr>Pünkösdtül-fogva Adventig.</corr></lem><rdg wit="#I" xml:id="rdg.1">[Hiányzik.]</rdg><rdg wit="#II #III #IV" xml:id="rdg.2">[Lásd a főszövegben.]</rdg></app></head>
+<!--Dallam-kép 102. o.-->
+<lg xml:id="lg.1">
+<l xml:id="l.1">Meny-országnak Királynéja,</l>
+<l xml:id="l.2">Irgalmasságnak szent Annya,</l>
+<l xml:id="l.3"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Elet, édesség, reménség,</lem><rdg wit="#III #IV" xml:id="rdg.3">Remensegünk, s’ éltunk Vttya</rdg></app></l>
+<l xml:id="l.4">Eüdvöz-légy, szép Szüz Mária.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Evának árva fiai,</l>
+<l xml:id="l.6">Szám-ki-vetett maradéki,</l>
+<l xml:id="l.7">Siralminak örökösi,</l>
+<l xml:id="l.8">Sok nyavalyáknak hajléki.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9"><app xml:id="app.3">
+<lem wit="#KK" xml:id="lem.3">E’ siralomnak völgyében,</lem>
+<rdg wit="#IV" xml:id="rdg.4">veolygiebe</rdg>
+</app></l>
+<l xml:id="l.10"><app xml:id="app.4">
+<lem wit="#KK" xml:id="lem.4">Kik nyavalygunk nagy inségben,</lem>
+<rdg wit="#IV" xml:id="rdg.5">niaualigunc szeghinseghbe</rdg>
+</app></l>
+<l xml:id="l.11"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">Hozzád ohajtunk mennyekben,</lem><rdg wit="#II" xml:id="rdg.6">menyégben</rdg><rdg wit="#III" xml:id="rdg.7">mennyegben</rdg><rdg wit="#IV" xml:id="rdg.8">mennieghbe</rdg></app></l>
+<l xml:id="l.12"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">Hol vagy örök düchösségben.</lem><rdg wit="#IV" xml:id="rdg.9">Ki élsz öröc bodoghsaghba</rdg></app></l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13"><app xml:id="app.7">
+<lem wit="#KK" xml:id="lem.7">Azért szó-szóllónk, szemedet,</lem>
+<rdg wit="#III #IV" xml:id="rdg.10">Azért kegyes szemeidet</rdg>
+</app></l>
+<l xml:id="l.14">Fordíchd hozzánk kegyelmedet:</l>
+<l xml:id="l.15">Es à te bünös népedet,</l>
+<l xml:id="l.16">Oltalmazzad hiveidet.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17"><app xml:id="app.8">
+<lem wit="#KK" xml:id="lem.8">Oh édes Szüz, irgalmadat,</lem>
+<rdg wit="#III #IV" xml:id="rdg.11">Oh kegyes szüz</rdg>
+</app></l>
+<l xml:id="l.18"><app xml:id="app.9"><lem wit="#KK" xml:id="lem.9">Mutasd-meg kegyes-vóltodat,</lem><rdg wit="#IV" xml:id="rdg.12">Mutasd megh kegiességedet</rdg></app></l>
+<l xml:id="l.19"><app xml:id="app.10"><lem wit="#KK" xml:id="lem.10">Hóltúnk után Szent Fiadat,</lem><rdg wit="#III #IV" xml:id="rdg.13">Adgyad lássuk szent fiadat</rdg></app></l>
+<l xml:id="l.20"><app xml:id="app.11">
+<lem wit="#KK" xml:id="lem.11">Mutasd-meg bóldogságodat.</lem>
+<rdg wit="#III #IV" xml:id="rdg.14">Erezzük szent oltalmadat</rdg>
+</app></l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

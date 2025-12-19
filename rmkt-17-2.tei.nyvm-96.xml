@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">96.</title>
+<title key="body" n="96" type="main">SIRALOM, AZ HALANDOSÁGROL</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-96</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadásai:</p>
+<p xml:id="crit.1.p.2">I. <bibl><hi rend="bold">Tintinnabulum</hi>
+<placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1636">1636</date>. 101–7.</bibl></p>
+<p xml:id="crit.1.p.3">II. <bibl><hi rend="bold">Tintinnabulum</hi>. [<placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1644">1644</date>.] 86–91.</bibl> – Teljesen megegyezik az I.
+                        változattal.</p>
+<p xml:id="crit.1.p.4">Változatlan szöveggel megjelent a <title><hi rend="italic">Tintinnabulum</hi></title> valamennyi későbbi, katolikus és protestáns
+                        kiadásában. Felsorolásukat lásd a <ref target="rmkt-17-2.tei.nyvm-93">93. sz.</ref> vers jegyzeténél. Megvan még a
+                        következő énekeskönyvekben: <bibl><title><hi rend="italic">Cantus
+                                    catholici</hi></title> (<date when="1651">1651</date>) 235–8.</bibl> –
+                                    <bibl><title><hi rend="italic">Kájoni-Cantionale</hi></title>
+                                (<date when="1676">1676</date>) 692–4.</bibl>, valamint ezek későbbi
+                        kiadásaiban. – <bibl><persName>Illyés<idno type="ITIdata">Q59001</idno></persName>: <title><hi rend="italic">Halotti énekek</hi></title> (<date when="1693">1693</date>) 29–33.</bibl> A
+                        7. strófa erősen átalakítva:</p>
+<lg xml:id="crit.1.lg.1"><l xml:id="crit.1.l.1">Koporsódban, és sírodban kígyók békák majd laknak:</l>
+<l xml:id="crit.1.l.2">Illyen népe és cselédgye vagyon ezen udvarnak.</l>
+<l xml:id="crit.1.l.3">A’ férgeknek, senyvedéknek ott adózol húsoddal;</l>
+<l xml:id="crit.1.l.4">Kit hizlaltál és tápláltál nagy szorgalmatossággal.</l></lg>
+<p xml:id="crit.1.p.5">A vers másolatai megtalálhatók a következő kéziratokban: <bibl><hi rend="italic">Petri András-ék.</hi> (<date from="1630" to="1668">1630–68</date>)
+                            47a–48a.</bibl> – <bibl><hi rend="italic">Zemlény-ék.</hi>
+                                (<date when="1668">1668</date>) 67a–69b.</bibl> – <bibl><hi rend="italic">Kovács
+                                Ferenc-ék.</hi> (<date when="1777">1777</date>) 52a–53a.</bibl> – A 61–64. és
+                        73–82. sorokat a fogarasi Boér-család levéltárában levő számadáskönyvbe is
+                        beírta 1666 körül a számadáskönyvet vezető nótárius. Kiad. <bibl><hi rend="smallcaps">Szádeczky</hi>,
+                            EM 1892, 628.</bibl> (Tested békák, kincsed bírák…) Az éneket Magdalenić
+                        Matijaš horvátra fordította és a <title><hi rend="italic">Tintinnabulum</hi></title>-mal együtt <date when="1670">1670-ben</date> kiadta.
+                        (<bibl><hi rend="smallcaps">Hadrovics László</hi>, Archivum Europae Centro-orientalis 1939,
+                            317.</bibl>)</p>
+<p xml:id="crit.1.p.6">A <title><hi rend="italic">Cantus catholici</hi></title> a latin eredeti
+                        dallamára utal (<hi rend="italic">Horrenda Mors. Nota eadem.</hi>), amely a
+                        233. lapon található.</p>
+<p xml:id="crit.1.p.7">Kimutathatóan idegen eredetű, cseh és német énekeskönyvekből ismert.
+                        <bibl><hi rend="smallcaps">Bäumker</hi> szerint (<title>Das katholische deutsche
+                                Kirchenlied…</title> III, 1891, 47.)</bibl> a latin szöveg is
+                        fordítás, ill. átdolgozás, melyet <persName>Matthaeus Raderus S.
+                            J.<idno type="ITIdata">Q492310</idno> </persName> (osztrák, <date from="1561" to="1634">1561–1634</date>) készített
+                        <persName>Peter Franck S. J.<idno type="ITIdata">Q492311</idno></persName> (<date from="1574" to="1602">1574–1602</date>) „Der
+                        grimmig Todt mit seinem Pfeil” kezdetű éneke alapján. Nyéki Vörös strófáról
+                        strófára követi a latin eredeti gondolatmenetét, de az egyes szakaszokat
+                        átkölti. Néha csak egy-egy kifejezés emlékeztet a latinnal való kapcsolatra.
+                        A latin eredeti szövegét a <bibl><title><hi rend="italic">Cantus
+                                    catholici</hi></title> (<date when="1651">1651</date>. 233.)</bibl> alapján
+                        közöljük.</p>
+<p xml:id="crit.1.p.8"><hi rend="italic">Lessus Mortualis</hi></p>
+<lg xml:id="crit.1.lg.2">
+<l xml:id="crit.1.l.5">1. Horrenda Mors, tremenda Mors, telo minax, et arcu:</l>
+<l xml:id="crit.1.l.6">Fatale torquet spiculum, nulla quod arte vites.</l>
+<l xml:id="crit.1.l.7">Ut sumus evanescimus, eliminamur omnes,</l>
+<l xml:id="crit.1.l.8">Abibis hinc fulgentibus non flectitur metallis.</l>
+</lg>
+<lg xml:id="crit.1.lg.3">
+<l xml:id="crit.1.l.9">2. Simul fores pulsaverit, jube valere vitam;</l>
+<l xml:id="crit.1.l.10">Amica turba deseret, te castra deserentem.</l>
+<l xml:id="crit.1.l.11">Intrabis exclusissimus, iter tenebricosum,</l>
+<l xml:id="crit.1.l.12">Tecum feres, quod egeris, non auferes quadrantem.</l>
+</lg>
+<lg xml:id="crit.1.lg.4">
+<l xml:id="crit.1.l.13">3. Genae rigebunt cereae, fax luminum fatiscet;</l>
+<l xml:id="crit.1.l.14">Nec pectus eluctabitur, in ore vox dehiscet:</l>
+<l xml:id="crit.1.l.15">Laudata forma concidet; arteriae pavebunt;</l>
+<l xml:id="crit.1.l.16">Gelu madebis horrido, obsessus a Charonte.</l>
+</lg>
+<lg xml:id="crit.1.lg.5">
+<l xml:id="crit.1.l.17">4. Te lectus uret anxius, curis cor exedetur.</l>
+<l xml:id="crit.1.l.18">Qui Vita, vivens dictus es, defunctus ipsa Mors es:</l>
+<l xml:id="crit.1.l.19">Avere te qui millies jussit, jubet valere,</l>
+<l xml:id="crit.1.l.20">Postesque furtim transvolat, quos ante basiabat.</l>
+</lg>
+<lg xml:id="crit.1.lg.6">
+<l xml:id="crit.1.l.21">5. Pestem creabis naribus: a te fugabis omnes;</l>
+<l xml:id="crit.1.l.22">Obsepientur ostia, orisque nariumque,</l>
+<l xml:id="crit.1.l.23">Foras, foras, exi foras, catharma, pestis, horror,</l>
+<l xml:id="crit.1.l.24">Opertus altum dormies, interstrepente nullo.</l>
+</lg>
+<lg xml:id="crit.1.lg.7">
+<l xml:id="crit.1.l.25">6. Prope ante mortem, mortuus cadaver efferere:</l>
+<l xml:id="crit.1.l.26">Lamenta erunt solatio Uxoris, ac Nepotum.</l>
+<l xml:id="crit.1.l.27">Cras lachrymae te condito, vertentur in cachinnos;</l>
+<l xml:id="crit.1.l.28">Sed tu sibi, scrobem subi, haec fossa sorbet orbem.</l>
+</lg>
+<lg xml:id="crit.1.lg.8">
+<l xml:id="crit.1.l.29">7. Specum jacentis incolunt, venena, bufo, vermes:</l>
+<l xml:id="crit.1.l.30">Hos Aulicos haec Aula fert, his gratus imperabis.</l>
+<l xml:id="crit.1.l.31">Tributa pendes vermibus, stipendiumque blattis:</l>
+<l xml:id="crit.1.l.32">Fas his erit grassarier, per ossium medullas.</l>
+</lg>
+<lg xml:id="crit.1.lg.9">
+<l xml:id="crit.1.l.33">8. Cognata gentis atria, mox finient dolorem;</l>
+<l xml:id="crit.1.l.34">Semestre ducent lugubre vertentque mox colorem;</l>
+<l xml:id="crit.1.l.35">Levem precata cespitem, perenne te silebunt,</l>
+<l xml:id="crit.1.l.36">Haeres talenta dividet; te divident lacertae.</l>
+</lg>
+<lg xml:id="crit.1.lg.10">
+<l xml:id="crit.1.l.37">9. Vertente Capri sidere, pulvis, cinisque fies,</l>
+<l xml:id="crit.1.l.38">Viator ossa transiens, scitabitur. Quis hic est?</l>
+<l xml:id="crit.1.l.39">Hiant cavernae luminum exenterata calva est.</l>
+<l xml:id="crit.1.l.40">Calcata costa traditur, deletus excidisti.</l>
+</lg>
+<lg xml:id="crit.1.lg.11">
+<l xml:id="crit.1.l.41">10. Ignota lux est ultima, quam nullus auguratur,</l>
+<l xml:id="crit.1.l.42">Cum Parca caedit januam, est pessulus trahendus:</l>
+<l xml:id="crit.1.l.43">Natos, Avosque surripit, ut fors, et atra fors fert:</l>
+<l xml:id="crit.1.l.44">Sceptrisque Reges exuit, et cogit esse plebem.</l>
+</lg>
+<lg xml:id="crit.1.lg.12">
+<l xml:id="crit.1.l.45">11. Ex invidenda regia, pressa fereris arca;</l>
+<l xml:id="crit.1.l.46">Laqueare nares fulcient; gens Christiana pensa:</l>
+<l xml:id="crit.1.l.47">Par primus, hic fit ultimus: Stat Codrus inter Iros,</l>
+<l xml:id="crit.1.l.48">Una tumet diecula: mox aura difflat aulas.</l>
+</lg>
+<lg xml:id="crit.1.lg.13">
+<l xml:id="crit.1.l.49">12. Cui regna vectigalia relinquis, et Quirites?</l>
+<l xml:id="crit.1.l.50">Ebur tuum fert exulem, ferunt, tacentque cives.</l>
+<l xml:id="crit.1.l.51">Arces et alta turrium effossa subruuntur,</l>
+<l xml:id="crit.1.l.52">Sub more tu ludibrium depasceris colubris</l>
+</lg>
+<lg xml:id="crit.1.lg.14">
+<l xml:id="crit.1.l.53">13. Mors ergo cum te messuit, jam nemo te requirit,</l>
+<l xml:id="crit.1.l.54">Amatus es, dum visus es, paroemiam revolve,</l>
+<l xml:id="crit.1.l.55">Amica tecum nomina morientur, et tegentur.</l>
+<l xml:id="crit.1.l.56">Quid, heu, quid has affanias, excordium petessis?</l>
+</lg>
+<lg xml:id="crit.1.lg.15">
+<l xml:id="crit.1.l.57">14. Suspenso adest vestigio, Lavernionis instar</l>
+<l xml:id="crit.1.l.58">Exire cujus aleam, nec vi datur, nec arte;</l>
+<l xml:id="crit.1.l.59">Propinat atra toxica, nolis, velis, bibenda.</l>
+<l xml:id="crit.1.l.60">Mors est inexorabilis, non consulis futuris.</l>
+</lg>
+<lg xml:id="crit.1.lg.16">
+<l xml:id="crit.1.l.61">15. Frons, o cadaverosa frons, meutita mille larvus,</l>
+<l xml:id="crit.1.l.62">Frontisne formae creditis? fallit; cavete, fallit.</l>
+<l xml:id="crit.1.l.63">Qui fidit illi perfidae, post damna sero flebit,</l>
+<l xml:id="crit.1.l.64">Ditis coquere sulphure, tibi Venus placebit?</l>
+</lg>
+<lg xml:id="crit.1.lg.17">
+<l xml:id="crit.1.l.65">16. Quid si tibi, suprem lux haec, fulsit occidenti?</l>
+<l xml:id="crit.1.l.66">Ne lude, plebs haec omnia, virtutis esto cultrix,</l>
+<l xml:id="crit.1.l.67">Haec ipsa lux quot abstulit, qui saecla cogitabant?</l>
+<l xml:id="crit.1.l.68">Sol occidentes ante te, miratur isse ad orcum.</l>
+</lg>
+<lg xml:id="crit.1.lg.18">
+<l xml:id="crit.1.l.69">17. Nonne ergo pernox, perdius, constanter excubabis?</l>
+<l xml:id="crit.1.l.70">Ut mors ineluctabilis, si congredi minetur.</l>
+<l xml:id="crit.1.l.71">Interritus compareas, promptus subire luctam.</l>
+<l xml:id="crit.1.l.72">Si morte victus occides, adibis astra victor.</l>
+</lg>
+<lg xml:id="crit.1.lg.19">
+<l xml:id="crit.1.l.73">18. Contemne quidquid conditum; Amaque Conditorem.</l>
+<l xml:id="crit.1.l.74">Quod perdis hic, ibi inveniens; jactura nulla turbet.</l>
+<l xml:id="crit.1.l.75">Emancipa te Numine, cura, solutus omni:</l>
+<l xml:id="crit.1.l.76">Salvum Deus, quid ambigis? Summa locabit arce.</l>
+</lg>
+<lg xml:id="crit.1.lg.20">
+<l xml:id="crit.1.l.77">19. Qui primus hoc odarium flevitque, condiditque.</l>
+<l xml:id="crit.1.l.78">Quotidiana funera, toto revolvit aevo:</l>
+<l xml:id="crit.1.l.79">Idemque dudum pulvis est, fato suo sepultus,</l>
+<l xml:id="crit.1.l.80">Sequere, (vasa collige) aut primus, aut secundus.</l>
+</lg>
+</note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Tintinnabulum <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName> 1636. 101–7.</witness>
+<witness xml:id="II">Tintinnabulum. [<placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName> 1644.] 86–91.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 96.</fw>
+<head type="title">SIRALOM, AZ HALANDOSÁGROL</head>
+<!--Dallam-kép 229. o.-->
+<lg xml:id="lg.1">
+<l xml:id="l.1">Szörnyű Halál, ímé hol áll,</l>
+<l xml:id="l.2">Lest hányván életünknek:</l>
+<l xml:id="l.3">Meg-vont íjjal, ’s mérges nyíllal</l>
+<l xml:id="l.4">Víja várát Lelkünknek.</l>
+<l xml:id="l.5">Élet ’s Ezüst, mi-ként a’ füst</l>
+<l xml:id="l.6">Szél-vészkor, el-enyészik:</l>
+<l xml:id="l.7">El kell menned, ninch mit tenned,</l>
+<l xml:id="l.8">Aranyad el nem vészik.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.9">Torkod mihelyt hörög, a’ helyt</l>
+<l xml:id="l.10">Végy búlchút e’ Világtól:</l>
+<l xml:id="l.11">Rokonságid, ’s szomszédságid</l>
+<l xml:id="l.12">El-futnak hólt tagodtól.</l>
+<l xml:id="l.13">A’ járatlan, és szokatlan</l>
+<l xml:id="l.14">Főldre egyedűl mégy-el:</l>
+<l xml:id="l.15">Ha jót tettél, veled jár-kél;</l>
+<l xml:id="l.16">Chak egy fülyért sem viszsz-el.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.17">Az ifjúság, és nyájasság</l>
+<l xml:id="l.18">Tőled majd el-maradnak:</l>
+<l xml:id="l.19">Piros orczád meg-hirvad, szád</l>
+<l xml:id="l.20">’S szemeid bé-szakadnak:</l>
+<l xml:id="l.21">Fejed szédűl, szíved réműl,</l>
+<l xml:id="l.22">Ékes nyelved meg-némúl:</l>
+<l xml:id="l.23">Halál szeplő, mint egy gyeplő,</l>
+<l xml:id="l.24">Meg-fojt, ’s elméd meg-bénnúl.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.25">Szerelmesid, és kedvesid</l>
+<l xml:id="l.26">Majd mellőled el-álnak:</l>
+<l xml:id="l.27">Kik neveltek, és tiszteltek,</l>
+<l xml:id="l.28">Azok-is meg-útálnak.</l>
+<l xml:id="l.29">Kit kedveltél, ’s hívnek véltél,</l>
+<l xml:id="l.30">Még chak feléd sem kerűl:</l>
+<l xml:id="l.31">Tested kínban, Szíved búban,</l>
+<l xml:id="l.32">Mint egy hajó, el-merűl.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.33">Senyvett test-bűz, mint kígyót tűz,</l>
+<l xml:id="l.34">Ki-hajt mindent Házadból:</l>
+<l xml:id="l.35">Orr bé-dugva, ’s száj bé-fogva</l>
+<l xml:id="l.36">Vonsznak-ki nyoszolyádból.</l>
+<l xml:id="l.37">Ottan fognak, ’s főldbe dugnak,</l>
+<l xml:id="l.38">Hol senki nem serkeget:</l>
+<l xml:id="l.39">Menny-ki, menny-ki, mondván, menny-ki</l>
+<l xml:id="l.40">Rút dög, éltél eleget.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.41">Kik sírással, ’s ohajtással</l>
+<l xml:id="l.42">Ma tégedet késérnek;</l>
+<l xml:id="l.43">Jó-lakásra, ’s kaczagásra</l>
+<l xml:id="l.44">Hólnap okot keresnek.</l>
+<l xml:id="l.45">’S noha sírva tésznek sírba:</l>
+<l xml:id="l.46">De majd mennek víg torba:</l>
+<l xml:id="l.47">Te ott maradsz; ’s nem-is álhatsz</l>
+<l xml:id="l.48">Keresztűl e’ dologba.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.49">Vígan várnak, ’s rendet álnak</l>
+<l xml:id="l.50">Kígyók békák seregi;</l>
+<l xml:id="l.51">’S mint ama’ szép udvari nép,</l>
+<l xml:id="l.52">Úgy fogadnak öregi.</l>
+<l xml:id="l.53">Alig várják, hogy bé-zárják</l>
+<l xml:id="l.54">A’ sír-ásók vermedet;</l>
+<l xml:id="l.55">Hogy rághassák, ’s marczonghassák</l>
+<l xml:id="l.56">Gyengén hizlalt Testedet.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.57">Fiad, Lyányod, ’s Házas-társod,</l>
+<l xml:id="l.58">Nem sokáig gyászolnak:</l>
+<l xml:id="l.59">Fél esztendő elégendő,</l>
+<l xml:id="l.60">Azt tartyák, siralomnak.</l>
+<l xml:id="l.61">Tested békák, kinched Bírák</l>
+<l xml:id="l.62">Ös-fiak-közt fel-osztyák:</l>
+<l xml:id="l.63">Isten tartson, ’s meg-nyugosson,</l>
+<l xml:id="l.64">Kik talám azt sem mongyák.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.65">Tíz hólnapig, Tested fottig</l>
+<l xml:id="l.66">Porrá ’s hamuvá lészen:</l>
+<l xml:id="l.67">Lábbal rúgják chontod, ’s mongyák:</l>
+<l xml:id="l.68">Vaj ’s ki vólt ez? ’s hol lészen?</l>
+<l xml:id="l.69">Édes Anyád, fő-kaponyád<note type="critic" xml:id="note.1">fő-kaponyád = koponyád</note></l>
+<l xml:id="l.70">Látván, meg sem isméri:</l>
+<l xml:id="l.71">El-temetve vagy, ’s felejtve:</l>
+<l xml:id="l.72">Sok, neved sem értheti.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.73">Ninchen olly bőlch, ’s nemes erkőlch,</l>
+<l xml:id="l.74">Ki tudná vég óráját:</l>
+<l xml:id="l.75">Hanem megyünk, mihelyt nékűnk</l>
+<l xml:id="l.76">Halál rántya kaszáját.</l>
+<l xml:id="l.77">Mert mind dúson,<note type="critic" xml:id="note.2">dúson = a gazdagon, gazdag emberen – a sor egy szótaggal rövidebb a kelleténél</note> ’s mind kóldúson</l>
+<l xml:id="l.78">Eggy-aránt uralkodik:</l>
+<l xml:id="l.79">Mind ifjakkal, ’s mind aggokkal</l>
+<l xml:id="l.80">Az ö horga rakodik.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.81">Nemes házból, ’s hímes ágyból</l>
+<l xml:id="l.82">Majd egy gödörbe tésznek:</l>
+<l xml:id="l.83">Ezt gondold-meg, ’s fontold jól meg</l>
+<l xml:id="l.84">Dolgaid mi-ként lésznek.</l>
+<l xml:id="l.85">Mert a’ végsők, itt leg-elsők;</l>
+<l xml:id="l.86">Király ’s kóldús eggyütt áll.</l>
+<l xml:id="l.87">Mint a’ szél-vész; a’ ként el-vész</l>
+<l xml:id="l.88">Világi Tiszt, ’s másra száll.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.89">Kinek hagyod sok Aranyod,</l>
+<l xml:id="l.90">Kő-várad, ’s Tiszteidet?</l>
+<l xml:id="l.91">Más helyedbe ült Székedbe;</l>
+<l xml:id="l.92">Senki nem szán tégedet.</l>
+<l xml:id="l.93">Tartományid, ’s alkotmányid</l>
+<l xml:id="l.94">Ellenségid el-rontyák:</l>
+<l xml:id="l.95">Tested gyíkok, békák, ’s kígyók</l>
+<l xml:id="l.96">Egy-más-között fel-osztyák.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.97">Hol szem-elől el-mégy, belől</l>
+<l xml:id="l.98">Szívek-is el-felejtnek:</l>
+<l xml:id="l.99">Szerelmesid, ’s kedves hősid</l>
+<l xml:id="l.100">Ingyen sem emlegetnek.</l>
+<l xml:id="l.101">Ékességed, ’s Nemességed</l>
+<l xml:id="l.102">Egy kő-alá rekesztik:</l>
+<l xml:id="l.103">’S még-is hitván kinchen, tudván</l>
+<l xml:id="l.104">Kapnak sokak, ’s terjesztik.</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.105">Lopva jű rád a’ Halál, ’s fád</l>
+<l xml:id="l.106">Alattomban le-vágja:</l>
+<l xml:id="l.107">El nem bújhatsz, nem-is futhatsz;</l>
+<l xml:id="l.108">Majd Házadat meg-hágja.</l>
+<l xml:id="l.109">Ninch mit tenned, bé kell venned</l>
+<l xml:id="l.110">Az ő mérges pohárát:</l>
+<l xml:id="l.111">Mondhatatlan irgalmatlan,</l>
+<l xml:id="l.112">’S nem félted élet Várát?</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.113">Oh te férges, úndok, ’s mérges</l>
+<l xml:id="l.114">Test, melly sokat viszsz vízre!</l>
+<l xml:id="l.115">Vonszasz hímes, és sok színes</l>
+<l xml:id="l.116">Hazugsággal vad-mézre!</l>
+<l xml:id="l.117">Ne hidgy néki; mert, ha féki-</l>
+<l xml:id="l.118">Alá foghat, meg-rongál:</l>
+<l xml:id="l.119">Kén-kő bűzre, ’s örök tűzre</l>
+<l xml:id="l.120">Viszen, addig praktikál.</l>
+</lg>
+<lg xml:id="lg.16">
+<l xml:id="l.121">Né-talám Ma, mint egy szalma-</l>
+<l xml:id="l.122">Tűz, életed el-múlik.</l>
+<l xml:id="l.123">Ah! ne jádzál: tégy jót; nád-szál</l>
+<l xml:id="l.124">Mert a’ kezedben romlik.</l>
+<l xml:id="l.125">Menyin hóltak Ma meg, vóltak</l>
+<l xml:id="l.126">Kik tegnap egésségben?</l>
+<l xml:id="l.127">’S hány ment tűzre, ’s örök bűzre,</l>
+<l xml:id="l.128">Ki vólt jó reménségben?</l>
+</lg>
+<lg xml:id="lg.17">
+<l xml:id="l.129">Ejjen ’s napon azért, talpon,</l>
+<l xml:id="l.130">Oh én Lelkem, álly készen:</l>
+<l xml:id="l.131">Mert a’ Halál chak elő-áll,</l>
+<l xml:id="l.132">’S bajt kér, és chapást tészen.</l>
+<l xml:id="l.133">Noha íjjál, ’s mérges nyíllal</l>
+<l xml:id="l.134">Rohan te Eletedre:</l>
+<l xml:id="l.135">De nem lészen, chak légy készen,</l>
+<l xml:id="l.136">E’ chata szégyenedre.</l>
+</lg>
+<lg xml:id="lg.18">
+<l xml:id="l.137">A’ Pénzt vesd-meg, hogy lelhesd-meg</l>
+<l xml:id="l.138">Az igaz Gazdagságot.</l>
+<l xml:id="l.139">Ne felly semmit: mert száz-ennyit</l>
+<l xml:id="l.140">Ád Isten, ’s bóldogságot.</l>
+<l xml:id="l.141">Bízzál ebbe, ’s fordítsd Menybe</l>
+<l xml:id="l.142">Tellyességgel szívedet:</l>
+<l xml:id="l.143">Meg-gazdagít, és bóldogít,</l>
+<l xml:id="l.144">Bizonnyal hidd, tégedet.</l>
+</lg>
+<lg xml:id="lg.19">
+<l xml:id="l.145">E’ Siralmot, és sír halmot</l>
+<l xml:id="l.146">Ki elsőben szerzette;</l>
+<l xml:id="l.147">Ki múlását, ’s szám-adását</l>
+<l xml:id="l.148">Gyakorta emlegette.</l>
+<l xml:id="l.149">Már meg-büszött,<note type="critic" xml:id="note.3">meg-büszött = megbűszhött, megbűzhödött</note> és főlddé lött:</l>
+<l xml:id="l.150">Lelke talám kínban-is.</l>
+<l xml:id="l.151">Te-is azzá lészesz, ’s hozzá</l>
+<l xml:id="l.152">Mégy, talám chak még Ma-is.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

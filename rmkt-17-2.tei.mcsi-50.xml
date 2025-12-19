@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">50.</title>
+<title key="body" n="50" type="main">VOTUM ANNI 1641.</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-50</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1">Kézirata: <bibl><hi rend="bold">Diarium Apod.</hi> 322b–323b,
+                        324b.</bibl> (A szöveg 1–9. versszaka a 322b–323a lapon van; a lap alján a
+                    következő megjegyzés: „Agy szent békes- Verte duas pagellas ad dextrum.” Ez a
+                    324b. lapra utal, ahol a szöveg folytatódik. Itt a 12. vsz. után egy A betű
+                    olvasható; a 323b. lapon két versszaknyi szöveg van ezzel a megjegyzéssel:
+                    „Versa pagella ad dextram interferenda post literam A”. Végül az utolsó két
+                    versszak ismét a 324b. lapon található.) – A latin cím jelentése:
+                        <persName>Gáspár<idno corresp="Csulyak Gáspár"/></persName> fiam által énekelt kívánság <date when="1641-01-01">1641. jan.
+                        1-re</date>; a bíró asztalánál.</note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 322b–323b, 324b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 50.</fw>
+<head type="title">VOTUM ANNI 1641.</head>
+<head type="subtitle">Kal. Januarii, ad mensam Praetoris, à filio Caspare decantatum.</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Soc Karatson napjat lattatoc ez elöt,</l>
+<l xml:id="l.2">melliet minden ember jamborul meg űllöt:</l>
+<l xml:id="l.3">de az ezer hatszaz negyven egy esztendöt</l>
+<l xml:id="l.4">melliet most szamlalunc oly nevű esztendöt.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Tudom bizony senki nem erte köztetec</l>
+<l xml:id="l.6">de nemis erheti, én tölem ertsétec;</l>
+<l xml:id="l.7">hanem ha ez utan száz esztendöt értec,</l>
+<l xml:id="l.8">kalendariomban de nints ollian Péntec.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Hogy ez napot Isten engedte érnetec,</l>
+<l xml:id="l.10">es uy Birotis lát mostan kegyelmetec:</l>
+<l xml:id="l.11">Ezért, es valamit Istentöl vöttetec</l>
+<l xml:id="l.12">szűntelen szent nevét intlec ditsérjétec.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Az Uy esztendönec el fordulasanac,</l>
+<l xml:id="l.14">ajandékat hoztam Lizka varasanac</l>
+<l xml:id="l.15">uy Biro Uramnac<note type="critic" xml:id="note.1">Az „uy Biro”: <persName>Deli
+                                István</persName>. (Lásd a következő éneket.)</note> s az egesz
+                        tanatsnac,</l>
+<l xml:id="l.16">Panegyricomnac kit Görögűl mondnac.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Isten ez esztendöt az Magyar nemzetnec,</l>
+<l xml:id="l.18">szenteld meg szent Atyam a keresztiensegnec,</l>
+<l xml:id="l.19">kit soc nemzetsegec titkon igiekeznec,</l>
+<l xml:id="l.20">e földnec szineröl hogy el veszessenec.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21">De hiszem Ur Isten az nem te tanatsod,</l>
+<l xml:id="l.22">azoc nemis tudgiac te szent akaratod,</l>
+<l xml:id="l.23">mert chiak azt követic mit nekic a test mond</l>
+<l xml:id="l.24">meliért a szent lélec mindent holondnac mond.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Söt inkab szent Isten ez uy esztendöben,</l>
+<l xml:id="l.26">sűrű bűneinket vessed a tengerben,</l>
+<l xml:id="l.27">hog’ ne taszitsanac pokol fenekeben:</l>
+<l xml:id="l.28">de legűnc inkabban felseged kedvében.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Meg valjuc Ur Isten, ellened vétkeztűnc,</l>
+<l xml:id="l.30">nemis vagiunc méltoc hog’ irgalmaz nekűnc:</l>
+<l xml:id="l.31">mert szent Felsegedtöl el idegenedtűnc,</l>
+<l xml:id="l.32">es az Belzebubnac soldosiva löttűnc.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33">De nagiob még annal szent irgalmassagod</l>
+<l xml:id="l.34">az kit meg igértél hog nekűnc meg adod</l>
+<l xml:id="l.35">hozzanc kegyelmedet eckeppen mutatod</l>
+<l xml:id="l.36">aldot légy erette hogy ez akaratod.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37">Agy szent békeseget bort es buzat nekűnc</l>
+<l xml:id="l.38">Istenesen melliel te elötted eljűnc</l>
+<l xml:id="l.39">es ez uton mesze terjedgyen jo hirűnc,</l>
+<l xml:id="l.40">melliet a piaczon penzen sem vehetűnc.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41">Hegiűnket mezönket Uram Isten ald meg</l>
+<l xml:id="l.42">varasunkat szeretettel coronazd meg:</l>
+<l xml:id="l.43">mostani mulatsagunkatis szenteld meg:</l>
+<l xml:id="l.44">az pogan Törököt mindenestöl ronts meg.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.45">Szomszedsagunkbol bár kergesd mesze földre,</l>
+<l xml:id="l.46">ö szolgaljon nekűnc nem mi ö nékie:</l>
+<l xml:id="l.47">kinec a Jehova nem sajat Istene,</l>
+<l xml:id="l.48">hanem chiak Mahumet bolondoc vezére.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.49">Az kic elö mentét Varasunknac banniác</l>
+<l xml:id="l.50">privilegiomunc romoljon kivanniac<note type="critic" xml:id="note.2">49–50
+                        <placeName>Liszka<idno type="ITIdata">Q20640</idno></placeName> földesura, a szepesi prépost és
+                            káptalan állandó harcot folytatott a város privilégiumainak
+                            csökkentéséért. A harc <date from="1640">1640-től</date> kezdve fokozott mértékben
+                        kiéleződött (<bibl><hi rend="smallcaps">R. Péter Katalin</hi>: <title>Egy hegyaljai mezőváros
+                                    harca az örökös jobbágyság ellen</title>. Történelmi Szemle
+                                1961, 427–440.</bibl> Lásd még a következő versek ide vonatkozó
+                            jegyzeteit is.)</note></l>
+<l xml:id="l.51">borsos boronzaval<note type="critic" xml:id="note.3">boronza = sajtféle</note> teli töltsed szajat</l>
+<l xml:id="l.52">es gonoszrol jora forditsad szandekat</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.53">Messala Corvinus földböl tamadgion fel<note type="critic" xml:id="note.4">Nem tudni, miért
+                            idézi itt Csulyak <persName>Messala Corvinus</persName> római szónok és
+                            történetíró (i. e. 64–i. u. 8.) nevét. Ez a versszak is
+                        <placeName>Liszka<idno type="ITIdata">Q20640</idno></placeName> község viszályára utal, mint az előző.
+                            (Éppen az a két vsz. van utólag a 323b. lapra beírva.)</note></l>
+<l xml:id="l.54">ki az kerezt nevét feleitette volt el</l>
+<l xml:id="l.55">ellenűne szandekat Az is feleitse el:</l>
+<l xml:id="l.56">Uram Isten kérűnc azt az napot hozd el.</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.57">Ezeket szent Isten engedgied meg nekűnc</l>
+<l xml:id="l.58">melliekért Christusert minniajan könörgűnc:</l>
+<l xml:id="l.59">hog’ mikor testűnkböl el ki mulic lelkűnc,</l>
+<l xml:id="l.60">felséged vendegi az egekben legiűnc.</l>
+</lg>
+<lg xml:id="lg.16">
+<l xml:id="l.61">Ha ki mind ezekre az Ament nem mondgia,</l>
+<l xml:id="l.62">fűz fa<note type="critic" xml:id="note.5">füz fa = haszontalan</note> kereztiennec bátor magat tartsa,</l>
+<l xml:id="l.63">Biro Uram borat nem mélto hogy igia;</l>
+<l xml:id="l.64">hanem ha esetit mindgiart revocalja</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

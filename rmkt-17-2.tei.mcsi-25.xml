@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">25.</title>
+<title key="body" n="25" type="main">AD ANDREAM RACZ LITERATUM CASTRI SZERENCH SUPREMUM CASTELLANUM</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-25</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi rend="bold">Diarium Apod</hi> 147b.</bibl> – A latin cím jelentése:
+                    <persName>Rácz András</persName> deákhoz <placeName>Szerencs<idno type="ITIdata">Q20431</idno></placeName>
+                        várának fő várnagyához.</p>
+<p xml:id="crit.1.p.2">Az ének keletkezési idejét Csulyak nem jelölte meg. A szöveg a <title><hi rend="italic">Diarium</hi></title>-ban egy üresen maradt féllapon
+                        található; előtte egy <date when="1609-12-09">1609. dec. 9-én</date> szerzett latin vers,
+                        utána pedig egy <date when="1610-03-21">1610. márc. 21-én</date> szerzett latin vers
+                        olvasható. Feltételezhető, hogy Csulyak az éneket <date when="1609-11-30">1609. nov.
+                            30-ra</date> András napra (lásd a 3. sort) szerezte. <persName>Rácz
+                            András</persName> deákról közelebbit nem tudunk.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod 147b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 25.</fw>
+<head type="title">AD ANDREAM RACZ LITERATUM CASTRI SZERENCH SUPREMUM CASTELLANUM</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Egy hirt hallottam, Baratom,</l>
+<l rend="level_3" xml:id="l.2">Ha nem bannad, azt mondhatom.</l>
+<l xml:id="l.3">Szent Andras napja vagion most</l>
+<l rend="level_3" xml:id="l.4">Az latoris mostan nem fozt.</l>
+<l xml:id="l.5">Az napis fenies es tizta</l>
+<l rend="level_3" xml:id="l.6">Mint niarban magát el bizta.</l>
+<l xml:id="l.7">Nem chac az madarac vadac,</l>
+<l rend="level_3" xml:id="l.8">De az emberec az halak,</l>
+<l xml:id="l.9">Ez ösznec latom örűlnek</l>
+<l rend="level_3" xml:id="l.10">Nem felnec hogj meg öszűlnek.</l>
+<l xml:id="l.11">Az lator gonoz<note type="critic" xml:id="note.1">gonoz – ide egy tárgyrag kívánkozik, de mivel Csulyak igen gondosan másolta verseit és igen ritkán követett el
+                        tollhibát, meghagytuk ebben az alakban.</note> gondolion:</l>
+<l rend="level_3" xml:id="l.12">Tudom az jambor mint mondgion.</l>
+<l xml:id="l.13">Jambor vagioc, jambor tarsom</l>
+<l rend="level_3" xml:id="l.14">Nem bankodom teli kasom:</l>
+<l xml:id="l.15">Pinczem sem szűkös jo bortol,</l>
+<l rend="level_3" xml:id="l.16">Gazdaszonj hoz chac az faltol,</l>
+<l xml:id="l.17">Baratim jöttenec hozzam</l>
+<l rend="level_3" xml:id="l.18">Meg kel kostolni malosam.<note type="critic" xml:id="note.2">13–18 E sorok idézőjelben értendők</note></l>
+<l xml:id="l.19">Ezen szandekod ugy hallom</l>
+<l rend="level_3" xml:id="l.20">Porkolab Uram s javallom</l>
+<l xml:id="l.21">Lakjatoc Isten hirevel</l>
+<l rend="level_3" xml:id="l.22">Ne gondoljatoc senkivel</l>
+<l xml:id="l.23">Nekem mint hogy hazam űres</l>
+<l rend="level_3" xml:id="l.24">Kűlgy egy halat ki nem bűdes.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

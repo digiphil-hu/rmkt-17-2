@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">97.</title>
+<title key="body" n="97" type="main">A’ VÉGHETETLEN ÖRÖKKÉ-VALÓSÁGRÓL</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-97</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadásai:</p>
+<p xml:id="crit.1.p.2">I. <bibl><title><hi rend="bold">Tintinnabulum</hi></title>.
+                                    <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1636">1636</date>. 107–9.</bibl> Kiad. <bibl><hi rend="smallcaps">Incze Gábor</hi>:
+                                <title>Bod Péter: Szent Hilarius</title>. Bp. 1943. 155.</bibl>
+<persName>Bod Péter</persName> kötete nyomán.</p>
+<p xml:id="crit.1.p.3">II. <bibl><title><hi rend="bold">Tintinnabulum</hi></title>.
+                                    [<placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1644">1644</date>.] 91–3.</bibl> – Teljesen egyezik az I.
+                        változattal. Változatlan szöveggel megjelent a <title><hi rend="italic">Tintinnabulum</hi></title> valamennyi későbbi katolikus és
+                        protestáns kiadásában. Felsorolásukat lásd a <ref target="rmkt-17-2.tei.nyvm-93">93. sz.</ref> versnél. Ezenkívül
+                        megtalálható a következő énekeskönyvekben: <bibl><title><hi rend="italic">Cantus catholici</hi></title> (<date when="1675">1675</date>) 197–8.</bibl>
+                        – <bibl><hi rend="italic">Kájoni- Cantionale </hi>(<date when="1676">1676</date>)
+                            745.</bibl> valamint ezek további kiadásaiban. – Közli még a szöveget
+                            <bibl>Bod Péter: <title><hi rend="italic">Szent Hilárius</hi></title>
+                                (<date when="1760">1760</date>) 163–4.</bibl> Bod könyve utolsó részében, mely
+                            <hi rend="italic">A számadásról és örökké-valóságról</hi> szól, írja:
+                        „Az örökkévalóságot, hogy szemléltette valaki amaz rendes könyvecskében
+                        (<sic>Tengetyü</sic> Pag. 79.) nem sajnálom ide általirni, minthogy annál jobbat én
+                        sem tudok irni” – ezután közli a verset. (Vö. <bibl><hi rend="smallcaps">Harsányi István</hi>: <title>Adatok
+                            Nyéki Vörös Mátyás műveinek bibliográfiájához</title>. MKsze 1927,
+                        145–6.</bibl>)</p>
+<p xml:id="crit.1.p.4">Az ének dallama a <bibl><title><hi rend="italic">Cantus
+                                catholici</hi></title>-ban (<date when="1675">1675</date>. 197.)</bibl> jelent
+                        meg. Közölte <bibl><hi rend="smallcaps">Szabolcsi</hi>, ItK 1931. függ. XIV. és MZK 51.</bibl>*</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I"> Tintinnabulum. <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName> 1636. 107–9.</witness>
+<witness xml:id="II">Tintinnabulum. [<placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName> 1644.] 91–3.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 97.</fw>
+<head type="title">A’ VÉGHETETLEN ÖRÖKKÉ-VALÓSÁGRÓL</head>
+<!--Dallam-kép 233. o.-->
+<lg xml:id="lg.1">
+<l xml:id="l.1">Igasság-szerető, te túdós Szám-vető,</l>
+<l xml:id="l.2">Járúlly-elő téntáddal:</l>
+<l xml:id="l.3">Fizetést nem szánok, chak a’mit kívánok</l>
+<l xml:id="l.4">Jedzegesd-fel pennáddal.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Mitől-fogva Világ áll, Hány-féle Virág</l>
+<l xml:id="l.6">Nevekedett a’ főldből?</l>
+<l xml:id="l.7">Az Égen hány Chillag éjjel nappal villag?</l>
+<l xml:id="l.8">’S hány gyöngy-szem lett a’ ködből?</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">A’ Tenger, hány chöpből áll? és a’ felhőkből</l>
+<l xml:id="l.10">Vaj ’s hány chöpp esső esett?</l>
+<l xml:id="l.11">Hány Angyal kárhozott? ’s reánk hány kínt hozott</l>
+<l xml:id="l.12">Adam, midőn el-esett?</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">A’ Tenger fövenyit, ’s annak sok örvényit</l>
+<l xml:id="l.14">Tedd hamar egy sommába.</l>
+<l xml:id="l.15">Hány chöpp ártatlan vér most boszszú-állást kér</l>
+<l xml:id="l.16">Igaz Ábel-től-fogva?</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Add mellé Vadait a’ főldnek, ’s barmait,</l>
+<l xml:id="l.18">Minden szőrök szálával;</l>
+<l xml:id="l.19">Füveknek magvait, Vizeknek habjait,</l>
+<l xml:id="l.20">A’ tenger halaival;</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Madarak tollait, ’s a’ Fáknak ágait,</l>
+<l xml:id="l.22">Azoknak levelével.</l>
+<l xml:id="l.23">A’ Szőlő-szemeket, ’s apró követskéket,</l>
+<l xml:id="l.24">Főldnek minden férgével.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Vesd-meg,<note type="critic" xml:id="note.1">Vesd-meg = hányd-vesd, fontold meg (a 31. sorban is)</note> hány Ember hólt? ’s hajok szála hány vólt,</l>
+<l xml:id="l.26">Adám Atyánktól-fogva?</l>
+<l xml:id="l.27">Hány szem-pillantás vólt, ’s főldre hány chöpp víz folyt,</l>
+<l xml:id="l.28">Világ kezdettől-fogva?</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Ah, vesd-el pennádat, ’s szegezd-bé téntádat,</l>
+<l xml:id="l.30">Mert ezt véghez nem viszed!</l>
+<l xml:id="l.31">De bár meg-vetnéd-is, ’s számba tehetnéd-is</l>
+<l xml:id="l.32">Ezeket: de meg-hidgyed,</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33">Hogy meg-foghatatlamb, ’s meg-számlálhatatlamb</l>
+<l xml:id="l.34">Az Örökké-valóság.</l>
+<l xml:id="l.35">Örökké-valóság! örökké-valóság!</l>
+<l xml:id="l.36">Oh Örökké-valóság!</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

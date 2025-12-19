@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">84.</title>
+<title key="body" n="84" type="main">MÉGIS, AZ BÓLDOG SZÉP SZÜZHEZ AZ UY ESZTENDÖ KEZDETIN</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-84</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1">Nyomtatott kiadása: <bibl><hi rend="bold">Istenes
+                            énekek.</hi> <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName> [<date from="1635" to="1636">1635–36</date>], 169–71.</bibl> Kiad. <bibl>VARJAS, i. m.
+                        169–71.</bibl> A cím előtt: „Mas.” A cím alatti metszet a szent családot
+                    ábrázolja a betlehemi istállóban, oldalt két pásztorral. (Lásd: 20. sz. tábla.)
+                    Az ének végén: „Amen.”</note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Istenes énekek. <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName> [<date from="1635" to="1636">1635–36</date>], 169–71.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 84.</fw>
+<head type="title">MÉGIS, AZ BÓLDOG SZÉP SZÜZHEZ AZ UY ESZTENDÖ KEZDETIN</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Istennek szent Annya, kegyelmed kivánnya<note>Az ének kezdete megegyezik a
+                                <ref target="rmkt-17-2.tei.nyvm-72">72. sz.</ref> énekével, mely az ék.-ben közvetlenül versünk
+                            előtt áll.</note></l>
+<l xml:id="l.2">Lelkem nagy óltalmára,</l>
+<l xml:id="l.3">Tekínch szükségemet, s’ erötlenségemet,</l>
+<l xml:id="l.4">Fordích. te kis szólgádra,</l>
+<l xml:id="l.5">Te boldog színedet, ki kísírtetemet,</l>
+<l xml:id="l.6">Nyomja el, s’ nézzen jómra.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.7">Ez ki nyilt esztendöt, ne hadd mint veszendöt,</l>
+<l xml:id="l.8">Tölem jók nékül múlnyi,</l>
+<l xml:id="l.9">Idvösséges élet, mint vídám kikelet,</l>
+<l xml:id="l.10">Siessen be burúlnyi,</l>
+<l xml:id="l.11">Birjon jámbor erkölch Malasztot reám tölch,</l>
+<l xml:id="l.12">Ne hadd lelkem búsúlnyí.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.13">Megh gyözzek sok gonoszt, ki mennyektöl meg foszt</l>
+<l xml:id="l.14">S’ kárhozattal fenyeget,</l>
+<l xml:id="l.15">Jószágos dolgokban, magamat foglallyam,</l>
+<l xml:id="l.16">Ne bánchak meg egyebet,</l>
+<l xml:id="l.17">Vigyázzak lelkemre, együgyüségemre,</l>
+<l xml:id="l.18">Kérj tellyes segedelmet.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.19">Hogy mikor ez testböl, Isten teczéséböl,</l>
+<l xml:id="l.20">Leszen ki költözésem,</l>
+<l xml:id="l.21">Szent szemed rám nézzen, kedved fogjon kézen,</l>
+<l xml:id="l.22">Ne legyen rettegésem,</l>
+<l xml:id="l.23">Vegyed óhaytásom, bünömért sírásom,</l>
+<l xml:id="l.24">Ki érdemét keresem.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.25">Legyen engedelmes, én hozzám kegyelmes</l>
+<l xml:id="l.26">Szent vére hullásáért,</l>
+<l xml:id="l.27">Engem ne útállyon, haragja se szállyon</l>
+<l xml:id="l.28">Sok féle büneimért,</l>
+<l xml:id="l.29">Ez földnek szennyétöl, kit gyöngeségéböl,</l>
+<l xml:id="l.30">Vett Testem gyarló kedvért.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.31">Adgya megh azt à bért, à kit soha nem mért,</l>
+<l xml:id="l.32">Nagy irgalmasság nékül,</l>
+<l xml:id="l.33">S’ az kit ingyen oztott, sok kinnyával hozott,</l>
+<l xml:id="l.34">Mindennek idvösségül,</l>
+<l xml:id="l.35">Idvözíche Lelkem, noha nem érdemlem,</l>
+<l xml:id="l.36">Mert kegyelme igy terül.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.37">Ki-ért díchírettel, s’ nagy emlekezettel,</l>
+<l xml:id="l.38">Magasztallyam szent Nevét,</l>
+<l xml:id="l.39">Jó téteményérül, az ki Lelkem körül</l>
+<l xml:id="l.40">Atta áldással kedvét,</l>
+<l xml:id="l.41">Vegye szegényének, méltatlan férgének,</l>
+<l xml:id="l.42">Azért eggyügyü szivét.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

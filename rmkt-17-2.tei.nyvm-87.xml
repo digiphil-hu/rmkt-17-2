@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">87.</title>
+<title key="body" n="87" type="main">IPSA DIES QUANDOQUE PARENS; QUANDOQUE NOVERCA EST</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-87</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadása: <bibl><hi rend="bold">Istenes énekek.</hi> <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName> [<date from="1635" to="1636">1635–36</date>]. 187–8.</bibl>
+                    Kiad. <bibl><hi rend="smallcaps">Varjas</hi>, i. m. 187–8.</bibl></p>
+<p xml:id="crit.1.p.2">A szerzőség és a keltezés kérdésében lásd az előző <ref target="rmkt-17-2.tei.nyvm-86">86. sz.</ref> versnél
+                        mondottakat.</p>
+<p xml:id="crit.1.p.3">A címként szereplő hexameter magyarul: A sors maga, egyszer édesszülénk, máskor mostohánk.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Istenes énekek. <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName> [<date from="1635" to="1636">1635–36</date>]. 187–8.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 87.</fw>
+<head type="title">IPSA DIES QUANDOQUE PARENS; QUANDOQUE NOVERCA EST</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Ha az jó szerenche föl emel valakit,</l>
+<l xml:id="l.2">Gyakran kevélységgel azonnal meg vakít,</l>
+<l xml:id="l.3">Kivel irígy kedvet ismét hamar fordít,</l>
+<l xml:id="l.4">Hogy esmerje magát, az pad alá taszít.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Az kit kárral penig szokott nyomorgatni,</l>
+<l xml:id="l.6">Kazdag állapatból nyavalyást forgatni,<note type="critic" xml:id="note.1">A <hi rend="italic">gazdag</hi> szó itt használt <hi rend="italic">kazdag</hi> alakja
+                            Nyéki Vörös nyelvére igen jellemző, s így ennek felbukkanása is erősíti
+                            a szerzőségére vonatkozó álláspontot.</note></l>
+<l xml:id="l.7">Annak sok panaszszán kichint túd jaygatni</l>
+<l xml:id="l.8">Mert mostoha vóltát úgy szokta mutatni.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Minden változásban azért okossan élly</l>
+<l xml:id="l.10">Magas böchületre ha mentél, igen félly,</l>
+<l xml:id="l.11">Mert nehezben esel, ha te leszesz kevély,</l>
+<l xml:id="l.12">Ha meg aláztatol, Istentöl jót reménly.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Mert kit menyországra az Isten választott.</l>
+<l xml:id="l.14">Annak sok nyavalyát éltéhez ragasztott,</l>
+<l xml:id="l.15">Bóldog állapotot ha töle marasztott</l>
+<l xml:id="l.16">Vigasztalást azért meszsze nem hallasztott.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

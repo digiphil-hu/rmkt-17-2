@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">7.</title>
+<title key="body" n="7" type="main">(El jö még az idö tsillagom fel-támad...)</title>
+<author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.pki-7</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1">
+<p xml:id="crit.1.p.1">Nyomtatott kiadásai:</p>
+<p xml:id="crit.1.p.2">I. <bibl><hi rend="bold">Istenes Énekek. <placeName>Lőcse<idno type="ITIdata">Q8066</idno></placeName>
+<date when="1671">1671.</date></hi> 446–57.</bibl> – Címe: Mas.</p>
+<p xml:id="crit.1.p.3">II. <bibl><hi rend="bold">Istenes Énekek. <placeName>Lőcse</placeName>
+<date when="1670">1670.</date></hi> 304–11.</bibl> Kiad. <bibl><abbr><hi rend="smallcaps">Vasáry</hi></abbr> 37–40.</bibl> – Címe és
+                        nótajelzése az előbbivel azonos. (<bibl>RMKT XVII/2. j-7., j-8. –
+                        276</bibl>)</p>
+<p xml:id="crit.1.p.4">III. <bibl><hi rend="bold">Istenes Énekek. <placeName>Kolozsvár</placeName>
+<date when="1677">1677.</date></hi> 232–9.</bibl> Kiad. <bibl><abbr><hi rend="smallcaps">Dézsi</hi>: Balassa munkái II</abbr>,
+                            326–30.</bibl> – Címe és nótajelzése az előbbiekkel azonos.</p><p xml:id="crit.1.p.5">IV. <bibl><hi rend="bold">Váradi kis ék. <date when="1648">1648.</date></hi> 117–127.</bibl> – Címe és
+                        nótajelzése: Mas. Legyen jó idö. E. P. – Ez a változat jelentékeny
+                        eltéréseket tartalmaz a többihez viszonyítva, sőt az első két versszak
+                        teljesen mással van felcserélve. Pécseli egyéni hangú éneke, saját lelkével
+                        való beszélgetése itt a gyülekezeti éneklés céljaira van alkalmazva. Az
+                        eltérések több helyen szövegromlásból is származnak. Néhány variánsból
+                        azonban arra lehet következtetni, hogy Pécseli énekének a közösségi célra
+                        való adaptálása nem az Istenes énekek kiadásaiban levő szöveg alapján
+                        történt, hanem valamely kézirat nyomán. Egy helyen ugyanis ez a változat
+                        adja az összes többivel szemben a helyes alakot (56. sor), egy másik esetben
+                        pedig arra a következtetésre kell jutnunk, hogy a variáns szintén Pécselitől
+                        származik. A 25. sor ugyanis pontosan követi a nótául választott
+                                <persName>Rimay<idno type="ITIdata">Q155364</idno></persName>-vers 19. sorát („Köd után mert mint szebb
+                        szokott a Nap lenni”) s ezért nem származhat mástól, mint az ének
+                        szerzőjétől. Stiláris, költői szempontok azonban utólag e sor, s egyben az
+                        egész strófa megváltoztatását igényelték, mivel a kivilágosodó napra
+                        vonatkozó hasonlat ugyane strófa 3. sorában is megvolt. Az Istenes énekek
+                        kiadói már a javított szöveget adták ki. Egy korábbi redakció maradványai e
+                        változat más helyein is feltételezhetők.</p>
+<p xml:id="crit.1.p.6">Az ének versfői: EMERICVS REGIVS PETsELIUS EDEBAT. A nótajelzés által idézett
+                        Rimay-éneknek, mely Pécseli szövegére is hatással volt, a dallamát nem
+                        ismerjük. (<bibl><hi rend="smallcaps">Eckhardt</hi> kiad. 79–80.</bibl>) Az ének keletkezési idejére
+                        semmiféle adat nem áll rendelkezésre.</p>
+</note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Istenes Énekek. Lőcse 1671. 446–57.</witness>
+<witness xml:id="II">Istenes Énekek. Lőcse 1670. 304–11.</witness>
+<witness xml:id="III">Istenes Énekek. Kolozsvár 1677. 232–9.</witness>
+<witness xml:id="IV">Váradi kis ék. 1648. 117–127.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 7.</fw>
+<head type="notation">Nota: Légyen jó idö tsak:</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1"><hi rend="bold">E</hi>l jö még az idö tsillagom fel-támad,<note type="critic" xml:id="note.1">A sort
+                        vö. <persName>Petki János<idno type="ITIdata">Q155386</idno></persName>
+<hi rend="italic"><title>Virtus és Voluptas</title></hi>-ának
+                                    549. sorával: „El iö meg az idő czillagom-is fel kel”.
+                                            (<bibl><abbr>RMKT XVII. I</abbr>, 70.
+                                sz.</bibl>)</note></lem><rdg wit="#IV" xml:id="rdg.1">En jó Istenemnek Atyai ostorát,</rdg></app></l>
+<l xml:id="l.2"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Kinek rejtezését szivem igen bánod,</lem><rdg wit="#IV" xml:id="rdg.2">Minap hogy szenvedném ö kemény sujtását,</rdg></app></l>
+<l xml:id="l.3"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">Napomnak-is fényét lelkem még meg-látod,</lem><rdg wit="#IV" xml:id="rdg.3">Kostolván testemben keserü pohárát,</rdg></app></l>
+<l xml:id="l.4"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">Kinek szép világát ohajtással várod.</lem><rdg wit="#IV" xml:id="rdg.4">Igy forgatom vala szivem gondolattyát.</rdg></app></l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5"><app xml:id="app.5">
+<lem wit="#KK" xml:id="lem.5"><hi rend="bold">M</hi>i nem azért sujtol Isten hogy
+                                el-vessen,</lem>
+<rdg wit="#IV" xml:id="rdg.5">Meg-veszett forgásán utolso idönknek,</rdg>
+</app></l>
+<l xml:id="l.6"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">Es mostoha kézzel soha ne szeressen,</lem><rdg wit="#IV" xml:id="rdg.6">Isten sok ostorral sokságát bününknek,</rdg></app></l>
+<l xml:id="l.7"><app xml:id="app.7"><lem wit="#KK" xml:id="lem.7">De hogy mint Dávidot jó útra vihessen,</lem><rdg wit="#IV" xml:id="rdg.7">Tsépli mint az kévét folyását éltünknek,</rdg></app></l>
+<l xml:id="l.8"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">Es mint Ezechiást kezéhez vehessen.<note type="critic" xml:id="note.2">Ezékiás Juda királya volt, aki
+                                    helyreállította az Isten tiszteletét. Halálos betegségéből Isten
+                                    meggyógyította. (<bibl>II. Kir. 18– 20.</bibl>)</note></lem><rdg wit="#IV" xml:id="rdg.8">Méltán mert jol láttya vesztét mi lelkünknek.</rdg></app></l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9"><app xml:id="app.9">
+<lem wit="#KK" xml:id="lem.9"><hi rend="bold">E</hi>zt ne tsudáld tehát hogy igy bánik
+                                veled,</lem>
+<rdg wit="#IV" xml:id="rdg.9">velünk</rdg>
+</app></l>
+<l xml:id="l.10"><app xml:id="app.10"><lem wit="#KK" xml:id="lem.10">Hogy ö szent ortzáját el-fordittya töled,</lem><rdg wit="#IV" xml:id="rdg.10">Hogy Isten ortzáját; tölünk</rdg></app></l>
+<l xml:id="l.11"><app xml:id="app.11"><lem wit="#KK" xml:id="lem.11">Kemény ostorával hogy sanyargat téged,</lem><rdg wit="#IV" xml:id="rdg.11">Háta-megé vetvén nyavalyánkat nékünk</rdg></app></l>
+<l xml:id="l.12"><app xml:id="app.12"><lem wit="#KK" xml:id="lem.12">Mert ugy érdemlette te sok gonosz vétked.</lem><rdg wit="#IV" xml:id="rdg.12">érdemlette számtalan sok bününk</rdg></app></l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13"><app xml:id="app.13">
+<lem wit="#KK" xml:id="lem.13"><hi rend="bold">R</hi>utának izetlen s’ keserü
+                                vizével,</lem>
+<rdg wit="#IV" xml:id="rdg.13">keserü izetlen</rdg>
+</app></l>
+<l xml:id="l.14">Orvosol az ital Sállya levelével,<note type="critic" xml:id="note.3">13–14 <hi rend="italic">Ruta</hi> és <hi rend="italic">zsállya</hi> gyógynövények. A
+                        <abbr>NySz</abbr> idézi <persName>Felvinczi Györgytől<idno type="ITIdata">Q43862</idno></persName>:
+                            „Sállya ha rutával italodban lészen, Semmi életedben ártalom nem
+                            lészen.” (<bibl>II, 1486.</bibl>)</note></l>
+<l xml:id="l.15">Tisztul az arany-is tüznek erejével,</l>
+<l xml:id="l.16"><app xml:id="app.14"><lem wit="#KK" xml:id="lem.14">Igy lelkem-is jobbul Isten veszszejével.<note type="critic" xml:id="note.4">15–16 E sorok a nótául
+                        választott <persName>Rimay<idno type="ITIdata">Q155364</idno></persName>-verset követik: „Úgy Isten
+                                    vesszeje lelkünket enyhíti, Mint aranyat az tűz langjával
+                                    szépiti.” (<bibl><hi rend="smallcaps">Eckhardt</hi>-kiad. 80.</bibl>)</note></lem><rdg wit="#IV" xml:id="rdg.14">lelkünk</rdg></app></l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17"><app xml:id="app.15"><lem wit="#KK" xml:id="lem.15"><hi rend="bold">J</hi>oáb Hertzeg tüzzel jobb eszre fordula,<note type="critic" xml:id="note.5">Joáb,
+                                    a biblia szerint a zsidók fővezére Dávid király alatt. Itt arra
+                                    az esetre történik célzás, mikor Absolon Joáb gazdaságának a
+                                    felgyújtásával kényszerítette őt, hogy jelentse őt be a
+                                    királynál. (<bibl>II. Sám. 14. 29–33.</bibl>)</note></lem><rdg wit="#IV" xml:id="rdg.15">Hertzeg kárral</rdg></app></l>
+<l xml:id="l.18">Ö fejedelmehez sietve járula,</l>
+<l xml:id="l.19"><app xml:id="app.16"><lem wit="#KK" xml:id="lem.16">Engem-is Istenhez fordit a’ nyavalya,</lem><rdg wit="#IV" xml:id="rdg.16">Minket-is</rdg></app></l>
+<l xml:id="l.20"><app xml:id="app.17"><lem wit="#KK" xml:id="lem.17">Hogy hamar meg-térjek tészi kereszt lángja.</lem><rdg wit="#IV" xml:id="rdg.17">meg térjünk</rdg></app></l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21"><hi rend="bold">T</hi>zet hal nagy Balena sós tengerben lakik,</l>
+<l xml:id="l.22">A’ kék Delphin hal-is ugyan ottan hizik,</l>
+<l xml:id="l.23">Ez az édes vizben edgyik sem lakhatik,</l>
+<l xml:id="l.24">Igy a’ mi lelkünk-is keresztel tartatik.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25"><app xml:id="app.18">
+<lem wit="#KK" xml:id="lem.18"><hi rend="bold">V</hi>idul a’ szép Tavasz az erös Tél
+                                után,</lem>
+<rdg wit="#IV" xml:id="rdg.18">szép Nap-is az sürü köd után</rdg>
+</app></l>
+<l xml:id="l.26"><app xml:id="app.19"><lem wit="#KK" xml:id="lem.19">Ujulnak a’ mezök kemeny dér el-múlván</lem><rdg wit="#IV" xml:id="rdg.19">Ujjul a’ vetés-is
+                        kemény tél el-mulván</rdg></app></l>
+<l xml:id="l.27"><app xml:id="app.20"><lem wit="#KK" xml:id="lem.20">Napunk-is fényesseb fölhök el távozván,</lem><rdg wit="#III" xml:id="rdg.20">felhök</rdg></app></l>
+<l xml:id="l.28">Igy éltünk-is jobbul nyavalyáink után.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29"><hi rend="bold">S</hi>ok féle tsapások Dávidot jobbiták,</l>
+<l xml:id="l.30">Manasses Királyt-is Istenhez forditák,<note type="critic" xml:id="note.6">Manasse, Juda
+                            királya, Ezékiás fia, aki visszaállította a bálványok imádását, de
+                            később fogságában Istenhez tért. (<bibl>II. Krón. 33.</bibl>)</note></l>
+<l xml:id="l.31">Szent Job Pátriárchát égig magasztalák,</l>
+<l xml:id="l.32"><app xml:id="app.21"><lem wit="#KK" xml:id="lem.21">Illyen használattyát keresztnek ök látták.</lem><rdg wit="#III" xml:id="rdg.21">láták</rdg><rdg wit="#IV" xml:id="rdg.22">körösztnek</rdg></app></l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33"><app xml:id="app.22">
+<lem wit="#KK" xml:id="lem.22"><hi rend="bold">R</hi>osa etzet fejünk forroságát
+                                óltya,</lem>
+<rdg wit="#IV" xml:id="rdg.23">Rosa viz fejünknek</rdg>
+</app></l>
+<l xml:id="l.34"><app xml:id="app.23"><lem wit="#KK" xml:id="lem.23">Euphrásia vize szemünket tisztittya,<note type="critic" xml:id="note.7"><hi rend="italic">Euphrásia</hi>: gyógyfű, melyet különböző szembetegségek
+                                    ellen használtak. (Vö. <bibl><hi rend="smallcaps">Varjas</hi>: <title>XVI. századi magyar
+                                            orvosi könyv</title>. Kolozsvár 1943.
+                                    57–72.</bibl>)</note></lem><rdg wit="#IV" xml:id="rdg.24">Az Eufrásia viz</rdg></app></l>
+<l xml:id="l.35"><app xml:id="app.24"><lem wit="#KK" xml:id="lem.24">Az erös flastrom-is sebünket gyogyittya,</lem><rdg wit="#IV" xml:id="rdg.25">Erös etzet s’
+                        olaj sebünket</rdg></app></l>
+<l xml:id="l.36">Igy testi nyavalyánk lelkünket jobbittya.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37"><hi rend="bold">E</hi>rös szerszám szokta fenét meg-fojtani,<note type="critic" xml:id="note.8"><hi rend="italic">Fene</hi> itt rothadást, üszkösödést
+                            jelent. Vö. „A borbélyok erős szerszámokkal ölik meg a fenét az ember
+                            testében.” (<bibl>1693. <abbr>NySz I</abbr>, 815.</bibl>)</note></l>
+<l xml:id="l.38"><app xml:id="app.25"><lem wit="#KK" xml:id="lem.25">Keserü ital-is gyomrot tisztitani,</lem><rdg wit="#IV" xml:id="rdg.26">gyomort</rdg></app></l>
+<l xml:id="l.39">Igy a’ nyavalyák-is szokták orvoslani,</l>
+<l xml:id="l.40"><app xml:id="app.26"><lem wit="#KK" xml:id="lem.26">Lelkünket Istennek és meg-újitani.</lem><rdg wit="#IV" xml:id="rdg.27">megújétani</rdg></app></l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41"><hi rend="bold">G</hi>edeont az Isten tsépröl el szólitá,</l>
+<l xml:id="l.42">Josephet tömlötzböl uraságra hozá,</l>
+<l xml:id="l.43"><app xml:id="app.27"><lem wit="#KK" xml:id="lem.27">Danielt veremböl ám fel-magasztalá,</lem><rdg wit="#IV" xml:id="rdg.28">veremböl ö fel-szabaditá</rdg></app></l>
+<l xml:id="l.44"><app xml:id="app.28"><lem wit="#KK" xml:id="lem.28">Juhász Dávidot-is Királlyá választá.</lem><rdg wit="#IV" xml:id="rdg.29">Szegény Dávidot-is égig magasztalá.</rdg></app></l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.45"><hi rend="bold">I</hi>gaz lelki hartzbol boldogság származik,</l>
+<l xml:id="l.46"><app xml:id="app.29"><lem wit="#KK" xml:id="lem.29">Gyözödelem után corona nyújtatik,</lem><rdg wit="#IV" xml:id="rdg.30">Gyözedelem</rdg></app></l>
+<l xml:id="l.47"><app xml:id="app.30"><lem wit="#KK" xml:id="lem.30">Illyés-is tüz által meny országban lakik,</lem><rdg wit="#IV" xml:id="rdg.31">tüz után</rdg></app></l>
+<l xml:id="l.48"><app xml:id="app.31"><lem wit="#KK" xml:id="lem.31">Illy drága nagy jószág keresztel adatik.</lem><rdg wit="#IV" xml:id="rdg.32">körösztel</rdg></app></l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.49"><hi rend="bold">V</hi>itéz Josuenak sok hartz ada földet,</l>
+<l xml:id="l.50">Téjjel mézzel folyo drága szép nemes helt,</l>
+<l xml:id="l.51">A’ szegény méhek-is nagy munkával mézet,</l>
+<l xml:id="l.52"><app xml:id="app.32"><lem wit="#KK" xml:id="lem.32">Gyüjtnek és az után esznek édes lépet.</lem><rdg wit="#IV" xml:id="rdg.33">észnek lépes mézet</rdg></app></l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.53"><app xml:id="app.33">
+<lem wit="#KK" xml:id="lem.33"><hi rend="bold">S</hi>zép kedves kenyerünk a’ tüzzel
+                                süttetik,</lem>
+<rdg wit="#IV" xml:id="rdg.34">kenyerünk tüzzel süttettetik</rdg>
+</app></l>
+<l xml:id="l.54"><app xml:id="app.34"><lem wit="#KK" xml:id="lem.34">Jo izü borunk-is sajtoval nyomatik,</lem><rdg wit="#I #II" xml:id="rdg.35"><sic>izu</sic></rdg><rdg wit="#III #IV" xml:id="rdg.36">izü</rdg><rdg wit="#IV" xml:id="rdg.37">pressel szorittatik</rdg></app></l>
+<l xml:id="l.55"><app xml:id="app.35"><lem wit="#KK" xml:id="lem.35">Savanyu vad gyümölts dérrel édesedik,</lem><rdg wit="#I" xml:id="rdg.38">dértel</rdg><rdg wit="#II #III #IV" xml:id="rdg.39">dérrel</rdg></app></l>
+<l xml:id="l.56"><app xml:id="app.36">
+<lem wit="#KK" xml:id="lem.36">Igy a’ mi <corr>lelkünk</corr>-is búval szelidedik.</lem>
+<rdg wit="#I #II #III" xml:id="rdg.40">testünk-is</rdg>
+<rdg wit="#IV" xml:id="rdg.41">lelkünk-is</rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.57"><hi rend="bold">P</hi>yrites<note type="critic" xml:id="note.9"> = fekete drágakő</note>
+                        gyemánt kö verve adgya tüzét,</l>
+<l xml:id="l.58">Mikor meg töretik mutattya erejét</l>
+<l xml:id="l.59">Dio-fa veréssel hullattya gyümöltsét,</l>
+<l xml:id="l.60"><app xml:id="app.37"><lem wit="#KK" xml:id="lem.37">Embernek-is kereszt hozza meg szentsęgét.</lem><rdg wit="#IV" xml:id="rdg.42">köröszt</rdg></app></l>
+</lg>
+<lg xml:id="lg.16">
+<l xml:id="l.61"><app xml:id="app.38"><lem wit="#KK" xml:id="lem.38"><hi rend="bold">E</hi>rös Adamás<note type="critic" xml:id="note.10"> = gyémánt – A középkori hiedelem
+                                    szerint a gyémánt csak a bak vérétől hasad meg. (Vö. <bibl><hi rend="smallcaps">Eckhardt</hi>: <title>Középkori
+                                            természetszemlélet a magyar költészetben</title>.
+                                            <abbr>EPhK</abbr> 1929, 92–3.</bibl>)</note> kö vérrel
+                                meg-szelidül,</lem><rdg wit="#IV" xml:id="rdg.43">kö verve megszelidül</rdg></app></l>
+<l xml:id="l.62">A’ kemény atzél-is reszelövel szépül,</l>
+<l xml:id="l.63">Phoenix madár tolla tüzzel meg-fényesül,<note type="critic" xml:id="note.11">Az önmagát
+                        elégető phoenix madárról lásd <bibl><hi rend="smallcaps">Eckhardt</hi>: <title>Középkori
+                            természetszemlélet a magyar költészetben</title>, EPhK 1929, 89–90.</bibl></note></l>
+<l xml:id="l.64">Igy a’ nyavalyákkal ember-is fel-éppül.</l>
+</lg>
+<lg xml:id="lg.17">
+<l xml:id="l.65"><app xml:id="app.39">
+<lem wit="#KK" xml:id="lem.39"><hi rend="bold">T</hi>sillagok szépségét vallyon s’ ki
+                                láthatná,</lem>
+<rdg wit="#III" xml:id="rdg.44">Csillagnak</rdg>
+</app></l>
+<l xml:id="l.66">A’ sürü sötétsęg ha nem ostromlaná,</l>
+<l xml:id="l.67">Hold-is kedves fényét tölünk el-titkolná,</l>
+<l xml:id="l.68"><app xml:id="app.40"><lem wit="#KK" xml:id="lem.40">A’ sötét éj ötet ha környül nem fogná.<note type="critic" xml:id="note.12">65–68 Az egész strófa
+                        <persName>Rimay<idno type="ITIdata">Q155364</idno></persName> id. verse egyik során alapul:
+                        „Mint setét mutatja tűznek szép világát”. (<bibl><hi rend="smallcaps">Eckhardt</hi>-kiad.
+                                        80.</bibl>)</note></lem><rdg wit="#I" xml:id="rdg.45">ötét</rdg><rdg wit="#II #III #IV" xml:id="rdg.46">ötet</rdg></app></l>
+</lg>
+<lg xml:id="lg.18">
+<l xml:id="l.69"><app xml:id="app.41">
+<lem wit="#KK" xml:id="lem.41"><hi rend="bold">S</hi>zintén igy szent Jobnak békesęg
+                                türésęt,</lem>
+<rdg wit="#IV" xml:id="rdg.47">Szent Jobnak ecképpen</rdg>
+</app></l>
+<l xml:id="l.70">Abrahám atyánknak hitit reménsęget,</l>
+<l xml:id="l.71">Edgyiknek sem tudnók nagy keresztyénsęgét,</l>
+<l xml:id="l.72"><app xml:id="app.42"><lem wit="#KK" xml:id="lem.42">Ha nem tudnók rajtok Isten kisirtésęt.</lem><rdg wit="#IV" xml:id="rdg.48">latnok; kisértetit</rdg></app></l>
+</lg>
+<lg xml:id="lg.19">
+<l xml:id="l.73"><app xml:id="app.43">
+<lem wit="#KK" xml:id="lem.43"><hi rend="bold">E</hi>des atyák tiszti hogy veszszöt
+                                tartsanak,</lem>
+<rdg wit="#I" xml:id="rdg.49"><sic>tartsának</sic></rdg>
+<rdg wit="#II #III #IV" xml:id="rdg.50">tartsanak</rdg>
+</app></l>
+<l xml:id="l.74">Kedves magzattyokhoz hogy azzal sujtsanak,</l>
+<l xml:id="l.75">Vásott gyermektséket jóra tanitsanak,</l>
+<l xml:id="l.76"><app xml:id="app.44"><lem wit="#KK" xml:id="lem.44">Illy jó vége vagyon ostorozásoknak.</lem><rdg wit="#IV" xml:id="rdg.51">ostorozásinknak</rdg></app></l>
+</lg>
+<lg xml:id="lg.20">
+<l xml:id="l.77"><hi rend="bold">L</hi>ám az Ur Isten-is meg-sanyargat téged,</l>
+<l xml:id="l.78"><app xml:id="app.45"><lem wit="#KK" xml:id="lem.45">Mint jó Orvos Doctor ugy bánik te veled,</lem><rdg wit="#IV" xml:id="rdg.52">Doctor bajmolodik veled</rdg></app></l>
+<l xml:id="l.79">Hogy meg-gyogyithassa nagy halálos sebed,</l>
+<l xml:id="l.80">Es meg-jobbithassa te nyavalyás lelked.</l>
+</lg>
+<lg xml:id="lg.21">
+<l xml:id="l.81"><app xml:id="app.46"><lem wit="#KK" xml:id="lem.46"><hi rend="bold">J</hi>onatásnak szeme mézzel gyogyittaték,<note type="critic" xml:id="note.13">Jonatán, Saul fia az Ószövetségben. Szemének meggyógyulása:
+                                        <bibl>I. Sám. 14: 27.</bibl></note></lem><rdg wit="#IV" xml:id="rdg.53">mészszel</rdg></app></l>
+<l xml:id="l.82"><app xml:id="app.47"><lem wit="#KK" xml:id="lem.47">De vén Tobiásnak méreggel nyittaték,<note type="critic" xml:id="note.14">Tóbiás vaksága epétől
+                                    gyógyult meg. (<bibl>Tób. 11: 13–7.</bibl>)</note></lem><rdg wit="#I" xml:id="rdg.54">nyirtaték</rdg><rdg wit="#II #III #IV" xml:id="rdg.55">nyittaték</rdg></app></l>
+<l xml:id="l.83">Mindenik ekképpen meg-orvosoltaték,</l>
+<l xml:id="l.84"><app xml:id="app.48"><lem wit="#KK" xml:id="lem.48">Szemek világa igy Istentöl adaték.</lem><rdg wit="#IV" xml:id="rdg.56">Ö szemek világa Istentöl</rdg></app></l>
+</lg>
+<lg xml:id="lg.22">
+<l xml:id="l.85"><app xml:id="app.49">
+<lem wit="#KK" xml:id="lem.49"><hi rend="bold">U</hi>gyan azon formán bánik Isten
+                                velünk,</lem>
+<rdg wit="#IV" xml:id="rdg.57">Isten bánik</rdg>
+</app></l>
+<l xml:id="l.86">Hol joval hol penig gonoszszal lát bennünk,</l>
+<l xml:id="l.87">Hogy a’ nagy vakságban meg ne hallyon lelkünk,</l>
+<l xml:id="l.88">Hálá-adó szivel illik hát szenvednünk.</l>
+</lg>
+<lg xml:id="lg.23">
+<l xml:id="l.89"><hi rend="bold">S</hi>ok nyavalya éri ki nem túd meg-térni,</l>
+<l xml:id="l.90">Istenét szivéböl ki nem tudgya félni,</l>
+<l xml:id="l.91">Végre-is affęlét pokol fog el-nyelni,</l>
+<l xml:id="l.92">A’ ki az Istennek nem akar engedni.</l>
+</lg>
+<lg xml:id="lg.24">
+<l xml:id="l.93"><app xml:id="app.50">
+<lem wit="#KK" xml:id="lem.50"><hi rend="bold">E</hi>szünkben juthat hát Cainnak
+                                példája,</lem>
+<rdg wit="#IV" xml:id="rdg.58">juthat itt</rdg>
+</app></l>
+<l xml:id="l.94">Gonosz Pharahonak iszonyu romlása,</l>
+<l xml:id="l.95">Saul Királynak-is szörnyü ki-múlása,</l>
+<l xml:id="l.96">Arúló Judásnak ö el-kárhozása.</l>
+</lg>
+<lg xml:id="lg.25">
+<l xml:id="l.97"><hi rend="bold">D</hi>e viszont Istennek a’ ki kedvére jár,</l>
+<l xml:id="l.98">Ezt meg nem széditi akar mi sulyos kár,</l>
+<l xml:id="l.99">Söt a méregböl-is illy ember mézet vár,</l>
+<l xml:id="l.100"><app xml:id="app.51"><lem wit="#KK" xml:id="lem.51">Ki szép szeliden jár mint galamb szép madár.</lem><rdg wit="#IV" xml:id="rdg.59">szelideden él mint Galamb madár</rdg></app></l>
+</lg>
+<lg xml:id="lg.26">
+<l xml:id="l.101"><hi rend="bold">E</hi>ltében a’ szent Pált Sátán ostorozá,</l>
+<l xml:id="l.102">Iffiú Timotheust Isten oskolázá,</l>
+<l xml:id="l.103"><app xml:id="app.52"><lem wit="#KK" xml:id="lem.52">János Apostolt-is keresztel tsapdosá,</lem><rdg wit="#IV" xml:id="rdg.60">körösztel</rdg></app></l>
+<l xml:id="l.104">Töb sok hiveit-is illy úton hordozá.</l>
+</lg>
+<lg xml:id="lg.27">
+<l xml:id="l.105"><hi rend="bold">B</hi>izony jónkra vadnak tehát a’ nyavalyák,</l>
+<l xml:id="l.106">Mellyek keservesen szivünket sujtollyák,</l>
+<l xml:id="l.107">Lelkünk fene sebét szépen orvosollyák,</l>
+<l xml:id="l.108"><app xml:id="app.53"><lem wit="#KK" xml:id="lem.53">Az örök életre lelkünket gyogyittyák.</lem><rdg wit="#IV" xml:id="rdg.61">lelkünket újjéttyák</rdg></app></l>
+</lg>
+<lg xml:id="lg.28">
+<l xml:id="l.109"><hi rend="bold">A</hi>’ Purgatorium e’ világon vagyon,<note type="critic" xml:id="note.15">Ezt
+                            a sort az <date when="1699">1699.</date> évi katolikus nagyszombati
+                            kiadás dogmatikai szempontból így változtatta meg: „Tisztulásunk gyakran
+                            e’ világon vagyon” (149).</note></l>
+<l xml:id="l.110"><app xml:id="app.54"><lem wit="#KK" xml:id="lem.54">Jó Istenünk tüze bár itt sanyaritson,</lem><rdg wit="#III" xml:id="rdg.62">sanyargasson</rdg></app></l>
+<l xml:id="l.111"><app xml:id="app.55"><lem wit="#KK" xml:id="lem.55">Mint ötvös aranyat minket itt tisztitson,</lem><rdg wit="#IV" xml:id="rdg.63">minket meg-tisztitson</rdg></app></l>
+<l xml:id="l.112"><app xml:id="app.56"><lem wit="#KK" xml:id="lem.56">S’ pokolbéli tüzre bününkért ne tartson</lem><rdg wit="#IV" xml:id="rdg.64">tüzre bennünket ne tartson</rdg></app></l>
+</lg>
+<lg xml:id="lg.29">
+<l xml:id="l.113"><hi rend="bold">T</hi>éged oh szent Isten ezért minden áldgyon,</l>
+<l xml:id="l.114"><app xml:id="app.57"><lem wit="#KK" xml:id="lem.57">Job Pátriárchával sziböl hálát adgyon,</lem><rdg wit="#III #IV" xml:id="rdg.65">szivböl</rdg></app></l>
+<l xml:id="l.115">Drága orvos kezed mi nálunk maradgyon,</l>
+<l xml:id="l.116">Erre minden kegyes ember ament mondgyon.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

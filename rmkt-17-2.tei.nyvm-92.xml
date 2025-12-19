@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">92.</title>
+<title key="body" n="92" type="main">(Kaltenstein Leuel...)</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-92</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi rend="bold">Proventus Capituli ab Anno</hi> 1617.</bibl> A győri káptalan
+                        bordézsma könyve az <date when="1617">1617</date>. évtől. (GyKML, gazdasági iratok
+                    között.) A 20. sz. versikét kiad. <bibl><hi rend="smallcaps">Jenei</hi>: Magyar költők. XVII. század.
+                            Bp. 1956. 183.</bibl> – A fehér pergamen kötésű kötet számozatlan
+                        lapjain egy-egy évnél az egyes községek külön-külön vannak feltüntetve. Az
+                            <date when="1615">1615</date>. évnél jegyezte fel a költő az 1. sz. versikét, a
+                        többit mind <date when="1628">1628-nál</date>, az egyes községek neve mellé írva.</p>
+<p xml:id="crit.1.p.2">Nyéki Vörös szívesen vállalta szüret idején a bordézsma beszedését, és a
+                        védenyi káptalani szőlő ügyének intézését. A káptalan Fertő-vidéki nagy
+                        szőlőbirtokainak központjában, Védenyben (ma <placeName>Weiden am
+                            See<idno type="ITIdata">Q8645</idno></placeName>, Burgenlandban) gyakran tartózkodott, nem egy fennmaradt
+                        levelét innen keltezte. (<bibl>Iratok 8, 11, 12. sz.</bibl>) A káptalanhoz
+                        tartozó egyes falvakról, mezővárosokról szóló strófák önálló kis versek:
+                        gyakorlati okokból közöljük őket versfüzérként. A falucsúfoló versikék
+                        közben egy-egy városról (<placeName>Bécs<idno type="ITIdata">Q99</idno></placeName>,
+                        <placeName>Győr<idno type="ITIdata">Q128</idno></placeName>) is papírra vetett a költő egy-egy strófát.
+                        Ezeket a kézirat sorrendjének megfelelő helyen közöljük. – A kis versikékben
+                        sok olyan tartalmi elem van, melyet ma már nem tudunk megfejteni; ezeket
+                        csak a kor embere értette meg. A versikék jelentősége az, hogy a folklór
+                        által jól ismert falucsúfoló mondások között a legrégebbi, írásban
+                        lejegyzettek.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Proventus Capituli ab Anno 1617.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 92.</fw>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Kaltenstein Leuel<note type="critic" xml:id="note.1"><placeName>Levél<idno type="ITIdata">Q18943</idno></placeName>: község
+                            Győr-Sopron megyében. – Ugyanerről a faluról lásd a 9. strófát
+                            is.</note></l>
+<l xml:id="l.2">az ki honniaban keuel</l>
+<l xml:id="l.3">s veled nem örömest bezel</l>
+<l xml:id="l.4">chiak ablakarol neszel<note type="critic" xml:id="note.2">neszel – olv. nézél = megvizsgál, alaposan megnéz. (A 33. sorban is.)</note></l>
+<l xml:id="l.5">hog az vezan<note type="critic" xml:id="note.3">A <hi rend="italic">vezan</hi> szó értelmét
+                            nem sikerült megfejteni, s ezért az sem dönthető el, hogy a <hi rend="italic">fütöz</hi> ige két jelentése (melegedni és
+                            tartózkodni) közül melyikről van itt szó.</note> fütözzel.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.6">Oppidum<note type="critic" xml:id="note.4">Oppidum = mezőváros</note> Weiden<note type="critic" xml:id="note.5">Weiden = <placeName>Védeny<idno type="ITIdata">Q15947</idno></placeName>, község, ma
+                            Burgenlandban</note> ad Lacum Pisonis<note type="critic" xml:id="note.6">Lacus Pisonis =
+                            Fertő tó</note></l>
+<l xml:id="l.7">Ez az boros kazdag Veden</l>
+<l xml:id="l.8">az ky iol tart teged ebeden</l>
+<l xml:id="l.9">Vigaztal s nem hagi szeleden</l>
+<l xml:id="l.10">Űlnöd az aztalnal szegenien.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.11">Oppidum Neüsidll. Nesider<note type="critic" xml:id="note.7"><placeName>Nezsider<idno type="ITIdata">Q8524</idno></placeName>; ma <placeName>Neusiedl
+                        am See</placeName>, Burgenlandban.</note></l>
+<l xml:id="l.12">Mint meg probalt fegiuer</l>
+<l xml:id="l.13">ki ellenseget el vér,</l>
+<l xml:id="l.14">partolast nem keuer,<note type="critic" xml:id="note.8">A sor értelme: nem üt pártot, nem csinál zavargást.</note></l>
+<l xml:id="l.15">ditsekedni azert mer.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.16">Ciuitas Pruggensis, ad fluuium Laytha<note type="critic" xml:id="note.9">Magyarul:
+                                <placeName>Bruckváros</placeName>, a Lajta-folyó mellett. Bruck,
+                        magyarul <placeName>Királyhida<idno type="ITIdata">Q10488</idno></placeName>, régen magyar határváros
+                            Ausztria felé; ma <placeName>Bruckneudorf</placeName>,
+                            Burgenlandban.</note></l>
+<l xml:id="l.17">hol penzedre nylik az paytha.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.18">Czanik,<note type="critic" xml:id="note.10">Czanik = <placeName>Zanig</placeName>, magyarul:
+                        <placeName>Mosonszolnok<idno type="ITIdata">Q9250</idno></placeName>, község Győr-Sopron
+                            megyében.</note> veled emberül banik.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.19">Summerein Hegies halom.</l>
+<l xml:id="l.20">ot az dezmat foglalom</l>
+<l xml:id="l.21">Zent Albertnek zamlalom<note type="critic" xml:id="note.11">19–21
+                        <placeName>Hegyeshalom<idno type="ITIdata">Q9081</idno></placeName> (németül
+                                <placeName>Strassumerein</placeName>) község Győr-Sopron megyében.
+                            Gabona- és állatdézsmája a győri káptalanba bekebelezett Szent Adalberti
+                            prépostság jövedelme volt. Ez időben <persName>Altabak János</persName>
+                            a prépost.</note></l>
+<l xml:id="l.22">haznosnakis talalom</l>
+<l xml:id="l.23">ha Altabaknac aialom</l>
+<l xml:id="l.24">mert azt öuenek uallom.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Gollz, Galos,<note type="critic" xml:id="note.12"><placeName>Gálos<idno type="ITIdata">Q23206</idno></placeName>, ma
+                                <placeName>Gols</placeName>, burgenlandi község.</note></l>
+<l xml:id="l.26">ahol sok nemet zakallos,</l>
+<l xml:id="l.27">Luther hittel halalos.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.28">Podersdorff Pappffalua<note type="critic" xml:id="note.13"><placeName>Podersdorf<idno type="ITIdata"/></placeName>,
+                            község Burgenlandban.</note></l>
+<l xml:id="l.29">ahol iol ihatol fön alua.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.30">Kalltennstein: Leuel,<note type="critic" xml:id="note.14"><placeName>Levél<idno type="ITIdata">Q18943</idno></placeName>: község
+                            Győr-Sopron megyében.</note></l>
+<l xml:id="l.31">hol az polgarsag keuel</l>
+<l xml:id="l.32">s keduedre nem igen bezel</l>
+<l xml:id="l.33">chiak az aytora nezel<note type="critic" xml:id="note.15">nezel – olv. nézél = megvizsgál, alaposan megnéz.</note></l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.34">Appethlany. auagi Apatlan<note type="critic" xml:id="note.16"><placeName>Apetlon</placeName>,
+                        magyarul <placeName>Mosonbánfalva<idno type="ITIdata">Q15734</idno></placeName>, község
+                            Burgenlandban.</note></l>
+<l xml:id="l.35">giermek. kinek giakran</l>
+<l xml:id="l.36">forogh keze à vellan.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.37">Sanct Joannes, Zent Janos,<note type="critic" xml:id="note.17"><placeName>Mosonszentjános<idno type="ITIdata">Q12503</idno></placeName>, község Győr-Sopron
+                            megyében.</note></l>
+<l xml:id="l.38">ahol az veza boitorianos.<note type="critic" xml:id="note.18">boitorianos – itt talán:
+                            hitvány, apró, (Vö. <bibl><abbr>NySz I</abbr>, 264.</bibl>)</note></l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.39">Goes siue Niulas,<note type="critic" xml:id="note.19"><placeName>Nyulas<idno type="ITIdata">Q23486</idno></placeName>, ma
+                                <placeName>Jois</placeName>, község Burgenlandban.</note></l>
+<l xml:id="l.40"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">ot sokat ne mulas</lem><rdg wit="#I" xml:id="rdg.1">mulas <del>mert az <unclear>bortoll</unclear> bodulas</del></rdg></app></l>
+<l xml:id="l.41">mert az turo igen szias.<note type="critic" xml:id="note.20">szias = inas, rágós</note></l>
+<l xml:id="l.42">keduedis miatta buas<note type="critic" xml:id="note.21">buas = bús; a szokatlan <hi rend="italic">buas</hi> alak valószínűleg csak a tréfás vers ríme
+                            kedvéért keletkezett.</note></l>
+<l xml:id="l.43">vagion heled houa buhas.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.44">Pomackhen siue Pomogy<note type="critic" xml:id="note.22"><placeName>Pomogy<idno type="ITIdata">Q12458</idno></placeName>, ma
+                                <placeName>Pamhagen</placeName>, község Burgenlandban.</note></l>
+<l xml:id="l.45">de nem amaz hires Somogy.</l>
+<l xml:id="l.46">mert palaskodbol az bor hamar fogy.</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.47">Neudorff. Vyfalu,<note type="critic" xml:id="note.23"><placeName>Neudorf</placeName> bei
+                        Parndorf, magyarul: <placeName>Mosonújfalu<idno type="ITIdata">Q17162</idno></placeName>, község
+                            Burgenlandban.</note></l>
+<l xml:id="l.48">ninch ot igen az bor gialu<note type="critic" xml:id="note.24">A bor gialu értelmét nem sikerült megfejteni.</note></l>
+<l xml:id="l.49">azert be teue<note type="critic" xml:id="note.25">olv. téve</note> az kapu,</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.50">Sanctus Petrus, uel Santpeter<note type="critic" xml:id="note.26"><placeName>Mosonszentpéter<idno type="ITIdata">Q20421</idno></placeName>, község Győr-Sopron
+                            megyében.</note></l>
+<l xml:id="l.51">hol az korchomara az Santa be tör</l>
+</lg>
+<lg xml:id="lg.16">
+<l xml:id="l.52">Münich Hoff. Barattffalua.<note type="critic" xml:id="note.27"><placeName>Mönchhof</placeName>, magyarul
+                        <placeName>Barátudvar<idno type="ITIdata">Q5966</idno></placeName>, község Burgenlandban.</note></l>
+<l xml:id="l.53">hol az gazda bezel treffalua.</l>
+<l xml:id="l.54">s vonzon az ökör suytua.<note type="critic" xml:id="note.28">A sor értelme: az ökör csak akkor húz, ha ütik.</note></l>
+</lg>
+<lg xml:id="lg.17"><l xml:id="l.55">Onthau<note type="critic" xml:id="note.29"><placeName>Antau</placeName>, magyarul
+                    <placeName>Selegszántó<idno type="ITIdata">Q22137</idno></placeName>, község Burgenlandban</note> Mit
+                        nez ream bau.<note type="critic" xml:id="note.30">– a <hi rend="italic">bámul</hi>, <hi rend="italic">bávul</hi> szónak lehet a tréfás rím kedvéért
+                            lerövidített alakja.</note>
+</l></lg>
+<lg xml:id="lg.18">
+<l xml:id="l.56">Gattendorff Gattha,<note type="critic" xml:id="note.31"><placeName>Gattendorf</placeName>,
+                        magyarul <placeName>Lajtakáta<idno type="ITIdata">Q15265</idno></placeName>, község
+                        Burgenlandban.</note></l>
+<l xml:id="l.57">roszab ott az föld hata,</l>
+<l xml:id="l.58">hol terem az malata.</l>
+<l xml:id="l.59"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">az haszontalan salata</lem><rdg wit="#I" xml:id="rdg.2">az <del><unclear>borostianon</unclear></del></rdg></app></l>
+<l xml:id="l.60">ki mellet keduetlen az chata<note type="critic" xml:id="note.32">chata – itt: csapat</note></l>
+<l xml:id="l.61">s, ott nemis danogat az katha</l>
+</lg>
+<lg xml:id="lg.19">
+<l xml:id="l.62">Mosonienses. Moson,<note type="critic" xml:id="note.33">Moson; ma
+                        <placeName>Mosonmagyaróvár<idno type="ITIdata">Q20871</idno></placeName>.</note></l>
+<l xml:id="l.63">keues keduek<note type="critic" xml:id="note.34">Keues keduek – talán: kevés a kedvek, nincsen kedvük hozzá. A sor alkalmi célzását azonban ez sem teszi érthetővé.</note> à Roson</l>
+<l xml:id="l.64">mert nem zantnak à koson</l>
+<l xml:id="l.65"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">azert esik haznoson</lem><rdg wit="#I" xml:id="rdg.3">esik <del>az s.....</del></rdg></app></l>
+<l xml:id="l.66">barazdayok arkoson.</l>
+</lg>
+<lg xml:id="lg.20">
+<l xml:id="l.67">Istennek chudaya, s hatalmas munkaya meg vidamult erös Gyeor</l>
+<l xml:id="l.68">Pogani fogsagatol, nehez igayatol meg zabadult fenlö kör<note type="critic" xml:id="note.35"><placeName>Győr<idno type="ITIdata">Q128</idno></placeName>
+<date when="1598">1598</date>. évi felszabadulására utal.</note></l>
+<l xml:id="l.69">Nem uag immar rabia, benned nem is olgia kardgiat, mert Istene<note type="critic" xml:id="note.36">olv. Istené</note> Giör.</l>
+</lg>
+<lg xml:id="lg.21">
+<l xml:id="l.70">Ez az tekintetos Eör,<note type="critic" xml:id="note.37">A strófa – miként az előző is –
+                        <placeName>Győr<idno type="ITIdata">Q128</idno></placeName> városára vonatkozik. A dézsmakönyvben
+                                <placeName>Győr</placeName> neve mellett a baloldali margón a 20.
+                            sz. versike, a jobboldalin a <ref target="rmkt-17-2.tei.mcsi-21">21. sz.</ref> versike olvasható. A sorok utolsó
+                            szavai (őr–bőr–tőr–szőr) a <placeName>Győr</placeName> szóval
+                            rímelnek.</note></l>
+<l xml:id="l.71">hol igen illik az parducz beör,</l>
+<l xml:id="l.72">ott vettetet erös teör</l>
+<l xml:id="l.73">hog el pörsolodgiek minden arulo szeör.</l>
+</lg>
+<lg xml:id="lg.22">
+<l xml:id="l.74">Altenburgh Ovar<note type="critic" xml:id="note.38"><placeName>Óvár</placeName>, németül
+                                <placeName>Altenburg</placeName>, ma
+                        <placeName>Mosonmagyaróvár<idno type="ITIdata">Q20871</idno></placeName>.</note></l>
+<l xml:id="l.75">hol sok haszon vár.</l>
+<l xml:id="l.76">mert kapuiokon à zauar.</l>
+</lg>
+<lg xml:id="lg.23">
+<l xml:id="l.77">Rackhendorff Rayka<note type="critic" xml:id="note.39"><placeName>Rajka<idno type="ITIdata">Q17844</idno></placeName>, község
+                            Győr-Sopron megyében.</note></l>
+<l xml:id="l.78">hol az sok teiü dayka</l>
+<l xml:id="l.79">azert megyen arra à sayka</l>
+<l xml:id="l.80">hogi megh zirosulhon az ayka</l>
+</lg>
+<lg xml:id="lg.24">
+<l xml:id="l.81">Wienn. Béch</l>
+<l xml:id="l.82">Vtadat oda ugi teréch<note type="critic" xml:id="note.40">= térítsd</note></l>
+<l xml:id="l.83">Hogi magad elöb meg kesérch,</l>
+<l xml:id="l.84">erszeniedtöl mindent érch</l>
+<l xml:id="l.85">ha baratod leheté Bech</l>
+</lg>
+<lg xml:id="lg.25">
+<l xml:id="l.86">Ciuitas Pruggensis<note type="critic" xml:id="note.41"><placeName>Bruckról<idno type="ITIdata">Q14133</idno></placeName> lásd a
+                            16. sor jegyzetét.</note></l>
+<l xml:id="l.87">Zep Varas az Prugh</l>
+<l xml:id="l.88">hasonlassal<note type="critic" xml:id="note.42">hasonlás – itt: lázadás, felkelés, zavargás</note> feol nem rugh</l>
+<l xml:id="l.89">partolokat fogsagban dugh,</l>
+<l xml:id="l.90">Czazar hiusege ellen nemis súgh.<note type="critic" xml:id="note.43">súgh = suttog</note></l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

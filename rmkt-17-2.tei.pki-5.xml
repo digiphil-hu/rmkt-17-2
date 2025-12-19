@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">5.</title>
+<title key="body" n="5" type="main">AZ VITÉZSÉGHNEK JÓ HIRÉVEL NEVÉVEL MEG-ÉKESÉTETET ERÖS
+                    FÉRFIAKNAK...</title>
+<author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.pki-5</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-16.xml" type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1">
+<p xml:id="crit.1.p.1">Nyomtatott kiadásai:</p>
+<p xml:id="crit.1.p.2">I. <bibl><hi rend="bold">Pécseli Király Imre: <title>Catechismus</title>.
+                        <placeName>Lőcse<idno type="ITIdata">Q8066</idno></placeName>
+<date when="1635">1635.</date></hi> A2a–A3b.</bibl> – Az első vsz.
+                        kivételével sorok szerint tördelve közli az éneket.</p>
+<p xml:id="crit.1.p.3">II. <bibl><hi rend="bold">Pécseli Király Imre: <title>Catechismus</title>.
+                        <placeName>Pápa<idno type="ITIdata">Q23406</idno></placeName>
+<date when="1624">1624.</date></hi> A2a–A3b.</bibl></p>
+<p xml:id="crit.1.p.4">Pécseli Király katekizmusáról lásd a prózai művei ismertetése során
+                        előadottakat. Az érsekújvári vitézeknek ajánlott könyv dedikáló-verse
+                            <date when="1624">1624-ben</date> valószínűleg az év elején keletkezett. Az utolsó
+                        strófában ugyanis az új esztendőt emlegeti a szerző.</p>
+<p xml:id="crit.1.p.5">Mindkét kiadásban a bibliai helyekre való utalások a lap közepén vannak. Ez
+                        félrevezető, mert azt a látszatot kelti, mintha az egyes bibliai részek
+                        megnevezése utáni strófák a szentírás jelzett helyének kifejtését
+                        tartalmaznák. Ezzel szemben egyszerű forrás-utalásokról van szó, melyek az
+                        előző szakaszokban mondottak bibliai forrását jelzik. Ezért ezeket az
+                        utalásokat mint a szerző lapszéli jegyzeteit tekintettük, s kiadásunkban a
+                        lap aljára helyeztük.</p>
+</note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki
+                        Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII.
+                        század</title><title type="sub">2.</title><author><persName><surname>Pécseli
+                                Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi
+                                Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki
+                                Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai
+                        Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Pécseli Király Imre: Catechismus. Lőcse 1635.
+                        A2a–A3b.</witness>
+<witness xml:id="II">Pécseli Király Imre: Catechismus. Pápa 1624.
+                        A2a–A3b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 5.</fw>
+<head type="title">AZ VITÉZSÉGHNEK JÓ HIRÉVEL NEVÉVEL MEG-ÉKESÉTETET ERÖS
+                    FÉRFIAKNAK, </head>
+<head type="subtitle"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1">Az Uyvári Lovas és Gyalog sereg elöt járóknak; Sereg-biro
+                            Vramnak, Hadnagyoknak, Vaydaknak, Es mind az egész Gyülekezetbeli
+                            Keresztyéneknek, nékem jó Gazdáimnak és kedves Halgatoimnak: Az jó
+                            Istentöl egésséget, békességet, hoszszu életet, és, minden lelki jókban,
+                            idvösséges elömenetelt kévánok szivem szerént.</lem>
+<rdg wit="#II" xml:id="rdg.1">Istentül</rdg>
+</app></head>
+<head type="notation"/>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Iambor Atyák, kik Uyvárban lakoztok,</l>
+<l xml:id="l.2">Kik a’ Seregh Templomához halgattok,</l>
+<l xml:id="l.3">Es kik csak az egy Istent imádgyátok,</l>
+<l xml:id="l.4">Egy kevés beszédem vagyon hozzátok.<note type="critic" xml:id="note.1">1–4 Az ének első
+                            strófája <persName>Tinódi</persName>, illetve a históriás ének
+                            hagyományos stílusára emlékeztet. Pécseli Király úgy látszik ezzel az
+                            érsekújvári végvári katonaság ízléséhez igazodott tudatosan vagy
+                            önkéntelenül.</note></l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2">Mint hogy Isten benneteket meg-áldot,</lem>
+<rdg wit="#II" xml:id="rdg.2">bennetec</rdg>
+</app></l>
+<l xml:id="l.6">Kedves magzatockal ajándékozot,</l>
+<l xml:id="l.7">Ez világon illy drága jóval látot,</l>
+<l xml:id="l.8">Meg-lássátok illy kéntset miért adot.<note type="footnote">Psal. 127. v 3.</note></l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">A’ Szent Pálnak erröl szavát hallyátok,</l>
+<l xml:id="l.10"><app xml:id="app.3">
+<lem wit="#KK" xml:id="lem.3">Tiszteteket töle meg-tanullyátok,</lem>
+<rdg wit="#II" xml:id="rdg.3">tüle</rdg>
+</app></l>
+<l xml:id="l.11">Atyák, ugy-mond, erre legyen gondotok,</l>
+<l xml:id="l.12">Hogy jól nevelkedgyenek magzatitok.<note type="footnote">Ephes. 6. v 4.</note></l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Az Istennek fiui félelmére,</l>
+<l xml:id="l.14"><app xml:id="app.4">
+<lem wit="#KK" xml:id="lem.4">Nogassátok öket szent igéjére,</lem>
+<rdg wit="#II" xml:id="rdg.4">üket</rdg>
+</app></l>
+<l xml:id="l.15">Tanitsátok boldog esméretire,</l>
+<l xml:id="l.16">Szoktassátok igaz tiszteletire.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Adám Atyánk fiait igy oktatta,</l>
+<l xml:id="l.18">Noe Pátriárcha-is igy szoktatta,</l>
+<l xml:id="l.19"><app xml:id="app.5">
+<lem wit="#KK" xml:id="lem.5">Abrahám-is az szerént tanitotta,</lem>
+<rdg wit="#II" xml:id="rdg.5">szerint</rdg>
+</app></l>
+<l xml:id="l.20">Edes fiát Isaákot igazgatta.<note type="footnote">Gen. 8. v 4 et 9. v 23. et 18. v 19.</note></l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21">A’ többi-is a’ réghi szent emberek,</l>
+<l xml:id="l.22">Jácob, Dávid, vén Tobiás, és többek,</l>
+<l xml:id="l.23">Gyermekjeket illy nagy szépen nevelték,</l>
+<l xml:id="l.24">Szent Istennek ösvényén vezérlették.<note type="footnote">Gen. 37. v 10. 42. v 1. I Reg. 2. v 3. I Paral. 28. Tob. 4. v 3.</note></l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Ti-is ezokáért jó Uyváriak,</l>
+<l xml:id="l.26">Hogy mennyegben legyetek Udvariak,</l>
+<l xml:id="l.27">Engedgyétek, tanullyanak az iffiak,</l>
+<l xml:id="l.28">Hadd nöjenek Istennek iak-fiak.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Fiatalból jó gyümölts-fa ugy lészen,</l>
+<l xml:id="l.30">Ha az kertész jó munkát rayta tészen:</l>
+<l xml:id="l.31">Igy a’ gyermek szép nevelkedést vészen,</l>
+<l xml:id="l.32">Ha tanitás intés lesz rayta szépen.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33">Az uy edént valamivel meg-töltik,</l>
+<l xml:id="l.34">Annak illattya ö rayta meg-érzik:</l>
+<l xml:id="l.35">A’ gyermek-is a’ miként neveltetik,</l>
+<l xml:id="l.36">Eöreg-korában belöle ki-tetzik.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37">O ki boldog, a’ ki jól neveltetik,</l>
+<l xml:id="l.38"><app xml:id="app.6">
+<lem wit="#KK" xml:id="lem.6">Jó szüléktöl Istenhez vezettetik,</lem>
+<rdg wit="#II" xml:id="rdg.6">szülektül Istenhöz</rdg>
+</app></l>
+<l xml:id="l.39">Gyermek-korban a’ ki jóvá tétetik,</l>
+<l xml:id="l.40">Nemes erköltsöckel ékesittetik!</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41">Ez illy fiu, mint az Isaák, oly kedves,</l>
+<l xml:id="l.42">Avagy mint a’ Josef, oly kellemetes,</l>
+<l xml:id="l.43">Ha leánzo, mint Susanna, szépsęges,</l>
+<l xml:id="l.44">Es boldog Aszszony erkölcsében részes.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.45"><app xml:id="app.7">
+<lem wit="#KK" xml:id="lem.7">Legyen elég most ez intés hozzátok,</lem>
+<rdg wit="#II" xml:id="rdg.7">mast</rdg>
+</app></l>
+<l xml:id="l.46">Ez kis könyvetskét jó kedvel fogjátok,</l>
+<l xml:id="l.47">Az Ur Istent nagy hiven szolgállyátok,</l>
+<l xml:id="l.48">Hogy édes irgalma szállyon reátok.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.49">Ez Uy Esztendöben Isten meg-áldgyon,</l>
+<l xml:id="l.50">Nyavalyákat rolatok el-szállitson,</l>
+<l xml:id="l.51">Egésséggel s-békességgel meg-lásson,</l>
+<l xml:id="l.52"><app xml:id="app.8">
+<lem wit="#KK" xml:id="lem.8">Lelki jóckal föképpen fel-ruházzon.</lem>
+<rdg wit="#II" xml:id="rdg.8">föl</rdg>
+</app></l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

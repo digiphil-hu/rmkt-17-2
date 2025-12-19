@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">6.</title>
+<title key="body" n="6" type="main">JAJ TENÉKED KI PRAEDÁLSZ</title>
+<author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.pki-6</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-16.xml" type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1">
+<p xml:id="crit.1.p.1">Nyomtatott kiadásai:</p>
+<p xml:id="crit.1.p.2">I. <bibl><hi rend="bold">Istenes Énekek. <placeName>Lőcse<idno type="ITIdata">Q8066</idno></placeName> <date when="1671">1671.</date></hi> 483–8.</bibl> – Az ének élén:
+                        „Mas” és a főszövegben közölt bibliai hely.</p>
+<p xml:id="crit.1.p.3">II. <bibl><hi rend="bold">Istenes Énekek. <placeName>Lőcse</placeName> <date when="1670">1670.</date></hi> 330–2.</bibl> – Címe ugyanaz; a
+                        bibliai hely megjelölése itt: Esa. 33. 1.</p>
+<p xml:id="crit.1.p.4">III. <bibl><hi rend="bold">Istenes Énekek. <placeName>Kolozsvár<idno type="ITIdata">Q258</idno></placeName> <date when="1677">1677.</date></hi> 255–7.</bibl> – Címe mint
+                        I.-nél.</p>
+<p xml:id="crit.1.p.5">IV. <bibl><hi rend="bold">Istenes Énekek. <placeName>Bártfa<idno type="ITIdata">Q6211</idno></placeName> <date from="1635" to="1640">1635–40.</date></hi> 337–42.</bibl> Kiad. <bibl><hi rend="smallcaps">Vasáry</hi>
+                        48–9</bibl>; <bibl><hi rend="smallcaps">Dézsi</hi>: Balassa munkái II, 342–3.</bibl> – Címe mint II.-nél. Az egyetlen
+                        ismert példány e levelei erősen rongyoltak.</p>
+<p xml:id="crit.1.p.6">V. <bibl><hi rend="bold">Istenes Énekek. <placeName>Kassa<idno type="ITIdata">Q20339</idno></placeName> <date when="1665">1665.</date></hi> 387–8.</bibl> – Az
+                        unicum-példány csonkasága miatt csak az ének utolsó négy strófája maradtitt
+                        meg.</p><p xml:id="crit.1.p.7">A versfőkben: PETsELI JMREE. Az utolsó vsz. szerint <date when="1631">1631-ben</date> keletkezett énekben Pécseli Király a <persName>Bethlen Gábor<idno type="ITIdata">Q41495</idno></persName>
+                            halála utáni évek zűrzavaraira reagál. <persName>Eszterházy Miklós<idno type="ITIdata">Q241308</idno></persName> nádor a hajdúk szabadságának megsemmisítésére törekedett és meg
+                            akarta akadályozni <persName>I. Rákóczi György<idno type="ITIdata">Q53757</idno></persName> trónrajutását. E céljai érdekében jelentős csapatokat állomásoztatott a felvidéki megyékben
+                            rosszul felszerelve és fizetve, ami a lakosság nagyfokú sanyargatásához, kifosztásához vezetett. A katonaság kivonását a
+                            nemesség is követelte és a fosztogatások elleni tiltakozás különösen <date when="1631">1631</date> elején volt általános. (Lásd <bibl><hi rend="smallcaps">Makkai László</hi>: <title>A kuruc
+                            nemzeti összefogás előzményei</title>. Bp. 1956. 134–6.</bibl>) – A vers élén álló Ezsaiás-idézet a hazai irodalmi hagyományban régóta
+                            népszerű és időszerű lehetett, <persName>Temesvári Pelbárt<idno type="ITIdata">Q253846</idno></persName> is idézi <persName>Szent Istvánról<idno type="ITIdata">Q45560</idno></persName> szóló második prédikációjában. (<bibl><title>Pomerium sermonum de
+                                Sanctis</title>. <placeName>Hagenau<idno type="ITIdata">Q8083</idno></placeName> <date when="1515">1515.</date> L6a.</bibl>)</p>
+</note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Istenes Énekek. Lőcse 1671. 483–8.</witness>
+<witness xml:id="II">Istenes Énekek. Lőcse 1670. 330–2.</witness>
+<witness xml:id="III">Istenes Énekek. Kolozsvár 1677. 255–7.</witness>
+<witness xml:id="IV">Istenes Énekek. Bártfa 1635–40. 337–42.</witness>
+<witness xml:id="V">Istenes Énekek. Kassa 1665. 387–8.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 6.</fw>
+<head type="title">JAJ TENÉKED KI PRAEDÁLSZ.</head>
+<head type="subtitle">Es. 33. 1.</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1"><hi rend="bold">P</hi>raedának ki örül erszénye
+                                meg-ürül,</lem>
+<rdg wit="#II" xml:id="rdg.1">meg-örül</rdg>
+</app></l>
+<l xml:id="l.2">Mert Istennek átka forgodik a’ körül,</l>
+<l xml:id="l.3">A’ koborló ember bizony meg-szégyenül,</l>
+<l xml:id="l.4">Roszszul gyült szérdékje<note type="critic" xml:id="note.1">szérdék = préda, zsákmány</note> roszszul ismét el-dül.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5"><hi rend="bold">E</hi>gy rút féreg terem praedának gyomrában,</l>
+<l xml:id="l.6">Kinek jaj a’ neve a’ szent Bibliában,</l>
+<l xml:id="l.7">Sok kárt tész e’ féreg ember joszágában,</l>
+<l xml:id="l.8">Minden jó szerentsét meg-fojt marhájában.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2"><hi rend="bold">T</hi>suda mely édesnek tettzik a’ más
+                                java,</lem>
+<rdg wit="#II" xml:id="rdg.2">Tsoda</rdg>
+</app></l>
+<l xml:id="l.10">Kit magának foglal ember húzva vonva,</l>
+<l xml:id="l.11"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">De bizony ily mézböl méreg lészen folyva,</lem><rdg wit="#III" xml:id="rdg.3">mézbül</rdg></app></l>
+<l xml:id="l.12"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">Melly embert meg-gyaláz mindenestül fogva.</lem><rdg wit="#III" xml:id="rdg.4">mindenestöl</rdg></app></l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13"><hi rend="bold">E</hi>nnek igaz vóltát Sándor<note type="critic" xml:id="note.2"> = Nagy
+                            Sándor</note> bizonyittya,</l>
+<l xml:id="l.14">Kinek sok prędából méreg lön itala,</l>
+<l xml:id="l.15">Es nagy birodalma sok felé fel oszla,</l>
+<l xml:id="l.16"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">Szintén mint a’ Troja gonoszul el bomla.</lem><rdg wit="#III" xml:id="rdg.5">az</rdg></app></l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17"><hi rend="bold">L</hi>est hány a’ büntetés a’ gyors hamisságnak,</l>
+<l xml:id="l.18">Tör esik nyakában minden gonosságnak,</l>
+<l xml:id="l.19">Késneké valamit? adgy helyt igasságnak,</l>
+<l xml:id="l.20">Idvössęges útát kövesd Zakeusnak.<note type="critic" xml:id="note.3">Zakeus a biblia szerint
+                            gazdag jerikói vámszedő, aki Jézust vendégül látta, s vagyona felét a
+                            szegényeknek adta. (<bibl>Lukács 19: 2–10.</bibl>)</note></l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21"><hi rend="bold">I</hi>stennek haragja sem siet sem feled,</l>
+<l xml:id="l.22">Nem siet hogy meg-térj és jól tegyen veled,</l>
+<l xml:id="l.23">De ha nem térsz; semmit bünödben nem feled,</l>
+<l xml:id="l.24">Söt kegyelem nélkül tüz modon rád gerjed.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25"><hi rend="bold">J</hi>onás idét<note type="critic" xml:id="note.4"> = idejében</note> hamar
+                        Ninivé meg tére,</l>
+<l xml:id="l.26">Istennek-is rolok haragja el tére,</l>
+<l xml:id="l.27">De hogy Jerusalem sokára sem tére,</l>
+<l xml:id="l.28">Ezért mind el-nyelé ötet saját vére.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29"><hi rend="bold">M</hi>agyar kérlek téged hadd el a’ praedálást,</l>
+<l xml:id="l.30">Országunkban való szörnyü nyuzást fosztást,</l>
+<l xml:id="l.31">Szegény nemzetünkön való nagy koborlást,</l>
+<l xml:id="l.32"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">Hogy nyújtson az Isten reád bö áldomást.</lem><rdg wit="#IV" xml:id="rdg.6">bü</rdg></app></l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33"><hi rend="bold">R</hi>égi Mátyás Király hogy ha fel-kelhetne,</l>
+<l xml:id="l.34">Es szép szemeivel ha reank nézhetne,</l>
+<l xml:id="l.35">Mint a’ sebes esö rajtunk könyvezhetne,</l>
+<l xml:id="l.36">Es sok gonosz tévöt méltán büntethetne.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37"><app xml:id="app.7"><lem wit="#KK" xml:id="lem.7"><hi rend="bold">E</hi>l-költ az igasság meg-hólt Mátyás Király,<note type="critic" xml:id="note.5">Az
+                                    ismert mondás legkorábbi feljegyzései a XVI. század végéről
+                                    ismeretesek. (<bibl>Sz 1876, 168</bibl>; <bibl>Nyr 1902,
+                                        63</bibl>; <bibl>1958, 235–6.</bibl>) A XVI–XVII. században
+                                    csak a Pécselinél is olvasható alakban ismerték; költőnk azonban
+                                    a két mellékmondatot felcserélte.</note></lem><rdg wit="#III" xml:id="rdg.7"><sic>meg hól</sic></rdg></app></l>
+<l xml:id="l.38"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">Kegyes Isten tsak te fejünk föliben ály,</lem><rdg wit="#III" xml:id="rdg.8">feliben</rdg></app></l>
+<l xml:id="l.39">Sok gonosságinkért minket meg ne utály,</l>
+<l xml:id="l.40">Söt Fiad kedvejért eröddel mellénk szály.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41"><hi rend="bold">E</hi>zer hat száz után harmintz edgyedikben,</l>
+<l xml:id="l.42">Mikor Magyar Magyart praedálná frigyében,</l>
+<l xml:id="l.43"><app xml:id="app.9"><lem wit="#KK" xml:id="lem.9">Irám ezt nagy búmban mint egy kék m<corr>i</corr>rigyben,</lem><rdg wit="#I #II" xml:id="rdg.9">merigyben</rdg><rdg wit="#III #IV" xml:id="rdg.10">mirigyben</rdg></app></l>
+<l xml:id="l.44">Isten jobitson meg minket ily igyünkben.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">3.</title>
+<title key="body" n="3" type="main">REGELI DICZERET</title>
+<author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.pki-3</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-16.xml" type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1">
+<p xml:id="crit.1.p.1">Nyomtatott kiadásai:</p>
+<p xml:id="crit.1.p.2">I. <bibl><hi rend="bold">Oppenheimi-ék.</hi>
+<date when="1612">1612</date>. 136.</bibl></p>
+<p xml:id="crit.1.p.3">II. <bibl><hi rend="bold">Istenes Énekek</hi>. Bártfa <date from="1635" to="1640">1635–40.</date>
+                            291–4.</bibl> – Az egyetlen példány igen rongált volta miatt, csak
+                        töredékeit ismerjük. Az <title><hi rend="italic">Istenes énekek</hi></title>
+                        későbbi rendezett kiadásaiból kimaradt. A rendezetlen <date when="1665">1665</date>. évi
+                        kassai editióban bizonyára benne volt, de az unicum-példány csonkasága miatt
+                        szövege ma már teljesen hiányzik belőle.</p>
+<p xml:id="crit.1.p.4">III. <bibl><hi rend="bold">Szép imádságos könyvecske</hi>.
+                                    <placeName>Lőcse<idno type="ITIdata">Q8066</idno></placeName>
+<date when="1632">1632</date>. 154–6.</bibl> – Erősen romlott változat. Megvan a
+                        kötet <date when="1646">1646</date>. évi kiadásában is: <bibl>II, 160–6.</bibl></p>
+<p xml:id="crit.1.p.5">IV. <bibl><hi rend="bold">Váradi-ék</hi>. <date when="1648">1648</date>. 330–1.</bibl>
+                        Kiad. <bibl><hi rend="smallcaps">Vasáry</hi> 59–60</bibl>; <bibl><hi rend="smallcaps">Dézsi</hi>: Balassa munkái II,
+                            320–2.</bibl> – Az ének ettől kezdve megtalálható a protestáns templomi
+                        énekeskönyvek különböző kiadásaiban (<bibl>Várad <date when="1654">1654</date>.
+                            315–6</bibl>; <bibl>Lőcse <date when="1654">1654</date>. 253.</bibl> stb.).
+                        Valószínűleg megvolt már az <date when="1642">1642</date>. évi elveszett első váradi
+                        kiadásban is, s innen vette át szövegét <persName>Szalárdi Miklós<idno type="ITIdata"/></persName>
+<title><hi rend="italic">Vigasztaló szók</hi></title> című könyvének
+                        függelékébe (<bibl>Gyulafehérvár <date when="1643">1643</date>. 230–2.</bibl> –
+                            <bibl>RMK I, 741.</bibl>). A templomi énekeskönyvekben olvasható
+                        változat került át <persName>Pápai Páriz Imre<idno type="ITIdata"/></persName>
+<title><hi rend="italic">Keskeny ut</hi></title> című kiadványának harmadik
+                        kiadásába is (<bibl>Sárospatak <date when="1662">1662</date>. S6a–S7a.</bibl> –
+                            <bibl>RMK. I. 997.</bibl>).</p>
+<p xml:id="crit.1.p.6">Kéziratai:</p>
+<p xml:id="crit.1.p.7">V. <bibl><hi rend="bold">Eperjesi-graduál</hi> 355b–356a.</bibl> –
+                        Kottával.</p>
+<p xml:id="crit.1.p.8">VI. <bibl><hi rend="bold">Balogi-cantionale</hi> 325–6.</bibl> – A következő
+                        nótajelzéssel: „Nota Szivem szerint Ur Isten”. Ez az ének <persName>Ács
+                            Mihály<idno type="ITIdata">Q238422</idno></persName>
+<title><hi rend="italic">Zengedező mennyei kar</hi></title>-ában
+                            (<date when="1696">1696</date>) jelent meg először; teljes első sora: „Szivem
+                        szerint Ur Isten hálát adok néked” (4–6.). Már csak azért sem lehet eredeti
+                        nótajelzés, mert későbbi, mint Pécseli verse.</p>
+<p xml:id="crit.1.p.9">Hangjegyekkel, négyszólamú feldolgozásban, először Maróthi György adta ki
+                            (<bibl>A Soltároknak Négyes Nótáik, Debrecen <date when="1743">1743</date>.
+                            166.</bibl>). Innen, valamint a későbbi református énekeskönyvekből
+                        tudjuk, hogy az ének nálunk is a világi eredetű ismert német koráldallammal
+                        („Ich dank dir lieber Herre” – lásd <bibl><hi rend="smallcaps">Zahn</hi>: <title>Die Melodien der
+                                deutschen evangelischen Kirchenlieder</title>, 1888–1893. 5354.
+                            sz.</bibl>; <bibl><hi rend="smallcaps">Bőhme</hi>: Altdeutsches Liederbuch, 1925. 257. sz.</bibl>)
+                        terjedt el. A magyar változatok közül a legvilágosabban ritmizált a
+                        <persName>Maróthié<idno type="ITIdata">Q244284</idno></persName>, mi is ennek alapján közöljük a
+                        dallamot.</p>
+<p xml:id="crit.1.p.10"><persName><hi rend="smallcaps">Vasáry</hi><idno corresp="Vasáry Dániel"/></persName> kétesnek tartja Pécseli szerzőségét, valószínűleg
+                        azért, mert a versfőkben neve nem szerepel és mert az ének az <title><hi rend="italic">Istenes énekek</hi></title> rendezett kiadásaiból
+                        kimaradt (<bibl>i. m. 33.</bibl>). Nem valószínű azonban, hogy az <title><hi rend="italic">Istenes énekek</hi></title>
+<date from="1635" to="1640">1635–40</date> körül kiadott bővített bártfai kiadása, mely először
+                        közölte egy csoportban Pécseli Király énekeit, azok élére, – közvetlenül a
+                        „Következnek Pecseli Kiraly Imrenek edgynehány szép eneki” alcím után – egy
+                        nem tőle származó verset iktatott volna. A rendezett kiadásokból való
+                        kimaradás pedig könnyen magyarázható. Szenczi Kertész Ábrahám, váradi
+                        nyomdász, a korábbi összezavart kiadások újraszerkesztője tudta, hogy ez az
+                        ének benne van az általa is több ízben kiadott templomi énekeskönyvben, mint
+                        kedvelt és elfogadott egyházi ének. Az <title><hi rend="italic">Istenes
+                                énekek</hi></title> új kiadásaival viszont a magán ájtatosságot
+                        kívánta szolgálni, s ezért ezekbe templomi éneket nem vett fel. Az általa
+                        kibocsájtott templomi énekeskönyvek és Istenes énekek-kiadások énekanyaga
+                        között egyetlen közös darab sincsen. (Vö. <bibl><hi rend="smallcaps">Klaniczay</hi> i. m. 312</bibl>;
+                            <bibl>u. ő. Ujfalvi Imre és az <date when="1602">1602</date>. évi debreceni
+                            énekeskönyv. ItK 1958, 164.</bibl>) – Az éneknek Pécseli Királytól való
+                        származását megerősíti az a körülmény, hogy első ízben <persName>Szenczi
+                            Molnár<idno type="ITIdata">Q49167</idno></persName> oppenheimi énekeskönyvében jelent meg. Szerzőnk
+                            <date when="1612">1612-ben</date> maga is Németországban, <persName>Molnár
+                                Albert<idno corresp="Szenczi                                     Molnár Albert"/></persName> körében tartózkodott, s talán egyik munkatársa is volt
+                        az énekgyűjtemény kiadásában. Könnyen elképzelhető tehát, hogy ez időben írt
+                        reggeli dicsérete is bekerült a gyűjteménybe, annál is inkább, mert
+                            <persName>Molnár<idno corresp="Szenczi Molnár Albert"/></persName>
+<date when="1611">1611-ben</date>, Pécseli Király <placeName>Oppenheimben</placeName>
+                        kiadott retorikája elé írt üdvözlő versében, őt verseiért is dicséri.</p>
+<p xml:id="crit.1.p.11">Az ének a dallammal kapcsolatban már említett német „Ich dank dir lieber
+                        Herre...” kezdetű vers átültetése. A <persName>Johann Kohlrosz<idno type="ITIdata">Q492292</idno></persName>
+                        által írt népszerű XVI. századi német éneket Miskolczi Csulyak is
+                        lefordította. (Lásd a <ref target="rmkt-17-2.tei.mcsi-27">27. sz.</ref> ének jegyzeteit, ahol a német
+                        eredeti szövegét is közöljük.)</p>
+</note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Oppenheimi-ék. 1612. 136.</witness>
+<witness xml:id="II">Istenes Énekek. Bártfa 1635–40. 291–4.</witness>
+<witness xml:id="III">Szép imádságos könyvecske. Lőcse 1632. 154–6.</witness>
+<witness xml:id="IV">Váradi-ék. 1648. 330–1.</witness>
+<witness xml:id="V">Eperjesi-graduál 355b–356a.</witness>
+<witness xml:id="VI">Balogi-cantionale 325–6.</witness> </listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 3.</fw>
+<head type="title">REGELI DICZERET</head>
+<!--Dallam-kép 13. o.-->
+<lg xml:id="lg.1">
+<l xml:id="l.1"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1">Diczérlek Uram téged,</lem>
+<rdg wit="#II #III #IV" xml:id="rdg.1">Dicsirlek</rdg>
+</app></l>
+<l xml:id="l.2">Hogy ez elmult éyjel :/:</l>
+<l xml:id="l.3"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Eletem megörizted,</lem><rdg wit="#VI" xml:id="rdg.2">öriztél</rdg></app></l>
+<l xml:id="l.4">Hatalmas kezeddel.</l>
+<l xml:id="l.5"><app xml:id="app.3">
+<lem wit="#KK" xml:id="lem.3">Setetségnec töriböl,</lem>
+<rdg wit="#IV" xml:id="rdg.3">töréböl</rdg>
+</app></l>
+<l xml:id="l.6"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">Melly környülvött vala,</lem><rdg wit="#V" xml:id="rdg.4">környül vet</rdg></app></l>
+<l xml:id="l.7">Imé engemet kivöl,<note type="critic" xml:id="note.1">kivöl olv. kivől (= kivettél)</note></l>
+<l xml:id="l.8"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">Oh mindennec Ura!</lem><rdg wit="#III" xml:id="rdg.5">mindeneknek</rdg></app></l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.9"><app xml:id="app.6">
+<lem wit="#KK" xml:id="lem.6">Néked adoc hálákat,</lem>
+<rdg wit="#VI" xml:id="rdg.6">hálákot</rdg>
+</app></l>
+<l xml:id="l.10">En kegyes Istenem :/:</l>
+<l xml:id="l.11"><app xml:id="app.7"><lem wit="#KK" xml:id="lem.7">Es kérlec mint Atyamat,</lem><rdg wit="#VI" xml:id="rdg.7">atyámot</rdg></app></l>
+<l xml:id="l.12">Mais tarts meg engem.</l>
+<l xml:id="l.13">Hogy szolgálhassac néked,</l>
+<l xml:id="l.14"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">Akaratod szerint,</lem><rdg wit="#IV" xml:id="rdg.8">szerént</rdg></app></l>
+<l xml:id="l.15"><app xml:id="app.9">
+<lem wit="#KK" xml:id="lem.9">Eletemet vezérlyed,</lem>
+<rdg wit="#VI" xml:id="rdg.9">Életünket</rdg>
+</app></l>
+<l xml:id="l.16"><app xml:id="app.10"><lem wit="#KK" xml:id="lem.10">Legy velem oránkint.</lem><rdg wit="#II #IV #V #VI" xml:id="rdg.10">oránként</rdg></app></l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.17"><app xml:id="app.11">
+<lem wit="#KK" xml:id="lem.11">Hogy el ne tévöledgyem,</lem>
+<rdg wit="#II #III #IV #V" xml:id="rdg.11">téveledgyem</rdg>
+<rdg wit="#VI" xml:id="rdg.12"><sic>tévellyedém</sic></rdg>
+</app></l>
+<l xml:id="l.18"><app xml:id="app.12"><lem wit="#KK" xml:id="lem.12">Az te ösvényedröl :/:</lem><rdg wit="#IV #VI" xml:id="rdg.13">ösvényidröl</rdg></app></l>
+<l xml:id="l.19">Ne ártson ellenségem,</l>
+<l xml:id="l.20">Örizkedgyem büntöl.</l>
+<l xml:id="l.21">Örizz meg jóvoltodbol,</l>
+<l xml:id="l.22"><app xml:id="app.13"><lem wit="#KK" xml:id="lem.13">Uram téged kérlec,</lem><rdg wit="#III" xml:id="rdg.14">tégedet</rdg></app></l>
+<l xml:id="l.23">Ördög álnokságátol</l>
+<l xml:id="l.24">Hogy semmit ne féllyec.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.25">Adgyad hogy erös hittel,</l>
+<l xml:id="l.26"><app xml:id="app.14"><lem wit="#KK" xml:id="lem.14">Bizhassam szent fiadban<note type="critic" xml:id="note.2">A sorban egy szótaggal több van a kelleténél, de mivel csak a szerzőtől egészen távol álló V. variáns korrigálja a
+                        hibát, nem javíthattunk.</note> :/:</lem><rdg wit="#V" xml:id="rdg.15">Bizam</rdg></app></l>
+<l xml:id="l.27">Büneimet töröld el</l>
+<l xml:id="l.28">Tarts meg irgalmadban.</l>
+<l xml:id="l.29">Hiszem hogy ezt megadod,</l>
+<l xml:id="l.30"><app xml:id="app.15">
+<lem wit="#KK" xml:id="lem.15">Az mint megigérted,</lem>
+<rdg wit="#IV" xml:id="rdg.16">meg-igirted</rdg>
+<rdg wit="#VI" xml:id="rdg.17">mit</rdg>
+</app></l>
+<l xml:id="l.31"><app xml:id="app.16"><lem wit="#KK" xml:id="lem.16">Bününket megboczátod,</lem><rdg wit="#VI" xml:id="rdg.18">Bünönket</rdg></app></l>
+<l xml:id="l.32">Ha könyörgünk néked.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.33"><app xml:id="app.17">
+<lem wit="#KK" xml:id="lem.17">Szeress jo reménséggel,</lem>
+<rdg wit="#III" xml:id="rdg.19">Szerez</rdg>
+</app></l>
+<l xml:id="l.34">Melly nem eyt szégyenben :/:</l>
+<l xml:id="l.35">Atyafi szeretettel,</l>
+<l xml:id="l.36"><app xml:id="app.18"><lem wit="#KK" xml:id="lem.18">Epits életemben.</lem><rdg wit="#III" xml:id="rdg.20">éltemben</rdg></app></l>
+<l xml:id="l.37">Hogy szivböl szerethessem,</l>
+<l xml:id="l.38">Felebarátomat,</l>
+<l xml:id="l.39">Es ebben ne keressem</l>
+<l xml:id="l.40">Czac az én hasznomat.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.41">Enged hogy szent igédet</l>
+<l xml:id="l.42">Bátran megvalhassam :/:</l>
+<l xml:id="l.43"><app xml:id="app.19"><lem wit="#KK" xml:id="lem.19">Tisztemben hivségemet</lem><rdg wit="#IV" xml:id="rdg.21">hüségemet</rdg></app></l>
+<l xml:id="l.44">Neked megtarthassam.</l>
+<l xml:id="l.45"><app xml:id="app.20">
+<lem wit="#KK" xml:id="lem.20">Senki engem ez földen</lem>
+<rdg wit="#III #IV #V #VI" xml:id="rdg.22">földön</rdg>
+</app></l>
+<l xml:id="l.46">Töled el ne vonnyon,</l>
+<l xml:id="l.47">Hiveid seregeben</l>
+<l xml:id="l.48">Felséged megtartson.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.49"><app xml:id="app.21">
+<lem wit="#KK" xml:id="lem.21">Hogy szent diczéretedre,</lem>
+<rdg wit="#III #IV" xml:id="rdg.23">dicziretedre</rdg>
+</app></l>
+<l xml:id="l.50">Végezzem ez napot :/:</l>
+<l xml:id="l.51"><app xml:id="app.22"><lem wit="#KK" xml:id="lem.22">Töled ne térjec félre,</lem><rdg wit="#VI" xml:id="rdg.24"><sic>térlek</sic></rdg></app></l>
+<l xml:id="l.52"><app xml:id="app.23"><lem wit="#KK" xml:id="lem.23">Vezérlyed utamot.</lem><rdg wit="#II #III #IV" xml:id="rdg.25">utamat</rdg></app></l>
+<l xml:id="l.53"><app xml:id="app.24"><lem wit="#KK" xml:id="lem.24">Ald meg termö földünket,</lem><rdg wit="#V" xml:id="rdg.26">földönket</rdg></app></l>
+<l xml:id="l.54">Oerizz életünkben,</l>
+<l xml:id="l.55">Mert minden szerenczenket,</l>
+<l xml:id="l.56">Ajánlyuc kezedben.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

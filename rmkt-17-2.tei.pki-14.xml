@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">14.</title>
+<title key="body" n="14" type="main">DE RESURRECTIONE D. N. I. C.</title>
+<author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.pki-14</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kéziratai:</p>
+<p xml:id="crit.1.p.2">I. <hi rend="bold">Csurgói graduál 44a–b.</hi> – A szertartási szövegek,
+                        pontosabban az invocatiok és a psalmusok közé ékelt, három versből álló
+                        csoport egyik éneke. Ezzel együtt Pécseli Király egy másik verse (lásd a
+                        következő éneket) és <persName>Tolnai Borbély Gergely</persName> egy éneke
+                        (lásd sorozatunk VI. kötetében) olvasható itt. Az ének előtt: „1632 ie [vagy
+                        163 Die] 9 Decembris De Resurrectione D. N. I. C. E. R. Petse.” A
+                        bizonytalan olvasat miatt nem állapítható meg pontosan a bejegyzés
+                        időpontja; csak az bizonyos, hogy az <date from="1630" to="1639">1630-as</date> évekről van szó.
+                        (Bonyolítja a kérdést, hogy a csoport harmadik éneke előtt a keltezés
+                        szintén félreérthető: „163 9 Decembris”. Nem tudni, hogy a 9-es szám az
+                        évet, vagy a napot jelenti-e.) – Erről a változatról és Pécseli
+                        szerzőségéről elsőnek <persName><hi rend="smallcaps">Kálmán Farkas</hi></persName> adott hírt
+                                (<bibl><title>A csurgói énekes-könyv</title>. M. Prot. Egyh. és Isk.
+                            Figy. 1880, 565.</bibl>).</p>
+<p xml:id="crit.1.p.3">II. <hi rend="bold">Kecskeméti graduál 227.</hi> – Nem tartozik a kódex
+                        1637–8-ban leírt törzsanyagához. Az ének végén a másoló bejegyzése:
+                        „Scripsit Stephanus Werboy Anno 1685 Die, 14 Marty”.</p>
+<p xml:id="crit.1.p.4">Nyomtatott kiadásai:</p>
+<p xml:id="crit.1.p.5">III. <hi rend="bold">Lőcsei-ék. <date when="1696">1696</date>. 450.</hi> – Innen kezdve
+                        az ének állandóan megtalálható a református énekeskönyvekben, így az
+                            <date when="1700">1700.</date> évi debreceniben (260) stb.</p>
+<p xml:id="crit.1.p.6">IV. <hi rend="bold">Cantus Catholici. <date when="1651">1651</date>. 75–6.</hi> Kiad.
+                            <bibl>Facsimile-kiadás 99. (MIR XXXV.)</bibl> – A kottával együtt közölt
+                        ének címe: Mas Regi Ének. Az ének itt a 2. és 3. vsz. között egy szakasszal
+                        bővült. A <hi rend="italic">Cantus</hi> első kiadása nyomán közlik az éneket
+                        a későbbi katolikus énekeskönyvek (<hi rend="italic">Kájoni</hi> 238.; <hi rend="italic">Szegedy</hi> 356. stb.) valamint kéziratok (<hi rend="italic">Zemlény-ék.</hi> 64a–b, <hi rend="italic">Écsi-ék.</hi>
+                        240. stb.) is.</p>
+<p xml:id="crit.1.p.7">Az ének dallamát a <hi rend="italic">Cantus</hi> közli először
+                            (<date when="1651">1651</date>. 75.). Az a melódia, amelyre Pécseli Király énekét –
+                        nem minden változtatás nélkül – alkalmazta, valószínűleg korális (gregorián)
+                        eredetű, s a cseh-morva testvérek énekeskönyveiben (<date when="1531">1531</date>,
+                            <date when="1561">1561</date> stb.) Hoc festum venerantes címmel található
+                            (<bibl>Zahn i. m. 8087.</bibl>). Itt kivételesen nem a legrégibb
+                        forrásból, hanem a XVIII. századi református énekeskönyvek közölte
+                        kialakultabb, kiforrottabb és szebb alakban adjuk, a kolozsvári ék.
+                            (<date when="1744">1744</date>. 304.) alapján.</p>
+<p xml:id="crit.1.p.8">Pécseli Király szerzőségét csak a <hi rend="italic">Csurgói graduál</hi>
+                        jegyzete bizonyítja. Ennek ellentmondani látszik az a körülmény, hogy a
+                                <title><hi rend="italic">Cantus Catholici</hi></title> „régi
+                        ének”-nek mondja és egy bővebb változatot hoz. Mégis hitelesnek kell
+                        tekintenünk a <hi rend="italic">Csurgói graduál</hi> megjegyzését, mert
+                        mindhárom egy csoportot alkotó említett vers élén ott van a szerzőre való
+                        utalás, amit <persName>Tolnai Borbély</persName> esetében a versfők
+                        feltétlenül hitelesítenek. Nyilvánvaló ezért, hogy az „E. R. Petse.”
+                        megjelölés az ének szerzőjére vonatkozik. Legfeljebb annak a lehetősége
+                        állhat fenn, hogy a katolikus változat a korábbi, s Pécseli ezt csak
+                        rövidítette és némileg módosította a reformátusok számára.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Csurgói graduál 44a–b.</witness>
+<witness xml:id="II">Kecskeméti graduál 227.</witness>
+<witness xml:id="III">Lőcsei-ék. 1696. 450.</witness>
+<witness xml:id="IV">Cantus Catholici. 1651. 75–6.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 14.</fw>
+<head type="title">DE RESURRECTIONE D. N. I. C.</head>
+<!--Dallam-kép 33. o.-->
+<lg xml:id="lg.1">
+<l xml:id="l.1"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Feltam<corr>a</corr>t az mi életünk,</lem><rdg wit="#I" xml:id="rdg.1"><sic>Feltamát</sic></rdg><rdg wit="#II" xml:id="rdg.2">Föltámat</rdg></app></l>
+<l xml:id="l.2">Vigan melto énekelnünk,</l>
+<l xml:id="l.3"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Vr Christust diczernünk,</lem><rdg wit="#III #IV" xml:id="rdg.3">dicsirnünk</rdg></app></l>
+<l xml:id="l.4"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">Ez szent naponis aldanunk.</lem><rdg wit="#II" xml:id="rdg.4">aldonunk</rdg></app></l>
+<l xml:id="l.5">Az ang’alockal imadnunk</l>
+<l xml:id="l.6">Mint vrunkat felnünk,</l>
+<l xml:id="l.7"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">Kit diczer fenyes nap, hold es eghi séregek,</lem><rdg wit="#III" xml:id="rdg.5">dicsir</rdg><rdg wit="#IV" xml:id="rdg.6">Enekelvén büneinket könnyebbitenünk</rdg></app></l>
+<l xml:id="l.8"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">Az menn’ei szentek.</lem><rdg wit="#IV" xml:id="rdg.7">És ö benne biznunk</rdg></app></l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.9"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">Ez földben minden gyökerek,</lem><rdg wit="#II #III #IV" xml:id="rdg.8">Az</rdg></app></l>
+<l xml:id="l.10">Faknak bimboj teriednek,</l>
+<l xml:id="l.11"><app xml:id="app.7"><lem wit="#KK" xml:id="lem.7">Mezök megh zödülnek,</lem><rdg wit="#III #IV" xml:id="rdg.9">zöldülnek</rdg></app></l>
+<l xml:id="l.12"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">Eghi madarak örvendnek,</lem><rdg wit="#II #III #IV" xml:id="rdg.10">zengenek</rdg></app></l>
+<l xml:id="l.13">Fakon vigan énekelnek,</l>
+<l xml:id="l.14"><app xml:id="app.9"><lem wit="#KK" xml:id="lem.9">Szárnyokon röpülnek;</lem><rdg wit="#II" xml:id="rdg.11">rebdöznek</rdg><rdg wit="#III" xml:id="rdg.12">repdesnek</rdg><rdg wit="#IV" xml:id="rdg.13">röpdösnek</rdg></app></l>
+<l xml:id="l.15"><app xml:id="app.10"><lem wit="#KK" xml:id="lem.10"><corr>Minden füvek</corr> illatozván gyöniörködtetnek,</lem><rdg wit="#I #II #III" xml:id="rdg.14">Minden fele-füvek<note type="critic" xml:id="note.1">szótagszámhiba</note></rdg><rdg wit="#IV" xml:id="rdg.15">Minden füvek</rdg></app></l>
+<l xml:id="l.16"><app xml:id="app.11"><lem wit="#KK" xml:id="lem.11">Diczeretre intnek.</lem><rdg wit="#III" xml:id="rdg.16">Dicsiretre </rdg><rdg wit="#IV" xml:id="rdg.17">Dicsiretre intnek. – Most azért keresztyén lélek,
+                        Örvendezz a’ nagy Istennek, Édes Teremtödnek. (Mert nem vagy rabja a’ bünnek, Köteliben álnok testnek, s’ a’ csalárd
+                        ördögnek.) Kit dicsirnek a’ nap, és hóld, égi seregek, A’ mennyei Szentek.<note type="critic" xml:id="note.2">Többletstrófa.</note></rdg></app></l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.17"><app xml:id="app.12"><lem wit="#KK" xml:id="lem.12">Föl tamadt mert ö igazan,</lem><rdg wit="#III #IV" xml:id="rdg.18">Fel-támadt</rdg></app></l>
+<l xml:id="l.18"><app xml:id="app.13"><lem wit="#KK" xml:id="lem.13">Ang’alat külde él nyilvan,</lem><rdg wit="#II #III #IV" xml:id="rdg.19">el</rdg></app></l>
+<l xml:id="l.19"><app xml:id="app.14"><lem wit="#KK" xml:id="lem.14">Az Istennek jobian,<note type="critic" xml:id="note.3">A sor értelme homályos; lehetséges, hogy a
+                                            <title><hi rend="italic">Cantus</hi></title> változata a
+                                    helyes: „Ül Istennek jóbján”.</note></lem><rdg wit="#III" xml:id="rdg.20">Koporsonak jobján</rdg><rdg wit="#IV" xml:id="rdg.21">Ül Istennek</rdg></app></l>
+<l xml:id="l.20">Tanitvanival vigadvan,</l>
+<l xml:id="l.21">Megh ielent Galileaban</l>
+<l xml:id="l.22">Pétert vigaztalvan.</l>
+<l xml:id="l.23"><app xml:id="app.15"><lem wit="#KK" xml:id="lem.15">Eörvendez ha voltal gyakran bünert sirasban,</lem><rdg wit="#IV" xml:id="rdg.22">vóltál bünért sokszor sirásban</rdg></app></l>
+<l xml:id="l.24">Alazatossagban.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.25"><app xml:id="app.16"><lem wit="#KK" xml:id="lem.16">Diczeret az nag’ Istennek,</lem><rdg wit="#IV" xml:id="rdg.23">Dicsiret légyen Istennek</rdg></app></l>
+<l xml:id="l.26">Életet ki nyert nepenek,</l>
+<l xml:id="l.27"><app xml:id="app.17"><lem wit="#KK" xml:id="lem.17">Az bünös embernek,</lem><rdg wit="#IV" xml:id="rdg.24">S’ az</rdg></app></l>
+<l xml:id="l.28"><app xml:id="app.18"><lem wit="#KK" xml:id="lem.18">Reszeltette az egeknek,</lem><rdg wit="#III" xml:id="rdg.25">Részeltetvén</rdg><rdg wit="#IV" xml:id="rdg.26">egekkel</rdg></app></l>
+<l xml:id="l.29"><app xml:id="app.19"><lem wit="#KK" xml:id="lem.19">Minden lako heleinek</lem><rdg wit="#IV" xml:id="rdg.27">helyeivel</rdg></app></l>
+<l xml:id="l.30"><app xml:id="app.20"><lem wit="#KK" xml:id="lem.20">Gyön’örüsegeben,</lem><rdg wit="#II" xml:id="rdg.28">Gyönyörüsegev..<note type="critic" xml:id="note.4">levágva</note></rdg><rdg wit="#III" xml:id="rdg.29">Gyönyörüségével</rdg><rdg wit="#IV" xml:id="rdg.30">S’ gyönyörüsęgivel</rdg></app></l>
+<l xml:id="l.31"><app xml:id="app.21"><lem wit="#KK" xml:id="lem.21">Jávaiual latogatvan kazdagittotta,</lem><rdg wit="#II" xml:id="rdg.31">gazdagetotta</rdg><rdg wit="#III" xml:id="rdg.32">gazdagitotta</rdg><rdg wit="#IV" xml:id="rdg.33">Jóvaival látogatta, s’ gazdagitotta</rdg></app></l>
+<l xml:id="l.32"><app xml:id="app.22"><lem wit="#KK" xml:id="lem.22">Tereset kivánta.</lem><rdg wit="#IV" xml:id="rdg.34">kévánnya</rdg></app></l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

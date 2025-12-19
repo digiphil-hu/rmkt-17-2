@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">23.</title>
+<title key="body" n="23" type="main">DULCIS DOLOR SYMPHONISTAE</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-23</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <hi rend="bold">Diarium Apod.</hi> 222a–223a. – A latin cím jelentése: Az énekes édes
+                        fájdalma <date when="1608">1608.</date> végén.</p>
+<p xml:id="crit.1.p.2">Csulyak <date when="1608-12-17">1608. dec. 17-én</date> jegyezte el <persName>Szikszai
+                            György</persName> zombori lelkipásztor leányát, Juditot; az ének ez után
+                        készült (Lásd a 21. sort.) Később a 18. sor virág szál szava fölé a
+                            <persName>Seres Dorkó</persName>, a 21. sor <hi rend="italic">Judit</hi>-ja fölé a <hi rend="italic">Dorkó</hi> nevet írta.
+                            <persName>Seres Dorkót</persName>
+<date when="1622-05-18">1622. máj. 18-án</date> jegyezte el. (Lásd a <ref target="rmkt-17-2.tei.mcsi-39">39. sz.</ref> éneket.) – Ez a
+                        szöveg is előadásra volt szánva, mint a végén levő utasításból kitűnik.
+                        (Repete ultimum rythmum = az utolsó versszakot ismételd meg.)</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 222a–223a.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 23.</fw>
+<head type="title">DULCIS DOLOR SYMPHONISTAE</head>
+<head type="subtitle">1608. exeunte.</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Banattal teljes éltem <metamark function="cesura"/> mert ninch kire vetnem</l>
+<l xml:id="l.2">iffiusagom virágát <metamark function="cesura"/> szememnec vilagát</l>
+<l xml:id="l.3">szivem sohait kesereg <metamark function="cesura"/> mint veretet sereg</l>
+<l xml:id="l.4">éjel es nappal ohait <metamark function="cesura"/> keservesen kiált jait.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Okos hogy már az ember <metamark function="cesura"/> de chac jót sem ismer,</l>
+<l xml:id="l.6">maganac aggodalmat <metamark function="cesura"/> épségért faidalmat</l>
+<l xml:id="l.7">kiván hátara terhet <metamark function="cesura"/> kit alig emelhet,</l>
+<l xml:id="l.8">holtiglan le nem vethet <metamark function="cesura"/> meg sem könnyebbithet.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Magam im meg niűgöztem <metamark function="cesura"/> ki szabadon éltem,</l>
+<l xml:id="l.10">senkitöl ki nem vártam <metamark function="cesura"/> hol akartam jártam:</l>
+<l xml:id="l.11">orszagokat szemleltem, <metamark function="cesura"/> hirt nevet kerestem,</l>
+<l xml:id="l.12">de erre nem talaltam <metamark function="cesura"/> fogsagra sem juttam.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Lassu törnec ezt mondgjác <metamark function="cesura"/> de nagy gondal adgiác</l>
+<l xml:id="l.14">ennec határa czélja <metamark function="cesura"/> halalunc óraja.</l>
+<l xml:id="l.15">Isten törvéniét tudtam <metamark function="cesura"/> félre nem futottam,</l>
+<l xml:id="l.16">társ társal éljen hadta <metamark function="cesura"/> nyerte ki fogadta.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Ejel nappal homalyban <metamark function="cesura"/> szivem volt banatban,</l>
+<l xml:id="l.18"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">mert Coronam giöngy nélkűl <metamark function="cesura"/> ez virág szál nélkűl</lem><rdg wit="#I" xml:id="rdg.1"><add type="insert">Seres Dorko</add><note type="critic" xml:id="note.1"><hi rend="italic">virág
+                                        szál</hi> fölött</note></rdg></app></l>
+<l xml:id="l.19">szűkös volt. Ezt kerestem, <metamark function="cesura"/> keresvén meg löltem,</l>
+<l xml:id="l.20">Istenem adgiad jómra <metamark function="cesura"/> én nyugodalmomra.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Teis Judit hitesem <metamark function="cesura"/> örvendez kegyesem</lem><rdg wit="#I" xml:id="rdg.2"><add place="above" type="insert">Dorko</add><note type="critic" xml:id="note.2"><hi rend="italic">Judit</hi> fölött</note></rdg></app></l>
+<l xml:id="l.22">Istent kérjed szivedben <metamark function="cesura"/> tarchon meg ez hitben:</l>
+<l xml:id="l.23">egyenlö szeretetet <metamark function="cesura"/> adgion eggiességet,</l>
+<l xml:id="l.24">két testűnkben egy lélec <metamark function="cesura"/> legjen miglen élec.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Gazdagsagot ád Isten <metamark function="cesura"/> ki ottis hol ninchen</l>
+<l xml:id="l.26">talal, egytöl el vészi <metamark function="cesura"/> más sebében tészi:</l>
+<l xml:id="l.27">Salamon erröl példa, <metamark function="cesura"/> Isten kit meg álda,</l>
+<l xml:id="l.28">kinchet joszágot eszel <metamark function="cesura"/> kereset, nem kézzel.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Eljen chak Atjanc nekűnc <metamark function="cesura"/> ragiago tűkörűnc,</l>
+<l xml:id="l.30">bölch eszével oktasson <metamark function="cesura"/> szépen simogasson:</l>
+<l xml:id="l.31">mi szo fogadoc legűnc <metamark function="cesura"/> mert ö nekűnc fejűnc:</l>
+<l xml:id="l.32">Ha tölem vársz Uradtol <metamark function="cesura"/> ne fély gialazattol.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33">Istennec szent törvénye <metamark function="cesura"/> legyen szeműnc fénye</l>
+<l xml:id="l.34">mindenben töle fűgjűnc <metamark function="cesura"/> jo tűköröc legjűnc</l>
+<l xml:id="l.35">fegyhetetlen életben <metamark function="cesura"/> éljűnc kegyessegben,</l>
+<l xml:id="l.36">Isten igy szép joszaggal <metamark function="cesura"/> meg ald magzatockal.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37">Tehát alnok baratom <metamark function="cesura"/> chac ez akaratom,</l>
+<l xml:id="l.38">ne irigyeld tarsomot <metamark function="cesura"/> jol tudod sorsomot.</l>
+<l xml:id="l.39">Istent söt teis aldgyad <metamark function="cesura"/> velem magaztaljad,</l>
+<l xml:id="l.40">hogy gondom öszve fűzte <metamark function="cesura"/> -s- banatom el űzte.</l>
+</lg>
+<p xml:id="p.1">Repete ultimum rythmum.</p>
+</div>
+</body>
+</text>
+</TEI>

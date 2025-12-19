@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">33.</title>
+<title key="body" n="33" type="main">DILAUDATIO NUMERI TERNARII</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-33</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi rend="bold">Diarium Apod.</hi> 241a–242b.</bibl> – A latin cím jelentése: A
+                        hármas szám dicsérete, melyet Mária keresztelőjén, <date when="1615-03-17">1615. márc.
+                            17-én</date>, Mars napján énekeltek. – Az ének versfői: MISCOLCI
+                        JSTVAN.</p>
+<p xml:id="crit.1.p.2">A cím után a keresztelő pap, a keresztapák és a keresztelőn részt vettek neve
+                        van felsorolva: Baptista Mariae Mich. P. Varadi, Dios Giörinae, Compatres
+                        Benedictus Szegedi Szent Peterinae, Anthonius Jaszai Görömbölinae, Steph.
+                        Benei felső Soczaiensis Ecclesiae pastor. Georgius Chernel, Johannes Szabo
+                        Praefectus Castri Dios Giör pro parte Magnifici, domini Stephani Török:
+                        Caspar Posoni, Joannes Nagy Haidonum dux, Valentinus Belleni, Matthaeus
+                        Böite judex prim. Resp. Miscolcinae, Petrus Zabari, Ambrosius Szöch,
+                        Laurentii Literati vidua. – A cím mellett a lapszélen egy kis összeállítás
+                        olvasható, melyben különböző szerzők véleményei vannak felsorolva a hármas
+                        számról: Pythagorici numerorum ternarium potentissimum esse prodiderunt,
+                        eoque ad cerimonias deorum utebantur, ut docet Aristot. lib. 1. de coelo et
+                        mundo. Idem numeros in rebus magicis plurimum pollebat: et, ut autor est
+                        Plinius, terna despuere de precatione in omni medicina mos est, atque
+                        effectus adjuvare. Hinc Tibul: Ter cane, ter dictis despue carminibus. Et
+                        poeta in cantamentis amatoriis cecinit Necte tribus nodis ternos Amarylli
+                        colores. Martianus, Plutarchus, caeteri, triada, sive ternione ternarium
+                        numerum, qui masculus est, et efficax, extollunt. Abr. Bzovius Con. 2. dom.
+                        5. post Trinit. pag. 184. – Ez az utóbbi forrásmegjelölés
+                            <persName>Bzovius</persName>: <title><hi rend="italic">Concionum
+                                Dominicalium totius anni</hi></title> c. prédikációskötetére utal.
+                        Az OSzK tulajdonában levő, <placeName>Kölnben</placeName>,
+                            <date when="1615">1615-ben</date> kiadott példány II. kötetének 183–8. lapjain
+                        található egy hármas számról írt prédikáció (<title><hi rend="italic">Quid
+                                est triduo sustinere Dominum?</hi></title>), de ebben Csulyak
+                        szövegének csak az eleje található meg a 184. lapon.</p>
+<p xml:id="crit.1.p.3">Az ének az <date when="1615-03-09">1615. márc. 9-én</date> született <persName>Csulyak
+                            Mária</persName> keresztelőjére készült, aki Csulyak István harmadik
+                        leánya volt.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 241a–242b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 33.</fw>
+<head type="title">DILAUDATIO NUMERI TERNARII</head>
+<head type="subtitle">decantata tempore baptismatis Mariae, 17. Martii. die Martis, anno 1615.</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><hi rend="bold">M</hi>inden szamok közöt haromnál</l>
+<l xml:id="l.2">azt tartom ninchen szeb annal.</l>
+<l rend="level_3" xml:id="l.3">Ha tudod jelenched,</l>
+<l rend="level_3" xml:id="l.4">tölem el ne reiched,</l>
+<l xml:id="l.5">ha nem tudod tölem igy érched.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.6"><hi rend="bold">I</hi>stenis harom személieben</l>
+<l xml:id="l.7">noha chak egy vagion menyben:</l>
+<l rend="level_3" xml:id="l.8">Atia, Fiu, Lélek,</l>
+<l rend="level_3" xml:id="l.9">ez adta hogy élek</l>
+<l xml:id="l.10">es mostan veletek örvendek.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.11"><hi rend="bold">S</hi>zámos kereztiensegnek attia</l>
+<l xml:id="l.12">volt chak harom Patriarka,</l>
+<l rend="level_3" xml:id="l.13">Abram, Isak, Iacob,</l>
+<l rend="level_3" xml:id="l.14">ezeknél nem volt job,</l>
+<l xml:id="l.15">ha teis ollian vagy neked job.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.16"><hi rend="bold">CH</hi>arites szűzek harman voltak</l>
+<l xml:id="l.17">kik mindennek jót akartak,</l>
+<l rend="level_3" xml:id="l.18">senkire nem törtek</l>
+<l rend="level_3" xml:id="l.19">nemis iregykettek</l>
+<l xml:id="l.20">eggiességben mindennel éltek.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.21"><hi rend="bold">O</hi>rsos Parkakis harman voltak</l>
+<l xml:id="l.22">ezek az élettel birtak,</l>
+<l rend="level_3" xml:id="l.23">eggiet ha fel vöttek</l>
+<l rend="level_3" xml:id="l.24">mást az földhöz vertek</l>
+<l xml:id="l.25">sokat koporsoban fektettek.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.26"><hi rend="bold">L</hi>egien chak harom ember eggiűt</l>
+<l xml:id="l.27">Isten nevében egyben giűlt,<note type="critic" xml:id="note.1">26–7 Idézet az Újszövetségből.
+                                (<bibl>Máté, 18,20.</bibl>)</note></l>
+<l rend="level_3" xml:id="l.28">Istenis ot vagion</l>
+<l rend="level_3" xml:id="l.29">töle advan vagion</l>
+<l xml:id="l.30">chak ember töle jót kivannion.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.31"><hi rend="bold">C</hi>hak haromban âl az telljesség</l>
+<l xml:id="l.32">onnat fut tökelletlenség:</l>
+<l rend="level_3" xml:id="l.33">Harom az virtusis</l>
+<l rend="level_3" xml:id="l.34">am bár te mit mongis,</l>
+<l xml:id="l.35">az szeretet, remenség es hit.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.36"><hi rend="bold">I</hi>m nekemis Leaniom harom</l>
+<l xml:id="l.37">az kit en igen akarom,</l>
+<l rend="level_3" xml:id="l.38">Judit es Susanna</l>
+<l rend="level_3" xml:id="l.39">es az kis Maria</l>
+<l xml:id="l.40">mindenik Isten ajandeka.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.41"><hi rend="bold">J</hi>o aldasát vöttem Istennek</l>
+<l xml:id="l.42">kit nem âd minden embernek,</l>
+<l rend="level_3" xml:id="l.43">kinek ágia szoros<note type="critic" xml:id="note.2">szoros – itt ’durus, severus, rigidus’ értelemben. A sor jelentése valószínűleg: akinek rideg, durva az ágya, vagyis:
+                        akinek nincs házastársa.</note></l>
+<l rend="level_3" xml:id="l.44">felesege koros</l>
+<l xml:id="l.45">vagy penig mint egi szurkos polos.<note type="critic" xml:id="note.3">polos – e szót a
+                                <abbr>NySz</abbr> nem ismeri; a <abbr>TSz</abbr> szerint (II, 66.)
+                            jelentése: záptojás. A sor értelme egyébként homályos.</note></l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.46"><hi rend="bold">S</hi>zent hazassagban hát ember ély</l>
+<l xml:id="l.47">hogj az Istentöl sok jót végy:</l>
+<l rend="level_3" xml:id="l.48">jojé<note type="critic" xml:id="note.4"> = jó-e</note> hogi te löttél</l>
+<l rend="level_3" xml:id="l.49">ez vilagra jöttél</l>
+<l xml:id="l.50">nemz teis ha immar fel nöttél.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.51"><hi rend="bold">T</hi>ars nélkűl Isten mondgia élni</l>
+<l xml:id="l.52">az embernek nem jo lenni:</l>
+<l rend="level_3" xml:id="l.53">mert hogi ha el esik</l>
+<l rend="level_3" xml:id="l.54">földön niutva fekszik</l>
+<l xml:id="l.55">fel emelés nélkűl vajuszik.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.56"><hi rend="bold">V</hi>igsaggal teljes háza annak</l>
+<l xml:id="l.57">kinek szép magzati vadnak.</l>
+<l rend="level_3" xml:id="l.58">mert ot az giermek szo</l>
+<l rend="level_3" xml:id="l.59">szeb hogi sem az sip szo,</l>
+<l xml:id="l.60">kedveseb hogi nem az agnö szo.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.61"><hi rend="bold">A</hi>z ki mit nem öt<note type="critic" xml:id="note.5"> = evett. – Itt egy
+                            közmondás van versbe szedve, amely egyébként ismeretlen.</note> azt
+                        dichérni</l>
+<l xml:id="l.62">nem tudgia, szokták mondani,</l>
+<l rend="level_3" xml:id="l.63">bizony chak az tudgia</l>
+<l rend="level_3" xml:id="l.64">az ki be varrotta</l>
+<l xml:id="l.65"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">michoda legien ben az sákba.<note type="critic" xml:id="note.6">63–5 Ugyanazt jelenti, mint a 61–2. sorban olvasható közmondás. Vö. a „zsákban macska” szólással.</note></lem><rdg wit="#I" xml:id="rdg.1">sákba<del>n</del></rdg></app></l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.66"><hi rend="bold">N</hi>e szoljunk arrol többet ottan;</l>
+<l xml:id="l.67">hanem minden lakjék vig’an:</l>
+<l rend="level_3" xml:id="l.68">mert nem vagiunk torban;</l>
+<l rend="level_3" xml:id="l.69">hanem puzdorekban,<note type="critic" xml:id="note.7">puzdorek = a gyermek
+                            születésekor tartott vendégség. (<abbr>NySz</abbr>)</note></l>
+<l xml:id="l.70">jamborok jambornak hazaban.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">72.</title>
+<title key="body" n="72" type="main">RITHMUS HUNGARICUS AD BEATAM MARIAM VIRGINEM</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-72</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1">
+<p xml:id="crit.1.p.1">Kézirata:</p>
+<p xml:id="crit.1.p.2">I. <bibl><hi rend="bold">Győri-toldalék.</hi> 3–6.</bibl> Kiad. <bibl><hi rend="smallcaps">Rómer</hi>, i. m. 65–7.</bibl>; <bibl><hi rend="smallcaps">Házi</hi>,
+                        i. m. 52–4.</bibl> – Az ének végén a kéziratban: „Amen.”</p>
+<p xml:id="crit.1.p.3">Nyomtatott kiadása:</p>
+<p xml:id="crit.1.p.4"><bibl><hi rend="bold">Istenes énekek. <placeName>Bécs</placeName>
+                        [<date from="1635" to="1636">1635–36</date>].</hi> 165–8.</bibl> Kiad. <hi rend="smallcaps">Varjas</hi> az ék.
+                        hasonmás kiadásában. <bibl>Bp. 1941. 165–8.</bibl> A cím előtt: „Mas.” A cím
+                        után fametszet: Mária a gyermekkel, babérkoszorúba foglalva. (Lásd: 20. sz.
+                        tábla.)</p>
+<p xml:id="crit.1.p.5"> A bővített változatban Nyéki Vörös megtartotta a kézirat 1–2. és 5–7 strófáit
+                        (itt 1–2. és 9–11.), csak a vers utolsó sorát változtatva meg kissé; továbbá
+                        gyökeresen átalakította a kézirat 3–4. szakaszait (itt 3. és 7. vsz.). A
+                        nyomtatott szöveg 4–6. és 8. versszakaszai teljesen újak. Az átdolgozás
+                        idejét nem tudjuk, de valószínűleg az <date from="1610" to="1619">1610-es</date> évekről lehet szó, mikor – feltehetőleg – az <title><hi rend="italic">Istenes énekek</hi></title> függelékében később
+                        kiadott énekeinek sorozatát írta.</p>
+</note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Győri-toldalék. 3–6. Kiad. RÓMER, i. m. 65–7.; HÁZI, i. m. 52–4.</witness>
+<witness xml:id="II">Istenes énekek. <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName> [<date from="1635" to="1636">1635–36</date>]. 165–8.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 72/I.</fw>
+<head type="title">RITHMUS HUNGARICUS AD BEATAM MARIAM VIRGINEM</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Istennek zent Annia</l>
+<l xml:id="l.2">latod ziuem kinnia</l>
+<l xml:id="l.3">meli buual keseregien</l>
+<l xml:id="l.4">sok gondolatokual</l>
+<l xml:id="l.5">giakorlatoszagual</l>
+<l xml:id="l.6">meli igen farat legien</l>
+<l xml:id="l.7">buidosasa közöt</l>
+<l xml:id="l.8">te hozzad erközöt</l>
+<l xml:id="l.9">hog mar örömet vegien.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.10">Teriezd ky kegielmed</l>
+<l xml:id="l.11">hog hiu<note type="critic" xml:id="note.1"> olv. hív</note> zegedelmed</l>
+<l xml:id="l.12">indullion zuksegemre</l>
+<l xml:id="l.13">Es emlekezzel megh</l>
+<l xml:id="l.14">dichöult feniessegh</l>
+<l xml:id="l.15">az en köniörgesemre</l>
+<l xml:id="l.16">Te kegiessegedröl</l>
+<l xml:id="l.17">s, Ily zegenied felöl</l>
+<l xml:id="l.18">Hogi ne essem insegre.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.19">El arat sok <sic>búnöm</sic></l>
+<l xml:id="l.20">s megis aligh zünöm</l>
+<l xml:id="l.21">azokból föl sörkennem</l>
+<l xml:id="l.22">Mert niaualias leuen</l>
+<l xml:id="l.23">s, <sic>búntöl</sic> terheltetuen</l>
+<l xml:id="l.24">nehez abbol föl kelnem</l>
+<l xml:id="l.25">Fertelmesult az test</l>
+<l xml:id="l.26">s maid pokolra silliest</l>
+<l xml:id="l.27">Sies ne hagi el veznem.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.28">Segedelmed vettem</l>
+<l xml:id="l.29">mikor esedeztem</l>
+<l xml:id="l.30">zuksegemnek ideyen</l>
+<l xml:id="l.31">Mostannis ne tagad</l>
+<l xml:id="l.32">Tulem else ragad</l>
+<l xml:id="l.33">ez zomorusagh eyen</l>
+<l xml:id="l.34">Latod el hagiattam</l>
+<l xml:id="l.35"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">s megis rutettattam</lem><rdg wit="#I" xml:id="rdg.1"><del>s mint vyzek <unclear>apattam</unclear></del> s megis</rdg></app></l>
+<l xml:id="l.36"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">az karomlas mezeyen.</lem><rdg wit="#I" xml:id="rdg.2">az karomlas <del>fouenien</del> mezeyen.</rdg></app></l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.37">Induly kegiessegre</l>
+<l xml:id="l.38">s tekinch le ez földre</l>
+<l xml:id="l.39">kys kelletlen zolgadra</l>
+<l xml:id="l.40">lasza zömöm nyluan</l>
+<l xml:id="l.41">hogi mit ziuem kiuan</l>
+<l xml:id="l.42">ninchien bozzontasodra</l>
+<l xml:id="l.43">Vagi lelkem karara</l>
+<l xml:id="l.44">kinek te iauara</l>
+<l xml:id="l.45">nez chiak artatlansagra.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.46">Tudom biszoni ertöd</l>
+<l xml:id="l.47">s, azert elsem röitöd</l>
+<l xml:id="l.48">zent zinöd keresemtöl</l>
+<l xml:id="l.49">mert igieközetöm</l>
+<l xml:id="l.50">s, en erötlensegeom</l>
+<l xml:id="l.51">biratik felsegedtöl</l>
+<l xml:id="l.52">Segech szuksegemben</l>
+<l xml:id="l.53">hogy elömentemben</l>
+<l xml:id="l.54">tizteltessel fergedtöl.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.55">Esmerie megh mindön</l>
+<l xml:id="l.56">hog segedelmedön</l>
+<l xml:id="l.57">nem mulik semmi haszon</l>
+<l xml:id="l.58">ha zinten ideigh</l>
+<l xml:id="l.59">remensegem kesyk</l>
+<l xml:id="l.60">nem maradok szaraszon.</l>
+<l xml:id="l.61">Zerenchem megh lezen</l>
+<l xml:id="l.62">s maid kedueben veszen</l>
+<l xml:id="l.63">ky mindeneken azzoni.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.2" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 72/II.</fw>
+<head type="title">AZON SZEP SZÜZHÖZ</head>
+<lg xml:id="lg.8">
+<l xml:id="l.64">Istennek szent Annya látod szivem kínnya,</l>
+<l xml:id="l.65">Melly búval keseregjen,</l>
+<l xml:id="l.66">Sok gondolatokkal, gyakorlatossággal,</l>
+<l xml:id="l.67">Melly igen fáratt legyen,</l>
+<l xml:id="l.68">Búydosása között, te hozzád érkezett,</l>
+<l xml:id="l.69">Hogy már örömet vegyen.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.70">Terjezd ki kegyelmed, hogy hív segedelmed,</l>
+<l xml:id="l.71">Indúllyon szükségemre,</l>
+<l xml:id="l.72">Es emlekezzél meg, dichöült fényessegh,</l>
+<l xml:id="l.73">Az én könyörgésemre,</l>
+<l xml:id="l.74">Te kegyességedröl, s’ illy szegényed felöl,</l>
+<l xml:id="l.75">Hogy ne essem inségre.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.76">El áratt sok bünöm, s’ mégis alig szünöm,</l>
+<l xml:id="l.77">Azokbol föl serkennem,</l>
+<l xml:id="l.78">Mert gonosz indúlat, semmit el nem múlat,</l>
+<l xml:id="l.79">Akadalt készet nekem,</l>
+<l xml:id="l.80">Kivel természetem, jó igyekezetem,</l>
+<l xml:id="l.81">Meg rontya hamar bennem.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.82">Oh fené gyarlóság ki bátran bír és rágh</l>
+<l xml:id="l.83">S’ nem kémélli lelkemet,</l>
+<l xml:id="l.84">Hazug hizelkedés, hiteget ingerlés,</l>
+<l xml:id="l.85">Változtatván kedvemet,</l>
+<l xml:id="l.86">Eszemben nem veszem, hogy fertelmel nézem</l>
+<l xml:id="l.87">Elöbb útált vétkemet.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.88">Ez az meg revesült,<note type="critic" xml:id="note.2"> = korhadt</note> s’ mi reánk el terült,</l>
+<l xml:id="l.89">Fának férges gyümölche,</l>
+<l xml:id="l.90">Kiben ha mi erö, mind semmire kellö,</l>
+<l xml:id="l.91">Mert meg veszett erkölche,</l>
+<l xml:id="l.92">Ninch az ártatlanság, kiben irgalmasságh,</l>
+<l xml:id="l.93">Kedvét vigan ki önche.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.94">Te azért Aszszonyom, ki elött feoldigh nyom,</l>
+<l xml:id="l.95">Rútságim undoksága,</l>
+<l xml:id="l.96">Ki irgalmasságot szültél, nagy váltságot,</l>
+<l xml:id="l.97">Ne birjon gyarlosága,</l>
+<l xml:id="l.98">Az haylandó testnek, adgyad szegényednek,</l>
+<l xml:id="l.99">Jöjen megh vigassága.</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.100">Segedelmed vegyem, s’ hogy nem gyülölsz hidgyem,</l>
+<l xml:id="l.101">Szomorú szükségimben,</l>
+<l xml:id="l.102">S’ mint annak elötte, kedved védelmezte,</l>
+<l xml:id="l.103">Lelkemet mindenekben,</l>
+<l xml:id="l.104">Ugy mostis támogass, dolgaimban forgass,</l>
+<l xml:id="l.105">Legyek örizetedben.</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.106">Hogy mind ellensegim, s’ cháchogo irígyim,</l>
+<l xml:id="l.107">Káromlo itílettel,</l>
+<l xml:id="l.108">Szivem ne öldöklyék, s’ lelkek ne terhellyék,</l>
+<l xml:id="l.109">Vakmerö kissebséggel,</l>
+<l xml:id="l.110">Szegény értékemis, vidúllyon sok hamis</l>
+<l xml:id="l.111">Boszszútúl chendességgel.</l>
+</lg>
+<lg xml:id="lg.16">
+<l xml:id="l.112">Indúlly kegyességre, s’ tekinch le ez földre,</l>
+<l xml:id="l.113">Kis kelletlen szolgádra,</l>
+<l xml:id="l.114">Lássa szemem nyilván, hogy mit szivem kíván,</l>
+<l xml:id="l.115">Ninchen boszszontásodra,</l>
+<l xml:id="l.116">Vagy lelkem kárára, kinek te javára,</l>
+<l xml:id="l.117">Nézsz chyak ártatlanságra.</l>
+</lg>
+<lg xml:id="lg.17">
+<l xml:id="l.118">Tudom bizony érted, s’ azért el sem reyted,</l>
+<l xml:id="l.119">Szent színed kérésemtöl,</l>
+<l xml:id="l.120"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">Mert igyekez<corr>e</corr>tem, s’ én eröttlenségem,</lem><rdg wit="#II" xml:id="rdg.3">igyekeztem<note type="critic" xml:id="note.3">szótagszámhiba, értelmetlen</note></rdg></app></l>
+<l xml:id="l.121">Bíratik Felségedtöl,</l>
+<l xml:id="l.122">Segéch szükségemben, hogy elömentemben,</l>
+<l xml:id="l.123">Tiszteltessél férgedtöl.</l>
+</lg>
+<lg xml:id="lg.18">
+<l xml:id="l.124">Esmerje meg minden, hogy segedelmeden,</l>
+<l xml:id="l.125">Nem múlik semmi haszon,</l>
+<l xml:id="l.126">S’ ha szinten ideíg remensegem késik</l>
+<l xml:id="l.127">Nem maradok szárazon,</l>
+<l xml:id="l.128">Kegyelmem meg leszen, s’ kedved környül vészen,</l>
+<l xml:id="l.129">Mert vagy mindenen Aszszony.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">98.</title>
+<title key="body" n="98" type="main">AETERNITAS. ÖRÖKKE-VALÓSÁG</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-98</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadásai:</p>
+<p xml:id="crit.1.p.2">I. <hi rend="bold">Tintinnabulum</hi>. <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName> <date when="1636">1636</date>. 109–16.</p>
+<p xml:id="crit.1.p.3">II. <hi rend="bold">Tintinnabulum</hi> [<placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName> <date when="1644">1644</date>.] 93–9.</p>
+<p xml:id="crit.1.p.4">Változatlan szöveggel megjelent a <hi rend="italic"><title>Tintinnabulum</title></hi> valamennyi későbbi katolikus és
+                        protestáns kiadásában. Felsorolásukat lásd a <ref target="rmkt-17-2.tei.nyvm-93">93. sz.</ref> vers
+                        jegyzeténél. Megtalálható még: <title><hi rend="italic">Cantus
+                                catholici</hi></title> (<date when="1675">1675</date>) 153–6. (hangjegyekkel),
+                        valamint ennek további kiadásaiban.</p>
+<p xml:id="crit.1.p.5">A dallam, variánsaival együtt egyike legelterjedtebb dallamainknak a
+                        XVII–XVIII. században. Német eredetű (lásd <bibl><hi rend="smallcaps">Bäumker</hi> i. m. II. 328. és
+                            357. sz.</bibl>), de eltérő szerkezetű változatai közül nem egy
+                        meghonosodott, s magyarosabb formában jelentkezik, mint az itt közölt
+                        dallam, amelynek felütéses ritmusa nehezen fér meg a vers prozódiájával.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Tintinnabulum. <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName> 1636. 109–16.</witness>
+<witness xml:id="II">Tintinnabulum. [<placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName> 1644.] 93–9.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 98.</fw>
+<head type="title">AETERNITAS. ÖRÖKKE-VALÓSÁG</head>
+<!--Dallam-kép 234. o.-->
+<lg xml:id="lg.1">
+<l xml:id="l.1">Jaj, miképpen dobog szívem, ’s mint tűz lobog:</l>
+<l xml:id="l.2">Nyelvem félsz meg-némíttya!</l>
+<l xml:id="l.3">Elmémet serkenti, Lelkemet rettenti,</l>
+<l xml:id="l.4">’S tagaim vékonyíttya!</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Mint tenger habzásban, sok köny-húllatásban</l>
+<l xml:id="l.6">Szemeim úgy úszkálnak;</l>
+<l xml:id="l.7">’S mind ennyi fájdalmok, ’s Lelki agodalmok</l>
+<l xml:id="l.8">Rám chak egy szóból szálnak.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Oh engem-emészt<corr>ö</corr>, ’s szívemet epesztő</lem><rdg wit="#I" xml:id="rdg.1"><sic>emészto</sic></rdg><rdg wit="#II" xml:id="rdg.2">emésztö</rdg></app></l>
+<l xml:id="l.10">Rettenetes kis szótska;</l>
+<l xml:id="l.11">Mely végetlen gonoszt mí-reánk hoz és oszt,</l>
+<l xml:id="l.12">Ha terjed Lelkünk mochka!</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Mellyemet faggattya,<note type="critic" xml:id="note.1">faggattya = szaggatja, tépdesi</note> erőmet fogyattya,</l>
+<l xml:id="l.14">Rettegtet minden napon:</l>
+<l xml:id="l.15">Chontom hasogattya, velőmet száraztya,</l>
+<l xml:id="l.16">Szűnetlen állat talpon.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Örökké-Valosag! Ez az iszonyúság,</l>
+<l xml:id="l.18">Ez a’ meny-dörgő szózat.</l>
+<l xml:id="l.19">Szörnyű villámásnál, ’s Égi ropogásnál</l>
+<l xml:id="l.20">Szörnyeb ez a’ kis szózat.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Örökke-Valosag! Ez a’ kemény fogság</l>
+<l xml:id="l.22">Engem vég-nélkül fáraszt:</l>
+<l xml:id="l.23">Belől viadalmat, kivűl agodalmat,</l>
+<l xml:id="l.24">Mint egy Tengert rám áraszt.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25">A’ Chászár fejeket, ’s Királyi Nemeket,</l>
+<l xml:id="l.26">Ez szó borotválta-fel:<note type="critic" xml:id="note.2">25–26 A sor értelme: Az
+                            örökkévalóságtól való félelmükben még császárok (talán <persName>V.
+                                Károlyra<idno type="ITIdata">Q472261</idno></persName> gondolt) és királyi családból valók is
+                            felborotváltatták fejüket, azaz tonzurát csináltattak, beálltak
+                            szerzetesnek, vezeklőnek.</note></l>
+<l xml:id="l.27">A’ Szőr őltözetet,<note type="critic" xml:id="note.3">Szőr öltözet = szerzetes ruha</note> ’s Istrang<note type="critic" xml:id="note.4">Istráng övedzet = szerzetesi kötél-öv</note> övedzetet,</l>
+<l xml:id="l.28">Ez íge találta-fel.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Rekesz<note type="critic" xml:id="note.5">Rekesz = kolostor, zárda</note> Klastromokat, ’s szörnyű Barlangokat</l>
+<l xml:id="l.30">Meg-tőltött szép Ifjakkal:</l>
+<l xml:id="l.31">Sok gyenge Szűzeket, ’s Nemes nemzeteket</l>
+<l xml:id="l.32">Bé-burított Kápákkal.<note type="critic" xml:id="note.6">kápa = a barátruha fejre húzható csuklyája</note></l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33">Örökke-Valósag, Örökke-Valósag,</l>
+<l xml:id="l.34">Engem fáraszt ’s öldököl!</l>
+<l xml:id="l.35">Örökke-Valósag, Örökke-Valósag,</l>
+<l xml:id="l.36">Engem kínoz ’s ösztököl!</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Oh üdőtlen üdő! oh iszonyú üdő!</lem><rdg wit="#II" xml:id="rdg.3">idötlen idö; idö</rdg></app></l>
+<l xml:id="l.38">Oh vég-nélkül-válo vég!</l>
+<l xml:id="l.39">Oh Fogyhatatlanság! örökke-Valosag!</l>
+<l xml:id="l.40">Tüzed vallyon ’s meddig ég?</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41">Szálly-alá Pokolba, Ember, gondolatba,</l>
+<l xml:id="l.42">Nem hogy ott meg-süttessél:</l>
+<l xml:id="l.43">Hanem hogy a’ bűztől, és az örök tűztől</l>
+<l xml:id="l.44">Te meg-menekedhessél.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.45">Titius Kányáját, Tantalus Almáját,</l>
+<l xml:id="l.46">Sisyfus fáratságát,</l>
+<l xml:id="l.47">Fertelmes Gyíkoknak, és Aspis-kígyóknak</l>
+<l xml:id="l.48">Fel-vészem nyájasságát:</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.49">A’ Varas-békákat, mint édes répákat;</l>
+<l xml:id="l.50">Skorpiókkal, meg-észem:</l>
+<l xml:id="l.51">Bürök-lévből chinált, ’s kén-kővel meg-trágyált</l>
+<l xml:id="l.52">Italodat, bé-vészem.</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.53">Sárkányból szíjt mérget, ’s minden-féle férget,</l>
+<l xml:id="l.54">Nagy jó kedvel meg-rágok:</l>
+<l xml:id="l.55">Fel-forrott kén-kőbe, ’s ónos förödőbe</l>
+<l xml:id="l.56">Gyorsasággal bé-hágok.</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.57">Ám bátor verjenek, ’s kerékben törjenek</l>
+<l xml:id="l.58">Szűnetlen Világ végig;</l>
+<l xml:id="l.59">Tolvajnak mongyanak, ’s chigára vonnyanak</l>
+<l xml:id="l.60">Mind ’a chillagos égig;</l>
+</lg>
+<lg xml:id="lg.16">
+<l xml:id="l.61">Bár meg-égessenek, ’s rostélyon süssenek,</l>
+<l xml:id="l.62">Ló-farkon hordozzanak;</l>
+<l xml:id="l.63">Falaris ökrében,<note type="critic" xml:id="note.7">Falaris ökréről lásd a <ref target="rmkt-17-2.tei.nyvm-93">93. sz.</ref> ének 1481. sorának jegyzetét.</note> ’s tüzes szekerében</l>
+<l xml:id="l.64">Fárattig kínozzanak;</l>
+</lg>
+<lg xml:id="lg.17">
+<l xml:id="l.65">Ehséggel öllyenek, ’s nyilakkal lőjenek,</l>
+<l xml:id="l.66">Izről ízre vágjanak;</l>
+<l xml:id="l.67">Bár Aetna tüzébe, ’s Luciper kezébe</l>
+<l xml:id="l.68">Világ végig adgyanak;</l>
+</lg>
+<lg xml:id="lg.18">
+<l xml:id="l.69">Bár ezernyi-ezer, söt meg-annyi ezer</l>
+<l xml:id="l.70">Esztendeig ott légyek;</l>
+<l xml:id="l.71">Chak végét érhessem, és azt reménlhessem</l>
+<l xml:id="l.72">Hogy az Életre mégyek:</l>
+</lg>
+<lg xml:id="lg.19">
+<l xml:id="l.73">Ninchenek oly kínok, sem fene Hóhérok,</l>
+<l xml:id="l.74">A’ kiktől meg-ijedgyek:</l>
+<l xml:id="l.75"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">Chak hogy legyen végek, ’s örökké ne égjek,</lem><rdg wit="#II" xml:id="rdg.4">légyen</rdg></app></l>
+<l xml:id="l.76">Vég-nélkül ne rettegjek.</l>
+</lg>
+<lg xml:id="lg.20">
+<l xml:id="l.77">Örökke-Valosag, örökke-Valosag!</l>
+<l xml:id="l.78">Víg szívem mit emészted?</l>
+<l xml:id="l.79">Te a’ Pokol tüzét, ’s mérges úndok bűzét</l>
+<l xml:id="l.80">Végetlenűl gerjeszted?</l>
+</lg>
+<lg xml:id="lg.21">
+<l xml:id="l.81">Jaj! michoda ínség, ’s honnét jött keménség</l>
+<l xml:id="l.82">Az Örökké-valóság;</l>
+<l xml:id="l.83">Melynek széli ’s hoszsza, ’s szörnyü sok gonoszsza,</l>
+<l xml:id="l.84">Mind Vég-nélkül-valóság?</l>
+</lg>
+<lg xml:id="lg.22">
+<l xml:id="l.85">Sem órák, sem üdők, sem a’ sok esztendők</l>
+<l xml:id="l.86">Ezt el nem fogyathattyák.</l>
+<l xml:id="l.87">Már kínunk el-fogyott, ’s Hóhérunk el-hagyott,</l>
+<l xml:id="l.88">Kárhoztak nem mondhattyák:</l>
+</lg>
+<lg xml:id="lg.23">
+<l xml:id="l.89">Ez iszonyúságra, mint egy Királyságra</l>
+<l xml:id="l.90">Még-is sokan sietnek.</l>
+<l xml:id="l.91">A’ Pokol bé-iszsza őket, s onnét viszsza</l>
+<l xml:id="l.92"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">Soha ők nem jöhetnek.</lem><rdg wit="#II" xml:id="rdg.5">jühetnek</rdg></app></l>
+</lg>
+<lg xml:id="lg.24">
+<l xml:id="l.93">Mert mikor végződik, akkoron kezdődik</l>
+<l xml:id="l.94">Az Örök Végetlenség:</l>
+<l xml:id="l.95">Sőt, mind csak kezdődik, soha nem végződik</l>
+<l xml:id="l.96">Ez a’ nagy keserűség.</l>
+</lg>
+<lg xml:id="lg.25">
+<l xml:id="l.97">Eredgy Tisztátalan, Parázna ’s Fajtalan,</l>
+<l xml:id="l.98">Immár e’ Vendégségbe:</l>
+<l xml:id="l.99">Te-is Has-hizlalo, ’s szűntelen tormézlo,<note type="critic" xml:id="note.8">tormézlo – talán: dorbézoló, bár a szónak ilyen alakja más forrásból ismeretlen</note></l>
+<l xml:id="l.100">Fuss e’ gyönyörüségbe.</l>
+</lg>
+<lg xml:id="lg.26">
+<l xml:id="l.101">Fösvény Usorások, koczkás Hasártosok,<note type="critic" xml:id="note.9">koczkás Hasártos = kockázó szerencsejátékos</note></l>
+<l xml:id="l.102">Éllyetek vigaságban;</l>
+<l xml:id="l.103">Feslett búja szemek, ’s Rágalmazó nyelvek,</l>
+<l xml:id="l.104">Úszszatok trágárságban.</l>
+</lg>
+<lg xml:id="lg.27">
+<l xml:id="l.105">Pokolba szállani künyü: ki állani</l>
+<l xml:id="l.106">De meg<note type="critic" xml:id="note.10">meg = megint, ismét</note> onnét, nem lehet:</l>
+<l xml:id="l.107">Mert az örök tűzből, ’s véghetetlen bűzből</l>
+<l xml:id="l.108">Senki ki nem emelhet.</l>
+</lg>
+<lg xml:id="lg.28">
+<l xml:id="l.109">Oh szörnyű Halálnál, ’s minden nyavalyánál</l>
+<l xml:id="l.110">Nyomoruságosb élet!</l>
+<l xml:id="l.111">Halhatatlan Halál! vaj ’s mikoron talál</l>
+<l xml:id="l.112">Reád a’ veszett Élet?</l>
+</lg>
+<lg xml:id="lg.29">
+<l xml:id="l.113">Abrahám keblébe, ’s Szentek seregébe</l>
+<l xml:id="l.114">Kik jutnak, örvendeznek:</l>
+<l xml:id="l.115">A’ szép vígaságban, ’s kedves nyájasságban,</l>
+<l xml:id="l.116">Vég-nélkül zengedeznek.</l>
+</lg>
+<lg xml:id="lg.30">
+<l xml:id="l.117">Pokolnak torkába, ’s Luciper markába</l>
+<l xml:id="l.118">Kik esnek, keseregnek:</l>
+<l xml:id="l.119">A’ sok jajgatásban, ’s kemény zokogásban</l>
+<l xml:id="l.120">Örökké tekeregnek.</l>
+</lg>
+<lg xml:id="lg.31">
+<l xml:id="l.121">Prometheus Varja azért, bár ne várja</l>
+<l xml:id="l.122">Égiek Vachoráját:</l>
+<l xml:id="l.123">Mert hamis nyelveknek, mint fene Ebeknek,</l>
+<l xml:id="l.124">Bé nem eresztik száját.</l>
+</lg>
+<lg xml:id="lg.32">
+<l xml:id="l.125">Feír Galamboknak, ’s szelíd Bárányoknak</l>
+<l xml:id="l.126">Nyájából választatnak,</l>
+<l xml:id="l.127">Kik a’ Bóldogságnak, ’s örök vígaságnak</l>
+<l xml:id="l.128">Asztalához hívatnak.</l>
+</lg>
+<lg xml:id="lg.33">
+<l xml:id="l.129">Midőn vígasztallya Jókat, és hizlallya</l>
+<l xml:id="l.130">Az Örökké-valóság:</l>
+<l xml:id="l.131">Ki-rekesztett Népet, vaj ’s miképpen tépet</l>
+<l xml:id="l.132">Ehség, ’s örök szomjúság!</l>
+</lg>
+<lg xml:id="lg.34">
+<l xml:id="l.133">Égy morsát gyomroknak, chepp vizet torkoknak</l>
+<l xml:id="l.134">Kérnek a’ nyomorúltak:</l>
+<l xml:id="l.135">De még azt sem hadgyák, hogy nékiek adgyák,</l>
+<l xml:id="l.136">A’ kik meg-bóldogúltak.</l>
+</lg>
+<lg xml:id="lg.35">
+<l xml:id="l.137">Hanem az éktelen, szörnyű, és végtelen</l>
+<l xml:id="l.138">Siralomnak Kúlchára,</l>
+<l xml:id="l.139">Kemény jajgatásnak, és köny-húllatásnak</l>
+<l xml:id="l.140">Üzi úndok kúttyára.</l>
+</lg>
+<lg xml:id="lg.36">
+<l xml:id="l.141">A’ menyit sírhatnak, csak annyit ihatnak.</l>
+<l xml:id="l.142">Oh tí száraz Torkosok!</l>
+<l xml:id="l.143">De bár sirásokat, ’s köny-húllatásokat</l>
+<l xml:id="l.144">Innák tűzben-lakosok.</l>
+</lg>
+<lg xml:id="lg.37">
+<l xml:id="l.145">Talám még tűrhető, és meg-enyhíthető</l>
+<l xml:id="l.146">Dolognak ez láttatnék,</l>
+<l xml:id="l.147">Ha Aspis mérgével, ’s Kígyók epéjével</l>
+<l xml:id="l.148">Torkok nem ferteztetnék.</l>
+</lg>
+<lg xml:id="lg.38">
+<l xml:id="l.149">Oh te mérges Serleg! vaj ’s michoda Felleg,</l>
+<l xml:id="l.150">A’ melyből te származtál?</l>
+<l xml:id="l.151">Oh Ember! vaj ’s mit vélsz, a’ki ettől nem félsz?</l>
+<l xml:id="l.152">Talám kőhöz fajzottál?</l>
+</lg>
+<lg xml:id="lg.39">
+<l xml:id="l.153">Mert kívánság-felett mérget adnak, ’s felet</l>
+<l xml:id="l.154">Ott senki nem ihatik:</l>
+<l xml:id="l.155">Egészszen meg-tőltík mértéked, ’s nem féltik</l>
+<l xml:id="l.156">Hogy Chaplár meg-chalatik.</l>
+</lg>
+<lg xml:id="lg.40">
+<l xml:id="l.157">Ha pediglen mondod; nem zálagos torkod,</l>
+<l xml:id="l.158">Duskát most nem ihatnál:<note type="critic" xml:id="note.11">duskát inni = versenyt inni, ész nélkül inni</note></l>
+<l xml:id="l.159">Bé-tőlti erővel Gazda meritővel.</l>
+<l xml:id="l.160">Ah! kedvesben szomjóznál.</l>
+</lg>
+<lg xml:id="lg.41">
+<l xml:id="l.161">Chak ez a’ Fársáng az, mellyet meg-únand, az</l>
+<l xml:id="l.162">Leg-nagyobb Hús-rágó-is;</l>
+<l xml:id="l.163">Ez a’ Korchoma az, melyben falt vakar,<note type="critic" xml:id="note.12">falt vakar =
+                            elmegy, eltávozik. A <abbr>NySz</abbr>
+<persName>Baranyai Decsi<idno type="ITIdata">Q141335</idno></persName>
+<title><hi rend="italic">Adagiá</hi></title>-iból idézi: Auagy igyál,
+                            auagy vakary falt: aut bibe, aut abi</note> az</l>
+<l xml:id="l.164">Leg-nagyobb Bor-chíszár-is.<note type="critic" xml:id="note.13">Bor-chíszár = nagy borivó</note></l>
+</lg>
+<lg xml:id="lg.42">
+<l xml:id="l.165">El nem szabad menned; innod kell és enned:</l>
+<l xml:id="l.166">Miért főzettél ily sokat?</l>
+<l xml:id="l.167">A’ Szállás kapuján, ’s Vendégek tábláján</l>
+<l xml:id="l.168">Láttad-e ime’ Szókat?</l>
+</lg>
+<lg xml:id="lg.43">
+<l xml:id="l.169">Itt semmi vigaság ninchen: hanem Rabság,</l>
+<l xml:id="l.170">Es örökke-Valosag.</l>
+<l xml:id="l.171">Örökke-Valosag! örökke-Valosag!</l>
+<l xml:id="l.172">Oh örökke-Valosag!</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

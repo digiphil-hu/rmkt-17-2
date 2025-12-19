@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">95.</title>
+<title key="body" n="95" type="main">AZ BOLDOGSAGOS SZÜZ MARIAHOZ SZENT KASIMIRUSNAK IMÁDSÁGOS ENEKE</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-95</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadásai:</p>
+<p xml:id="crit.1.p.2">I. <bibl><hi rend="bold">Tintinnabulum</hi>. <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1636">1636</date>. 89–100.</bibl></p>
+<p xml:id="crit.1.p.3">II. <bibl><hi rend="bold">Tintinnabulum</hi>. [<placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1644">1644</date>.] 76–85.</bibl> – Változatlan szöveggel megjelent
+                        ezután a <title><hi rend="italic">Tintinnabulum</hi></title> valamennyi
+                        katolikus típusú kiadásában. Felsorolásukat lásd a <ref target="rmkt-17-2.tei.nyvm-93">93. sz.</ref> vers
+                        jegyzeténél.</p>
+<p xml:id="crit.1.p.4">Egyéb előfordulási helyei: <bibl><title><hi rend="italic">Cantus
+                                    catholici</hi></title> (<date when="1651">1651</date>) 131–5.</bibl> és a
+                        további kiadások. – <bibl><hi rend="italic">Szegedi-féle Cantus
+                                catholici</hi> (<date when="1674">1674</date>) 479–84.</bibl> – <bibl><hi rend="italic">Kájoni-Cantionale</hi> (<date when="1676">1676</date>)
+                            388–92.</bibl> és a további kiadások. – <bibl>Derkay György: <title><hi rend="italic">Az örök eletnek uttya</hi></title>
+                                (<placeName>Nagyszombat</placeName>
+<date when="1678">1678</date>) Qu4a–R1b.</bibl> – <bibl><title><hi rend="italic">Lelki paradicsom</hi></title>
+                                (<placeName>Gyulafehérvár</placeName>
+<date when="1700">1700</date>) Bbbbb3a–Ccccc1a.</bibl> – Ezenkívül másolatai
+                        találhatók a következő kéziratokban: <bibl><hi rend="italic">Petri
+                                András-ék.</hi> (<date from="1630" to="1668">1630–68</date>) 43a–45a.</bibl> – <bibl><hi rend="italic">Bocskor-k.</hi> (<date from="1716" to="1739">1716–39</date>)
+                            154b–156b.</bibl> – <bibl><hi rend="italic">Écsi-ék.</hi>
+                                (<date when="1725">1725</date>) 129.</bibl> –
+                        <bibl><persName>Jankovich<idno type="ITIdata">Q59830</idno></persName>: <title><hi rend="italic">Nemzeti dalok</hi></title> (<date when="1800">1800</date> k.) VII,
+                            12a-b.</bibl> Nótajelzést csak a <bibl><hi rend="italic">Kájoni-Cantionale</hi> (<date when="1676">1676</date>. 127.)</bibl> ad, az ének
+                        latin eredetijét idézve. Ennek dallamát a <bibl><hi rend="italic">Cantus
+                                catholici</hi> (<date when="1651">1651</date>. 127.)</bibl> alapján
+                        közöljük.</p>
+<p xml:id="crit.1.p.5">Az ének eredetije egyike a legismertebb és nagyon sok nyelvre lefordított
+                        Mária-énekeknek. A hagyomány annak a <persName>Szent Kazimir</persName>
+                            (<date from="1452" to="1485">1452–1485</date>) lengyel királyfinak,
+                        <persName>Albert<idno type="ITIdata">Q237967</idno></persName> magyar király unokájának tulajdonítja, akit
+                        <persName>Mátyás<idno type="ITIdata">Q56559</idno></persName> király ellenében <persName>Vitéz
+                            János<idno type="ITIdata">Q50360</idno></persName> és <persName>Janus Pannonius<idno type="ITIdata">Q252620</idno></persName>
+                        trónkövetelőként felléptettek. A kutatók egyrésze viszont
+                        <persName>Clairvauxi Bernátnak<idno type="ITIdata">Q492312</idno></persName>, vagy <persName>Canterbury
+                            Anselmnek<idno type="ITIdata">Q492313</idno></persName> tulajdonította. Valójában <persName>Morlasi
+                                Bernát<idno type="ITIdata">Q492314</idno></persName> clunyi szerzetes (élt <date when="1140">1140</date> körül)
+                                <title><hi rend="italic">Mariale</hi></title> c. nagyobb
+                        költeményéből kiszakított, önálló és igen elterjedt költemény. A <title><hi rend="italic">Mariale</hi></title> Prológusból, 15 Rhythmusnak
+                        nevezett nagyobb himnuszból és Epilógusból áll. Ebből alakították a
+                            <persName>Kázmér</persName> királynak tulajdonított himnuszt, úgy, hogy
+                        a Rhythmus II. az első rész, a Rhythmus IV, 1–11. szakasza a második rész, a
+                        Rhythmus III, 25–32, a Rhythmus IV, 1–11. és a Rhythmus III, 33. szaka a
+                        harmadik rész lett. (<bibl><hi rend="smallcaps">Dreves, Guido Maria</hi>: <title>Analecta Hymnica
+                                Medii Aevi. Lateinische Hymnendichter des Mittelalters</title>. II.
+                            Folge. Leipzig 1907. 423–31.</bibl>) Magyarországon a himnusznak egy 5
+                        strófával rövidebb változata volt elterjedve, melyet a <bibl><title><hi rend="italic">Cantus catholici</hi></title> (<date when="1651">1651</date>.
+                            128–31.)</bibl> is közöl, közvetlenül Nyéki Vörös fordítása előtt.
+                        Költőnk a latin himnusz eme változatát igen pontosan, szinte szakaszról
+                        szakaszra fordította. Szövegét alább közöljük a <title><hi rend="italic">Cantus Catholici</hi></title> nyomán, a zárójelben elhelyezett
+                        számokkal utalva a magyar fordítás megfelelő strófáira.</p>
+<table><row><cell/><cell><p xml:id="crit.1.p.6"><hi rend="italic">Hymnus. S. Casimiri, de Beata Virgine Maria</hi></p></cell></row>
+<row>
+<cell>(1.)</cell>
+<cell><lg xml:id="crit.1.lg.1">
+<l xml:id="crit.1.l.1">Omni die, dic Mariae, mea laudes anima:</l>
+<l xml:id="crit.1.l.2">Ejus Festa, ejus gesta, cole devotissima.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(2.)</cell>
+<cell><lg xml:id="crit.1.lg.2">
+<l xml:id="crit.1.l.3">Contemplare, et mirare, ejus celsitudinem:</l>
+<l xml:id="crit.1.l.4">Dic foehcem Genitricem, dic Beatam Virginem.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(3.)</cell>
+<cell><lg xml:id="crit.1.lg.3">
+<l xml:id="crit.1.l.5">Ipsam cole, ut de mole criminum, te Uberet.</l>
+<l xml:id="crit.1.l.6">Hanc appella, ne procella, vitiorum superet.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(4.)</cell>
+<cell><lg xml:id="crit.1.lg.4">
+<l xml:id="crit.1.l.7">Haec persona, nobis dona, contulit coelestia:</l>
+<l xml:id="crit.1.l.8">Haec Regina, nos divina illustravit gratia.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(5–6.)</cell>
+<cell><lg xml:id="crit.1.lg.5">
+<l xml:id="crit.1.l.9">Lingua mea, dic trophaea, Virginis puerperae;</l>
+<l xml:id="crit.1.l.10">Quae inflictum maledictum miro transfert germine.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(7.)</cell>
+<cell><lg xml:id="crit.1.lg.6">
+<l xml:id="crit.1.l.11">Sine fine, dic Reginae, mundi laudum cantica:</l>
+<l xml:id="crit.1.l.12">Ejus bona, semper sona, semper illa praedica.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(8.)</cell>
+<cell><lg xml:id="crit.1.lg.7">
+<l xml:id="crit.1.l.13">Omnes mei sensus, ei, personate gloriam:</l>
+<l xml:id="crit.1.l.14">Frequentate, tam beatae Virginis memoriam.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(9.)</cell>
+<cell><lg xml:id="crit.1.lg.8">
+<l xml:id="crit.1.l.15">Nullus certe, tam disertae extat eloquentiae</l>
+<l xml:id="crit.1.l.16">Qui, condignos promat hymnos, ejus excellentiae.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(10.)</cell>
+<cell><lg xml:id="crit.1.lg.9">
+<l xml:id="crit.1.l.17">Omnes laudent, unde gaudent, Matrem Dei Virginem,</l>
+<l xml:id="crit.1.l.18">Nullus fingat, quod attingat, ejus celsitudinem.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(11.)</cell>
+<cell><lg xml:id="crit.1.lg.10">
+<l xml:id="crit.1.l.19">Sed necesse, (quod prodesse, piis constat mentibus)</l>
+<l xml:id="crit.1.l.20">Ut intendam, quod impendam me ipsius laudibus.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(12.)</cell>
+<cell><lg xml:id="crit.1.lg.11">
+<l xml:id="crit.1.l.21">Quamvis sciam, quod Mariam nemo digne praedicet:</l>
+<l xml:id="crit.1.l.22">Tamen vanus et insanus est, qui illam reticet.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(13.)</cell>
+<cell><lg xml:id="crit.1.lg.12">
+<l xml:id="crit.1.l.23">Cujus vita, erudita, disciplina coelica,</l>
+<l xml:id="crit.1.l.24">Argumenta, et figmenta destruxit haeretica.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(14.)</cell>
+<cell><lg xml:id="crit.1.lg.13">
+<l xml:id="crit.1.l.25">Hujus mores, tanquam flores, exornant Ecclesiam:</l>
+<l xml:id="crit.1.l.26">Actiones, et sermones, miram praestant gratiam.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(15.)</cell>
+<cell><lg xml:id="crit.1.lg.14">
+<l xml:id="crit.1.l.27">Evae crimen, nobis limen paradisi clauserat.</l>
+<l xml:id="crit.1.l.28">Haec dum credit, et obedit, coeli claustra reserat.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(16.)</cell>
+<cell><lg xml:id="crit.1.lg.15">
+<l xml:id="crit.1.l.29">Propter Evam, homo saevam, accepit sententiam,</l>
+<l xml:id="crit.1.l.30">Per Mariam, habet viam, quae ducit ad patriam,</l>
+</lg></cell>
+</row>
+<row>
+<cell>(17.)</cell>
+<cell><lg xml:id="crit.1.lg.16">
+<l xml:id="crit.1.l.31">Haec amanda, et laudanda cunctis specialiter:</l>
+<l xml:id="crit.1.l.32">Venerari, praedicari, eam decet jugiter.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(18.)</cell>
+<cell><lg xml:id="crit.1.lg.17">
+<l xml:id="crit.1.l.33">Ipsa donet, ut quod monet Natus ejus faciam:</l>
+<l xml:id="crit.1.l.34">Ut finita carnis vita; laetus hunc aspiciam.</l>
+</lg></cell>
+</row>
+</table>
+<table><row><cell/><cell><p xml:id="crit.1.p.7">Secunda Pars.</p></cell></row>
+<row>
+<cell>(19.)</cell>
+<cell><lg xml:id="crit.1.lg.18">
+<l xml:id="crit.1.l.35">O Cunctarum foeminarum, decus, atque gloria;</l>
+<l xml:id="crit.1.l.36">Quam electam, et evectam, scimus super omnia.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(20.)</cell>
+<cell><lg xml:id="crit.1.lg.19">
+<l xml:id="crit.1.l.37">Clemens audi, tuae laudi, quos instantes conspicis;</l>
+<l xml:id="crit.1.l.38">Munda reos, et fac eos, donis dignos coelicis.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(21.)</cell>
+<cell><lg xml:id="crit.1.lg.20">
+<l xml:id="crit.1.l.39">Virga Jesse, spes oppressae mentis et refugium;</l>
+<l xml:id="crit.1.l.40">Decus mundi, lux profundi, Domini sacrarium.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(22.)</cell>
+<cell><lg xml:id="crit.1.lg.21">
+<l xml:id="crit.1.l.41">Vitae forma, morum norma, plenitudo gratiae;</l>
+<l xml:id="crit.1.l.42">Dei templum, et exemplum, totius justitiae.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(23.)</cell>
+<cell><lg xml:id="crit.1.lg.22">
+<l xml:id="crit.1.l.43">Virgo salve, per quam valvae coeli, patent miseris:</l>
+<l xml:id="crit.1.l.44">Quam non flexit, nec allexit, fraus, serpentis veteris.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(24.)</cell>
+<cell><lg xml:id="crit.1.lg.23">
+<l xml:id="crit.1.l.45">Generosa, et formosa, David Regis filia;</l>
+<l xml:id="crit.1.l.46">Quam elegit Rex, qui regit, et creavit omnia.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(25.)</cell>
+<cell><lg xml:id="crit.1.lg.24">
+<l xml:id="crit.1.l.47">Gemma decens, rosa recens, castitatis lilium:</l>
+<l xml:id="crit.1.l.48">Castum chorum, ad polorum, quae perducis gaudium.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(26.)</cell>
+<cell><lg xml:id="crit.1.lg.25">
+<l xml:id="crit.1.l.49">Actionis, et sermonis, facultatem tribue</l>
+<l xml:id="crit.1.l.50">Ut tuorum meritorum, laudes canam strenue.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(27.)</cell>
+<cell><lg xml:id="crit.1.lg.26">
+<l xml:id="crit.1.l.51">Opto nimis, ut imprimis des mihi memoriam:</l>
+<l xml:id="crit.1.l.52">Ut decenter, et fequenter, tuam cantem gloriam.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(28.)</cell>
+<cell><lg xml:id="crit.1.lg.27">
+<l xml:id="crit.1.l.53">Quamvis muta, et polluta, mea sciam labia:</l>
+<l xml:id="crit.1.l.54">Praesumendum, nec silendum est, de tua gloria.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(29.)</cell>
+<cell><lg xml:id="crit.1.lg.28">
+<l xml:id="crit.1.l.55">Virgo gaude, omni laude digna, et praeconio.</l>
+<l xml:id="crit.1.l.56">Quae damnatis, libertatis, facta es occasio.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(30.)</cell>
+<cell><lg xml:id="crit.1.lg.29">
+<l xml:id="crit.1.l.57">Semper munda, et foecunda Virgo tu puerpera;</l>
+<l xml:id="crit.1.l.58">Mater alma, velut palma, florens, et fructifera.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(31.)</cell>
+<cell><lg xml:id="crit.1.lg.30">
+<l xml:id="crit.1.l.59">Ejus flore, et odore, recreari cupimus,</l>
+<l xml:id="crit.1.l.60">Cujus fructu, nos, a luctu, liberari credimus.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(32.)</cell>
+<cell><lg xml:id="crit.1.lg.31">
+<l xml:id="crit.1.l.61">Pulchra tota, sine nota, cujuscunque maculae:</l>
+<l xml:id="crit.1.l.62">Fac nos mundos, et jucundos, te laudare sedule.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(33.)</cell>
+<cell><lg xml:id="crit.1.lg.32">
+<l xml:id="crit.1.l.63">O beata, per quam data, nova mundo gaudia:</l>
+<l xml:id="crit.1.l.64">Et aperta fide certa, regna sunt coelestia.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(34.)</cell>
+<cell><lg xml:id="crit.1.lg.33">
+<l xml:id="crit.1.l.65">Per te mundus, laetabundus, novo fulget lumine,</l>
+<l xml:id="crit.1.l.66">Antiquarum tenebrarum, exutus caligine.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(35.)</cell>
+<cell><lg xml:id="crit.1.lg.34">
+<l xml:id="crit.1.l.67">Nunc potentes sunt egentes, sicut olim dixeras:</l>
+<l xml:id="crit.1.l.68">Et egeni, fiunt pleni, ut tu prophetaveras.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(36.)</cell>
+<cell><lg xml:id="crit.1.lg.35">
+<l xml:id="crit.1.l.69">Per te morum nunc pravorum, relinquuntur devia:</l>
+<l xml:id="crit.1.l.70">Doctrinarum perversarum, pulsa sunt praestigia.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(37.)</cell>
+<cell><lg xml:id="crit.1.lg.36">
+<l xml:id="crit.1.l.71">Mundi luxus, atque fluxus, docuisti spernere.</l>
+<l xml:id="crit.1.l.72">Deum quaeri: carnem teri, vitiis resistere.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(38.)</cell>
+<cell><lg xml:id="crit.1.lg.37">
+<l xml:id="crit.1.l.73">Mentis cursum, tendi sursum, pietatis studio:</l>
+<l xml:id="crit.1.l.74">Corpus angi, motus frangi, pro coelesti praemio.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(39.)</cell>
+<cell><lg xml:id="crit.1.lg.38">
+<l xml:id="crit.1.l.75">Tu portasti, inter casti ventris claustra Dominum,</l>
+<l xml:id="crit.1.l.76">Redemptorem, ad honorem, nos refomans pristinum.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(40.)</cell>
+<cell><lg xml:id="crit.1.lg.39">
+<l xml:id="crit.1.l.77">Mater facta, sed intacta, genuisti filium,</l>
+<l xml:id="crit.1.l.78">Regem regum, atque rerum Creatorem omnium.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(41.)</cell>
+<cell><lg xml:id="crit.1.lg.40">
+<l xml:id="crit.1.l.79">Benedicta, per quam victa, mortis est versutia:</l>
+<l xml:id="crit.1.l.80">Destitutis spe salutis, datur indulgentia.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(42.)</cell>
+<cell><lg xml:id="crit.1.lg.41">
+<l xml:id="crit.1.l.81">Benedictus Rex invictus, cujus mater crederis:</l>
+<l xml:id="crit.1.l.82">Qui creatus, ex te natus, nostri salus generis.</l>
+</lg></cell>
+</row></table>
+<table><row><cell/><cell><p xml:id="crit.1.p.8">Tertia Pars.</p></cell></row>
+<row>
+<cell>(43.)</cell>
+<cell><lg xml:id="crit.1.lg.42">
+<l xml:id="crit.1.l.83">Reparatrix, consolatrix, desperanti animae:</l>
+<l xml:id="crit.1.l.84">A pressura, quae ventura, malis est nos redime.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(44.)</cell>
+<cell><lg xml:id="crit.1.lg.43">
+<l xml:id="crit.1.l.85">Pro me pete, ut quiete sempiterna perfruar:</l>
+<l xml:id="crit.1.l.86">Ne tormentis, comburentis stagni miser obruar.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(45.)</cell>
+<cell><lg xml:id="crit.1.lg.44">
+<l xml:id="crit.1.l.87">Quod requiro, quod suspiro, mea sana vulnera,</l>
+<l xml:id="crit.1.l.88">Et da menti, te poscenti, gratiarum munera:</l>
+</lg></cell>
+</row>
+<row>
+<cell>(46.)</cell>
+<cell><lg xml:id="crit.1.lg.45">
+<l xml:id="crit.1.l.89">Ut sim castus, et modestus, dulcis, blandus sobrius;</l>
+<l xml:id="crit.1.l.90">Pius, rectus, circumspectus, simultatis nescius.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(47.)</cell>
+<cell><lg xml:id="crit.1.lg.46">
+<l xml:id="crit.1.l.91">Eruditus, et munitus, divinis eloquiis;</l>
+<l xml:id="crit.1.l.92">Timoratus, et ornatus, sacris exercititiis.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(48.)</cell>
+<cell><lg xml:id="crit.1.lg.47">
+<l xml:id="crit.1.l.93">Constans, gravis, et suavis, benignus amabilis.</l>
+<l xml:id="crit.1.l.94">Simplex, purus, et maturus, patiens, et humilis.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(49.)</cell>
+<cell><lg xml:id="crit.1.lg.48">
+<l xml:id="crit.1.l.95">Corde prudens, ore studens, veritatem dicere.</l>
+<l xml:id="crit.1.l.96">Malum nolens, Devm colens, pio semper opere.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(50.)</cell>
+<cell><lg xml:id="crit.1.lg.49">
+<l xml:id="crit.1.l.97">Esto tutrix et adjutrix, Christiani populi:</l>
+<l xml:id="crit.1.l.98">Pacem praesta, ne molesta nos perturbent saeculi.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(51.)</cell>
+<cell><lg xml:id="crit.1.lg.50">
+<l xml:id="crit.1.l.99">Salutaris stella maris: summis digna laudibus.</l>
+<l xml:id="crit.1.l.100">Quae praecellis cunctis stellis, atque luminaribus.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(52.)</cell>
+<cell><lg xml:id="crit.1.lg.51">
+<l xml:id="crit.1.l.101">Tua dulci prece, fulci supplices, et refove:</l>
+<l xml:id="crit.1.l.102">Quidquid gravat, vel depravat mentes nostras, remove.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(53.)</cell>
+<cell><lg xml:id="crit.1.lg.52">
+<l xml:id="crit.1.l.103">Virgo gaude, quod de fraude daemonum, nos liberas.</l>
+<l xml:id="crit.1.l.104">Dum in vera, et sincera Devm carne generas.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(54.)</cell>
+<cell><lg xml:id="crit.1.lg.53">
+<l xml:id="crit.1.l.105">Illibata, et dotata, coelesti progenie.</l>
+<l xml:id="crit.1.l.106">Gravidata, nec privata, flore pudicitiae,</l>
+</lg></cell>
+</row>
+<row>
+<cell>(56.)</cell>
+<cell><lg xml:id="crit.1.lg.54">
+<l xml:id="crit.1.l.107">Nam quod eras perseveras, dum intacta generas.</l>
+<l xml:id="crit.1.l.108">Illum tractans, atque lactans per quem facta fueras.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(57.)</cell>
+<cell><lg xml:id="crit.1.lg.55">
+<l xml:id="crit.1.l.109">Commendare me dignare, Christo tuo filio.</l>
+<l xml:id="crit.1.l.110">Ut non cadam, sed evadam, de mundi naufragio.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(58.)</cell>
+<cell><lg xml:id="crit.1.lg.56">
+<l xml:id="crit.1.l.111">Fac me mitem: pelle litem, conpesce lasciviam,</l>
+<l xml:id="crit.1.l.112">Contra crimen, da munimen, et mentis constantiam.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(59.)</cell>
+<cell><lg xml:id="crit.1.lg.57">
+<l xml:id="crit.1.l.113">Non me liget, nec fatiget saeculi cupiditas;</l>
+<l xml:id="crit.1.l.114">Quae indurat et obscurat, mentes sibi subditas.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(60.) </cell>
+<cell><lg xml:id="crit.1.lg.58">
+<l xml:id="crit.1.l.115">Nunquam ira, nunquam dira, me vincat elatio,</l>
+<l xml:id="crit.1.l.116">Quae multorum, fit malorum, saepius occasio.</l>
+</lg></cell>
+</row>
+<row>
+<cell>(61.)</cell>
+<cell><lg xml:id="crit.1.lg.59"><l xml:id="crit.1.l.117">Ora Devm, ut cor meum sua servet gratia:</l>
+<l xml:id="crit.1.l.118">Ne antiquus inimicus seminet zizania.</l></lg></cell>
+</row>
+<row>
+<cell>(62.)</cell>
+<cell><lg xml:id="crit.1.lg.60"><l xml:id="crit.1.l.119">Da levamen, et juvamen tuum, illis jugiter.</l>
+<l xml:id="crit.1.l.120">Tua festa, sive gesta, qui colunt alacriter.</l></lg></cell>
+</row>
+</table>
+</note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Tintinnabulum. <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName> 1636. 89–100.</witness>
+<witness xml:id="II">Tintinnabulum. [<placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName> 1644.] 76–85.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 95.</fw>
+<head type="title">AZ BOLDOGSAGOS SZÜZ MARIAHOZ SZENT KASIMIRUSNAK IMÁDSÁGOS ENEKE</head>
+<!--Dallam-kép 223. o.-->
+<p xml:id="p.1">ÉLSÖ RESZE</p>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Mongy napon-ként, és órán-ként</l>
+<l xml:id="l.2">Lelkem díchéreteket</l>
+<l xml:id="l.3">Mariá-nak Szűz Anyának,</l>
+<l xml:id="l.4">’S ülly vígan Innepeket.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Gondolkodgyál, ’s álmélkodgyál</l>
+<l xml:id="l.6">Fölségén Aszszonyodnak;</l>
+<l xml:id="l.7">Mond Bóldognak, és áldotnak,</l>
+<l xml:id="l.8">Mond Istenünk Annyának.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Engesztellyed, és tisztellyed,</l>
+<l xml:id="l.10">Hogy a’ bűntől meg-mentsen.</l>
+<l xml:id="l.11">E’hez fordúlly, ’s arczal borúlly,</l>
+<l xml:id="l.12">Hogy Ördög meg ne ejtsen.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Erre szemlélly, mert e’ Személy</l>
+<l xml:id="l.14">Égi gyümőlchöt hozott</l>
+<l xml:id="l.15">Nékűnk Menyből, ’s szent méhéből</l>
+<l xml:id="l.16">Irgalmásságot hozott:</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Gyözedelmit, és védelmit</l>
+<l xml:id="l.18">Nyelvem ennek énekeld:</l>
+<l xml:id="l.19">Ékességét, ’s dichőségét</l>
+<l xml:id="l.20">Tellyes erőddel neveld:</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Mert átkától, ’s rút árkától</l>
+<l xml:id="l.22">A’ Pokolnak meg-mentett:</l>
+<l xml:id="l.23">Meny-ország-közt ’s e’ Világ-közt</l>
+<l xml:id="l.24">Állandó frígyet vetett.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Mongy vég-nélkül víg énekűl</l>
+<l xml:id="l.26">Néki szép dichéretet:</l>
+<l xml:id="l.27">Szentségéről, ’s kegyelméről</l>
+<l xml:id="l.28">Tégy víg emlekezetet.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Minden ízem, tagom, ’s részem</l>
+<l xml:id="l.30">Szent Szűzet díchérjétek;</l>
+<l xml:id="l.31">Énekekkel, és Versekkel</l>
+<l xml:id="l.32">Gyakran emlegessétek.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33">Ninch olly elme, ki értelme</l>
+<l xml:id="l.34">Szent Szűzet fel-érhesse;</l>
+<l xml:id="l.35">Értekével, ’s bőlch nyelvével</l>
+<l xml:id="l.36">Ezt méltán díchérhesse.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37">Minden vallya, ’s magasztallya,</l>
+<l xml:id="l.38">Mint Szűléjét Istennek:</l>
+<l xml:id="l.39">De ne véllye, hogy fel-érje</l>
+<l xml:id="l.40">Senki fölségét ennek:</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41">Mindazáltal, alázattal</l>
+<l xml:id="l.42">Illik hozzája mennűnk;</l>
+<l xml:id="l.43">Sok-irgalmú, ’s nagy-hatalmú</l>
+<l xml:id="l.44">Szűz óltalmát keresnűnk.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.45">Tudom, senki olly ninchen, ki</l>
+<l xml:id="l.46">Szűzet méltán tisztelné:</l>
+<l xml:id="l.47">De meg-kábúlt, ’s esze-fordúlt</l>
+<l xml:id="l.48">Ki ezt nem énekelné.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.49">Kinek fénlő, ’s Ég-érdemlö</l>
+<l xml:id="l.50">Élete meg-áldatott:</l>
+<l xml:id="l.51">Rút Kevélység, ’s Eretnekség</l>
+<l xml:id="l.52">Általa meg-rontatott.</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.53">E’ Rosával, mint fáklyával,</l>
+<l xml:id="l.54">Isten Nyája tűndöklik:</l>
+<l xml:id="l.55">Életében, ’s beszédében</l>
+<l xml:id="l.56">Isten Malasztya fénlik.</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.57">Eva vétke; ’s tíltott étke</l>
+<l xml:id="l.58">Az Eget bé-zárlotta:</l>
+<l xml:id="l.59">Ez épsége, és hívsége</l>
+<l xml:id="l.60">Viszontag fel-nyitotta.</l>
+</lg>
+<lg xml:id="lg.16">
+<l xml:id="l.61"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Eva tőrbe, ’s ejté bűnbe</lem><rdg wit="#II" xml:id="rdg.1">ejté, ’s bűnbe</rdg></app></l>
+<l xml:id="l.62">Az Emberi nemzetet:</l>
+<l xml:id="l.63">E’ Szűz-által, ki Malaszttal</l>
+<l xml:id="l.64">Tellyes, nyertűnk életet.</l>
+</lg>
+<lg xml:id="lg.17">
+<l xml:id="l.65">Nem szolgállya, ’s predikállya</l>
+<l xml:id="l.66">Senki ezt képtelenűl:</l>
+<l xml:id="l.67">Éneklésre, ’s díchérésre</l>
+<l xml:id="l.68">Mert méltó végetlenűl.</l>
+</lg>
+<lg xml:id="lg.18">
+<l xml:id="l.69">Ez Szűz adgya (a’ mint hadgya</l>
+<l xml:id="l.70">Fia) hogy szolgálhassam;</l>
+<l xml:id="l.71">Víg orczáját, ’s kegyes Fiát</l>
+<l xml:id="l.72">Színről színre láthassam.</l>
+</lg>
+<p xml:id="p.2">MASODIK RESZE</p>
+<lg xml:id="lg.19">
+<l xml:id="l.73">Oh nagy-némű, ’s gyözedelmű</l>
+<l xml:id="l.74">Aszszonyok dichősége!</l>
+<l xml:id="l.75">Kit Annyának, ’s Aszszonyának</l>
+<l xml:id="l.76">Vall főldnek kereksége.</l>
+</lg>
+<lg xml:id="lg.20">
+<l xml:id="l.77">Nézd kegyessen, ’s szerelmessen</l>
+<l xml:id="l.78">A’ te tisztelőidet:</l>
+<l xml:id="l.79">Tedd méltókká, ’s állandókká</l>
+<l xml:id="l.80">A’ jóban Híveidet.</l>
+</lg>
+<lg xml:id="lg.21">
+<l xml:id="l.81">Jesse ága, ’s szép Virága,</l>
+<l xml:id="l.82">Epett szívnek orvosa;</l>
+<l xml:id="l.83">Főld épsége, ’s Ég szépsége,</l>
+<l xml:id="l.84">Es Istennek titkosa:</l>
+</lg>
+<lg xml:id="lg.22">
+<l xml:id="l.85">Élet fája, ’s vagy Példája</l>
+<l xml:id="l.86">Minden szent erkőlchöknek:</l>
+<l xml:id="l.87">Palotája, és formája</l>
+<l xml:id="l.88">Égi kegyességeknek:</l>
+</lg>
+<lg xml:id="lg.23">
+<l xml:id="l.89">Üdvözlessél, ’s díchértessél,</l>
+<l xml:id="l.90">Kitől Ég fel-nyittatott:</l>
+<l xml:id="l.91">A’ kit amaz régi Ravasz</l>
+<l xml:id="l.92">Kigyó meg nem chalhatott.</l>
+</lg>
+<lg xml:id="lg.24">
+<l xml:id="l.93">Tekíntetes, ’s nevezetes</l>
+<l xml:id="l.94">Dávid Király Leánya:</l>
+<l xml:id="l.95">Az választott, ki alkotott</l>
+<l xml:id="l.96">Téged, Egek Aszszonya.</l>
+</lg>
+<lg xml:id="lg.25">
+<l xml:id="l.97">Gyémánt-fényű, ’s Rósa-színű</l>
+<l xml:id="l.98">Tisztaság Lílioma:</l>
+<l xml:id="l.99">Kivel épűl, vígad, ’s szépűl</l>
+<l xml:id="l.100">Meny-ország birodalma.</l>
+</lg>
+<lg xml:id="lg.26">
+<l xml:id="l.101">Égi jókkal, ’s ékes szókkal,</l>
+<l xml:id="l.102">Kérlek, engem nemesíts:</l>
+<l xml:id="l.103">Hogy te kedved-szerént, neved</l>
+<l xml:id="l.104">Dichérhessem, bátoríts.</l>
+</lg>
+<lg xml:id="lg.27">
+<l xml:id="l.105">Leg-elsőben, add szívemben</l>
+<l xml:id="l.106">A’ te Szeretetedet:</l>
+<l xml:id="l.107">Hogy terjeszsze, és gerjeszsze</l>
+<l xml:id="l.108">Lelkem tiszteletedet.</l>
+</lg>
+<lg xml:id="lg.28">
+<l xml:id="l.109">Noha bénna nyelvem, ’s néma,</l>
+<l xml:id="l.110">Ajakim fertelmesek:</l>
+<l xml:id="l.111">De szentséged, ’s dichőséged</l>
+<l xml:id="l.112">En-nálam szerelmesek.</l>
+</lg>
+<lg xml:id="lg.29">
+<l xml:id="l.113">Örűlly, vígadgy, és hálát adgy,</l>
+<l xml:id="l.114">Mint méltó díchéretre:</l>
+<l xml:id="l.115">Mert te hittél, ’s így ok lettél</l>
+<l xml:id="l.116">Nékűnk az új életre.</l>
+</lg>
+<lg xml:id="lg.30">
+<l xml:id="l.117">Tisztasággal, ’s igassággal</l>
+<l xml:id="l.118">Bévelkedő drága Szűz;</l>
+<l xml:id="l.119">Mint virágra, ’s pálma ágra,</l>
+<l xml:id="l.120">Isten rád gyümőlchöt fűz.</l>
+</lg>
+<lg xml:id="lg.31">
+<l xml:id="l.121">A’ szagával, ’s jószágával</l>
+<l xml:id="l.122">Bóldogúlni akarunk:</l>
+<l xml:id="l.123">Kinek magva, jókkal rakva;</l>
+<l xml:id="l.124">’S nékünk szerelmes Urúnk.</l>
+</lg>
+<lg xml:id="lg.32">
+<l xml:id="l.125">Oh szépséges Szűz, és kegyes,</l>
+<l xml:id="l.126">Ki vagy makula-nélkül;</l>
+<l xml:id="l.127">Tégy tisztákká, ’s igazakká</l>
+<l xml:id="l.128">Minket-is, ’s vétek-nélkül.</l>
+</lg>
+<lg xml:id="lg.33">
+<l xml:id="l.129">Bóldog emlő, ’s nagy érdemlő</l>
+<l xml:id="l.130">Melly szoptatál Gyermeket;</l>
+<l xml:id="l.131">Ki meg-nyitá, ’s meg-újítá</l>
+<l xml:id="l.132">Mí-nékűnk az Egeket.</l>
+</lg>
+<lg xml:id="lg.34">
+<l xml:id="l.133">Új világgal, és virággal</l>
+<l xml:id="l.134">Általad főld tűndöklik;</l>
+<l xml:id="l.135">Setétsége, ’s büdössége</l>
+<l xml:id="l.136">Régi ködnek el-oszlik.</l>
+</lg>
+<lg xml:id="lg.35">
+<l xml:id="l.137">Gazdag dúsok, most kóldúsok,</l>
+<l xml:id="l.138">Mi-ként te meg-mondottad:</l>
+<l xml:id="l.139">’S kik éheztek, most bé-tőltek,</l>
+<l xml:id="l.140">’A mint meg-profétáltad.</l>
+</lg>
+<lg xml:id="lg.36">
+<l xml:id="l.141">Meg-fordúlnak, és újúlnak</l>
+<l xml:id="l.142">Általad rosz szokások:</l>
+<l xml:id="l.143">Meg-pírúlnak, ’s el-burúlnak</l>
+<l xml:id="l.144">A’ sok hamis Vallások.</l>
+</lg>
+<lg xml:id="lg.37">
+<l xml:id="l.145">Tanítottál, ’s példát adtál</l>
+<l xml:id="l.146">Világ útálására,</l>
+<l xml:id="l.147">Délczeg Testnek, ’s rosz erkőlchnek</l>
+<l xml:id="l.148">Meg-zabolázására.</l>
+</lg>
+<lg xml:id="lg.38">
+<l xml:id="l.149">Szemeinket, ’s elméinket</l>
+<l xml:id="l.150">Hogy Menybe igazgassuk;</l>
+<l xml:id="l.151">Tagainknak, ’s szokásinknak</l>
+<l xml:id="l.152">Indúlatit faggassuk.<note type="critic" xml:id="note.1">faggassuk = tépdessük, itt: csökkentsük</note></l>
+</lg>
+<lg xml:id="lg.39">
+<l xml:id="l.153">Táplálgattad, ’s ápolgattad</l>
+<l xml:id="l.154">A’ mí Üdvözítőnket:</l>
+<l xml:id="l.155">Szűz méhedben, ’s kebeledben</l>
+<l xml:id="l.156">Hordoztad Életünket.</l>
+</lg>
+<lg xml:id="lg.40">
+<l xml:id="l.157">Anya lettél, ’s szűzen szűltél</l>
+<l xml:id="l.158">Fiat, mí váltságunkra;</l>
+<l xml:id="l.159">Dichőségnek, ’s fényességnek</l>
+<l xml:id="l.160">Urát, vígaságunkra:</l>
+</lg>
+<lg xml:id="lg.41">
+<l xml:id="l.161">Áldott személy, kitől kevély</l>
+<l xml:id="l.162">Halál meg-tapodtatott;</l>
+<l xml:id="l.163">’S bűnös ágnak, Meny-országnak</l>
+<l xml:id="l.164">Kapuja meg-nyittatott.</l>
+</lg>
+<lg xml:id="lg.42">
+<l xml:id="l.165">Áldott légyen, ’s velünk tégyen</l>
+<l xml:id="l.166">Jót, ki Annyának hiszünk:<note type="critic" xml:id="note.2">165–166 A nehezen érthető két sor értelmét csak a latin eredeti teszi világossá. Eszerint a 83. sor Krisztusról szól, s a sor
+                        utolsó részének („ki Annyának hiszünk”, a latinban: „cujus mater crederis”) ez az értelme: az ki anyjának téged (azaz Máriát)
+                        hiszünk, vagy: az kinek anyjaként téged tisztelünk, vagy: kinek anyja te vagy – vagyis a költő Máriához fordulva, őt szólítva,
+                        Krisztusról beszél.</note></l>
+<l xml:id="l.167">Mert született, ki teremtett</l>
+<l xml:id="l.168">Mínket, tőled, szép Szűzünk.<note type="critic" xml:id="note.3">167–168 Természetes szórenddel: Mert tőled, szép Szűzünk, született, ki minket teremtett.</note></l>
+</lg>
+<p xml:id="p.3">HARMADIK RESZE</p>
+<lg xml:id="lg.43">
+<l xml:id="l.169">Elesztője, ’s ébresztője</l>
+<l xml:id="l.170">Ki vagy kétes szívűnknek;</l>
+<l xml:id="l.171">Légy vesztője, ’s sillyesztője</l>
+<l xml:id="l.172">A’ mí ellenségünknek.</l>
+</lg>
+<lg xml:id="lg.44">
+<l xml:id="l.173">A’ mint kértem, imádgy értem,</l>
+<l xml:id="l.174">’S vígy Abrahám keblébe:</l>
+<l xml:id="l.175">Hogy ne essem, ’s ne vettessem</l>
+<l xml:id="l.176">A’ Kárhozat tüzébe.</l>
+</lg>
+<lg xml:id="lg.45">
+<l xml:id="l.177">Im díchérlek, ’s azon kérlek,</l>
+<l xml:id="l.178">Hogy meg-gyógyítsd sebemet:</l>
+<l xml:id="l.179">Érdemedből, ’s kegyelmedből</l>
+<l xml:id="l.180">Töröld-el sok vétkemet:</l>
+</lg>
+<lg xml:id="lg.46">
+<l xml:id="l.181">Hogy bizony szűz, mint a’ szép tűz,</l>
+<l xml:id="l.182">Lehessek, ’s mértékletes,</l>
+<l xml:id="l.183">Igaz, élmés, és kegyelmes,</l>
+<l xml:id="l.184">Irgalmas, szemérmetes,</l>
+</lg>
+<lg xml:id="lg.47">
+<l xml:id="l.185">Nagy-szerelmű, ’s gyors-értelmű</l>
+<l xml:id="l.186">Az Égi tudományban;</l>
+<l xml:id="l.187">Isten-félő, ’s szentűl-élő</l>
+<l xml:id="l.188">Mennyei hagyományban:</l>
+</lg>
+<lg xml:id="lg.48">
+<l xml:id="l.189">Ahítatos, ’s álhatatos,</l>
+<l xml:id="l.190">Szelíd, józan, szerelmes,</l>
+<l xml:id="l.191">Nagy-tűrhetö, jó-tehető,</l>
+<l xml:id="l.192">Nyájas, kegyes, értelmes.</l>
+</lg>
+<lg xml:id="lg.49">
+<l xml:id="l.193">Igaz-mondó, ’s a’ romlandó</l>
+<l xml:id="l.194">Világon alázatos;</l>
+<l xml:id="l.195">Test-gyülőlő, bűn-kerűlő,</l>
+<l xml:id="l.196">’S a’ jóban szorgalmatos.</l>
+</lg>
+<lg xml:id="lg.50">
+<l xml:id="l.197">Te őrzőjök, ’s segétőjök</l>
+<l xml:id="l.198">Légy a’ Keresztyéneknek:</l>
+<l xml:id="l.199">Üdvösséget, ’s békeséget</l>
+<l xml:id="l.200">Nyerj az igaz Híveknek.</l>
+</lg>
+<lg xml:id="lg.51">
+<l xml:id="l.201">Oh Egeknek, ’s Tengereknek</l>
+<l xml:id="l.202">Tűndöklő szép Chillaga!</l>
+<l xml:id="l.203">Ez, mind Hóldnál, ’s mind a’ Napnál</l>
+<l xml:id="l.204">Fényesebben villoga.</l>
+</lg>
+<lg xml:id="lg.52">
+<l xml:id="l.205">Szent érdemed-, és kegyelmedÁltal,</l>
+<l xml:id="l.206">szívem támogasd:</l>
+<l xml:id="l.207">A’ mi fáraszt, ’s bűnt meg-áraszt.</l>
+<l xml:id="l.208">Rólunk azt le-rázogasd.</l>
+</lg>
+<lg xml:id="lg.53">
+<l xml:id="l.209">Ördög kézből, ’s örök tűzből</l>
+<l xml:id="l.210">Az Embert meg-mentetted:</l>
+<l xml:id="l.211">Igaz testben, s’ természetben</l>
+<l xml:id="l.212">Midőn Istent nemzetted.</l>
+</lg>
+<lg xml:id="lg.54">
+<l xml:id="l.213">Tisztaságban, ’s igasságban</l>
+<l xml:id="l.214">Noha Fiat fogadtál:</l>
+<l xml:id="l.215">Ékességtől, ’s Szűzességtől</l>
+<l xml:id="l.216">De te meg nem fosztattál.</l>
+</lg>
+<lg xml:id="lg.55">
+<l xml:id="l.217">Mert, Szűz vóltál, szűz maradtál</l>
+<l xml:id="l.218">Midőn tőled született:</l>
+<l xml:id="l.219">Azt szoptatván, ’s ápolgatván,</l>
+<l xml:id="l.220">A’ ki téged teremtett.</l>
+</lg>
+<lg xml:id="lg.56">
+<l xml:id="l.221">Új magzattal, ’s áldozattal</l>
+<l xml:id="l.222">Fénlő Isten edénye;</l>
+<l xml:id="l.223">Fiat bírtál, ’s meg nem nyíltál,</l>
+<l xml:id="l.224">Szűzességnek szekrénye:</l>
+</lg>
+<lg xml:id="lg.57">
+<l xml:id="l.225">Méltóztassál, szent áldással</l>
+<l xml:id="l.226">Fiadnak ajánlani;</l>
+<l xml:id="l.227">Fejem tűzre, ’s örök bűzre</l>
+<l xml:id="l.228">Hogy ne kezgyen szállani.</l>
+</lg>
+<lg xml:id="lg.58">
+<l xml:id="l.229">Lágy szívűvé, ’s eggy-ügyűvé</l>
+<l xml:id="l.230">Engemet tégy végetlen:</l>
+<l xml:id="l.231">A’ Bűn-ellen, ’s Ördög-ellen</l>
+<l xml:id="l.232">Örizz, kérlek, szűnetlen.</l>
+</lg>
+<lg xml:id="lg.59">
+<l xml:id="l.233">Meg ne ejtsen ’s szégyeníttsen</l>
+<l xml:id="l.234">E’ Világnak szerelme:</l>
+<l xml:id="l.235">El-ámíttya, ’s meg-vakíttya,</l>
+<l xml:id="l.236">Kit meg-chalhat öröme.</l>
+</lg>
+<lg xml:id="lg.60">
+<l xml:id="l.237">Hogy dölfösség, és gyűlőlség</l>
+<l xml:id="l.238">Elmém meg ne foghassa;</l>
+<l xml:id="l.239">Pokol mérge, ’s úndok férge</l>
+<l xml:id="l.240">Szívemet ne rághassa.</l>
+</lg>
+<lg xml:id="lg.61">
+<l xml:id="l.241">Reménkedgyél, ’s törekedgyél</l>
+<l xml:id="l.242">Fiad-elött érettem:</l>
+<l xml:id="l.243">Hogy tekéntsen rám, ’s meg-mentsen</l>
+<l xml:id="l.244">Kíntól, kit érdemlettem.</l>
+</lg>
+<lg xml:id="lg.62">
+<l xml:id="l.245">Légy óltalmok, ’s diadalmok</l>
+<l xml:id="l.246"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Kik üllik innepedet,</lem><rdg wit="#II" xml:id="rdg.2">ünnepedet</rdg></app></l>
+<l xml:id="l.247">Víg Versekkel, ’s Énekekkel</l>
+<l xml:id="l.248">Tisztelik szent nevedet.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

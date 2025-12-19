@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">28.</title>
+<title key="body" n="28" type="main">ODE GRATULATORIA CONSCRIPTA 1610. JAM PASTOR ECCLESIAE ORDINATUS</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-28</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi rend="bold">Diarium Apod.</hi> 239b–240a.</bibl> – A latin cím jelentése:
+                            <date when="1610">1610-ben</date> írt örvendező óda, amikor már az egyház
+                        lelkipásztorává avatták. – Az ének versfői: MISKOLC.</p>
+<p xml:id="crit.1.p.2">Az ének pontos keletkezési ideje nem állapítható meg. Csulyak először
+                            <date when="1608">1608-at</date> írt a címbe, majd <date when="1610">1610-re</date> javította
+                        ki. Az ének szövege előtt a <persName>Rákóczi Lajosról</persName> szóló
+                        beszéd (<date when="1612-02-29">1612. febr. 29.</date>), utána pedig egy <date when="1620-05-07">1620. máj.
+                            7-i</date> ének olvasható. Ezért arra gondolhatunk, hogy a <title><hi rend="italic">Diarium</hi></title>-ba való bejegyzés nem az ének
+                        szerzése idejében, hanem jóval később történt, s Csulyak nem emlékezett
+                        pontosan az évszámra. <date when="1608">1608</date> ugyanis semmiképpen nem jó, mert
+                            <date when="1609-02-18">1609. febr. 18-án</date> iktatták be szerencsi papnak, esküvője
+                        pedig <date when="1609-02-25">1609. febr. 25-én</date> volt. (Lásd a 24. sort.)</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 239b–240a.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 28.</fw>
+<head type="title"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">ODE GRATULATORIA CONSCRIPTA 1610. JAM PASTOR ECCLESIAE ORDINATUS</lem><rdg wit="#I" xml:id="rdg.1"><del>1608.</del><add type="corr">1610.</add></rdg></app></head>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><hi rend="bold">M</hi>egh foghatatlan felség hiveidnek segitség,</l>
+<l xml:id="l.2">ejel es nappal szivem teged ohait, te hozzad edes Istenehez sohait:</l>
+<l xml:id="l.3">mert te vagj ut böseges kút szűkölködöknek,</l>
+<l xml:id="l.4">edes Attia, taplaloja, egjigjűeknek.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5"><hi rend="bold">I</hi>ffiusagomtol fogva mi voltom nalad tudva,</l>
+<l xml:id="l.6">mert te attal engem Aniam meheben, ez vilagra ismet hoztal kedvedben:</l>
+<l xml:id="l.7">hogj tűkörűl lennék jelűl szentegyhazadban</l>
+<l xml:id="l.8">el esteket téveligöket hoznék utadban.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9"><hi rend="bold">S</hi>oc niomorusagockal mint egj orvossagockal,</l>
+<l xml:id="l.10">szoktattal engemet Atiam kezedhez, sullios igadnac el viseleséhez:</l>
+<l xml:id="l.11">hogj kedvesseg, nagiob hűség lenne tiztemben,</l>
+<l xml:id="l.12">hiveidnek el esteknek élnék éltemben.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13"><hi rend="bold">K</hi>ichinsegemben mingiart labam utaidban járt,</l>
+<l xml:id="l.14">kegiessegnec giors tanitvania voltam szent tudomaniokat hiven tanultam,</l>
+<l xml:id="l.15">hon es kivöl<note type="critic" xml:id="note.1">hon es kivöl = otthon és külföldön</note> tizta szwböl szolgaltam neked,</l>
+<l xml:id="l.16">szent életben kegiessegben éltem elötted.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17"><hi rend="bold">O</hi>ltalmaztal jartomban idegen orszagokban</l>
+<l xml:id="l.18">örömmel bumat bölchen temperaltad iregim szajokat meg zabolaztad,</l>
+<l xml:id="l.19">hogj nielveckel fegjvereckel ne arthassanak</l>
+<l xml:id="l.20">mint Actaeon<note type="critic" xml:id="note.2">Actaeont Diana szarvassá változtatta, mert megleste őt meztelenül. Ezután saját kutyái tépték szét.</note> fene modon szaggattassanak.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21"><hi rend="bold">L</hi>atvan indulatomot hozzad akaratomat</l>
+<l xml:id="l.22">valamit töled kivantam megh attad, könörgesemet mihelt meg halgattad,</l>
+<l xml:id="l.23">ki tiztesseget jo hirt nevet fejemnec attal,</l>
+<l xml:id="l.24">hivatallal házas tarsal ajandekoztal.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25"><hi rend="bold">C</hi>zelul hogj niavaliaknac vetél sullios kinoknac</l>
+<l xml:id="l.26">ackoris szent Lelked volt vigaztalom hogj az iga ne lenne aggaztalom</l>
+<l xml:id="l.27">kiért halát halaadast adok eltemben</l>
+<l xml:id="l.28">miglen élek néked élek nemes teremtöm.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">73.</title>
+<title key="body" n="73" type="main">MAS, AZON ZEPLÖTELEN ZEP ZUSZEKNEK VIRAGIAHOZ</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-73</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata:</p>
+<p xml:id="crit.1.p.2">I. <bibl><hi rend="bold">Győri-toldalék.</hi> 6–8.</bibl> Kiad. <bibl><hi rend="smallcaps">Rómer</hi>,
+                        i. m. 67–8.</bibl>; <bibl><hi rend="smallcaps">Ház</hi>I, i. m. 54–5.</bibl> – A vers végén:
+                        „Amen.”</p>
+<p xml:id="crit.1.p.3">Nyomtatott kiadásai:</p>
+<p xml:id="crit.1.p.4">II. <bibl><hi rend="bold">Dialogus.</hi>
+<placeName>Prága<idno type="ITIdata">Q22802</idno></placeName>
+<date when="1623">1623</date>.</bibl> H1b–H2a. – Itteni címét lásd a
+                        főszövegben. A cím alatt fametszet, mely a holdsarlón ülő, dicsfénnyel
+                        övezett Máriát ábrázolja, karján a gyermekkel. A kép alján ez a felírás:
+                        „Monstra te esse Matrem.”</p>
+<p xml:id="crit.1.p.5">III. <bibl><hi rend="bold">Dialogus.</hi>
+<placeName>Bécs<idno type="ITIdata">Q99</idno></placeName>
+<date when="1633">1633</date>. D6b–D7b.</bibl> Kiad. <bibl><hi rend="smallcaps">Jenei</hi>: Magyar
+                            költők XVII. század. Bp. 1956. 133–4.</bibl> – A cím, a metszet és a
+                        tördelés megegyezik a II. változatéval.</p>
+<p xml:id="crit.1.p.6">A III. szöveg a <hi rend="italic">Dialogus</hi> jelenleg ismeretlen <date when="1625">1625.</date> évi kiadását követi. Ugyanezt a változatot
+                        találjuk a közvetlenül az <date when="1625">1625.</date> évi kiadáson
+                        alapuló <date when="1724">1724-ből</date> való kiadásban (D7a–D8a), valamint
+                        az <date when="1633">1633-as</date> újranyomásaként megjelent <date when="1636">1636.</date> éviben (D6b–D7b). Hasonlóképpen változatlan
+                        formában, ugyanazzal a címmel és metszettel került át a III. szöveg az
+                                <title><hi rend="italic">Istenes énekek</hi></title> bécsi [<date from="1635" to="1636">1635–36</date>] kiadásába. (158–60.) Kiad.
+                        <bibl><hi rend="smallcaps">Varjas</hi> i. m. 158–60.</bibl> Végül a <hi rend="italic">Dialogus</hi> valamelyik kiadása nyomán belekerült a katolikus
+                        énekeskönyvekbe is: <hi rend="italic">Cantus catholici</hi> (<date when="1651">1651</date>) 112–3.; <hi rend="italic">Kájoni-Cantionale</hi> (<date when="1676">1676</date>) 369–70. továbbá
+                        mindkét gyűjtemény későbbi kiadásaiba. A <hi rend="italic">Dialogus</hi>
+                        önálló kiadásai közül a protestáns nyomda által kiadott <date when="1642">1642</date>.
+                        évi váradi editio mellőzte.</p>
+<p xml:id="crit.1.p.7">Hangjegyekkel a <title><hi rend="italic">Cantus catholici</hi></title> (<date when="1651">1651</date>) közli először. A dallam a legismertebb
+                        Balassi-strófájú dallamok egyike; inkább a „Meg ne fedj engemet” dallamaként
+                        szokták idézni (lásd az <ref target="rmkt-17-2.tei.nyvm-59">59. sz.</ref> verset), valószínű tehát, hogy
+                        eredetileg ahhoz tartozott, bár négysoros bővült formája (4×19), amely
+                        ugyancsak a <title><hi rend="italic">Cantus catholici</hi></title>-ban és
+                        később a XVIII. századi református énekeskönyvekben
+                        (<placeName>Kolozsvár<idno type="ITIdata">Q258</idno></placeName>
+<date when="1744">1744</date>, <placeName>Debrecen<idno type="ITIdata">Q2117</idno></placeName>
+<date when="1778">1778</date> stb.) jelent meg, <persName>Sztárai
+                            Mihály</persName> 23. zsoltárparafrázisával párosul, s így ez a
+                        négysoros dallamalak tekinthető elsődlegesnek. (<bibl><abbr>RMDT I</abbr>, 28.
+                            sz.</bibl>) A dallamot énekünk szövegével kiadta <bibl><hi rend="smallcaps">Szabolcsi</hi> (<title>A
+                                Balassi-strófa főbb ritmikai alakjai a régi magyar
+                            zenében</title>.), ItK 1931. függ. XIII.</bibl>, s felsorolta variánsait
+                        is.</p>
+<p xml:id="crit.1.p.8">Nyéki Vörösnek ez az éneke a Székelyföldön – nyilván a <hi rend="italic">Kájoni-Cantionale</hi> közvetítésével – a folklórba is behatolt. Két
+                        erősen átformálódott strófáját egy <date when="1941">1941-ben</date>,
+                        Uzonban gyűjtött betlehemes játék részeként énekelték a vers eredeti,
+                                <title><hi rend="italic">Cantus catholici</hi></title>-beli
+                        dallamával. (Közli: <bibl>MNT II, 371/III.</bibl>; <bibl><hi rend="smallcaps">Schramm Ferenc</hi>:
+                                <title>Adatok betlehemes-játékaink dallamainak eredetéhez</title>.
+                            Zenetud. Tan. VI, 469–71.</bibl>) A nép ajkán élő szöveg, mely a vers 2.
+                        és 4. strófája nyomán keletkezett, a következő:</p>
+<lg xml:id="crit.1.lg.1"><l xml:id="crit.1.l.1">Szép liliom szála, kiről reánk szálla, ami jót az ég adott,</l>
+<l xml:id="crit.1.l.2">kinek drága kertje önte világ szerte drágalátos illatot,</l>
+<l xml:id="crit.1.l.3">mikor Ádám népe bűneitől tépve átok alatt roskadott.</l></lg>
+<lg xml:id="crit.1.lg.2"><l xml:id="crit.1.l.4">Hajnali szép csillag, ki mindenkor csillog, ha járunk a setétben.</l>
+<l xml:id="crit.1.l.5">kinek fényessége bátorság és béke kisértésben, veszélyben,</l>
+<l xml:id="crit.1.l.6">ragyogj reánk immár, mert az ördög itt jár keresvén, kit széttépjen.</l></lg></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Győri-toldalék. 6–8.</witness>
+<witness xml:id="II">Dialogus. Prága 1623. H1b–H2a.</witness>
+<witness xml:id="III">Dialogus. Bécs 1633. D6b–D7b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 73.</fw>
+<head type="title">MAS, AZON ZEPLÖTELEN ZEP ZUSZEKNEK VIRAGIAHOZ</head>
+<head type="subtitle"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1"><supplied>Az irgalmas kedveu szepleotelen szep szevz Mariahoz</supplied></lem><rdg wit="#I #II #III" xml:id="rdg.1"/></app></head>
+<!--Dallam-kép 109. o.-->
+<lg xml:id="lg.1">
+<l xml:id="l.1">Oh dichöult zep kincz, kiben giarlosag nincz</l>
+<l xml:id="l.2">s, nemis ferhet setetsegh,</l>
+<l xml:id="l.3">Jesse törsökeböl, keluen kebeleböl</l>
+<l xml:id="l.4">leuęl boldog feniessegh</l>
+<l xml:id="l.5">ekes chillagokual, napual es az holdual</l>
+<l xml:id="l.6">tekintetes dichösegh.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.7">Te zep liliom zal, kitöl kegielem zal<note type="critic" xml:id="note.1">A sort olv.: Te szép liliomszál, kitől kegyelem száll.</note></l>
+<l xml:id="l.8">minden testre ez földön</l>
+<l xml:id="l.9">s, kinek draga kerte, önte uilag zerte</l>
+<l xml:id="l.10"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">draga illatot, midön</lem><rdg wit="#II" xml:id="rdg.2">Kivánt illatot</rdg></app></l>
+<l xml:id="l.11">minden nag atokban zalna<note type="critic" xml:id="note.2">olv. szállna</note> karhozatban</l>
+<l xml:id="l.12">az vezedelmes idön.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.13">Te meniorzagh uttia, s, paradichom kuttia</l>
+<l xml:id="l.14"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">ky rank kegielmet ontot</lem><rdg wit="#II #III" xml:id="rdg.3">öntött</rdg></app></l>
+<l xml:id="l.15">s, kinek tizta mellie, dragalatos teye</l>
+<l xml:id="l.16">neuele zep viragot</l>
+<l xml:id="l.17"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">ky mindön <sic>búnöktöl</sic>, <corr>ördögnek kezéböl</corr></lem><rdg wit="#I" xml:id="rdg.4">ördögh kettrechetöl</rdg><rdg wit="#II #III" xml:id="rdg.5">minden; ördögnek kezéböl</rdg></app></l>
+<l xml:id="l.18">megh ualta ez vilagot.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.19">Te zep hainal chillagh ky mindenkor uillagh</l>
+<l xml:id="l.20">nap tamadasa elöt</l>
+<l xml:id="l.21">ky artatlansagban fenlel ez vilagban</l>
+<l xml:id="l.22"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">az Isten zöme elöt</lem><rdg wit="#II #III" xml:id="rdg.6">szeme</rdg></app></l>
+<l xml:id="l.23">te mehedben zalla, az ky nag kint valla</l>
+<l xml:id="l.24">s, minekunc valtsagunk leöt.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.25">Te chodalatos zin, kyre nezue bün s, kin</l>
+<l xml:id="l.26"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">chöndesul kegielmedböl</lem><rdg wit="#II #III" xml:id="rdg.7">Chendesül</rdg></app></l>
+<l xml:id="l.27">s, kinek oltalmaual, az ördögh tauul al</l>
+<l xml:id="l.28">s, erötlen kesertesböl</l>
+<l xml:id="l.29">keotözd megh mert kerül, tör haniassal kezül</l>
+<l xml:id="l.30">el vonny zerelmedtöl.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.31"><app xml:id="app.7"><lem wit="#KK" xml:id="lem.7">Testy giarlosagom, oh en boldogsagom</lem><rdg wit="#II #III" xml:id="rdg.8"><sic>boldoságom</sic></rdg></app></l>
+<l xml:id="l.32">megh ne giozze lelkemet</l>
+<l xml:id="l.33"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">rut zömtelensegre, ne giuicha vetkekre</lem><rdg wit="#II #III" xml:id="rdg.9">szemtelenségre</rdg></app></l>
+<l xml:id="l.34">ördögh az en ziuemet</l>
+<l xml:id="l.35">igazgasson kedued, es soha ne zenued</l>
+<l xml:id="l.36">teuelgeny eltemet.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.37">Esedezzel ertem, hog az bunre tertem</l>
+<l xml:id="l.38">ne törtenniek fertelmel,</l>
+<l xml:id="l.39"><app xml:id="app.9"><lem wit="#KK" xml:id="lem.9">niúych ky zent kezedet, s, el ne ued zömödet</lem><rdg wit="#II #III" xml:id="rdg.10">szemedet</rdg></app></l>
+<l xml:id="l.40">uigiazzak ertelemmel,</l>
+<l xml:id="l.41">tarch megh kegielmedben, mindenkor eltemben</l>
+<l xml:id="l.42">s, aldlak buzgo örömmel.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

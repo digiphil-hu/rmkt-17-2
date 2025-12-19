@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">94.</title>
+<title key="body" n="94" type="main">AZ SZENT KERESZTNEK FEL-VÉTELÉRE, ÉS A’ KRISTUS KÖVETESÉRE-VALO INTÉS</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-94</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadásai:</p>
+<p xml:id="crit.1.p.2">I. <bibl><hi rend="bold">Tintinnabulum</hi>. <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1636">1636</date>. 84–9.</bibl> – Ezzel a verssel kezdődik a kötet
+                        függeléke.</p>
+<p xml:id="crit.1.p.3">II. <bibl><hi rend="bold">Tintinnabulum</hi>. [<placeName>Pozsony</placeName>
+<date when="1644">1644</date>.] 72–6.</bibl> – Változatlan szöveggel megjelent
+                        ezután a <title><hi rend="italic">Tintinnabulum</hi></title> valamennyi
+                        katolikus típusú kiadásában. Felsorolásukat lásd a <ref target="rmkt-17-2.tei.nyvm-93">93. sz.</ref> vers
+                        jegyzeténél.</p><!--hiány--></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Tintinnabulum. <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName> 1636. 84–9.</witness>
+<witness xml:id="II">Tintinnabulum. [<placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName> 1644.] 72–6.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 94.</fw>
+<head type="title">AZ SZENT KERESZTNEK FEL-VÉTELÉRE, ÉS A’ KRISTUS KÖVETESÉRE-VALO INTÉS</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">A’ Kristus, Szent Keresztével,</l>
+<l xml:id="l.2">Meg-indúlt szép seregével,</l>
+<l xml:id="l.3">Az Üdvösségnek útán.</l>
+<l xml:id="l.4">Mellyet egybe-szerzett ’s gyűjtött,</l>
+<l xml:id="l.5">Szerelméhez hajtott ’s kötött,</l>
+<l xml:id="l.6">Kín-szenvedése-után.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.7">Ím hangos trombitát fújtat,<note type="footnote">Isai. 1. 10.</note></l>
+<l xml:id="l.8">Mindent seregbe szóllítat,</l>
+<l xml:id="l.9">Nevöket fel-íratván:</l>
+<l xml:id="l.10">A’ ki a’ Főldet el-hadgya,</l>
+<l xml:id="l.11">Érte Meny-országát adgya,<note type="footnote">Matt. 19. 28.</note></l>
+<l xml:id="l.12">Nagy hitire fogadván.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.13">Ha ki érettem (azt mongya)</l>
+<l xml:id="l.14">Főld örökségét el-hadgya:</l>
+<l xml:id="l.15"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Érte száz annyit adok.<note type="footnote">Matt. 19. 29.</note></lem><rdg wit="#II" xml:id="rdg.1"/></app></l>
+<l xml:id="l.16">Es az örök dichőségben,</l>
+<l xml:id="l.17">Fénlő nemes örökségben,</l>
+<l xml:id="l.18">Királyi-széket adok.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.19">De ki utánnam kész jűni,</l>
+<l xml:id="l.20">Fel kell a’ Keresztet venni</l>
+<l xml:id="l.21">Kinek-kinek magára.<note type="footnote">Matt. 16. 24.</note></l>
+<l xml:id="l.22">Es engemet viaskodva,</l>
+<l xml:id="l.23">Fájdalommal, ’s gondal rakva,</l>
+<l xml:id="l.24">Követni a’ halálra.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.25">Mert, az Eget erőszakkal,<note type="footnote">Matt. 11. 12.</note></l>
+<l xml:id="l.26">’S sok-féle fáratságokkal</l>
+<l xml:id="l.27">Kelletik ostromlani.</l>
+<l xml:id="l.28">Melynek temérdek falai,</l>
+<l xml:id="l.29">Es erős záros ajtai,</l>
+<l xml:id="l.30">Úgy hagynak bé-szállani,</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.31">Ki magán gyözedelmet vött,</l>
+<l xml:id="l.32">Díchéretes nevet szerzött<note type="footnote">Psal. 20. 6.</note></l>
+<l xml:id="l.33">Az Isten színe-elött:</l>
+<l xml:id="l.34">Mert az ö dichőségének,</l>
+<l xml:id="l.35">’S nevezetes Seregének</l>
+<l xml:id="l.36">Óltalmazójává lött.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.37">Azért, Ura szavát hallya,</l>
+<l xml:id="l.38">Ki magát Hívének vallya;</l>
+<l xml:id="l.39">Es nyomdokát kövesse.</l>
+<l xml:id="l.40">E’ Világ gaz-szemetének,</l>
+<l xml:id="l.41">Fel-rakott súllyos terhének</l>
+<l xml:id="l.42">Rút igáját le-vesse:</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.43">Es a’ Szent Kereszt fájával,</l>
+<l xml:id="l.44">Eggyütt az Egek Urával,</l>
+<l xml:id="l.45">Meny-országba siessen:</l>
+<l xml:id="l.46">Ha egyenlő Uraságban,</l>
+<l xml:id="l.47">’S Angyali szép társaságban</l>
+<l xml:id="l.48">Akarja hogy élhessen.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.49">Mert, mind ez úton követték,</l>
+<l xml:id="l.50">Kik őtet végig szerették</l>
+<l xml:id="l.51">Kereszt Zászlója-alatt.</l>
+<l xml:id="l.52">Ez a’ derék Ország-úta,</l>
+<l xml:id="l.53">Melly az eget által-múlta,</l>
+<l xml:id="l.54">Es üdvösségre hatott.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.55">Mind-fejenként erre mentek</l>
+<l xml:id="l.56">A’ régi sokságú Szentek,</l>
+<l xml:id="l.57">A’ Keresztet viselve.</l>
+<l xml:id="l.58">Ezen élet reménsége,</l>
+<l xml:id="l.59">Üdvösségnek nyeresége</l>
+<l xml:id="l.60">Meg vagyon szereztetve.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.61">Ez a’ Kristus<note type="footnote">Coloss. 2. 14.</note> gyözedelme:</l>
+<l xml:id="l.62">Mert a’ Pokol Fejedelme</l>
+<l xml:id="l.63">Ez-által meg-töretett.</l>
+<l xml:id="l.64">Ez a’ Hívek dichősége,</l>
+<l xml:id="l.65">Keresztyénség erőssége,</l>
+<l xml:id="l.66">Magassan fel-tétetett.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.67">Ez a’ dichőséges Kereszt,</l>
+<l xml:id="l.68">Melly Mennyekbe minket ereszt,<note type="footnote">1. Pet. 2. 14.</note></l>
+<l xml:id="l.69">Bűneinktől meg-mentvén.</l>
+<l xml:id="l.70">Ebben áll ama’ nagy öröm,</l>
+<l xml:id="l.71">Kit a’ Pokol-béli köröm<note type="critic" xml:id="note.1">A köröm itt háló, csapda
+                            jelentésben. Pokol-béli háló = az ördögi csábítás, kísértés stb. Vö.
+                                <persName>Kónyi</persName> „Meg-fogni a gyilkost ki-ki iparkodott és
+                            a török Éva körömben is akadott.” (<bibl><abbr>NySz II</abbr>,
+                                414.</bibl>)</note></l>
+<l xml:id="l.72">El-vont vala<note type="footnote">Genes. 3. 1.</note> kísértvén.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.73">Mit rettegsz hát a’ Kereszttől,</l>
+<l xml:id="l.74">Melly a’ Pokolra-eséstől</l>
+<l xml:id="l.75">Tégedet meg-szabadít;<note type="footnote">Sap. 10. 4.</note></l>
+<l xml:id="l.76">Es az örök dichőségbe</l>
+<l xml:id="l.77">Helyheztet, ’s nagy erősségbe</l>
+<l xml:id="l.78">Öltöztet, ’s meg-gyámolít?</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.79">Azért, hogy-ha élni akarsz;</l>
+<l xml:id="l.80"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">(<corr>E</corr>n<note type="critic" xml:id="note.2">En = íme</note> a’ tanáts) gazt nem takarsz,</lem><rdg wit="#II" xml:id="rdg.2"/></app></l>
+<l xml:id="l.81">Ki Lelked fojtogassa:</l>
+<l xml:id="l.82">Sőt járd a’ Szent Kereszt úttyát,</l>
+<l xml:id="l.83">’S keresd az Életnek kúttyát,</l>
+<l xml:id="l.84">Ki Lelked táplálgassa.</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.85">Ah, ki nehéz ezt hallani,</l>
+<l xml:id="l.86">Hogy Keresztre kell hajlani,</l>
+<l xml:id="l.87">Sokaknak ez életben!</l>
+<l xml:id="l.88"><app xml:id="app.3">
+<lem wit="#KK" xml:id="lem.3">De nehezb lészen<note type="footnote">Matt. 25.
+                                    41.</note> hallani,</lem>
+<rdg wit="#II" xml:id="rdg.3"><hi rend="bold">jegyz.</hi> II Matt. 15. 41.</rdg>
+</app></l>
+<l xml:id="l.89">Ha Pokolra kezd hajtani</l>
+<l xml:id="l.90">Kristus az Itéletben.</l>
+</lg>
+<lg xml:id="lg.16">
+<l xml:id="l.91">Akkor a’ Kereszt Szolgai,</l>
+<l xml:id="l.92">Mint feszűlt<note type="critic" xml:id="note.3">feszűlt = megfeszített</note> Kristus tagjai,</l>
+<l xml:id="l.93">Szent Fejökhöz állanak:</l>
+<l xml:id="l.94">De a’ Kereszt üldözői,</l>
+<l xml:id="l.95">Mint Ördögnek kerítői,</l>
+<l xml:id="l.96">Örök tűzre szállanak.</l>
+</lg>
+<lg xml:id="lg.17">
+<l xml:id="l.97">Válaszszon most minden ebben,<note type="footnote">Eccli. 15. 18.</note></l>
+<l xml:id="l.98">Ha akar-e dichőségben</l>
+<l xml:id="l.99">Kristussal uralkodni;</l>
+<l xml:id="l.100">Vagy a’ Pokol fenekében,</l>
+<l xml:id="l.101">Ördögök rút seregében,</l>
+<l xml:id="l.102">Tetszik szállást fogadni.</l>
+</lg>
+<lg xml:id="lg.18">
+<l xml:id="l.103">Most elötte az út arra,</l>
+<l xml:id="l.104">Vagy jobb-kéz-felé, vagy balra,</l>
+<l xml:id="l.105">Szabad, lovát nyargallya.</l>
+<l xml:id="l.106">Mennyekre, szoros út vagyon;<note type="footnote">Matt. 7. 14.</note></l>
+<l xml:id="l.107">Pokolra, ki-térjett<note type="critic" xml:id="note.4">ki-térjett = kiterjedt, vagyis széles, tágas</note> nagyon:</l>
+<l xml:id="l.108">Járja, mellyet javallya.</l>
+</lg>
+<lg xml:id="lg.19">
+<l xml:id="l.109">Annak eleje, siralmas;</l>
+<l xml:id="l.110">Es közép úta, fájdalmas;</l>
+<l xml:id="l.111">De vége Gyönyörűség:</l>
+<l xml:id="l.112">Ennek eleje, vígaság;</l>
+<l xml:id="l.113">Közepe, táncz, és uraság;</l>
+<l xml:id="l.114">De vége Keserűség.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

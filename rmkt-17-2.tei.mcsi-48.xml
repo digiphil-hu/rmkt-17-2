@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">48.</title>
+<title key="body" n="48" type="main">VOTUM PRO NOVO ANNO 1640.</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-48</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1">Kézirata: <bibl><hi rend="bold">Diarium Apod.</hi>
+                        321a–b.</bibl> – A latin cím jelentése: István fiú által elmondott
+                    jókívánság az <date when="1640">1640-i</date> új évre, iskolai dicsérő versben.</note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 321a–b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 48.</fw>
+<head type="title">VOTUM PRO NOVO ANNO 1640.</head>
+<head type="subtitle">in scholastica Panegyri, à filio Stephano dictum.</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Ez szent Karatsonnac napjan <metamark function="cesura"/> valakic it laktoc Lizkan</l>
+<l rend="level_3" xml:id="l.2">férfi aszony es szűz lean <metamark function="cesura"/> szivem nektec sok jot kivan.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.3">Mivel kedvelletec minket <metamark function="cesura"/> apro deac gyermekeket</l>
+<l rend="level_3" xml:id="l.4">kic tanulunc a b c ket <metamark function="cesura"/> de most mondunc szep verseket.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.5">Kérem Istent házatokban <metamark function="cesura"/> mennien, s vigien ladatokban</l>
+<l rend="level_3" xml:id="l.6">araniat s tallért sákokban <metamark function="cesura"/> bort buzat taar házatokban.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.7">Mely hog’ job ézű lehessen, <metamark function="cesura"/> tartson meg jo egessegben:</l>
+<l rend="level_3" xml:id="l.8">ellenségtöl védelmezzen, <metamark function="cesura"/> es legietec egességben</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.9">Szölötöc sokat teremjen, <metamark function="cesura"/> mezön buzátoc meg érjen</l>
+<l rend="level_3" xml:id="l.10">barmotoc ezert teniészen <metamark function="cesura"/> saitotoc vajatoc legien.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.11">Soc uy eztendöt lassatoc <metamark function="cesura"/> kic mostan szem fájoc vagytoc:</l>
+<l rend="level_3" xml:id="l.12">az Christust apolgassatoc, <metamark function="cesura"/> jöjön hozzatoc hijatoc.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.13">Böltsöjét ugy rengessetec <metamark function="cesura"/> belöle ki ne eitsétec,</l>
+<l rend="level_3" xml:id="l.14">mert keserű leszen nektec <metamark function="cesura"/> nalanélkűl örömetec.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.15">Azért nemes polgar ember <metamark function="cesura"/> pap, barat, deac es mester</l>
+<l rend="level_3" xml:id="l.16">dus gazdag es koldus miser<note type="critic" xml:id="note.1">miser = nyomorult (latinul)</note> <metamark function="cesura"/> ezt az Urat hordozd veled</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.17">Az Fortunatus erszénie<note type="critic" xml:id="note.2">Fortunatus erszénie – célzás a
+                                    <title><hi rend="italic">Fortunatus</hi></title> címen ismert
+                            népkönyv hősére, aki egy olyan erszényt kapott a szerencse
+                            istenasszonyától, amelyből soha nem fogy ki a pénz.</note>
+<metamark function="cesura"/> mindenkor teli sebébe,</l>
+<l rend="level_3" xml:id="l.18">valahanszor niul beleje <metamark function="cesura"/> soha nints űressen keze.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.19">Lelki kenier van sakjaba, <metamark function="cesura"/> az vizis jo bor hazaba:</l>
+<l rend="level_3" xml:id="l.20">bár ez vilag rád tamadna <metamark function="cesura"/> mind el veszne egy szavara.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.21">Adgia az kegyelmes Isten <metamark function="cesura"/> mit kivanoc mind meg légyen</l>
+<l rend="level_3" xml:id="l.22">hog’ lakjatoc az egekben <metamark function="cesura"/> öröckön öröcké Amen.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.23">Mennietek haza az fagyon <metamark function="cesura"/> édes Uraim immaron</l>
+<l rend="level_3" xml:id="l.24">töb jot kivanoc mikoron <metamark function="cesura"/> Pappá leszec az más nyaron.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

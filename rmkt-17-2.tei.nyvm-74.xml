@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">74.</title>
+<title key="body" n="74" type="main">MÁS AZ BOLDOGSAGOS ISTEN ANNIAHOZ</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-74</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi rend="bold">Győri-toldalék.</hi> 8–9.</bibl> Kiad. <bibl><hi rend="smallcaps">Rómer</hi>, i. m.
+                    69.</bibl>; <bibl><hi rend="smallcaps">Házi</hi>, i. m. 55–6.</bibl></p>
+<p xml:id="crit.1.p.2">Az ének verselése bizonytalan. A többségében 11-es sorokat három 12-es és egy 13-as sor tarkítja.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Győri-toldalék. 8–9.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 74.</fw>
+<head type="title">MÁS AZ BOLDOGSAGOS ISTEN ANNIAHOZ</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Oh te giönge dicsöseges ekes szűz</l>
+<l xml:id="l.2">menney szerettettel egö tizta tűz</l>
+<l xml:id="l.3">tolem minden gonozt zuntelen te el űz</l>
+<l xml:id="l.4">hog lelkemhez el ne hasson semmi bűz</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Esedezzel ertem szegeni fergedert</l>
+<l xml:id="l.6">sok rutsagtol nehezedet emberert</l>
+<l xml:id="l.7">fordech ream kegies szemed az kyert</l>
+<l xml:id="l.8">zent fiadnak vere hullot valtsagert.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Tarch meg hozzam nagi gonduiselesedet</l>
+<l xml:id="l.10">takargato edes örizetedet</l>
+<l xml:id="l.11">ne banthassa ördög te kichinedet</l>
+<l xml:id="l.12">semmi rettegtetö veszellel, niuich kezedet</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Keduem gondom ziuem teged tiztellien</l>
+<l xml:id="l.14">minden indulatom nieluemmel bezellien</l>
+<l xml:id="l.15"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1">vigaztalast banatom nalad lellien</lem>
+<rdg wit="#I" xml:id="rdg.1"><del>banato</del> vigaztalast</rdg>
+</app></l>
+<l xml:id="l.16"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">az örök elettre kedued segellien.</lem><rdg wit="#I" xml:id="rdg.2"><del>s en utolso oramon ne feli</del> az örök</rdg></app></l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

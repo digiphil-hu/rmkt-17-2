@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">89.</title>
+<title key="body" n="89" type="main">VT AMERIS, AMA</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-89</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadása: <bibl><hi rend="bold">Istenes énekek.</hi>
+<placeName>Bécs<idno type="ITIdata">Q99</idno></placeName> [<date from="1635" to="1636">1635–36</date>]. 189–90.</bibl> Kiad.
+                    <bibl><hi rend="smallcaps">Varjas</hi>, i. m. 189–90.</bibl> – A kiadvány unicum példányának
+                        csonkasága miatt a 30. sor után a vers folytatása ismeretlen.</p>
+<p xml:id="crit.1.p.2">A szerzőség és a datálás kérdésében lásd a <ref target="rmkt-17-2.tei.nyvm-86">86. sz.</ref> versnél
+                        mondottakat. Ezen felül külön megemiíthető még, hogy a szeretet kérdésével,
+                        mely a vers tárgyát képezi, Nyéki Vörös részletesen foglalkozik a
+                        <persName>Lackner<idno type="ITIdata">Q56168</idno></persName>
+<hi rend="italic">Coronae Hungariae</hi>-kötet kéziratos toldalékának
+                        115a–119b. lapjain. Itt megtalálható egy az ének címéhez hasonló mondás is:
+                        „Si vis amari, ama.” (119a.) (Lásd: Könyvtára 22. sz.)</p>
+<p xml:id="crit.1.p.3">A latin cím fordítása: Hogy szeressenek, szeress.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Istenes énekek. <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName> [<date from="1635" to="1636">1635–36</date>]. 189–90.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 89.</fw>
+<head type="title">VT AMERIS, AMA</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Kivánodé teged valaki szeressen,</l>
+<l xml:id="l.2">Hivséges kedvével kedvellyen kedvessen,</l>
+<l xml:id="l.3">Fogyatkozást hozzád soha ne jelenchen</l>
+<l xml:id="l.4">Szeme elött téged mindenkor visellyen.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Mutasd megh hát teis te szeretetedet,</l>
+<l xml:id="l.6">Izetlenségeddel ne viseld kedvedet,</l>
+<l xml:id="l.7">Hazug mosolygással ne mutasd színedet,</l>
+<l xml:id="l.8">S’ rút tökelletlenség ne bírja szívedet.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Az mit közel mondasz, <sic>tavülis</sic> beszéllyed,</l>
+<l xml:id="l.10">Fáratságtól érte magad ne kéméllyed,</l>
+<l xml:id="l.11">Jó chelekedetre kezed föl emellyed</l>
+<l xml:id="l.12">Az kit szeretned kel, mindenkor böchüllyed.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Rút ellenkedéssel annak boszszút ne tégy</l>
+<l xml:id="l.14">Szeléd alázatos irgalmas szivü légy</l>
+<l xml:id="l.15">Mindent az egymáshoz szeretetért föl végy</l>
+<l xml:id="l.16">El reytétt dolgokban álhatatos Társ légy.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Az könyörületes sziv legyen te vezéred,</l>
+<l xml:id="l.18">Segéche barátod, te édes beszéded,</l>
+<l xml:id="l.19">Szükölködésében éltesse ebéded</l>
+<l xml:id="l.20">Ne mond azt Hólnap jöy, ninchen ürességed.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Ma jól tégy mindennel, szomorún ne bochásd,</l>
+<l xml:id="l.22">Az aytot ha zörget nagy hamar meg nyittasd,</l>
+<l xml:id="l.23">Minden bánattyában vidam, szivel biztasd,</l>
+<l xml:id="l.24">Ha mit vét ellened, ö neki meg bochásd,</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Az mint szívet tisztát kíván az szeretet,</l>
+<l xml:id="l.26">Tökélletességet, s’ fogyhatatlan kedvet</l>
+<l xml:id="l.27">Ugy nehéz szükségben hamar segedelmet</l>
+<l xml:id="l.28">Múnkát fáratságot, pénzt, és serénséget.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Mint az gyümölchtelen fát nem dichirhetni,</l>
+<l xml:id="l.30">S’ ki ki melegségért az tüzet keresi;</l>
+<l xml:id="l.31">Igy..................................................................<note><hi rend="italic">Így</hi>: a lap alján őrszó gyanánt áll.</note></l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

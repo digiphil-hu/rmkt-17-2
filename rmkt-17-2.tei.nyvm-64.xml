@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">64.</title>
+<title key="body" n="64" type="main">CXLII. SÓLTÁR</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-64</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadásai:</p>
+<p xml:id="crit.1.p.2">I. <bibl><hi rend="bold"><persName>Pázmány Péter<idno type="ITIdata">Q47888</idno></persName>:
+                                    <title>Keresztyen imadsaagos keonyv</title>.
+                                    <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1610">1610</date>.</hi> 634–5.</bibl> Kiad. <bibl>Pázmány ö. m. II,
+                            218.</bibl> a negyedik kiadás (<placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1631">1631</date>.) alapján; <bibl><hi rend="smallcaps">Dézsi</hi>, i. m. II, 278–9.</bibl>
+                        valószínűleg az előbbi után; <bibl><hi rend="smallcaps">Varjas</hi>, i. m. 61–2.</bibl> az <title><hi rend="italic">Istenes énekek</hi></title> bécsi kiadása nyomán.</p>
+<p xml:id="crit.1.p.3">II. <bibl><hi rend="bold"><persName>Pázmány Péter</persName>:
+                                    <title>Keresztyéni imadsagos könyv</title>. <placeName>Grác<idno type="ITIdata">Q22712</idno></placeName>
+<date when="1606">1606</date>.</hi> 183b–184a.</bibl> Kiad.
+                        <bibl><hi rend="smallcaps">Erdélyi Pál</hi>, ItK 1898, 153.</bibl>
+<hi rend="italic">Jolsvai János imádságos könyve</hi> alapján. –
+                            <persName>Pázmány<idno corresp="Pázmány Péter"/></persName><title><hi rend="italic"> Imádságos
+                                könyv</hi></title>-e első kiadásában az ének szövege után ez áll:
+                        „Megh ne emlekezzel etc. mint ez eleöt: fol.” Ez utalás a zsoltárok előtt, a
+                        cím után álló antifonára; a lapszámmegjelölés azonban elmaradt. A vers mint
+                        a bűnbánó zsoltárok sorozatának hetedik – utolsó – darabja megjelent ezek
+                        többi együttes kiadásában is.</p>
+<p xml:id="crit.1.p.4">Felsorolásukat, valamint a sorozat egészére vonatkozó tudnivalókat lásd az
+                            <ref target="rmkt-17-2.tei.nyvm-59">59. sz.</ref> éneknél. Külön, Nyéki Vörös többi zsoltárától
+                        elszakítva, megtalálható még két XVII. századi kéziratban is: <bibl><hi rend="italic">Tholnay Ferenc-ék.</hi> (<date from="1614" to="1621">1614–21</date>) 91b–92b</bibl>; „probatio calami”-ként a 7a lapon
+                        is olvasható az ének első sora. – <bibl><hi rend="italic">Mihál
+                                Farkas-k.</hi> (<date when="1680">1680</date> k.) 71a–b.</bibl></p>
+<p xml:id="crit.1.p.5">A <bibl><hi rend="italic"><title>Cantus catholici</title></hi> (<date when="1651">1651</date>. 172.)</bibl> nótajelzése a VI. zsoltár
+                        dallamára utal. (Lásd az <ref target="rmkt-17-2.tei.nyvm-59">59. sz.</ref> ének jegyzetét.)</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Pázmány Péter: Keresztyen imadsaagos keonyv. <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName> 1610. 634–5.</witness>
+<witness xml:id="II">Pázmány Péter: Keresztyéni imadsagos könyv. Grác 1606. 183b–184a.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 64.</fw>
+<head type="title">CXLII. SÓLTÁR</head>
+<!--Dallam-kép 99. o.-->
+<lg xml:id="lg.1">
+<l xml:id="l.1">Hayts meg füleidet,</l>
+<l xml:id="l.2">Kérem felségedet,</l>
+<l xml:id="l.3"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Hald meg könyörghésemet.</lem><rdg wit="#II" xml:id="rdg.1">keonörgesemet</rdg></app></l>
+<l xml:id="l.4">Kemény itiletre,</l>
+<l xml:id="l.5">Ne vid nagy veszélyre,</l>
+<l xml:id="l.6">Szegin bünös feiemet.</l>
+<l xml:id="l.7">Mert nincs senki oly szent,</l>
+<l xml:id="l.8">Kit bünnel be nem kent,</l>
+<l xml:id="l.9">Gyarloság, s’ megh nem eytet.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.10">Látod ellenségem,</l>
+<l xml:id="l.11">Földre nyomot engem,</l>
+<l xml:id="l.12">Szomiuhozza véremet.</l>
+<l xml:id="l.13">Setét barlangokban,</l>
+<l xml:id="l.14">Mint eleuent, sírban,</l>
+<l xml:id="l.15">Szoritottak engemet.</l>
+<l xml:id="l.16">Csak régi ió vóltod,</l>
+<l xml:id="l.17">Atyánkhoz jrgalmad,</l>
+<l xml:id="l.18">Batorittya sziuemet.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.19">Ki teriesztet kezem,</l>
+<l xml:id="l.20">El száradot sziuem,</l>
+<l xml:id="l.21">Mennyei harmatot kér.</l>
+<l xml:id="l.22">Hald meg kialtását,</l>
+<l xml:id="l.23">Olts megh szomiuságát,</l>
+<l xml:id="l.24">Mert nincs már testemben vér.</l>
+<l xml:id="l.25"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Mint egy száraz kútban,</lem><rdg wit="#II" xml:id="rdg.2">kutba</rdg></app></l>
+<l xml:id="l.26"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">Kietlen barlangban,</lem><rdg wit="#II" xml:id="rdg.3">barlanghba</rdg></app></l>
+<l xml:id="l.27">Jrgalmat csak tölled kér.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.28">Vram jrgalmadat,</l>
+<l xml:id="l.29">Mutasd ió vóltodat,</l>
+<l xml:id="l.30">Benned bizo szolgádhoz.</l>
+<l xml:id="l.31">Igazgasd útamat,</l>
+<l xml:id="l.32">Minden szándékimat</l>
+<l xml:id="l.33">Teritsd akaratodhoz.</l>
+<l xml:id="l.34"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">Bisztasd szent lelkeddel,</lem><rdg wit="#II" xml:id="rdg.4">Elezd szent</rdg></app></l>
+<l xml:id="l.35">Es vid hatalmaddal,</l>
+<l xml:id="l.36">Lelkemet felségedhöz.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.37">Bizom ió vóltodhoz,</l>
+<l xml:id="l.38">Nyaualyámból ki hosz,</l>
+<l xml:id="l.39">Bünömböl ki tisztúlok.</l>
+<l xml:id="l.40">Verd meg kemény sziuét,</l>
+<l xml:id="l.41">Ellensegim vétkét,</l>
+<l xml:id="l.42">Kik miat én bút vallok.</l>
+<l xml:id="l.43">Noha bünös vagyok,</l>
+<l xml:id="l.44">Vgyan tiéd vagyok,</l>
+<l xml:id="l.45">Vram, s’ néked szólgálok.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.46"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">Dücsösség Atyának, etc.</lem><rdg wit="#II" xml:id="rdg.5">[Hiányzik.]</rdg></app></l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

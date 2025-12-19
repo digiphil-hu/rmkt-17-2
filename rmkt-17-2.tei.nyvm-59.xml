@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">59.</title>
+<title key="body" n="59" type="main">SZENT DAVIDNAK, HET POENITENTIA TARTO SOLTARA</title>
+<author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.nyvm-59</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadásai:</p>
+<p xml:id="crit.1.p.2">I. <bibl><hi rend="bold"><persName>Pázmány Péter<idno type="ITIdata">Q47888</idno></persName>:
+                                    <title>Keresztyen imadsaagos keonyv</title>.
+                                        <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1610">1610</date>.</hi> 621–3.</bibl> Kiad.
+                        <bibl><hi rend="smallcaps">Breznay Béla</hi>: <title>Pázmány Péter összes munkái II</title>,
+                            213.</bibl> a negyedik kiadás (<placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1631">1631</date>.) alapján; <bibl><hi rend="smallcaps">Dézsi</hi>: <title>Balassa Bálint
+                                minden munkái II</title>, 269–70.</bibl> valószínűleg
+                        <persName><hi rend="smallcaps">Breznay</hi></persName> után; <bibl><hi rend="smallcaps">Varjas</hi>, i. m. 52–3.</bibl> az
+                                <title><hi rend="italic">Istenes énekek</hi></title> bécsi kiadása
+                        nyomán.</p>
+<p xml:id="crit.1.p.3">II. <bibl><hi rend="bold"><persName>Pázmány Péter</persName>:
+                                    <title>Keresztyeni imadsagos keonyv</title>.
+                        <placeName>Grác<idno type="ITIdata">Q22712</idno></placeName>
+<date when="1606">1606</date>.</hi> 178a–b.</bibl> Kiad. <bibl><hi rend="smallcaps">Erdélyi Pál</hi>, ItK
+                            1898, 148.</bibl>
+<hi rend="italic">Jolsvai János imádságos könyve</hi> alapján.</p>
+<p xml:id="crit.1.p.4"> Az ének a hét bűnbánó zsoltár elseje, ezért itt közöljük az egész sorozatra vonatkozó tudnivalókat.</p>
+<p xml:id="crit.1.p.5">A Nyéki Vörös fordította bűnbánó zsoltárok <persName>Pázmány<idno type="ITIdata">Q47888</idno></persName>
+                        imakönyve első két kiadása nyomán még számos régi kiadást értek meg. E
+                        további kiadások, melyek szövegkritikai szempontból újat nem nyújtanak, s
+                        legfeljebb szövegromlás miatt térnek el a fenti két alapvariánstól, a
+                        következők: <persName>Pázmány<idno corresp="Pázmány Péter"/></persName>
+<title><hi rend="italic">Imádságos könyv</hi></title>-ének későbbi kiadásai. –
+                        <bibl><persName>Mihályko János<idno type="ITIdata">Q254123</idno></persName>: <title><hi rend="italic">Keresztyeni istenes és ájtatos imádságok</hi></title>
+                            (<placeName>Bártfa<idno type="ITIdata">Q6211</idno></placeName>
+<date when="1609">1609</date>) 164–84.</bibl> és ennek további kiadásai. – <bibl><title><hi rend="italic">Istenes énekek</hi></title> (<placeName>Bécs<idno type="ITIdata">Q99</idno></placeName>
+<date from="1635" to="1636">1635–6</date>) 52–62.</bibl> és az ezt pontosan követő
+                        nagyszombati <date when="1699">1699</date>. évi kiadás; ezekben a zsoltárok összefoglaló
+                        címe alatt fametszet látható, mely fa alatt térdelő, feszületet tartó
+                        imádkozó remetét ábrázol, a háttérben remetelakkal. (Lásd a <title><hi rend="italic">Dialogus</hi></title>
+<date when="1623">1623</date>. évi kiadásának A3b lapja nyomán: 15. sz. tábla.) –
+                                <bibl><title><hi rend="italic">Cantus catholici</hi></title> (<date when="1651">1651</date>)
+                            165–73.</bibl> és a további kiadások; dallamokkal. –
+                        <bibl><persName>Pápai Páriz Imre<idno type="ITIdata">Q47776</idno></persName>: <title><hi rend="italic">Keskeny ut</hi></title>
+                            (<placeName>Sárospatak<idno type="ITIdata">Q9045</idno></placeName>
+<date when="1662">1662</date>) R6a–S6a.</bibl> és ennek későbbi kiadásai; külön
+                        címlappal, függelékként. – <bibl><persName>Ágoston Péter<idno type="ITIdata">Q238418</idno></persName>: <title><hi rend="italic">Mirra-szedö szarandok</hi></title>
+                            (<placeName>Nagyszombat<idno type="ITIdata">Q14207</idno></placeName>
+<date when="1672">1672</date>) 87–9, 97–8, 106–7, 130–3, 140–1, 151–2.</bibl> –
+                                <bibl><title><hi rend="italic">Kájoni-Cantionale</hi></title> (<date when="1676">1676</date>)
+                            638– 45.</bibl> és ennek további kiadásai. – <bibl><title><hi rend="italic">Lelki paradicsom</hi></title> (<placeName>Gyulafehérvár<idno type="ITIdata">Q16686</idno></placeName>
+<date when="1700">1700</date>) Kk4a–Ll4b.</bibl> – Nyomtatott kiadásokból a bűnbánó
+                        zsoltárok egyes kéziratokba is bekerültek: <bibl><hi rend="italic">Jolsvai
+                                János imádságos könyve</hi> (<date when="1638">1638</date>) 191–216.</bibl> –
+                                <bibl><hi rend="italic">Balogi-cantionale</hi> (<date when="1659">1659</date>)
+                            209–20.</bibl> – <bibl><hi rend="italic">Écsi-ék.</hi>
+                                (<date when="1725">1725</date>) 108–14, 264–7.</bibl></p>
+<p xml:id="crit.1.p.6">A bűnbánó zsoltárok két alapvariánsa között nem nagy az eltérés.
+                            <persName>Pázmány<idno corresp="Pázmány Péter"/></persName>
+<title><hi rend="italic">Imádságos könyv</hi></title>-e <date when="1610">1610</date>. évi második
+                        kiadásában a zsoltárok szövege mentes az <date when="1606">1606</date>. évi első kiadás
+                        több sajtóhibájától, de ezen felül néhány stiláris változtatást is
+                        tartalmaz. Ez utóbbiak több esetben határozottan jobb, költőileg
+                        szerencsésebb változatokat eredményeznek. Ezért fel kell tételeznünk, hogy
+                        magától Nyéki Vöröstől származnak, akinek eszerint az Imádságos könyv
+                        második kiadásánál is szerepe volt.</p>
+<p xml:id="crit.1.p.7">Alapszövegül ezt a fejlettebb variánst választottuk. E második kiadás után
+                        már csak szövegromlásokkal, illetve a költő nyelvjárásától való távolodással
+                        találkozunk. Így az Imádságos könyv negyedik kiadásában
+                                    (<bibl><placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName>
+<date when="1631">1631</date>.</bibl>
+<bibl><abbr>RMK I</abbr>, 604.</bibl>) is, ahonnan a szöveg a hibákkal
+                        együtt került át az Istenes énekek bécsi kiadásába. E kötet összeállításakor
+                        Nyéki Vörös nem nézte át újból a bűnbánó zsoltárok szövegét, ezért ezek
+                        szövegkritikájánál ez a fontos kiadás nem jön számításba. – A két variáns
+                        közül az alapul vett későbbi (I.) vált elsősorban ismertté, hiszen ezt
+                        népszerűsítették az <hi rend="italic">Imádságos könyv</hi> új meg új
+                        kiadásai. A korábbi (II.) változat csak annak köszönheti valamelyes
+                        elterjedését, hogy <persName>Mihályko János</persName>, aki
+                                <persName>Pázmány<idno corresp="Pázmány Péter"/></persName> könyve
+                        jó részét saját neve alatt a protestáns olvasók számára
+                            <placeName>Bártfán</placeName>
+<date when="1609">1609-ben</date> kiadta, a zsoltárokat is csak <date when="1606">1606</date>. évi első formájukban közölhette. Protestáns
+                        kiadványokban és kéziratokban (pl. <persName>Jolsvaiéban</persName>) ezért a
+                        II. változat bukkan fel.</p>
+<p xml:id="crit.1.p.8">Az <title><hi rend="italic">Imádságos könyv</hi></title> mindkét alapul vett kiadása a
+                        verseket soronként külön bekezdésbe szedve közli. A
+                        <persName>Balassi<idno type="ITIdata">Q2101</idno></persName> strófa eredeti hosszú sorain belül
+                        nagybetűt alkalmaznak a harmad-sorok kezdeteinél. Ebből arra
+                        következtethetünk, hogy Nyéki Vörös nyomdába adott kézirata a
+                        Balassi-strófát kilenc sorba tördelte, s ezért így közöljük.</p>
+<p xml:id="crit.1.p.9">A számtalan kiadásban megjelent hét bűnbánó zsoltár szerzősége hosszú ideig
+                        vitatott volt, mivel egyikük, az L. (vagy LI.) számú, <persName>Balassi
+                            Bálint</persName> szerzeménye („Végtelen irgalmú” <bibl><hi rend="smallcaps">Eckhardt</hi>-kiad.
+                            I, 139–40.</bibl>). Ezért felmerültek olyan vélemények, hogy mind a hét
+                        vers, a <persName>Balassinak<idno corresp="Balassi Bálint"/></persName>
+                        tulajdonított is, Nyéki Vörös alkotása, valamint olyan is, bogy mindegyiket
+                        Balassiénak tarthatjuk. (Vö. <bibl><hi rend="smallcaps">Szilády</hi>: <title>Gyarmathi Balassa Bálint
+                            költeményei</title>. Bp. 1879. XLVII., 323.</bibl>; <bibl><hi rend="smallcaps">Erdélyi Pál</hi>:<title> Balassa versek-é?</title> ItK 1898, 135–183.</bibl>;
+                        <bibl><hi rend="smallcaps">Frick József</hi>: <title>Pázmány Imádságos könyvének hét bűnbánó
+                            zsoltára</title>. Kalazantinum 1908. 4–5. sz.</bibl>; <bibl><hi rend="smallcaps">Kőmíves</hi>,
+                                    i. m. 25–7.</bibl>; <bibl><hi rend="smallcaps">Dézsi</hi>, i. m. II, 753–4.</bibl>) A szerzőség
+                        kérdését végül <persName><hi rend="smallcaps">Eckhardt</hi><idno corresp="Eckhardt Sándor"/></persName> tisztázta a <persName>Balassi<idno corresp="Balassi Bálint"/></persName> kritikai kiadás munkálatai
+                        során (<bibl>I, 273–4.</bibl>) <persName>Pázmány<idno corresp="Pázmány Péter"/></persName>
+<title><hi rend="italic">Imádságos könyve</hi></title> első kiadásában
+                        ugyanis az L. zsoltár mellé oda van nyomtatva a szerző neve: „Balassa Ba:”
+                        Ez egyértelműen jelzi, hogy ez a vers <persName>Balassié<idno corresp="Balassi Bálint"/></persName>, de azt is, bogy a többi
+                        viszont nem származhat tőle. Ezt a megjelölést valamennyi későbbi kiadás
+                        mellőzte, s ezért a későbbi köztudat nyugodtan hihette, hogy mind a hét
+                        zsoltár Nyéki Vöröstől való. Ezt a hiedelmet tükrözi egy régi kéznek a
+                        bejegyzése <persName>Rimay<idno type="ITIdata">Q155364</idno></persName>
+<title><hi rend="italic">Epicedium</hi></title>-ának a debreceni ref. koll.
+                        könyvtárában őrzött példányába, <persName>Balassi<idno corresp="Balassi Bálint"/></persName> verse mellé: „Bizon nem
+                        s[zerzette], mert Vörös M[átyás] Nagi Giőri ka[nonok] szerzette, Ba[lassa]
+                        soha nem la[tta].” Az <title><hi rend="italic">Istenes énekek</hi></title>
+                        bécsi kiadása szintén bizonyítja, hogy az L. zsoltár és a többi hat
+                        különböző költők szerzeménye. Az L. psalmusnak az <title><hi rend="italic">Epicedium</hi></title> nyomán való közlése után ugyanis ezt
+                        olvassuk: „Nota Bene. Ez ötvenedik psalmus; mivelhogy szent Dávid Királynak
+                        az hét penitentia tartó Soltárí közzül eggyik: Jó és heles alkolmatosságért,
+                        az több psálmusokis, mellyek hasonló versek modgyára fordittattanak ide
+                        helyheztettenek.” (50. l.)</p>
+<p xml:id="crit.1.p.10">A zsoltárfordítások keletkezése valószínűleg <persName>Dobokay Sándornak<idno type="ITIdata">Q143967</idno></persName>, a sellyei jezsuita
+                        kollégium rektorának köszönhető. Ő adhatta át az imádságos könyvét író
+                                <persName>Pázmánynak<idno corresp="Pázmány Péter"/></persName>
+<persName>Balassi<idno corresp="Balassi Bálint"/></persName><title><hi rend="italic"> L. zsoltár</hi></title>át, melynek kéziratát a
+                        <persName>Campianus<idno type="ITIdata">Q492402</idno></persName>-fordítás töredékével együtt még
+                                <persName>Balassi<idno corresp="Balassi Bálint"/></persName> halálos
+                        ágyától hozhatta magával. Talán <persName>Dobokay<idno corresp="Dobokay Sándor"/></persName> ajánlotta
+                                <persName>Pázmánynak<idno corresp="Pázmány Péter"/></persName> a
+                        fiatal Nyéki Vöröst a hiányzó hat zsoltár lefordítására. (<bibl><hi rend="smallcaps">Jenei</hi>:
+                                <title>Az első Balassi-kiadás történetéhez</title>. It 1951,
+                            344.</bibl>) A munkát <persName>Balassi<idno corresp="Balassi Bálint"/></persName> versformáját híven követve végezte el, s így a hat Nyéki
+                        Vörös- és az egy <persName>Balassi<idno corresp="Balassi Bálint"/></persName>-versből álló sorozat egységes egészet alkotott. Míg
+                        azonban <persName>Balassi<idno corresp="Balassi Bálint"/></persName>
+<persName>Béza<idno type="ITIdata">Q332684</idno></persName> parafrázisa
+                        alapján dolgozott, Vörös Mátyás a Vulgata szövegét költötte át.
+                        <persName><hi rend="smallcaps">Kőmíves</hi><idno type="ITIdata">Q82185</idno></persName> azon állítását, hogy ő is
+                                <persName>Béza<idno corresp="Béza"/></persName> parafrázisait vette
+                        alapul (<bibl>i. m. 29–32.</bibl>), a szövegek összevetése nem igazolja.</p>
+<p xml:id="crit.1.p.11">Az azonos utolsó strófák nem tartoznak szorosan a zsoltár szövegéhez. A bűnbánó zsoltárok legtöbb régi kiadása csak az
+                    elsőnél közli teljes szövegét, a többinél csak a kezdetét jelzi.</p>
+<p xml:id="crit.1.p.12">A bűnbánó zsoltárok első darabja a sorozat többi tagjától elszakítva külön is
+                        előfordul egy nyomtatványban: <bibl><hi rend="italic">Zöngedözö mennyei
+                                kar</hi> (<date when="1696">1696</date>) 157–8.</bibl> – és több kéziratban:
+                                <bibl><hi rend="italic">Thordai-k.</hi> (<date when="1627">1627</date>)
+                            783–4.</bibl> – <bibl><hi rend="italic">OSzK Duod. Hung. 61.</hi> (XVII.
+                            sz.) 5a–6a.</bibl> – <bibl><hi rend="italic">Kuun-k.</hi>
+                                (<date when="1700">1700</date> k.) 198–9.</bibl> – <bibl><hi rend="italic">Bocskor-k.</hi> (<date from="1716" to="1739">1716–39</date>) 132a–133b.</bibl></p>
+<p xml:id="crit.1.p.13">Dallama a <title><hi rend="italic">Cantus catholici</hi></title>-ban
+                                (<bibl><date when="1651">1651</date>. 165.</bibl>) hangról hangra azonos az „O
+                        dicsöült szép kincs” dallamával, ennek ellenére még egyszer közli, magasabb
+                        fekvésben. (Bővebben lásd a <ref target="rmkt-17-2.tei.nyvm-73">73. sz.</ref> ének jegyzetében.) Más dallammal közli
+                        egy XVIII. századi erdélyi kézirat (<bibl><hi rend="italic">Deák–Szentes</hi>
+<date when="1774">1774</date>. 81.</bibl>), ez <persName>Illyés<idno type="ITIdata">Q59001</idno></persName> 150.
+                        zsoltárának (<bibl><title><hi rend="italic">Soltári Énekek</hi></title>
+<date when="1693">1693</date>. 148</bibl>: „Dicsirjétek Istent az ő szenteiben”)
+                        háromsorossá (3×19) redukált változata. Ez utóbbit a szöveg és a másutt elő
+                        nem forduló dallam önkényes párosításának tartjuk, s ezért az éneket a <title><hi rend="italic">Cantus catholici</hi></title> dallamával közöljük.</p>
+<p xml:id="crit.1.p.14">Nyéki Vörös VI. zsoltárának más versformára alkalmazott, erősen módosított
+                        formája olvasható: <bibl><hi rend="italic">Szegedi-féle Cantus
+                                catholici</hi> (<date when="1674">1674</date>) 444–5.</bibl> Ennek teljes
+                        szövegét mint a vers utóéletének érdekes mozzanatát ideiktatjuk:</p>
+<lg xml:id="crit.1.lg.1"><l xml:id="crit.1.l.1">Meg-ne-fedgy engem, oh kegyes Isten, haragod tüzeben:</l>
+<l xml:id="crit.1.l.2">Es ne ostorozz boszszú állásod ingerlésében:</l>
+<l xml:id="crit.1.l.3">Könyörüly rajtam; meg nyomorottam büzhöt sebemben.</l></lg>
+<lg xml:id="crit.1.lg.2"><l xml:id="crit.1.l.4">Meg-szünt folyása, löt nagy romlása lelki szándékimnak:</l>
+<l xml:id="crit.1.l.5">Mikor meg halgatcz Isten, és helyt adcz kiáltásimnak?</l>
+<l xml:id="crit.1.l.6">Hozzám forduly már, a’kit lelkem vár, adgy jót árvádnak.</l></lg>
+<lg xml:id="crit.1.lg.3"><l xml:id="crit.1.l.7">Mert föld gyomrában, pokol torkában nem emlitnek téged;</l>
+<l xml:id="crit.1.l.8">Nincs ott, ki vallya, ki magasztallya isteni neved:</l>
+<l xml:id="crit.1.l.9">Pokolra száltak, kik nem uralták te szent Fölséged.</l></lg>
+<lg xml:id="crit.1.lg.4"><l xml:id="crit.1.l.10">Meg-szaratt bennem, sok bútúl szivem, szemem könyhullástól:</l>
+<l xml:id="crit.1.l.11">Ah Isten, fázom; mert nyugvó házam, ázik sirástól:</l>
+<l xml:id="crit.1.l.12">Töled hogy szöktem, lelkembe pöktem, fosztattam jók-tól.</l></lg>
+<lg xml:id="crit.1.lg.5"><l xml:id="crit.1.l.13">De már bün tévök, gonoszság évök, tölem távozzatok;</l>
+<l xml:id="crit.1.l.14">Mert magas menybe, Isten elejbe sirva már futok;</l>
+<l xml:id="crit.1.l.15">Meg-is halgatot, szentül meg-áldot, míg-Menybe jutok.</l></lg>
+<lg xml:id="crit.1.lg.6"><l xml:id="crit.1.l.16">Aldás Atyának, s’ ö Szent Fiának, es a’ Szent Léleknek:</l>
+<l xml:id="crit.1.l.17">A mint kezdetben, most s’ jövendöben, dicsöség. Amen.</l>
+<l xml:id="crit.1.l.18">Szüz Máriának, Isten Annyának, dicsiret légyen.</l></lg></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Pázmány Péter: Keresztyen imadsaagos keonyv. <placeName>Pozsony<idno type="ITIdata">Q468</idno></placeName> 1610. 621–3.</witness>
+<witness xml:id="II">Pázmány Péter: Keresztyeni imadsagos keonyv. Grác 1606. 178a–b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 59.</fw>
+<head type="title">SZENT DAVIDNAK, HET POENITENTIA TARTO SOLTARA</head>
+<head type="subtitle"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Meg ne emlekezzél Vram, az mi vétkeinkrül, sem az mi Atyáink vétkeirül, és boszút ne ály raytunk az mi büneinkért.</lem><rdg wit="#II" xml:id="rdg.1">Atiainc vetkerül; raytunc mi</rdg></app></head>
+<head type="title">VI. SÓLTÁR</head>
+<!--Dallam-kép 91. o.-->
+<lg xml:id="lg.1">
+<l xml:id="l.1">Meg ne fedgy engemet</l>
+<l xml:id="l.2">Vram fel geriedet</l>
+<l xml:id="l.3">Haragodnak tüzében:</l>
+<l xml:id="l.4">Es meg ne ostoroz</l>
+<l xml:id="l.5">Büneimnek gonosz</l>
+<l xml:id="l.6">Érdemiért mérgedben.</l>
+<l xml:id="l.7">De konyörüly raytam,</l>
+<l xml:id="l.8">Mert megh nyomorodtam,</l>
+<l xml:id="l.9">Megh büzhöt sebeimben.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.10">Meg rekedet folta,</l>
+<l xml:id="l.11">Fel dagadot habia,</l>
+<l xml:id="l.12">Lelkem csendesz vizének,</l>
+<l xml:id="l.13">Meddig halgatz Vram,</l>
+<l xml:id="l.14">S’ nem könyörülsz raytam.</l>
+<l xml:id="l.15">Helt nem adtz kerésemnek?</l>
+<l xml:id="l.16">Fordúly hozzám immár,</l>
+<l xml:id="l.17">Mert lelkem téged vár,</l>
+<l xml:id="l.18">Adgy eröt betegednek.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.19"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2">Mert az föld gyomrában,</lem>
+<rdg wit="#II" xml:id="rdg.2">giomrába</rdg>
+</app></l>
+<l xml:id="l.20"><app xml:id="app.3">
+<lem wit="#KK" xml:id="lem.3">Pokolnak torkában,</lem>
+<rdg wit="#II" xml:id="rdg.3">torkába</rdg>
+</app></l>
+<l xml:id="l.21">Nem említnek tégedet.</l>
+<l xml:id="l.22">Nincz ot az ki vallya,</l>
+<l xml:id="l.23">Nincz ki magasztallya,</l>
+<l xml:id="l.24">Dicsíruen szent neuedet.</l>
+<l xml:id="l.25">Mert vóltak, s’ meg hóltak,</l>
+<l xml:id="l.26">Világból ki múltak,</l>
+<l xml:id="l.27">Erzik itíletedet.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.28">Meg száradot bennem,</l>
+<l xml:id="l.29">Ohaytástúl szíuem,</l>
+<l xml:id="l.30"><app xml:id="app.4">
+<lem wit="#KK" xml:id="lem.4">Szemem könyu hullatástul.</lem>
+<rdg wit="#II" xml:id="rdg.4"><sic>köniü</sic></rdg>
+</app></l>
+<l xml:id="l.31">Mert éyenként ágyam,</l>
+<l xml:id="l.32">Nyugodalmas házam,</l>
+<l xml:id="l.33">Azik sok siralmimtúl.</l>
+<l xml:id="l.34">Tölled el vettettem,</l>
+<l xml:id="l.35">S’ csiak bé nem nyelettem,</l>
+<l xml:id="l.36">Ellenségim torkátúl.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.37"><app xml:id="app.5">
+<lem wit="#KK" xml:id="lem.5">De már gonosz töuök,</lem>
+<rdg wit="#I" xml:id="rdg.5">teuök</rdg>
+<rdg wit="#II" xml:id="rdg.6">töuöc</rdg>
+</app></l>
+<l xml:id="l.38">Artatlan vér szopok,</l>
+<l xml:id="l.39"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">Fussatok tauul töllem.</lem><rdg wit="#II" xml:id="rdg.7">tauuly</rdg></app></l>
+<l xml:id="l.40"><app xml:id="app.7">
+<lem wit="#KK" xml:id="lem.7">Mert az magas menyben,</lem>
+<rdg wit="#II" xml:id="rdg.8">menybe</rdg>
+</app></l>
+<l xml:id="l.41"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">Isten eleiben,</lem><rdg wit="#II" xml:id="rdg.9">eleybe</rdg></app></l>
+<l xml:id="l.42">Hatot siralmas versem.</l>
+<l xml:id="l.43">Meg halgatot engem,</l>
+<l xml:id="l.44"><app xml:id="app.9"><lem wit="#KK" xml:id="lem.9">Pirúly ellenségem,</lem><rdg wit="#II" xml:id="rdg.10"><sic>pirüly</sic></rdg></app></l>
+<l xml:id="l.45">Es tauozzál el töllem.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.46">Dücsösség Atyának,</l>
+<l xml:id="l.47">S’ az eo szent Fiának,</l>
+<l xml:id="l.48"><app xml:id="app.10"><lem wit="#KK" xml:id="lem.10">Dücsösség szent Léleknek.</lem><rdg wit="#I" xml:id="rdg.11"><sic>Dücsosség</sic></rdg><rdg wit="#II" xml:id="rdg.12">Dücsösségh</rdg></app></l>
+<l xml:id="l.49">Az három személyben,</l>
+<l xml:id="l.50">Es egy természetben,</l>
+<l xml:id="l.51">Egy igaz Istenségnek.</l>
+<l xml:id="l.52"><app xml:id="app.11"><lem wit="#KK" xml:id="lem.11">Miképpen kezdetben,</lem><rdg wit="#II" xml:id="rdg.13">kezdetbe</rdg></app></l>
+<l xml:id="l.53"><app xml:id="app.12"><lem wit="#KK" xml:id="lem.12">Most, és iöuendöben,</lem><rdg wit="#II" xml:id="rdg.14">ieouendöbe</rdg></app></l>
+<l xml:id="l.54">Dücsösség az Istennek.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

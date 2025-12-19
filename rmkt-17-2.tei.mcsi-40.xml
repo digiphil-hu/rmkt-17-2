@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">40.</title>
+<title key="body" n="40" type="main">TRISTE CORDOLIUM</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-40</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi rend="bold">Diarium Apod.</hi> 257a–260a.</bibl> – A latin cím jelentése: A
+                        szülő szomorú szívfájdalma két nagyon kedves leánya:
+                            <persName>Zsuzsanna</persName>
+<date when="1622-09-21">1622. szept. 21-én</date>, és <persName>Chuliak Judit</persName>
+<date when="1622-09-22">1622. szept. 22-én</date> történt halála miatt, valamint a férj
+                        fájdalma a pestistől <date when="1622-10-13">1622. okt. 13-án</date>,
+                    <placeName>Liszkán<idno type="ITIdata">Q20640</idno></placeName> elpusztított legkedvesebb felesége,
+                            <persName>Seres Dorottya</persName> halála miatt. – Az ének versfői:
+                        STEPHANUS MISKOLCINUS FECI.</p>
+<p xml:id="crit.1.p.2">Az ének címében említett eseményekre lásd: <bibl>Önéletrajz 294.</bibl>
+                        Csulyak az ének 16–9. és 21–4. versszakait egy három évvel később írt
+                        énekében újból felhasználta. (Lásd a <ref target="rmkt-17-2.tei.mcsi-42">42. sz.</ref> ének 4–8. és 22–4.
+                        versszakait.)</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 257a–260a.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 40.</fw>
+<head type="title">TRISTE CORDOLIUM</head>
+<head type="subtitle">Parentis, super obitum duarum filiarum longe Charissimarum, Susannae, Anno 1622, 21 Septembris ☿ ,
+                    Juditae Chuliak, 1622, 22 Septembris ♃.; Nec non Mariti super obitum dilectissimae conjugis Dorotheae
+                    Seres, 1622, 13 Octobris ♃. Liscae peste consumptarum.</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><hi rend="bold">S</hi>zivemnek öröme <metamark function="cesura"/> Immar jo ideje</l>
+<l rend="level_6" xml:id="l.2">Mesze tavozék tölem:</l>
+<l xml:id="l.3">Mert szép két Leaniom <metamark function="cesura"/> Kedves Hazas tarsom</l>
+<l rend="level_6" xml:id="l.4">Meg halanac mellölem.</l>
+<l xml:id="l.5">Kik Iffiusagokban <metamark function="cesura"/> kivanatossagban</l>
+<l rend="level_6" xml:id="l.6">Szolgalnac vala nekem.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.7"><hi rend="bold">T</hi>arsom azért kedves <metamark function="cesura"/> Mert jo hirrel ékes</l>
+<l rend="level_6" xml:id="l.8">Mindenec elöt vala:</l>
+<l xml:id="l.9">Abrazattia piros <metamark function="cesura"/> Minden dolga simos<note type="critic" xml:id="note.1">simos – e szót a szótárak nem ismerik. Talán a csinos alakváltozata ’pacatus, tranquillus’ értelemben. Ezt az értelmezést
+                        a NySz Szenczi Molnár szótára után adja.</note></l>
+<l rend="level_6" xml:id="l.10">Kevelseg nelkűl vala.</l>
+<l xml:id="l.11">Niajas beszedében <metamark function="cesura"/> Teljes életeben</l>
+<l rend="level_6" xml:id="l.12">Engedelmesség vala.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.13"><hi rend="bold">E</hi>szel Abigailt <metamark function="cesura"/> követte miglen élt,<note type="critic" xml:id="note.2">Abigailra, mint a jó feleség Ószövetségi példájára (1. Sám. 25.)
+                            gyakran hivatkoztak a régiségben, a Küküllei Névtelen versbe is szedte
+                            történetét. (RMKT VII, 36–46.)</note></l>
+<l rend="level_6" xml:id="l.14">Aszonj dolgaiban.</l>
+<l xml:id="l.15">Férjét bötsűllötte <metamark function="cesura"/> -s- igazan szerette</l>
+<l rend="level_6" xml:id="l.16">Vidam abrazattiaban.</l>
+<l xml:id="l.17">Hogy szehden magat <metamark function="cesura"/> viselte, ugy talalt</l>
+<l rend="level_6" xml:id="l.18">Io hirt nevet honniaban.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.19"><hi rend="bold">P</hi>örpatvartol magát <metamark function="cesura"/> oltalmazta dolgát</l>
+<l rend="level_6" xml:id="l.20">Isteni félelemmel;</l>
+<l xml:id="l.21">Sorsa fölöt nem járt <metamark function="cesura"/> mindent uratol várt</l>
+<l rend="level_6" xml:id="l.22">Szelid embersegevel,</l>
+<l xml:id="l.23">vilagtol botsujat <metamark function="cesura"/> el vötte volt magat,</l>
+<l rend="level_6" xml:id="l.24">Kereztieni hűseggel.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.25"><hi rend="bold">H</hi>alala oraját <metamark function="cesura"/> Mint Isten irgalmat</l>
+<l rend="level_6" xml:id="l.26">Várta nagy szeretettel:</l>
+<l xml:id="l.27">Mikoron beteg volt, <metamark function="cesura"/> szine szava meg volt,</l>
+<l rend="level_6" xml:id="l.28">Ollian szep készűlettel,</l>
+<l xml:id="l.29">Mint ha ugian labán <metamark function="cesura"/> Isten orszagaban</l>
+<l rend="level_6" xml:id="l.30">Menne örvendezessel.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.31"><hi rend="bold">A</hi>z mint êletebe <metamark function="cesura"/> az Christust követte</l>
+<l rend="level_6" xml:id="l.32">ugy beteg agiabannis,</l>
+<l xml:id="l.33">Christust vig örömel <metamark function="cesura"/> várta ollian szivel</l>
+<l rend="level_6" xml:id="l.34">jöjön el hozzajais,</l>
+<l xml:id="l.35">vigie orszagaban <metamark function="cesura"/> kies niugalmaban</l>
+<l rend="level_6" xml:id="l.36">holot lakic magais.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.37"><hi rend="bold">N</hi>iajas szép Leanim <metamark function="cesura"/> szerelmes magzatim</l>
+<l rend="level_6" xml:id="l.38">tiis emlekezetben</l>
+<l xml:id="l.39">lesztec, miglen elek <metamark function="cesura"/> el nem feleithetlek,</l>
+<l rend="level_6" xml:id="l.40">fel irtalac szivemben:</l>
+<l xml:id="l.41">Honnét chak az halal, <metamark function="cesura"/> mikor ream talal,</l>
+<l rend="level_6" xml:id="l.42">töröl ki kedvem ellen.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.43"><hi rend="bold">U</hi>tallom magamot <metamark function="cesura"/> töletek vâltomot</l>
+<l rend="level_6" xml:id="l.44">-s- nem kivanom êltemet:</l>
+<l xml:id="l.45">Mert ily szep rosakat <metamark function="cesura"/> kedves magzatokat</l>
+<l rend="level_6" xml:id="l.46">mint valatok, ez földet</l>
+<l xml:id="l.47">Ha mind bé jaromis <metamark function="cesura"/> nem talaloc ugis</l>
+<l rend="level_6" xml:id="l.48">chiak ez giötri szivemet.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.49"><hi rend="bold">S</hi>zépseggel êkesek <metamark function="cesura"/> erköltsel nemessek</l>
+<l rend="level_6" xml:id="l.50">mind az ketten voltatoc:</l>
+<l xml:id="l.51">Az iras olvasas <metamark function="cesura"/> vagy penig him varras</l>
+<l rend="level_6" xml:id="l.52">vala derék dolgotoc:</l>
+<l xml:id="l.53">Szűntelen az Istent <metamark function="cesura"/> ditsertétec, mindent</l>
+<l rend="level_6" xml:id="l.54">mert chiak töle vártatoc.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.55"><hi rend="bold">M</hi>osolygos orczátok, <metamark function="cesura"/> piros ajakatok,</l>
+<l rend="level_6" xml:id="l.56">mint szép szűzeknec vala:</l>
+<l xml:id="l.57">Isteni félelem <metamark function="cesura"/> -s- az giors engedelem</l>
+<l rend="level_6" xml:id="l.58">giönörűsegtek vala:</l>
+<l xml:id="l.59">az templomban jarás <metamark function="cesura"/> ott Isten szolgalas</l>
+<l rend="level_6" xml:id="l.60">minden kedvetek vala.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.61"><hi rend="bold">I</hi>stenis szeretet <metamark function="cesura"/> ezekért titeket</l>
+<l rend="level_6" xml:id="l.62">-s- azért vit fel magahoz,</l>
+<l xml:id="l.63">Hogy bűnt utalnatoc <metamark function="cesura"/> ne ragazkodnatoc</l>
+<l rend="level_6" xml:id="l.64">ez hitetö vilaghoz:</l>
+<l xml:id="l.65">de az halal ûtán <metamark function="cesura"/> ketten egy mas utan</l>
+<l rend="level_6" xml:id="l.66">sietnetek Christushoz.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.67"><hi rend="bold">S</hi>zandékat Istennek <metamark function="cesura"/> mihelt értettétek</l>
+<l rend="level_6" xml:id="l.68">azontol indultatok</l>
+<l xml:id="l.69">Christushoz menniegben, <metamark function="cesura"/> nevetek könyvében</l>
+<l rend="level_6" xml:id="l.70">hogy mingiart iratnatok:</l>
+<l xml:id="l.71">Engemet banatban <metamark function="cesura"/> sűrű siralomban</l>
+<l rend="level_6" xml:id="l.72">chak egiedűl hagiatok.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.73"><hi rend="bold">K</hi>ietlen erdöket <metamark function="cesura"/> hegieket völgieket</l>
+<l rend="level_6" xml:id="l.74">elmémmel mind bé jarék:</l>
+<l xml:id="l.75">Illiest mint keresték <metamark function="cesura"/> haidan az vitezek,<note type="critic" xml:id="note.3">Célzás 3. Kir. 19-re.</note></l>
+<l rend="level_6" xml:id="l.76">enis ugy kerestelek,</l>
+<l xml:id="l.77">de lam chak heaban <metamark function="cesura"/> mert Isten markaban</l>
+<l rend="level_6" xml:id="l.78">niugszik immar lelketek.</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.79"><hi rend="bold">O</hi>da vártoc engem <metamark function="cesura"/> mikor enis testem</l>
+<l rend="level_6" xml:id="l.80">az koporsoban teszem:</l>
+<l xml:id="l.81">hogy eggűt veletek <metamark function="cesura"/> Christust völegentek</l>
+<l rend="level_6" xml:id="l.82">az egekben ditserjem:</l>
+<l xml:id="l.83">mihelt parantsolja <metamark function="cesura"/> mert vagioc szolgaja</l>
+<l rend="level_6" xml:id="l.84">ottan meg chelekeszem.</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.85"><hi rend="bold">L</hi>egien az Istennec <metamark function="cesura"/> aldasa veletec</l>
+<l rend="level_6" xml:id="l.86">kic indultatoc utra.</l>
+<l xml:id="l.87">Ez az jegy ruhatoc <metamark function="cesura"/> kit veletek adoc</l>
+<l rend="level_6" xml:id="l.88">végsö hazassagtokra:</l>
+<l xml:id="l.89">enis utannatoc <metamark function="cesura"/> bizonnial induloc</l>
+<l rend="level_6" xml:id="l.90">ez utra nem sokara.</l>
+</lg>
+<lg xml:id="lg.16">
+<l xml:id="l.91"><hi rend="bold">C</hi>hiudaltam Istenem <metamark function="cesura"/> mi dolog hogy engem</l>
+<l rend="level_6" xml:id="l.92">soc jo szerentse talalt:</l>
+<l xml:id="l.93">de chiudalom mostan <metamark function="cesura"/> hogy soc öröm utan</l>
+<l rend="level_6" xml:id="l.94">szivem banatban zabalt.<note type="critic" xml:id="note.4">Vö. a NySz adatával (III, 1257.): Oh een nyawalas feyemnek es bwban zabalt lelkemnek.
+                        (ÉrsC. 511.)</note></l>
+<l xml:id="l.95">migh valék békével <metamark function="cesura"/> teljes ház népével,</l>
+<l rend="level_6" xml:id="l.96"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">meljet szivem nemis várt.</lem><rdg wit="#I" xml:id="rdg.1"><del>azt kit szivem</del><add type="corr">meljet szivem</add></rdg></app></l>
+</lg>
+<lg xml:id="lg.17">
+<l xml:id="l.97"><hi rend="bold">I</hi>gaz okat Uram <metamark function="cesura"/> chiak nalad talalám,</l>
+<l rend="level_6" xml:id="l.98">te chieleketted velem:</l>
+<l xml:id="l.99">igaz iteleted <metamark function="cesura"/> mélto bűntetésed,</l>
+<l rend="level_6" xml:id="l.100">noha terhes ennekem:</l>
+<l xml:id="l.101">de mégis meg niugszom <metamark function="cesura"/> szent akaratodon,</l>
+<l rend="level_6" xml:id="l.102"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">akar mit tégys velem.</lem><rdg wit="#I" xml:id="rdg.2"><del>tégy en</del><add type="corr">tégys velem</add></rdg></app></l>
+</lg>
+<lg xml:id="lg.18">
+<l xml:id="l.103"><hi rend="bold">N</hi>em lész mindenkoron, <metamark function="cesura"/> fergeteg hazamon,</l>
+<l rend="level_6" xml:id="l.104">vagioc oly remensegben:</l>
+<l xml:id="l.105"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">mert az iras mondgia <metamark function="cesura"/> Isten el nem hadgia</lem><rdg wit="#I" xml:id="rdg.3"><del>az szent iras mondgia</del><add type="corr">az iras mondgia</add></rdg></app></l>
+<l rend="level_6" xml:id="l.106"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">az ki hiszen Istenben</lem><rdg wit="#I" xml:id="rdg.4"><del>Istenben hiszen</del><add type="corr">hiszen Istenben</add></rdg></app></l>
+<l xml:id="l.107">engemetis nem hágy <metamark function="cesura"/> noha most szörnien vágh,</l>
+<l rend="level_6" xml:id="l.108">mert niugszom kedveben.</l>
+</lg>
+<lg xml:id="lg.19">
+<l xml:id="l.109"><hi rend="bold">U</hi>ram Isten eddég <metamark function="cesura"/> legien immar elég</l>
+<l rend="level_6" xml:id="l.110">raitam latogatasod:</l>
+<l xml:id="l.111">mint szent Jobbal regen, <metamark function="cesura"/> chelekegiél velem</l>
+<l rend="level_6" xml:id="l.112">forditsad el haragod:</l>
+<l xml:id="l.113">ekesits fel hazam <metamark function="cesura"/> puztaját ne lassam,</l>
+<l rend="level_6" xml:id="l.114">legien raitam aldasod:</l>
+</lg>
+<lg xml:id="lg.20">
+<l xml:id="l.115"><hi rend="bold">S</hi>zomoru szivemet <metamark function="cesura"/> Uram vigaztald meg</l>
+<l rend="level_6" xml:id="l.116">Istenes feleseggel:</l>
+<l xml:id="l.117">kinec szent elete <metamark function="cesura"/> kegies tekintete</l>
+<l rend="level_6" xml:id="l.118">tűndököljön jo hirrel:</l>
+<l xml:id="l.119">lelkem könniebsege <metamark function="cesura"/> hazam ekessege</l>
+<l rend="level_6" xml:id="l.120"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">legien engedelmevel.</lem><rdg wit="#I" xml:id="rdg.5"><del>engedelemmel</del><add type="corr">engedelmevel</add></rdg></app></l>
+</lg>
+<lg xml:id="lg.21">
+<l xml:id="l.121"><hi rend="bold">F</hi>aidalmas szivemet <metamark function="cesura"/> faradot erömet</l>
+<l rend="level_6" xml:id="l.122">giogitsa szerelmevel,</l>
+<l xml:id="l.123"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">mihelien lattandgia <metamark function="cesura"/> bumot, vigaztalja</lem><rdg wit="#I" xml:id="rdg.6"><del>mihelien meg
+                        lattia</del><add type="corr">mihelien</add></rdg></app></l>
+<l rend="level_6" xml:id="l.124">niajas szep beszedevel,</l>
+<l xml:id="l.125">kövesse Rebecat <metamark function="cesura"/> ha lát valami kárt</l>
+<l rend="level_6" xml:id="l.126">tavoztassa eszevel.</l>
+</lg>
+<lg xml:id="lg.22">
+<l xml:id="l.127"><hi rend="bold">É</hi>ljen velem szépen <metamark function="cesura"/> mint jo hal az vizben</l>
+<l rend="level_6" xml:id="l.128">szent engedelmessegben:</l>
+<l xml:id="l.129">ne legien morgo tars <metamark function="cesura"/> vagi chiachogo mint hars,</l>
+<l rend="level_6" xml:id="l.130">maradgion meg rendiben:</l>
+<l xml:id="l.131">hazamban dolgozzon <metamark function="cesura"/> mindenre vigiazzon</l>
+<l rend="level_6" xml:id="l.132">ugy leszen bötsűlletben</l>
+</lg>
+<lg xml:id="lg.23">
+<l xml:id="l.133"><hi rend="bold">C</hi>zifrát ne szeressen <metamark function="cesura"/> mint szent Aszony éljen</l>
+<l rend="level_6" xml:id="l.134">kevelseget utaljon:</l>
+<l xml:id="l.135">mindent meg bötswljön, <metamark function="cesura"/> az templomban menniön</l>
+<l rend="level_6" xml:id="l.136">ot Istennec szolgaljon:</l>
+<l xml:id="l.137">kegies indulattal <metamark function="cesura"/> Isten aldasaval</l>
+<l rend="level_6" xml:id="l.138">szegenieket taplaljon.</l>
+</lg>
+<lg xml:id="lg.24">
+<l xml:id="l.139"><hi rend="bold">I</hi>sten felesegem <metamark function="cesura"/> ha meg adod nekem</l>
+<l rend="level_6" xml:id="l.140">az kivel en élhessek,</l>
+<l xml:id="l.141">Te ditsösegedre <metamark function="cesura"/> en idvessegemre</l>
+<l rend="level_6" xml:id="l.142">mind öröcke ditserlek:</l>
+<l xml:id="l.143"><app xml:id="app.7"><lem wit="#KK" xml:id="lem.7">fenies peldaiara <metamark function="cesura"/> mindennek hasznara</lem><rdg wit="#I" xml:id="rdg.7"><del>Masoknak peldara</del><add type="corr">peldaiara mindennek</add></rdg></app></l>
+<l rend="level_6" xml:id="l.144"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">leszek valamig êlek.</lem><rdg wit="#I" xml:id="rdg.8"><del>leszek az meddig élek</del><add type="corr">leszek valamig êlek</add></rdg></app></l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

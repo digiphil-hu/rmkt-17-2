@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">53.</title>
+<title key="body" n="53" type="main">IN PRANDIO CONSULARI, APUD STEPH. DELI PRAESENTE TOTO SENATU</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-53</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1">Kézirata: <bibl><hi rend="bold">Diarium Apod.</hi>
+                        319a–320b.</bibl> – A latin cím jelentése: Bírói lakomán <persName>Deli
+                        Istvánnál</persName> az egész tanács jelenlétében <date when="1643-01-01">1643. jan. 1-én</date>
+<persName>Gáspár<idno corresp="Csulyak Gáspár"/></persName> fiam [mondta
+                    el].</note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 319a–320b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 53.</fw>
+<head type="title">IN PRANDIO CONSULARI, APUD STEPH. DELI PRAESENTE TOTO SENATU</head>
+<head type="subtitle">1643. Kal. Januar filius Caspar.</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Uy esztendö napjan szokassá valt immar,</l>
+<l xml:id="l.2">hogy uysagot haljon kivan minden Timar,</l>
+<l xml:id="l.3">maga azt sem tudgia hány hét ide az niar,</l>
+<l xml:id="l.4">vagy minemű tokban aaljon az varga aar.<note type="critic" xml:id="note.1">E sorban talán az
+                            a tréfa, hogy egy másik mondás szerint „soha sem vólt s nem is lészen
+                            soha varga késnek hüvelye”. (<persName>Decsi<idno type="ITIdata">Q258450</idno></persName>
+<title><hi rend="italic">Adagiái</hi></title>ból, <bibl><abbr>NySz
+                                    III</abbr>, 1018.</bibl>)</note></l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Nem tudgia az ollian chiak megis gondolni,</l>
+<l xml:id="l.6">egy kitsiny uysagért menit kel faradni,</l>
+<l xml:id="l.7">vagy hany szaz forintot kel erette adni,</l>
+<l xml:id="l.8">ö penig chiac ingien akarja halgatni.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Tudgja az meg tölem penzel jar az boltsu,<note type="critic" xml:id="note.2">E sorral vö.
+                        <persName>Faludi<idno type="ITIdata">Q43591</idno></persName> egyik mondását: Boros butsu pénzzel jár.
+                                    (<bibl><abbr>NySz II</abbr>, 1268.</bibl>)</note></l>
+<l xml:id="l.10">disznot meg hizlalja amaz hitvan otsu</l>
+<l xml:id="l.11">ékes ember kinek az dereka kartsu</l>
+<l xml:id="l.12">pengö az ezűstböl forraztot sarkantiu.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Az uysagot akar holis penzen veszic,</l>
+<l xml:id="l.14">es mint kellö marhat valobannis örzic,</l>
+<l xml:id="l.15">az Cziganioc elöt turbaban<note type="critic" xml:id="note.3"> = tarisznyában</note> rekeztic,</l>
+<l xml:id="l.16">ha babot nem eris, de mégis beszéllic<note type="critic" xml:id="note.4">Az „egy babot nem
+                            ér” szólásra a <abbr>NySz</abbr> több adatot idéz. (<bibl>I,
+                            151.</bibl>)</note></l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Az fö bor<note type="critic" xml:id="note.5">fö bor = vinum excellens, principale
+                                (<abbr>NySz</abbr>)</note> fö helyen terem jol tudgjatoc</l>
+<l xml:id="l.18">az ember emberűl beszel hallottatoc:</l>
+<l xml:id="l.19">kinec nints mit enni koplalni mondgiatoc</l>
+<l xml:id="l.20">az en uysagimis kerlec meg haljatoc.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Uysag. Uy esztendö köszönt be hozzatoc</l>
+<l xml:id="l.22">ezer hatszaz negyven harom, kit vártatoc,</l>
+<l xml:id="l.23">fökeppen ez űdön kic Birac voltatoc,</l>
+<l xml:id="l.24">immar Isten altal szabad urac vagytoc.<note type="critic" xml:id="note.6">23–4 A
+                        <placeName>Liszka<idno type="ITIdata">Q20640</idno></placeName> és földesurai között lefolyt viszály
+                            során a szepesi prépost a város elöljáróit egy időre bebörtönözte.
+                            (<bibl><hi rend="smallcaps">R. Péter Katalin</hi> i. m. 434.</bibl>)</note></l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Melliet hog’ az Isten kedves egessegben</l>
+<l xml:id="l.26">engedte ernetec erte aldot legyen:</l>
+<l xml:id="l.27">kérjétec hog’ többe ne vigien tömlöczben;</l>
+<l xml:id="l.28">hanem honniotokban<note type="critic" xml:id="note.7"> = otthonotokban</note> tartson egessegben.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Tavali zur zavar ne virradgion reanc,</l>
+<l xml:id="l.30">ki chiak kivanniais neve legyen nialanc</l>
+<l xml:id="l.31">söt ki oka voltis, es tamadot reanc</l>
+<l xml:id="l.32">ne teremjen töbhé olliat edes hazanc.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33">Az Urac szerelme tudgyatoc már mint jár,</l>
+<l xml:id="l.34">bár ne vétsetekis tiukot kalatsot vár</l>
+<l xml:id="l.35">ha ellene jártoc mesze fussatoc bár</l>
+<l xml:id="l.36">de odais el ér s meg vér az mint akar.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37">Szajatoc az kasa, mondgiac, meg egette<note type="critic" xml:id="note.8">E sorban Csulyak
+                            egy elterjedt közmondást idéz, mely a <abbr>NySz</abbr>-ban több adattal
+                            van dokumentálva.</note></l>
+<l xml:id="l.38">semmi. Mert varasunc mit kivant meg nierte,</l>
+<l xml:id="l.39">régi szabadsagunc hog’ tűndököltette<note type="critic" xml:id="note.9">38–9
+                        <placeName>Liszka<idno type="ITIdata">Q20640</idno></placeName> földesurainak a város privilégiumainak
+                            eltörléséért folytatott harca nem járt eredménnyel: az <date when="1642-06">1642
+                                júniusában</date> összeült királyi bizottság döntése végeredményben
+                            Liszkának kedvezett. (<bibl>Uo. 435.</bibl>)</note></l>
+<l xml:id="l.40">aldot legyen Isten öröcké erette.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41">Masod uysag, ha földes Urunc meg vertis,</l>
+<l xml:id="l.42">de az verés utan adot egy kis jotis</l>
+<l xml:id="l.43">Giörgikénc puzta volt, de maid terem bortis</l>
+<l xml:id="l.44">chiak assuc kapaljuc ha mostan aszuis<note type="critic" xml:id="note.10">aszu = száraz</note></l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.45">Harmad piaczunkon az kö tömlöcz illic</l>
+<l xml:id="l.46">az kiben ez utan soc lator fűtözic,<note type="critic" xml:id="note.11">fűtözic =
+                            tartózkodik</note>
+<note type="critic" xml:id="note.12">45–6 <placeName>Liszka<idno type="ITIdata">Q20640</idno></placeName> panaszai között az is
+                            szerepelt, hogy a szepesi káptalan a liszkai joghatóság alá tartozó
+                            büntető pereket saját bíróságára vonta, és sorozatosan kegyelmet
+                            gyakorolt súlyos kötelezvények ellenében. A királyi bizottság ezt a
+                            sérelmet is orvosolta. (<bibl>Uo. 431, 435.</bibl>)</note></l>
+<l xml:id="l.47">soc ablaku föl haz tűz nelkűl melegszic</l>
+<l xml:id="l.48">melyben az rosz ember chiak hamar meg fázic</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.49">Negyed uysag, hogy most uy Birotis lattoc,</l> <note type="footnote">Stephanum Tar</note>
+<l xml:id="l.50">kit az elöt nilvan soha nem lattatoc:</l>
+<l xml:id="l.51">uy borral Ebedét szentűl mulassatoc</l>
+<l xml:id="l.52">holnap vagy az után hogy meg ne banniatoc.</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.53">Mert az Bor tudgyatoc mig van az Hordoban,</l>
+<l xml:id="l.54">senkinec nem chinal darast az orraban,<note type="critic" xml:id="note.13">nem chinal darast az orraban – e szólásra sehol sem akadtunk rá; értelme ez lehet: nem lesz dühös.</note></l>
+<l xml:id="l.55">de ha ki bövebben töltendi hasaban</l>
+<l xml:id="l.56">ame’<note type="critic" xml:id="note.14">ame = íme – Antalla löt: vö. a <ref target="rmkt-17-2.tei.mcsi-49">49. sz.</ref>
+                            ének 21. sorához írt jegyzetet.</note> Antalla löt, azt mondgiac,
+                        Budaban.</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.57">Haát az Tiztviselö chiak keves bort igyéc</l>
+<l xml:id="l.58">ám bator zalogat birsagban el vigyec:</l>
+<l xml:id="l.59">ha kénszeritikis borban ne fűrödgyec</l>
+<l xml:id="l.60">hog’ jozansagaert mindenec ditserjéc.</l>
+</lg>
+<lg xml:id="lg.16">
+<l xml:id="l.61">Regenten az Birot ha részegnec lattác</l>
+<l xml:id="l.62">minden törventelen agyon kalapaltác.</l>
+<l xml:id="l.63">Az hamis Bironac börit székre vontác,</l>
+<l xml:id="l.64">hogy ugy ne jarjatoc legietec jo példác.</l>
+</lg>
+<lg xml:id="lg.17">
+<l xml:id="l.65">De kitsoda giözné mind elöl szamlalni</l>
+<l xml:id="l.66"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">meni soc uysaggal Isten meg fog latni, </lem><rdg wit="#I" xml:id="rdg.1"/></app></l>
+<l xml:id="l.67">ha Iamboroc lesztec, azt kezdi mondanî</l>
+<l xml:id="l.68">az en orszagomat mennietec el birni.</l>
+</lg>
+<lg xml:id="lg.18">
+<l xml:id="l.69">Tiztartoc Emberec legyetec Birankal</l>
+<l xml:id="l.70">de hasatokat ne töltsétec bitangal,<note type="critic" xml:id="note.15">bitang = rablott, harácsolt dolog</note></l>
+<l xml:id="l.71">hanem hozzanc legietec jo akarattal,</l>
+<l xml:id="l.72">ugy aldgion meg Isten fejenkent soc jockal.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

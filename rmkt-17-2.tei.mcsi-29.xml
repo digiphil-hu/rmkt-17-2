@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">29.</title>
+<title key="body" n="29" type="main">IN VEXILLO FUNERALI ET IN TEMPLO SZERENCHINENSI SUSPENSO MAGNIFICI DOMINI
+                    LUDOVICI RAKOCZI QUAE SEQUUNTUR, ADSCRIPTA SUNT ME AUTORE</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-29</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi rend="bold">Diarium Apod.</hi> 227a–b, 237b–238a.</bibl> Kiad.
+                    <bibl><hi rend="smallcaps">Harsányi</hi>: <title>Miskolczi Csulyak István élete és munkái</title>.
+                            Debrecen 1929. 21–2.</bibl> (Keresztesi másolata alapján.) – A latin cím
+                    jelentése: Nagyságos <persName>Rákóczi Lajos<idno type="ITIdata">Q166688</idno></persName> úrnak a szerencsi templomban függő
+                        gyászlobogójára írtam, mint szerző, azokat, amik következnek.</p>
+<p xml:id="crit.1.p.2"> A zászló két oldalára szánt prózai és verses latin szövegek a fenti címmel a
+                                <title><hi rend="italic">Diarium</hi></title> 227a–b. lapján
+                        olvashatók. A latin vers magyar fordítása a <persName>Rákóczi
+                            Lajosról</persName> szóló gyászbeszéd szövegébe van beillesztve, a
+                        következő bevezetéssel: „… Mely ö Naga vitezsegit, mi imez fekete viragos
+                        kamuka zaszlora, melj emlekezetert ez rakot sir fölöt fel fűggeztetik, deak
+                        versekkel illien képpen sommaltuk be.</p>
+<p xml:id="crit.1.p.3"> Hîc ego praecipiti etc. vide supra.</p>
+<p xml:id="crit.1.p.4">Magiarul maid ezt tészi.</p>
+<p xml:id="crit.1.p.5">Itt niugszik …” [stb., a <title><hi rend="italic">Diarium</hi></title>
+                        237b–238a. lapjain.]</p>
+<p xml:id="crit.1.p.6">A gyászversben Csulyak <persName>Rákóczi Lajos</persName> vitézi tetteit,
+                        melyek mind az <date when="1593">1593-ban</date> kezdődő tizenötéves háborúval
+                        kapcsolatosak, ugyanolyan sorrendben mondja el, mint a gyászbeszédben.
+                        Forrásul <persName>Rudolf<idno type="ITIdata">Q189096</idno></persName> császár <date when="1607">1607-ben</date> kelt
+                        oklevele szolgált, melynek egy részletét Csulyak a <title><hi rend="italic">Diarium</hi></title> 225b–227a. lapjaira le is másolta.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 227a–b, 237b–238a.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 29.</fw>
+<head type="title">IN VEXILLO FUNERALI ET IN TEMPLO SZERENCHINENSI SUSPENSO MAGNIFICI DOMINI
+                    LUDOVICI RAKOCZI QUAE SEQUUNTUR, ADSCRIPTA SUNT ME AUTORE</head>
+<head type="subtitle">Generoso ac Magnifico Domino Domino Ludovico Rakoczi, Georgii filio, equiti aurato, sacrae Majestatis Regiae
+                generali campestrium militmn Capitaneo, Herculi Hungariae: qui patriam indefesso ausu proprii corporis obtentu providé juvit,
+                clarioribus in Hungaria et Transylvania conflictibus interfuit, saepius hostes fudit, fugavit, ipse rarissimé fusus aut fugatus, vix
+                redux ex alpibus Transylvanicis in Zombor, 3, die Januari; hora 6 vespertina, anno 1612, placidé defuncto, cum vixisset annos
+                circiter 40. Georgius et Sigismundus Rakoczii, patruo optimé merito lugentes pp.</head>
+<head type="subtitle">IN ALTERA VEXILLI FACIE</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Hîc ego praecipiti Lodoicus morte Rakoczi,</l>
+<l rend="level_3" xml:id="l.2">Sublatus posui corporis exuvias.</l>
+<l xml:id="l.3">Agria tironem, Sigemundi fratris ab ore</l>
+<l rend="level_3" xml:id="l.4">Pendentem, docuit Martia signa sequi.</l>
+<l xml:id="l.5">Sub duce Szechiade strictum Szendrövia ferrum</l>
+<l rend="level_3" xml:id="l.6">Contra Othomanigenas stringere me voluit.</l>
+<l xml:id="l.7">Exin militiae specimen Szechenque Filekque</l>
+<l rend="level_3" xml:id="l.8">Et Beglerbegus vidit in Hatvan agro.</l>
+<l xml:id="l.9">Moenia cum quateret Komaronia, Passa Sinanus,</l>
+<l rend="level_3" xml:id="l.10">Vidit me plures ense necasse getas.</l>
+<l xml:id="l.11">Agria funeream Veziris quando cupressum</l>
+<l rend="level_3" xml:id="l.12">Sensit, ego Regi Turcica dona dedi.</l>
+<l xml:id="l.13">Ipse manus Szanchakbegi post terga revinxi,</l>
+<l rend="level_3" xml:id="l.14">Varadio à Petri pulcra tropaea tuli.</l>
+<l xml:id="l.15">Lippa Ducem agnovit, funesta ad proelia natum,</l>
+<l rend="level_3" xml:id="l.16">Castra Veröcz pagi, qui legis ista, docent.</l>
+<l xml:id="l.17">Pro mihi quêis Caesar donat titulum ipse Baronis,</l>
+<l rend="level_3" xml:id="l.18">Rex Equitis, Christus sancta braboea poli.</l>
+</lg>
+<l xml:id="l.19">MAGIARUL MAID EZT TÉSZI</l>
+<lg xml:id="lg.2">
+<l xml:id="l.20">Itt niugszik Rakoczi Lajos</l>
+<l rend="level_3" xml:id="l.21">Ki volt sok Töröknek bajos.</l>
+<l xml:id="l.22">Kit Eger iffianta vini</l>
+<l rend="level_3" xml:id="l.23">Szendrö tanitot chatazni,</l>
+<l xml:id="l.24">Szechén es Eilek mezejét</l>
+<l rend="level_3" xml:id="l.25">Megh niervén latta erejét.</l>
+<l xml:id="l.26">Hatvannál Beglérbék nézte</l>
+<l rend="level_3" xml:id="l.27">Budai Basat mint űzte.</l>
+<l xml:id="l.28">Szinan Basa hogj Comaront</l>
+<l rend="level_3" xml:id="l.29">Vitatta, ottis kardot vont.</l>
+<l xml:id="l.30">Eger Töröknec holdolvan</l>
+<l rend="level_3" xml:id="l.31">Kereztes<note type="critic" xml:id="note.1">Kereztes =
+                        <placeName>Mezőkeresztes<idno type="ITIdata">Q9407</idno></placeName>.</note> alat harczolván,</l>
+<l xml:id="l.32">Vezér Ibrahin Basanac</l>
+<l rend="level_3" xml:id="l.33">Satorát foztá predanac,</l>
+<l xml:id="l.34">Melliet Rodolphusnac kűldöt,</l>
+<l rend="level_3" xml:id="l.35">Hivétöl kit jo kedvel vöt.</l>
+<l xml:id="l.36">Bachi Szegedi Szanchak Bék</l>
+<l rend="level_3" xml:id="l.37">Ö töle fogva viteték.</l>
+<l xml:id="l.38">Péter Varadgia hidanal</l>
+<l rend="level_3" xml:id="l.39">Igen harczolt az Dunanál.</l>
+<l xml:id="l.40">Tömös várnal anni kárt töt</l>
+<l rend="level_3" xml:id="l.41">Hogj az ebis Törököt öt.</l>
+<l xml:id="l.42">Básta Chaszarhoz hűsegét</l>
+<l rend="level_3" xml:id="l.43">Mikor latta vitézsegét,</l>
+<l xml:id="l.44">Capitansaggal fizeti</l>
+<l rend="level_3" xml:id="l.45">Lippa kit mostis közöni.<note type="critic" xml:id="note.2">25–6
+                        <persName>Rákóczi Lajos<idno type="ITIdata">Q166688</idno></persName>
+<date when="1603">1603-ban</date> lett lippai kapitány.</note></l>
+<l xml:id="l.46">Rákos mezöis fegyverét</l>
+<l rend="level_3" xml:id="l.47">Tudgia mi ézű két kezét.</l>
+<l xml:id="l.48">Ha ki ezeket tagadgia</l>
+<l rend="level_3" xml:id="l.49">Kérdgie Veröczét<note type="critic" xml:id="note.3">Veröcze =
+                        <placeName>Nógrádverőcze<idno type="ITIdata">Q10873</idno></placeName></note> s megh mondgia.</l>
+<l xml:id="l.50">Ezekért Chaszar Baronak</l>
+<l rend="level_3" xml:id="l.51">Kiraly szentelte Hectornak.</l>
+<l xml:id="l.52">Christus koronat fejében</l>
+<l rend="level_3" xml:id="l.53">Teszen az örök életben.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

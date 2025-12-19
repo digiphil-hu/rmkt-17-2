@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">38.</title>
+<title key="body" n="38" type="main">[GYÁSZVERS IFJ. RÁKÓCZI ZSIGMOND HALÁLÁRA]</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-38</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi rend="bold">Diarium Apod.</hi> 253b–254a.</bibl> Kiad. <bibl><hi rend="smallcaps">Zsinka Ferenc</hi>,
+                                <abbr>MPEtA XII</abbr>, 119–120.</bibl></p>
+<p xml:id="crit.1.p.2"> A latin és magyar vers szó szerinti másolata megvan a Zichy-lt.-ban is
+                       (<bibl>OL, Fasc. 144 NB</bibl>). Innen adta ki <bibl><hi rend="smallcaps">Lukcsics Pál</hi>, ItK
+                            1930, 228.</bibl> (Csak a magyar szöveget.) Keresztesi másolata alapján
+                       <persName><hi rend="smallcaps">Harsányi</hi></persName> is kiadta. (<bibl>Miskolczi Csulyak István
+                            élete … 22– 3.</bibl>)</p>
+<p xml:id="crit.1.p.3">A verset Csulyak a szerencsi templomban, <persName>Rákóczi
+                            Zsigmond</persName>
+<date when="1621-02-08">1621. febr. 8-i</date> temetési beszédébe beleszőve mondta el. A
+                        verseket a gyászlobogóra is felírták. A <title><hi rend="italic">Diarium</hi></title> lapszéli megjegyzése szerint a
+                            <persName>Rákóczi Zsigmond</persName> esetleges megmérgezéséről szóló
+                        sorokat kihagyta a szövegből; nincsenek meg ezek a Zichy-lt. kéziratában
+                        sem. – <persName>Rákóczi Zsigmond</persName> az azonos nevű erdélyi
+                        fejedelem fia volt, mindössze 26 évet élt és a közéletben semmiféle szerepe
+                        nem volt. Atyjáról szintén Csulyak tartotta a gyászbeszédet. (<ref target="rmkt-17-2.tei.mcsi-24">24.
+                            sz.</ref> ének.)</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 253b–254a.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 38.</fw>
+<head type="title"><supplied>GYÁSZVERS IFJ. RÁKÓCZI ZSIGMOND HALÁLÁRA</supplied></head>
+<p xml:id="p.1">… miis Tanitoc mostan mondhattiuc, hogy el töröt az mi segitö palczankis: kinec fekete giaszal be buritot koporsojat,
+                mivel az szomoru télnec miatta rosaval es violaval megh nem ekesithettiűk, emlekezetnec okaert imez elöttűnk fön allo fekete
+                viragos kamokabol chinalt zaszlora illien Deac verseket irtunc.</p>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Flebile Sigmundus locat sub marmore corpus</l>
+<l xml:id="l.2">Rackoczi; magni Filius ille Patris.</l>
+<l xml:id="l.3">Exeplum rarae pietatis, amator honesti,</l>
+<l xml:id="l.4">Defensorque piae relligionis, erat.</l>
+<l xml:id="l.5">Inter honoratos numerari jure Barones<note type="footnote"><lg><l xml:id="l.6">Loco quarti distichi etiam hoc addideram, quod non est vexillo adscriptum</l>
+<l xml:id="l.7">Aulaî horrendum! fama est embama aconito</l>
+<l xml:id="l.8">Adspersum, et tetricam hoc accelerasse necem.</l></lg></note></l>
+<l xml:id="l.9">Coeperat, et multis ceu patriarcha coli.</l>
+<l xml:id="l.10">Sex et viginti vix dum compleverat annos,</l>
+<l xml:id="l.11">Quando Serencini funere mersus obît.</l>
+<l xml:id="l.12">Vixerat ut Christo, Christo sic mortuus, ergô</l>
+<l xml:id="l.13">Nunc Christo in coelis dulce Hosianna canit.</l>
+<l xml:id="l.14">Discite mortales coelestes quaerere sedes,<note type="footnote"><lg><l xml:id="l.15">ultimum distichon sic feceram:</l>
+<l xml:id="l.16">Discite Magnates cui vis non credere vitam</l>
+<l xml:id="l.17">Incerto rapiat ne Libitina die.</l></lg></note></l>
+<l xml:id="l.18">Terrea praetereunt tempore cuncta brevi.</l>
+</lg>
+<p xml:id="p.2">MAGIARUL IGY MONDHATTIUK.</p>
+<lg xml:id="lg.2">
+<l xml:id="l.19">1 Siralmas teste Sigmondnac <metamark function="cesura"/> Ez kö alat Rakoczinac</l>
+<l xml:id="l.20">Fekszic: Attianac ki vala <metamark function="cesura"/> Jo hirrel tűndöklö Fia.</l>
+<l xml:id="l.21">Szűk peldaja kegiessegnec <metamark function="cesura"/> Szeretöje tiztessegnec,</l>
+<l xml:id="l.22">Kereztien relligionknac <metamark function="cesura"/> Defensora vallasunknac.</l>
+<l xml:id="l.23">Az Urak közöt hiresnec <metamark function="cesura"/> Meltan mondatot nevesnec,</l>
+<l xml:id="l.24">Es sokan iffiui voltat <metamark function="cesura"/> Bötsűltéc mint patriarkat.</l>
+<l xml:id="l.25">Huszon hat eztendöt szamlalt <metamark function="cesura"/> Hog’ meg kostolta az halalt,</l>
+<l xml:id="l.26">Es szerentsetlen szerentsen <metamark function="cesura"/> Chak keztéc mondani nintsen.</l>
+<l xml:id="l.27">Mikeppen Christusnac êlt volt <metamark function="cesura"/> Ismet Christusnakis meg holt,</l>
+<l xml:id="l.28">Hát most Christusnac menniekben <metamark function="cesura"/> Hosiannat mond örömben.</l>
+<l xml:id="l.29">Tanulliatoc ti emberek <metamark function="cesura"/> Menniorzagot keressétek</l>
+<l xml:id="l.30">Mert ez vilagi minden jo <metamark function="cesura"/> Chak el vész mint az téli hoo.<note type="footnote">
+<p>(Az hetedik es niolczadik, es az ket utolso verset elsöben igy irtam
+                                volt: de az utan nem mondottam el.</p>
+<lg><l xml:id="l.31">Halliuk, de irtozo hirrel <metamark function="cesura"/> Hog’ udvaranac méreggel</l>
+<l xml:id="l.32">Hintettéc volna ételét <metamark function="cesura"/> Mely el fogiatta életét.</l>
+<l xml:id="l.33">Urac intlec, tanulliatoc <metamark function="cesura"/> Magatokat ne bizzatoc</l>
+<l xml:id="l.34">Mindenre! hog’ ily véletlen <metamark function="cesura"/> Meg ne halljatoc hirtelen.)</l></lg>
+</note></l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

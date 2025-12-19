@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">15.</title>
+<title key="body" n="15" type="main">DE NATIUITATE DOMINI</title>
+<author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.pki-15</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kéziratai:</p>
+<p xml:id="crit.1.p.2">I. <bibl><hi rend="bold">Csurgói graduál</hi> 44b–45a.</bibl> – Az éneknek a
+                        kéziraton belüli helyéről lásd az előző éneknél mondottakat. Az ének élén:
+                        „De Natiuitate Domini Em. R. Peczelei.” Legelébb említette <bibl><hi rend="smallcaps">Kálmán
+                            Farkas</hi> i. m. 565.</bibl></p>
+<p xml:id="crit.1.p.3">II. <bibl><hi rend="bold">Kecskeméti graduál</hi> 119.</bibl> – Nem tartozik
+                        a kódex törzsanyagához; miként az előbbit, ezt is <persName>Werbóy
+                            István</persName> másolta. Mivel az énekünket kettővel megelőző verset
+                        ugyanő <date when="1677">1677-ben</date> írta le, a könyvben hátrább olvasható „Feltamat
+                        az mi életünk” másolásának időpontja pedig <date when="1685">1685</date>: ez az ének a
+                        két időpont közötti években került lejegyzésre. Ebben a változatban a 4. és
+                        5. vsz. fel van cserélve.</p>
+<p xml:id="crit.1.p.4">III. <bibl><hi rend="bold">Körmendi-k.</hi> 129–30.</bibl> – Címe: Cantio
+                        Natalis. Az ének végén: „Adject Qvermend: Dje 16 Xbr. A. 1684. P. G. T. B.
+                        L. M.” A kezdőbetűk a másoló Georgius Textor (Takáts) Baxai ludi magister
+                        nevét rejtik. Ebben a változatban a 3. és 4. vsz. fel van cserélve.</p>
+<p xml:id="crit.1.p.5">Megvolt az ének egy 6 strófás változata az elveszett <hi rend="italic">Zemlény-ék.</hi> 41a–b lapjain is. (<bibl><hi rend="smallcaps">Domokos Pál Péter</hi>: <title>Zemlény
+                            János kéziratos énekeskönyve</title>. Kolozsvár 1939. 6.</bibl>)</p>
+<p xml:id="crit.1.p.6">Nyomtatott kiadásai:</p>
+<p xml:id="crit.1.p.7">IV. <bibl><hi rend="bold">Váradi-ék.</hi>
+<date when="1654">1654.</date> 335.</bibl> – Az ének itt nem a helyén, a karácsonyi
+                        énekek között olvasható, hanem helykitöltőszövegként az énekeskönyv utolsó
+                        lapjára, közvetlenül az index elé van nyomtatva. Címe: Karácsoni Dicseret. E
+                        kiadást követően nem is vált még általánossá a protestáns énekeskönyvekben:
+                        csak a század végén jelenik meg újra. (<hi rend="italic">Kolozsvári-ék.</hi>
+<date when="1690">1690.</date> 170.; <hi rend="italic">Lőcsei-ék.</hi>
+<date when="1696">1696.</date> 353–4. stb.) Ebben a változatban a 3. és 4. vsz. fel van
+                        cserélve.</p>
+<p xml:id="crit.1.p.8">V. <bibl><hi rend="bold">Debreceni-ék.</hi>
+<date when="1700">1700.</date> 186.</bibl> – Címe: Reggeli Introitus. A 4. és 5.
+                        strófák között egy szakasszal bővült, és több más helyen is módosított
+                        változat. A 3. és 4. vsz. itt is fel van cserélve. A XVIII. századi
+                        kiadásokban s az azokból készült másolatokban (pl. <hi rend="italic">Lugossy-féle kis-ék.</hi>) ez a változat terjedt el. Ennek a variánsnak
+                        a pusztán nyelvjárási eltéréseit nem jelezzük.</p>
+<p xml:id="crit.1.p.9">A dallamot a legkorábban feljegyzett változat
+                        (<bibl><placeName>Kolozsvár<idno type="ITIdata">Q258</idno></placeName>
+<date when="1744">1744.</date> 220.</bibl>) alapján közöljük.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Csurgói graduál 44b–45a.</witness>
+<witness xml:id="II">Kecskeméti graduál 119.</witness>
+<witness xml:id="III">Körmendi-k. 129–30.</witness>
+<witness xml:id="IV">Váradi-ék. 1654. 335</witness>
+<witness xml:id="V">Debreceni-ék, 1700. 186.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 15.</fw>
+<head type="title">DE NATIUITATE DOMINI</head>
+<head type="subtitle"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1"><supplied>Cantio Natalis</supplied></lem><rdg wit="#I #III #IV #V #II" xml:id="rdg.1"/></app></head>
+<head type="subtitle"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2"><supplied>Karácsoni Dicseret</supplied></lem><rdg wit="#I #III #IV #V #II" xml:id="rdg.2"/></app></head>
+<!--Dallam-kép 34. o.-->
+<lg xml:id="lg.1">
+<l xml:id="l.1"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">Christus vrunknak aldot születesen,</lem><rdg wit="#II" xml:id="rdg.3">szülletesin</rdg><rdg wit="#IV" xml:id="rdg.4"/></app></l>
+<l xml:id="l.2">Angyali verset mondgyunk szent innepen,</l>
+<l xml:id="l.3"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">Mely Betlehemnek mezzeieben regen,</lem><rdg wit="#II" xml:id="rdg.5">Möly</rdg><rdg wit="#IV" xml:id="rdg.6"/></app></l>
+<l xml:id="l.4"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">Zöngöt ékkeppen.</lem><rdg wit="#III #IV" xml:id="rdg.7">ekképpen</rdg><rdg wit="#IV" xml:id="rdg.8">Zengett</rdg></app></l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">Diczössegh magossag’ban az Istennek,</lem><rdg wit="#II #III" xml:id="rdg.9">magassaghban</rdg><rdg wit="#IV" xml:id="rdg.10"/></app></l>
+<l xml:id="l.6">Bekesegh leg’en földön embereknek,</l>
+<l xml:id="l.7">Es jo akarat minden fele nepnek,</l>
+<l xml:id="l.8">Es nemzetsegnek.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9"><app xml:id="app.7"><lem wit="#KK" xml:id="lem.7">Mert el iöt az kit az szent atyak vartak,</lem><rdg wit="#V" xml:id="rdg.11">El-jött már a’ kit</rdg></app></l>
+<l xml:id="l.10">Az szent kiralyok az kit ohaitottak,</l>
+<l xml:id="l.11">Kiröl jövendöt prophetak mondottak</l>
+<l xml:id="l.12"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">S nylvan szollottak.</lem><rdg wit="#II #III #IV" xml:id="rdg.12">Nylvan</rdg></app></l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13"><app xml:id="app.9"><lem wit="#KK" xml:id="lem.9">Az nemös Bethlehemnek varosaban,</lem><rdg wit="#II #III #IV #V" xml:id="rdg.13">nemes</rdg><rdg wit="#IV #V" xml:id="rdg.14">városába</rdg></app></l>
+<l xml:id="l.14"><app xml:id="app.10"><lem wit="#KK" xml:id="lem.10">Gyermek születek szüztül ez vilagra,</lem><rdg wit="#III" xml:id="rdg.15">szüztöl</rdg><rdg wit="#IV" xml:id="rdg.16"/></app></l>
+<l xml:id="l.15"><app xml:id="app.11"><lem wit="#KK" xml:id="lem.11">Örömet hoza Adam arvaira,</lem><rdg wit="#III" xml:id="rdg.17">Örömöt</rdg><rdg wit="#IV" xml:id="rdg.18"/></app></l>
+<l xml:id="l.16"><app xml:id="app.12"><lem wit="#KK" xml:id="lem.12">Maradekira.</lem><rdg wit="#III" xml:id="rdg.19">S maradekira</rdg><rdg wit="#V" xml:id="rdg.20">Maradékira. – Ez az ur Jésus igaz Messiásunk, Ki által vagyon bününkböl váltságunk, A’ mennyországban örökös lakásunk,
+                        Bóldogúlasunk.<note type="critic" xml:id="note.1">Többlet-strófa.</note></rdg></app></l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Eörülnek ézen az mennyei szentek,</l>
+<l xml:id="l.18"><app xml:id="app.13"><lem wit="#KK" xml:id="lem.13">Örülnek földön lelkekben az hiuek,</lem><rdg wit="#IV #V" xml:id="rdg.21">lélekben</rdg></app></l>
+<l xml:id="l.19"><app xml:id="app.14"><lem wit="#KK" xml:id="lem.14">Az ang’alokkal minden keresztyenek,</lem><rdg wit="#II" xml:id="rdg.22">keresztenyek</rdg><rdg wit="#V" xml:id="rdg.23">Egy akarattal minden</rdg></app></l>
+<l xml:id="l.20">Igy enekelnek.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21"><app xml:id="app.15"><lem wit="#KK" xml:id="lem.15">Hala leg’en men’beli szent atyanknak,</lem><rdg wit="#II" xml:id="rdg.24">mönybeli</rdg><rdg wit="#IV" xml:id="rdg.25"/></app></l>
+<l xml:id="l.22"><app xml:id="app.16"><lem wit="#KK" xml:id="lem.16">Hala leg’en születet szép Jesusnak,</lem><rdg wit="#II" xml:id="rdg.26">legyön</rdg><rdg wit="#V" xml:id="rdg.27">született Jésusunknak</rdg></app></l>
+<l xml:id="l.23">Az Szent Leleknek, mi vigasztalonknak,</l>
+<l xml:id="l.24">Bölcz oktatonknak.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25"><app xml:id="app.17"><lem wit="#KK" xml:id="lem.17">Ok keg’es Isten, boldog Szent Haromsag,</lem><rdg wit="#II" xml:id="rdg.28">kegyes Jesus</rdg><rdg wit="#V" xml:id="rdg.29">Oh örök Isten ditsö Szent</rdg></app></l>
+<l xml:id="l.26">Szallyon mi reank mennyei vigasag’,</l>
+<l xml:id="l.27"><app xml:id="app.18"><lem wit="#KK" xml:id="lem.18">Tauozzek tülünk minden fele mordsag’.</lem><rdg wit="#III #IV #V" xml:id="rdg.30">tölünk</rdg><rdg wit="#V" xml:id="rdg.31">minden szomorúság</rdg></app></l>
+<l xml:id="l.28"><app xml:id="app.19"><lem wit="#KK" xml:id="lem.19">Leg’en vidamsagh.</lem><rdg wit="#II" xml:id="rdg.32">Legyen
+                        vigassagh.</rdg><rdg wit="#IV" xml:id="rdg.33"/></app></l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

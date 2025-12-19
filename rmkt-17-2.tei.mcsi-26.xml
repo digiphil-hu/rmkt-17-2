@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">26.</title>
+<title key="body" n="26" type="main">THRENODIA PRAECLARISSIMAE INDOLIS PUERI GEORGII SZIXOVII EUANGELISTAE
+                    ZOMBORIENSIS DIGNISSIMI FILIO HOMONYMO</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-26</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi rend="bold">Diarium Apod.</hi> 223b–224a.</bibl> – A latin cím jelentése: A
+                        szülő által elmondott gyászének a kiváló jellemű gyermekhez,
+                    <persName>Szikszai György</persName>, <placeName>Zombor<idno type="ITIdata">Q18510</idno></placeName>
+                        méltó papja hasonnevű fiához, aki a fáradságos, tisztátalan világ
+                        siralomvölgyéből az égi hazába hivatott el <date when="1610-04-10">1610. ápr.
+                        10-én</date>.</p>
+<p xml:id="crit.1.p.2"><persName>Szikszai György</persName> zombori pap Csulyak apósa volt. Csulyak
+                            <date when="1611-01-30">1611. jan. 30-án</date> egy latin verset írt hozzá abból az
+                        alkalomból, hogy <persName>Szikszai Juditnak</persName> leánya született.
+                        (26. sz. latin vers.) <persName>Szikszai György</persName>
+<date when="1617-04-21">1617. ápr. 21-én</date>, 54 éves korában halt meg; Csulyak erre az
+                        eseményre is írt egy latin verset. (41. sz.)</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 223b–224a.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 26.</fw>
+<head type="title"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">THRENODIA PRAECLARISSIMAE INDOLIS PUERI GEORGII SZIXOVII EUANGELISTAE
+                    ZOMBORIENSIS DIGNISSIMI FILIO HOMONYMO</lem><rdg wit="#I" xml:id="rdg.1"><add type="corr">Georgiolo Szixovio</add></rdg></app></head>
+<head type="subtitle"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">ex aerumnosâ immundi mundi valle in patriam coelestem evocati ad illucescentem 19 aprilis diem 1610.
+                    Anno aetatis dicta à Parente.</lem><rdg wit="#I" xml:id="rdg.2"><add type="corr">mundi immundi valle ad patriam.</add></rdg></app></head>
+<div type="motto" xml:id="d.2"><lg xml:id="lg.3">
+<l xml:id="l.41">Siccine chare puer, mens ô dilecte Georgi,</l>
+<l rend="level_3" xml:id="l.42">Unica spes animae deliciumque Patris,</l>
+<l xml:id="l.43">Deseris in moestos lacrumarum valle Parentes?</l>
+<l rend="level_3" xml:id="l.44">Siccine praecipiti pergis ad astra pede?</l>
+<l xml:id="l.45"><app xml:id="app.7"><lem wit="#KK" xml:id="lem.7">Ne fuge. Qui fueras nostri modulamen amoris</lem><rdg wit="#I" xml:id="rdg.7"><del>Qui fueras nostri modulamen amoris</del><add type="corr">Qui fueras prae nostri solamen
+                        amoris</add></rdg></app></l>
+<l rend="level_3" xml:id="l.46">Dum vixti: ô lecti flos per amande mei!</l>
+<l xml:id="l.47">Materiem noli tristi praebere dolori</l>
+<l rend="level_3" xml:id="l.48"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">Chare puer, lessum in solvere neve velis.</lem><rdg wit="#I" xml:id="rdg.8"><del>lessum in solvere neve velis</del><add type="corr">lessum solvere neque velis</add></rdg></app></l>
+<l xml:id="l.49"><app xml:id="app.9"><lem wit="#KK" xml:id="lem.9">Nos canimus Christus surrexit, tu cadis, eheu</lem><rdg wit="#I" xml:id="rdg.9"><del>&gt;Nos canimus</del><add type="corr">Nunc canimus</add></rdg></app></l>
+<l rend="level_3" xml:id="l.50">Laetitiam turpos funerus exequiis!</l>
+<l xml:id="l.51">Sic erat in fatis scio, primus cerneres o herum</l>
+<l rend="level_3" xml:id="l.52">Nos humiles homuli cui damus ore precos.</l>
+<l xml:id="l.53">Non queror, et lacrumas nimium profundere tristes</l>
+<l rend="level_3" xml:id="l.54">Cesso, voluntati sponte paroque Dei</l>
+<l xml:id="l.55">Quare tumba mei corpus tege pignoris oro,</l>
+<l rend="level_3" xml:id="l.56">Extremo sistas judicioque Dei.</l>
+</lg></div>
+<div type="poem" xml:id="d.3"><lg xml:id="lg.4">
+<l xml:id="l.57">Nekem Atianac magzatom</l>
+<l rend="level_3" xml:id="l.58">Szememnec kedves vilagom.</l>
+<l xml:id="l.59">Igy hacze szomorusagban</l>
+<l rend="level_3" xml:id="l.60">Engem Aniaddal banatban?</l>
+<l xml:id="l.61">Ily giorse labod az éghben</l>
+<l rend="level_3" xml:id="l.62">Tölűnc valo menetelben?</l>
+<l xml:id="l.63">Mig éltél banatban valal</l>
+<l rend="level_3" xml:id="l.64">Vigsag, hazankban virag szál</l>
+<l xml:id="l.65">Ne fuss nam voltal eltedben</l>
+<l rend="level_3" xml:id="l.66">Lantom hegedűm szivemben.</l>
+<l xml:id="l.67">Sirasunkra köny hullatast</l>
+<l rend="level_3" xml:id="l.68">Hazunkban ne hagj ohaitast.</l>
+<l xml:id="l.69">Mi mondgiuk, Christus fel tamatt,</l>
+<l rend="level_3" xml:id="l.70">Te el esel; oh nagi banat!</l>
+<l xml:id="l.71">Orczanc sirassal mochkolod</l>
+<l rend="level_3" xml:id="l.72"><app xml:id="app.10"><lem wit="#KK" xml:id="lem.10">Ha nem el fekete giaszod.</lem><rdg wit="#I" xml:id="rdg.10">Ha nem <del>f</del>el</rdg></app></l>
+<l xml:id="l.73">De no nem panazolkodom</l>
+<l rend="level_3" xml:id="l.74">Mert Isten rendelte tudom:</l>
+<l xml:id="l.75">Hogy Istent latnad elöttűnc</l>
+<l rend="level_3" xml:id="l.76">Kinec mi chac esedezűnc</l>
+<l xml:id="l.77">Nem kesergec hát szivemben</l>
+<l rend="level_3" xml:id="l.78">Istenre nézek mendenben</l>
+<l xml:id="l.79">Te föld ez testet ugi tarchad</l>
+<l rend="level_3" xml:id="l.80">Ha Isten keri meg adgiad.</l>
+</lg></div>
+</div>
+</body>
+</text>
+</TEI>

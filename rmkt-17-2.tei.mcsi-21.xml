@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">21.</title>
+<title key="body" n="21" type="main">MOESTIGANDIUM PETRI LITERATI DE ZOMBOR</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-21</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <hi rend="bold">Diarium Apod.</hi> 219b–220a. – A latin cím jelentése: Zombori Péter deák szomorúsága. – Az ének versfői:
+                    PETER DEACH.</p>
+<p xml:id="crit.1.p.2">Az ének keletkezésének pontos dátuma ismeretlen. <persName>Zombori
+                            Péter</persName> felesége <persName>Szabó Mihály</persName> tarcali „senator” leánya, Anna
+                        volt, aki <date when="1608-01-07">1608. jan. 7-én</date> halt meg. (Lásd a 18. sz. latin
+                        verset.) Az ének szövegéből kiderül, hogy <persName>Szabó Anna</persName>
+                        halála után egy bizonyos Magdolnát vett el. (Lásd az 1. és 18. sorokat.)
+                        Valószínű, hogy ez az esemény <date from="1608-09" to="1608-11">1608 őszén</date>, vagy
+                        <date when="1608-12">telén</date> volt, mert a szöveg a Csulyak eljegyzésével
+                        kapcsolatos énekek között van a <title><hi rend="italic">Diarium</hi></title>-ban. <persName>Zombori Péter</persName> második
+                        házasságával kapcsolatos a következő ének is.</p>
+<p xml:id="crit.1.p.3"><persName>Zombori Hasznos Péter</persName> deák (literatus) egyébként érdekes
+                        alakja a XVII. század eleji mezővárosi értelmiségnek. Valószínűleg
+                        <placeName>Wittenbergben<idno type="ITIdata">Q9096</idno></placeName> is megfordult, mert
+                            <date when="1598">1598-ban</date>, egy ott kiadott emlékkiadványban latin verssel
+                        szerepel (<bibl><abbr>RMK III</abbr>, 925.</bibl>), de pap nem lett, csak a
+                        tarcali egyház diakónusa, majd <placeName>Tarcal<idno type="ITIdata">Q13972</idno></placeName> oppidum főbírája. <date when="1606">1606-ban</date> ő
+                        kezdi el <placeName>Tarcal</placeName> jegyzőkönyvét vezetni s azt hosszabb
+                        történeti és vallásos fejtegetéssel, valamint a város törvényeinek
+                        leírásával vezeti be, mivel a város régi könyve az előző háborúban
+                        elpusztult. <date when="1620">1620-ban</date> ő vendégeli meg városa nevében
+                            <persName>Bethlent</persName>, akitől <date when="1628">1628-ban</date> nemesi
+                        oklevelet kap. (<bibl>Adalékok Zemplén vármegve történetéhez 1896,
+                            280–2.</bibl>; <bibl>1899, 292.</bibl>; <bibl>1900, 89–91,
+                        117–8.</bibl>)</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 219b–220a.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 21.</fw>
+<head type="title">MOESTIGANDIUM PETRI LITERATI DE ZOMBOR</head>
+<head type="subtitle">Anno 1608.</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><hi rend="bold">P</hi>usztává lön házam, <metamark function="cesura"/> hogy el hagya édes Annam,
+                        falala.</l>
+<l xml:id="l.2">fejem hogj űté giasz, <metamark function="cesura"/> jártam chac mint egy váz</l>
+<l xml:id="l.3">hazamot kár vallas <metamark function="cesura"/> puztita tékozlás, Falala lalala</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.4"><hi rend="bold">E</hi>telem sotalan <metamark function="cesura"/> volt italom rosz untalan, fa lala</l>
+<l xml:id="l.5">ágiam volt vetetlen <metamark function="cesura"/> párnaim kenetlen<note type="critic" xml:id="note.1">kenetlen = gyűrött, kisimítatlan</note></l>
+<l xml:id="l.6">házam fala ki dölt <metamark function="cesura"/> hajamban sok ösz nöt. Fa lalala.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.7"><hi rend="bold">T</hi>refaim voltac jai <metamark function="cesura"/> mert fazékamban nem volt vaj
+                        falala</l>
+<l xml:id="l.8">ha mikor ki mentem <metamark function="cesura"/> haza kárra jöttem</l>
+<l xml:id="l.9">buzam borom hijat <metamark function="cesura"/>ohaitottam sirjat. Fa lalala.<note type="critic" xml:id="note.2">A sor értelme talán ez: Búzám, borom hiányosságát: a zsírját (’a javát’) óhajtottam.</note></l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.10"><hi rend="bold">E</hi>röm el tavozot <metamark function="cesura"/> buslakodas kit rám hozot, fa lala.</l>
+<l xml:id="l.11">házamhoz rokonim <metamark function="cesura"/> ha jöttec baratim</l>
+<l xml:id="l.12">orvossagot montac <metamark function="cesura"/> megh nem orvoslottac. Fa lalala.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.13"><hi rend="bold">R</hi>égi példa beszéd <metamark function="cesura"/> ha fejedbe fér oda szed fa lalala.</l>
+<l xml:id="l.14">ackor hanch az hársot <metamark function="cesura"/> mikor hamlic, Társot<note type="critic" xml:id="note.3">E szólásra a <abbr>NySz</abbr> számos adatot idéz.
+                                <bibl>(II, 1295, 1296, 1334.</bibl>) Értelme: tégy mindent a maga
+                            idejében.</note></l>
+<l xml:id="l.15">szintén ackor keres <metamark function="cesura"/> mikor gondod feles, Fa lalala.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.16"><hi rend="bold">D</hi>ichértem ez mondást <metamark function="cesura"/> Istenemtöl kértem aldást fa
+                        lalala.</l>
+<l xml:id="l.17">szent lelkét nyutana: <metamark function="cesura"/> szómot meg hallana:</l>
+<l xml:id="l.18">ha el vötte Annam <metamark function="cesura"/> Adna megh Magdolnam Fa lala.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.19"><hi rend="bold">E</hi>zt megadta érnem <metamark function="cesura"/> Szent nevét illic dichernem fa
+                        lala.</l>
+<l xml:id="l.20">kit kűlsö örömem <metamark function="cesura"/> megh jelent. Istenem</l>
+<l xml:id="l.21">ad jómra aldasod <metamark function="cesura"/> tekénch fogadasod. Fa lalala.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.22"><hi rend="bold">A</hi>z kit meg mutattál <metamark function="cesura"/> tudhassam hogy nem utaltal,
+                        falala,</l>
+<l xml:id="l.23">lelkem niugodalma <metamark function="cesura"/> legyen ez Magdolna</l>
+<l xml:id="l.24">vagdaljon el kárt s bút <metamark function="cesura"/> kit minden jámbor fút, Fa lalala.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.25"><hi rend="bold">C</hi>leobulus<note type="critic" xml:id="note.4">Cleobolus a hét görög bölcs
+                        egyike.</note> szavát <metamark function="cesura"/> erche, -s- fogadgia mondásat, fa lala</l>
+<l xml:id="l.26">velem ne versengjen <metamark function="cesura"/> segedelműl legyen,</l>
+<l xml:id="l.27">mint Urát böchűljön <metamark function="cesura"/> jóban tölem fűgjön Fa lalala.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.28"><hi rend="bold">H</hi>a mit Isten adot <metamark function="cesura"/> arra viseljen nagy gondot, fa la
+                        lala</l>
+<l xml:id="l.29">kártol oltalmazzon, <metamark function="cesura"/> bút ream ne hozzon,</l>
+<l xml:id="l.30">Isten félö légyen <metamark function="cesura"/> szent életben élljen, Fa la la la la.</l>
+</lg>
+<p xml:id="p.1"><hi rend="smallcap">CONSILIUM MUSICI</hi></p>
+<lg xml:id="lg.11">
+<l xml:id="l.31"><hi rend="bold">P</hi>éter Magdalnaval <metamark function="cesura"/> ély Isten ajandékaval fa la la la</l>
+<l xml:id="l.32">Magdalna Péterrel <metamark function="cesura"/> mint giogito irrel,</l>
+<l xml:id="l.33">Éljetec jamborul <metamark function="cesura"/> igy orcza nem pirul. Fa la la la.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

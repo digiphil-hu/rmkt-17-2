@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">20.</title>
+<title key="body" n="20" type="main">TRIUMPHUS PRO CLARISSIMO DOMINO SENIORE STEPHANO SZENT-ANDRASI</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-20</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1">Kézirata: <bibl><hi rend="bold">Diarium Apod.</hi>
+                        219b.</bibl> – A latin cím jelentése: Diadalének a tiszteletreméltó
+                    Szent-Andrási István senior urnak, <date when="1608">1608.</date> – <persName>Szentandrási
+                        István</persName> tarcali pap és két egyházmegye esperese volt
+                        (<bibl>Önéletrajz 290.</bibl>), valamint Csulyak egyik kérője (<bibl>uo.
+                        291.</bibl>). Csulyak három latin verset is írt
+                    <persName>Szentandrásihoz<idno corresp="Szentandrási                         István"/></persName>: egyet leánya halálára (16. sz. latin
+                    vers), egyet felesége <date when="1607-09-03">1607. szept. 3-i</date> halálára (17. sz. latin
+                    vers), egyet meg <persName>Szentandrási<idno corresp="Szentandrási                         István"/></persName>
+<date when="1609-12-31">1609. dec. 31-i</date> halálára. (23. sz. latin vers; lásd még
+                        <bibl>Önéletrajz 291.</bibl>) Lehet, hogy ez az ének is Csulyak <date when="1608-12-11">1608.
+                        dec. 11-i</date> eljegyzésével kapcsolatos, de mivel a 2. sorban
+                    lakodalomról van szó, talán egy más alkalomra írta, esetleg, mint a következő
+                    verset, <persName>Zombori Literatus Péter</persName> esküvőjére.</note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 219b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 20.</fw>
+<head type="title">TRIUMPHUS PRO CLARISSIMO DOMINO SENIORE STEPHANO SZENT-ANDRASI</head>
+<head type="subtitle">1608.</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Vigadozzunc lakozzunc <metamark function="cesura"/> kedves vendégim egjűnc <metamark function="cesura"/> siralom fusson tölűnc Lirum
+                        Lirom.</l>
+<l rend="level_6" xml:id="l.2"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Mert Isten hadta <metamark function="cesura"/> Lakodalomba</lem><rdg wit="#I" xml:id="rdg.1">Isten <del>ugg</del></rdg></app></l>
+<l rend="level_3" xml:id="l.3">mikor mégy rosz kedved, <metamark function="cesura"/> hon póczra<note type="critic" xml:id="note.1">hon póczra = otthon polcra</note> figgeszed. Lirum</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.4">Völegény nem bankodom <metamark function="cesura"/> mert kivansagom latom <metamark function="cesura"/> mellettem hitves tartsom,
+                        Lirum.</l>
+<l rend="level_6" xml:id="l.5">Kit ohaitottam <metamark function="cesura"/> gyakran hazamban</l>
+<l rend="level_3" xml:id="l.6">Két felé tekintven <metamark function="cesura"/> hazam szegletiben Lirum.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.7">Gondaim hason felét,<note type="critic" xml:id="note.2">hason fél = medium, media pars,
+                            dimidium (<abbr>NySz</abbr>)</note>
+<metamark function="cesura"/> titkaim eggik részet, <metamark function="cesura"/> ra bizom latom eszét Lirum.</l>
+<l rend="level_6" xml:id="l.8">Isten mutatta <metamark function="cesura"/> ezt azért adta</l>
+<l rend="level_3" xml:id="l.9">Házam ékessege <metamark function="cesura"/> Legyen életébe. Lirum Lirum Lirum.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.10">Házamtol atkozot kár, <metamark function="cesura"/> hiszem hogy tavolab jár, <metamark function="cesura"/> szivem kit regulta vár,
+                        Lirum.</l>
+<l rend="level_6" xml:id="l.11">Isten oltalmaz <metamark function="cesura"/> engem artalmas</l>
+<l rend="level_3" xml:id="l.12">Feneketlen kastol<note type="critic" xml:id="note.3">Feneketlen kastol – vö. a
+                            XVI. sz. közepéről való <title><hi rend="italic">Adhortatio
+                                    mulierum</hi></title> következő soraival: Ha eltékozlod az mi
+                            morhánkat, Iffjak kik látják csak megcsufolnak, Tégödet mondnak
+                            feneketlen kasnak. (<bibl><abbr>RMKT IV</abbr>, 79.</bibl>) Ugyanott a
+                            Simon bíró is említve van, mint Csulyak énekében is. A szólást a férjén
+                            hatalmaskodó asszonyra használták. (Vö. <bibl><hi rend="smallcaps">Waldapfel</hi>,
+                                    <abbr>MNy</abbr> 1937, 236.</bibl>)</note>
+<metamark function="cesura"/> vagy Simon birotol. Lirum.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.13">Igazat szivem kéván, <metamark function="cesura"/> Istenis az kit nem bán <metamark function="cesura"/> söt töle vagion adván,
+                        Lirum.</l>
+<l rend="level_6" xml:id="l.14">Szandekom tudta <metamark function="cesura"/> meg sem utalta,</l>
+<l rend="level_3" xml:id="l.15">Kire vessem szemem <metamark function="cesura"/> megh adta örömem, Lirum.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.16">Most vagion ennec napja, <metamark function="cesura"/> boldog az ki
+                        kaphattia, <metamark function="cesura"/> nem mindenkor pap saytia,<note type="critic" xml:id="note.4">nem mindenkor pap saytia – e szólásra a <abbr>NySz</abbr>
+                            a XVI–XVII. századból számos adatot idéz. (<bibl>II, 1496.</bibl>)
+                            Értelme kb.: mindennek megvan az ideje.</note> Lirum.</l>
+<l rend="level_6" xml:id="l.17">Isten ugy hadta <metamark function="cesura"/> Lakodalomba,</l>
+<l rend="level_3" xml:id="l.18">Mikor mégy vigadgial <metamark function="cesura"/> semmit se bankodgial. Lirum</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.19">Az Cana meniegzöben, <metamark function="cesura"/> Christus jelen létében, <metamark function="cesura"/> minden volt vigh örömben,
+                        Lirum.</l>
+<l rend="level_6" xml:id="l.20">Mi se bankodgiunc, <metamark function="cesura"/> de vigan lakjunc:</l>
+<l rend="level_3" xml:id="l.21">Jo bort adot gazda <metamark function="cesura"/> tölchűc az torkunkba Lirum.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.22">Mint jo étek só nelkűl, <metamark function="cesura"/> igy lakodalom bor nelkűl, <metamark function="cesura"/> eb volt vigasag nélkűl.
+                        Lirum.</l>
+<l rend="level_6" xml:id="l.23">Ha ételt adot <metamark function="cesura"/> gazda bort hozot,</l>
+<l rend="level_3" xml:id="l.24">Egjűnc igjunc lakjunc <metamark function="cesura"/> kivel mit gondolunc, Lirum.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.25">Az bor meg innia jo, <metamark function="cesura"/> nem saru kenni valo,
+                            <metamark function="cesura"/> jol tudgia Péter biro,<note type="critic" xml:id="note.5">jól tudgia Péter biro – itt talán valami közmondás van versbe szedve. A
+                            Péter nevet tréfásan használják a következő közmondások is: „Nincs a
+                            hadban semmi, Péter bátyja”, „Általugrottad Peti bátya, a szélt.”
+                            (<bibl><hi rend="smallcaps">Erdélyi János</hi>: Magyar közmondások 328.</bibl>)</note>
+                        Lirum.</l>
+<l rend="level_6" xml:id="l.26">Id meg az borát, <metamark function="cesura"/> ad ki
+                        pohárat<note type="critic" xml:id="note.6">E sor <persName>Baranyai Decsinél<idno type="ITIdata">Q141335</idno></persName>
+                            is előfordul: „Id meg az borát, ad ki az poharát.” (<bibl>Adag.
+                                148.</bibl>)</note></l>
+<l rend="level_3" xml:id="l.27">Mert nem tiéd, meg hald, <metamark function="cesura"/> Szomszédod meg ne cháld Lirum.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.28">Ez gazda akarattia, <metamark function="cesura"/> az ki ezt nem fogadgia, <metamark function="cesura"/> haza mennien dolgara,
+                        Lirum.</l>
+<l rend="level_6" xml:id="l.29">Siry az sirockal, <metamark function="cesura"/> az vigadockal</l>
+<l rend="level_3" xml:id="l.30">Vigagy. Minden mondgia <metamark function="cesura"/> hop haja hophaja, hop hop.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

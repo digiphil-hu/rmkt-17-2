@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">27.</title>
+<title key="body" n="27" type="main">ODA, EX GERMANICO</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-27</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata:</p>
+<p xml:id="crit.1.p.2">I. <bibl><hi rend="bold">Diarium Apod.</hi> 224b–225a.</bibl></p>
+<p xml:id="crit.1.p.3">Nyomtatott kiadása:</p>
+<p xml:id="crit.1.p.4">II. <bibl><hi rend="bold">Szép imadsagos könyvecske</hi>.
+                                    <placeName>Lőcse<idno type="ITIdata">Q8066</idno></placeName>
+<date when="1632">1632</date>. 230–3.</bibl> – A későbbi kiadások és kéziratos
+                        másolatok ehhez a szöveghez állnak közel: <bibl><hi rend="italic">Eperjesi-gr</hi>. (<date from="1635" to="1652">1635–52</date>) 368b–369a.</bibl> –
+                                <bibl><hi rend="italic">Balogi-cantionale</hi> (<date when="1659">1659</date>)
+                            327–8.</bibl> – <bibl><title><hi rend="italic">Szép imádságos
+                                    könyvecske</hi></title> (<placeName>Lőcse</placeName> <date when="1646">1646</date>)
+                            142–5.</bibl> – <bibl>Ua. (<placeName>Lőcse</placeName>
+<date when="1683">1683</date>) 140–3</bibl>. – <bibl><hi rend="italic">Kolozsvári
+                                ék.</hi> (<date when="1680">1680</date>) 353–5.</bibl> – <bibl><hi rend="italic">Kolozsvári ék.</hi> (<date when="1690">1690</date>) 316–7.</bibl> – <bibl><hi rend="italic">Debreceni ék.</hi> (<date when="1700">1700</date>) 357–9.</bibl> –
+                        <bibl><persName>Ács Mihály<idno type="ITIdata">Q238422</idno></persName> : <title><hi rend="italic">Zöngedözö mennyei kar</hi></title>.
+                                (<placeName>Lőcse</placeName>
+<date when="1696">1696</date>) 7–9.</bibl> – A szöveg a későbbi nyomtatott
+                        énekeskönyvekben is megtalálható: <persName>Ács<idno corresp="Ács Mihály"/></persName> gyűjteményének
+                        további kiadásaiban, valamint a kottás XVIII. századi énekeskönyvekben. Ez
+                        utóbbiakról majd az ének dallamával kapcsolatban szólunk.</p>
+<p xml:id="crit.1.p.5">Az ének címe szerint <date when="1610">1610-ben</date> keletkezett, de még az év elején,
+                        mert Csulyak <date when="1610-05-07">1610. máj. 7-én</date> azt írja <persName>Szenczi
+                            Molnárnak<idno type="ITIdata">Q49167</idno></persName>, hogy fordítását már elküldte
+                                <placeName>Heidelbergbe<idno type="ITIdata">Q9484</idno></placeName>, <persName>Szepsi Györgynek</persName>: „Cantionem quondam scripsi ad
+                        melodiam Ich danck dir lieber Herr non est mihi ad manus: et in ecclesia
+                        nostra canitur. Tu eam si vis a Georgio Szepsi Heidelberga pete.” (9. sz.
+                        levél.) Az idézett szövegrészből az is kiderül, hogy a szerencsi templomban,
+                        elkészülte után, énekelték Csulyak szerzeményét; nyilván többi vallásos
+                        énekét is énekeltette híveivel.</p>
+<p xml:id="crit.1.p.6">Szélesebb körben azonban csak ez az egy vallásos éneke terjedt el. A
+                        nyomtatott kiadások eltérései Csulyak saját kezű szövegének korábbi, javítás
+                        előtti változatával egyeznek meg. (Lásd a 2., 5. és 28. sorokat.) Ez arra
+                        mutat, hogy Csulyak a korábbi változatot küldhette szét ismerőseinek (többek
+                        között <persName>Szepsi Györgynek</persName>), s ezt közölték aztán a
+                        nyomtatott énekgyűjtemények kiadói is. Valószínű, hogy az első nyomtatott
+                        kiadás szövegét Csulyak személyesen küldte el a lőcsei nyomdásznak, Brewer
+                        Lőrincnek, mert későbbi időből fennmaradt két hozzá intézett levele. (27–28.
+                        levél.) Ezért a lap alján a lőcsei <date when="1632">1632-i</date> kiadás
+                        szövegeltéréseit is közöltük, mint ami még Csulyak életében jelent meg és
+                        feltehetőleg a szerzőnek köze volt hozzá. Az éneknek a <title><hi rend="italic">Diarium</hi></title>-ba bemásolt szövegét tehát
+                        Csulyak csak utólag változtatta meg néhány helyen.</p>
+<p xml:id="crit.1.p.7">Az ének német forrására maga Csulyak utal a nótajelzésben. A német szöveg szerzője <persName>Johann Kohlrosz<idno type="ITIdata">Q492292</idno></persName> (Kolrose) bázeli
+                        luth. tanító, majd pap, énekköltő és színműíró, aki <date when="1558">1558-ban</date> halt meg. (<bibl><hi rend="smallcaps">Harsányi</hi>, <abbr>ItK</abbr> 1926, 232–4.</bibl>) Versének szövegét <bibl><hi rend="smallcaps">Philipp
+                            Wackernagel</hi>: <title>Das deutsche Kirchenlied …</title> Leipzig 1870. III. köt. 86.</bibl> lapjáról közöljük:</p>
+<lg xml:id="crit.1.lg.1">
+<l xml:id="crit.1.l.1">l. Ich danck dir, lieber Herre,</l>
+<l xml:id="crit.1.l.2">das du mich hast bewart</l>
+<l xml:id="crit.1.l.3">In diser nacht gefere,</l>
+<l xml:id="crit.1.l.4">darium ich lag so hart</l>
+<l xml:id="crit.1.l.5">Mit finsternis vmbfangen,</l>
+<l xml:id="crit.1.l.6">darzu in groszer not,</l>
+<l xml:id="crit.1.l.7">daraus ich bin entgangen,</l>
+<l xml:id="crit.1.l.8">halffst du mir, Herre Gott.</l>
+</lg>
+<lg xml:id="crit.1.lg.2">
+<l xml:id="crit.1.l.9">2. Mit danck wil jch dich loben,</l>
+<l xml:id="crit.1.l.10">o du mein Gott und Herr,</l>
+<l xml:id="crit.1.l.11">Im hymel hoch dort oben,</l>
+<l xml:id="crit.1.l.12">den tag mich auch gewer</l>
+<l xml:id="crit.1.l.13">Warumb jch dich thu bitten</l>
+<l xml:id="crit.1.l.14">vnd auch deyn will mag seyn:</l>
+<l xml:id="crit.1.l.15">layt mich in deinen sitten</l>
+<l xml:id="crit.1.l.16">vnd brich den willen meyn,</l>
+</lg>
+<lg xml:id="crit.1.lg.3">
+<l xml:id="crit.1.l.17">3. Das ich, Herr, nit abweyche</l>
+<l xml:id="crit.1.l.18">von deynen rechten ban,</l>
+<l xml:id="crit.1.l.19">Der feynd mich nit erschleiche,</l>
+<l xml:id="crit.1.l.20">darmit ich yrr möcht gan.</l>
+<l xml:id="crit.1.l.21">Erhalt mich durch deyn güte,</l>
+<l xml:id="crit.1.l.22">das bitt jch fleyssig dich,</l>
+<l xml:id="crit.1.l.23">fürs teuffels Hst vnd wütten,</l>
+<l xml:id="crit.1.l.24">darmit er setzt an mich.</l>
+</lg>
+<lg xml:id="crit.1.lg.4">
+<l xml:id="crit.1.l.25">4. Den glauben mir verleyhe</l>
+<l xml:id="crit.1.l.26">an deinen Son Jhesu Christ,</l>
+<l xml:id="crit.1.l.27">Meyn sünd mir auch verzeyhe</l>
+<l xml:id="crit.1.l.28">alhie zu diser frist.</l>
+<l xml:id="crit.1.l.29">Du wirst mir nit versagen,</l>
+<l xml:id="crit.1.l.30">wie du verheyssen hast,</l>
+<l xml:id="crit.1.l.31">das er meyn sünd thut tragen</l>
+<l xml:id="crit.1.l.32">vnd löszt mich von dem last.</l>
+</lg>
+<lg xml:id="crit.1.lg.5">
+<l xml:id="crit.1.l.33">5. Die hoffnung mir auch gibe</l>
+<l xml:id="crit.1.l.34">die nicht verderben lest,</l>
+<l xml:id="crit.1.l.35">Darzu ein Christliche liebe</l>
+<l xml:id="crit.1.l.36">zu dem der mich verletzt:</l>
+<l xml:id="crit.1.l.37">Das jch jm gut guts erzeige,</l>
+<l xml:id="crit.1.l.38">such nit darin das mein,</l>
+<l xml:id="crit.1.l.39">vnd lieb jn als mein eygen</l>
+<l xml:id="crit.1.l.40">nach all dem willen deyn.</l>
+</lg>
+<lg xml:id="crit.1.lg.6">
+<l xml:id="crit.1.l.41">6. Dein wort lasz mich bekennen</l>
+<l xml:id="crit.1.l.42">für diser argen weit,</l>
+<l xml:id="crit.1.l.43">Auch mich deyn diener nennen</l>
+<l xml:id="crit.1.l.44">nicht förchten gwalt noch gelt,</l>
+<l xml:id="crit.1.l.45">Das mich bald möcht abkeren</l>
+<l xml:id="crit.1.l.46">von deyner warhevt klar;</l>
+<l xml:id="crit.1.l.47">wölst mich auch nicht verscheren</l>
+<l xml:id="crit.1.l.48">von der Christlichen schar.</l>
+</lg>
+<lg xml:id="crit.1.lg.7">
+<l xml:id="crit.1.l.49">7. Lasz mich den Tag vollenden</l>
+<l xml:id="crit.1.l.50">zu lob dem namen dein,</l>
+<l xml:id="crit.1.l.51">Das jch nicht von dir wende,</l>
+<l xml:id="crit.1.l.52">ans end bestendig sein.</l>
+<l xml:id="crit.1.l.53">Behüt mir leib vnd leben,</l>
+<l xml:id="crit.1.l.54">darzu die frücht im land:</l>
+<l xml:id="crit.1.l.55">was du mir hast gegeben</l>
+<l xml:id="crit.1.l.56">steet als in deyner hand.</l>
+</lg>
+<lg xml:id="crit.1.lg.8">
+<l xml:id="crit.1.l.57">8. Herr Christ, dir lob ich sage</l>
+<l xml:id="crit.1.l.58">vmd deine wolthat all,</l>
+<l xml:id="crit.1.l.59">Die du mir all mein tage</l>
+<l xml:id="crit.1.l.60">erzeygt hast vberal.</l>
+<l xml:id="crit.1.l.61">Dein namen wil jch preysen,</l>
+<l xml:id="crit.1.l.62">der du alleyn bist gut,</l>
+<l xml:id="crit.1.l.63">mit deinem leyb mich speyse,</l>
+<l xml:id="crit.1.l.64">trenck mich mit deinem blut.</l>
+</lg>
+<lg xml:id="crit.1.lg.9">
+<l xml:id="crit.1.l.65">9. Deyn ist allein die ehre,</l>
+<l xml:id="crit.1.l.66">deyn ist allein der rhum;</l>
+<l xml:id="crit.1.l.67">Die rach dir niemand were,</l>
+<l xml:id="crit.1.l.68">dein segen Zu uns kum,</l>
+<l xml:id="crit.1.l.69">Das wir im frid entschlaffen,</l>
+<l xml:id="crit.1.l.70">mit gnaden zu vns eyl,</l>
+<l xml:id="crit.1.l.71">gib vns des glaubens waffen</l>
+<l xml:id="crit.1.l.72">fürs teuffels listig pfeyl.</l>
+</lg>
+<p xml:id="crit.1.p.8"><persName>Johann Kolrose</persName> énekét <persName>Pécseli Király
+                        Imre<idno type="ITIdata">Q149638</idno></persName> is lefordította (3. sz.), s egy ismeretlen szerzőtől
+                        származó fordítása az <title><hi rend="italic">Eperjesi
+                        graduál</hi></title>-ban is megtalálható (367a) dallammal együtt, éppen
+                        Csulyak szövege előtt. A Csulyak szövege fölötti megjegyzés („Alia Ad eandem
+                        notam”) ennek a névtelen fordításnak a dallamára utal, de szótagszámban ez
+                        eltér Csulyak fordításától, s ezért nem ezt, hanem a XVIII. századi
+                        nyomtatott énekeskönyvekben meglevő dallamot
+                        (<placeName>Kolozsvár<idno type="ITIdata">Q258</idno></placeName>
+<date when="1744">1744</date>, <placeName>Debrecen<idno type="ITIdata">Q2117</idno></placeName>
+<date when="1774">1774</date>, <date when="1778">1778</date>.) vesszük figyelembe. Ezek az eredeti
+                        német korálnak változatai, ugyanakkor eltérést mutatnak <persName>Pécseli
+                            Király</persName> énekének dallamával szemben is. (Vö. 3. sz.) Ennek
+                        nyilvánvaló oka a két fordítás eltérő szótagszáma. – A dallamot legépebb
+                        formájában, a <persName>Maróthi<idno type="ITIdata">Q244284</idno></persName>-féle négyszólamú zsoltárkiadvány
+                        függelékéből (<placeName>Debrecen</placeName>
+<date when="1774">1774</date>. <ref target="rmkt-17-2.tei.nyvm-69">69. sz.</ref> – négyszólamban uo. 372. l.) közöljük.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 224b–225a.</witness>
+<witness xml:id="II">Szép imadsagos könyvecske. Lőcse 1632. 230–3.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 27.</fw>
+<head type="title">ODA, EX GERMANICO</head>
+<head type="subtitle">Anno 1610. Ich danck dir lieber Herre. Szerencini.</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Magaztallak en teged, Isten egeknek kiraliat :/:</l>
+<l xml:id="l.2"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">hogi tölem mesze űzted, az eczakanac homaliat</lem><rdg wit="#I" xml:id="rdg.1"><del>az eczakanac homaliat</del><add type="corr">az setet einek homaliat</add></rdg><rdg wit="#II" xml:id="rdg.2">az sötét eynek homallyat</rdg></app></l>
+<l xml:id="l.3">niavoliam szűksegem terhet, el vötted ereiet,</l>
+<l xml:id="l.4">az setetseg Uratol, meg öriztel szandekatol</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Szűvemböl kerlek teged, nemes teremptö Istenem :/:</lem><rdg wit="#I" xml:id="rdg.3"><del>Szűvemböl kerlek teged</del><add type="corr">Szűböl koniörgoc neked</add></rdg><rdg wit="#II" xml:id="rdg.4">Szivböl
+                        <sic>könyörgög</sic> néked</rdg></app></l>
+<l xml:id="l.6"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">ez napotis meg enged, bekesegben veghez vinnem</lem><rdg wit="#I" xml:id="rdg.5"/><rdg wit="#II" xml:id="rdg.6">véghöz vinni</rdg></app></l>
+<l xml:id="l.7"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">akaratodat tanulnom, Utaidban jarnom,</lem><rdg wit="#I" xml:id="rdg.7"/><rdg wit="#II" xml:id="rdg.8">utaidot</rdg></app></l>
+<l xml:id="l.8">oltalmod be fedezen, kedvem kedved szerent legien</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">Igaz utadra tanits, hogi veled edgiűt jarhassak :/:</lem><rdg wit="#I" xml:id="rdg.9"><del>tanits</del><add type="corr">tanich</add></rdg></app></l>
+<l xml:id="l.10">es töled el ne <sic>tasicz</sic>  hogi kesertetben ne iussak</l>
+<l xml:id="l.11">io voltodbol tarch meg engem, En edes Istenem</l>
+<l xml:id="l.12"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">az ördög <sic>chalaldsaga</sic>,  terien maganak kinniara.</lem><rdg wit="#I" xml:id="rdg.10">maganak <del>niakara</del></rdg></app></l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Az igaz hitnek tűzet, bennem Christusert éleszed :/:</l>
+<l xml:id="l.14">giarlosagimnak vetket. Szememre soha ne vessed</l>
+<l xml:id="l.15">fogadasodot tekench meg, Szent fiadert tarcz meg</l>
+<l xml:id="l.16">ki ertem eleget töt, törveny atkatul meg mentet</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Remensegel ruhaz fel, Ördög töriben ne essem :/:</l>
+<l xml:id="l.18">sziuem hozzad gerieszd fel, magam hasznát ne keressem</l>
+<l xml:id="l.19"><app xml:id="app.7"><lem wit="#KK" xml:id="lem.7">Attiafi szent seretetet Agi Czendesz eletet</lem><rdg wit="#I" xml:id="rdg.11"/><rdg wit="#II" xml:id="rdg.12">szent szeretet,</rdg></app></l>
+<l xml:id="l.20">szeres mint saiatodat, kövessem akaratodat</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Szent igedet vallanom, adgiad tiztan homali nelkűl :/:</l>
+<l xml:id="l.22">es szolgadnak mondatnom, minden kép mutatas nelkűl</l>
+<l xml:id="l.23"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">kenchel semmit nem gondolok, igasagtol varok</lem><rdg wit="#I" xml:id="rdg.13"><del>semmit nem</del><add type="corr">semmit sem</add></rdg><rdg wit="#II" xml:id="rdg.14">kincset</rdg></app></l>
+<l xml:id="l.24">az szentek seregeben, tarcz meg giulekezetedben</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Ez napotis bekevel, Enged uram el mulatnom :/:</l>
+<l xml:id="l.26"><app xml:id="app.9"><lem wit="#KK" xml:id="lem.9">mezömnek gűmölczevel, Taar hazamot gazdagitnom</lem><rdg wit="#I" xml:id="rdg.15"/><rdg wit="#II" xml:id="rdg.16">Mezönek</rdg></app></l>
+<l xml:id="l.27">hogi szent nevedet diczeriem Oltalmadot nieriem</l>
+<l xml:id="l.28"><app xml:id="app.10"><lem wit="#KK" xml:id="lem.10">testemnek földben niugvast lelkemnek adgi bodog szallast</lem><rdg wit="#I" xml:id="rdg.17">testemnek <del>meg maradast</del></rdg><rdg wit="#II" xml:id="rdg.18">testemnek meg maradást</rdg></app></l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Uram egiedöl vagi io, elet ut öröm igassagh :/:</l>
+<l xml:id="l.30">az en eletem gyarlo gondolatomis hamissag</l>
+<l xml:id="l.31"><app xml:id="app.11"><lem wit="#KK" xml:id="lem.11">taplali Christusnak testevel, itas szent verevel,</lem><rdg wit="#I" xml:id="rdg.19">itas<del>z</del></rdg></app></l>
+<l xml:id="l.32">hogi öröke nevednek, enekelliek felsegednek</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33">Amen legien Attianak, Fiunak es szent leleknek,</l>
+<l xml:id="l.34">kitöl mindenek vadnak, Ne engedgien az ördögnek,</l>
+<l xml:id="l.35"><app xml:id="app.12"><lem wit="#KK" xml:id="lem.12">engem Aniasentegihazat, gienge juhoczkaiat,</lem><rdg wit="#I" xml:id="rdg.20"/><rdg wit="#II" xml:id="rdg.21">Engemet magadnak választottat</rdg></app></l>
+<l xml:id="l.36"><app xml:id="app.13"><lem wit="#KK" xml:id="lem.13">Lelkem az boldogsagban, vigye paradiczomaban.</lem><rdg wit="#I" xml:id="rdg.22"/><rdg wit="#II" xml:id="rdg.23">végye Paradicsomában</rdg></app></l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

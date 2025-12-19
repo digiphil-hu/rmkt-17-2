@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">2.</title>
+<title key="body" n="2" type="main">[CANTIO OPTIMA]</title>
+<author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.pki-2</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-16/blob/main/rmkt-17-16.tei.ki-16.xml" type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1">
+<p xml:id="crit.1.p.1">Nyomtatott kiadásai:</p>
+<p xml:id="crit.1.p.2">I. <bibl><hi rend="bold"><title>Istenes Énekek</title>. <placeName>Lőcse<idno type="ITIdata">Q8066</idno></placeName>
+<date when="1671">1671.</date></hi> 488–92.</bibl> – Címe: Mas. Az
+                        első strófák sorrendje tévesen: 1, 4, 5, 2, 3, 6…</p>
+<p xml:id="crit.1.p.3">II. <bibl><hi rend="bold"><title>Istenes Énekek</title>.
+                                    <placeName>Lőcse</placeName>
+<date when="1670">1670.</date></hi> 333–5.</bibl> – Cím és
+                        vsz.-sorrend mint előbb.</p>
+<p xml:id="crit.1.p.4">III. <bibl><hi rend="bold"><title>Istenes Énekek</title>.
+                        <placeName>Kolozsvár<idno type="ITIdata">Q258</idno></placeName>
+<date when="1677">1677.</date></hi> 258–60.</bibl> – Cím és
+                        vsz.-sorrend mint előbb.</p>
+<p xml:id="crit.1.p.5">IV. <bibl><hi rend="bold"><title>Istenes Énekek</title>.
+                        <placeName>Bártfa<idno type="ITIdata">Q6211</idno></placeName>
+<date from="1635" to="1640">1635–40.</date></hi> 342–6.</bibl> Kiad.
+                                <bibl><hi rend="smallcaps">Vasáry</hi> 49–51</bibl>; <bibl><hi rend="smallcaps">Dézsi</hi>: Balassa munkái II, 344–6.</bibl> – Cím
+                        és vsz. sorrend mint előbb.</p>
+<p xml:id="crit.1.p.6">V. <bibl><hi rend="bold"><title>Istenes Énekek</title>.
+                        <placeName>Kassa<idno type="ITIdata">Q20339</idno></placeName>
+<date when="1665">1665.</date></hi> 388–92.</bibl> – Cím és
+                        vsz.-sorrend mint előbb.</p>
+<p xml:id="crit.1.p.7">Kéziratai:</p>
+<p xml:id="crit.1.p.8">VI. <bibl><hi rend="bold">Detsi-k.</hi> 176a–178a.</bibl> – A kódex <date from="1611" to="1613">1611 és 1613 között</date> másolt részében
+                        található. Címe: Cantio optima. A strófák sorrendje helyes.</p>
+<p xml:id="crit.1.p.9">VII. <bibl><hi rend="bold">Lipcsei-k.</hi> 20a–21a.</bibl> – A kódex
+                        „Cantiones Comunes” című énekcsoportjában olvasható. Cím és vsz.-sorrend
+                        mint a <hi rend="italic">Detsi-k.</hi>-nél.</p>
+<p xml:id="crit.1.p.10">Az ének versfői: PETsELI IMRE KIRAA. A versfők, de egyúttal a szöveg értelme
+                        is a kéziratokban lévő strófa-sorrend helyességet bizonyítják. Ha a 11.
+                        szakasznak a kéziratokban olvasható szövegvariánsát vesszük alapul, akkor a
+                        versfők még értelmesebb szöveget adnak: PETsELI IMREH IRA A. A szerző
+                        keresztnevének Imreh alakban való használatára azonban semmi adatunk sincs,
+                        s ezért a nyomtatott kiadásoknak feltehetően a szerzőtől származó későbbi
+                        javított szövegét tartottuk meg, csak a nyilván illetéktelen kéztől
+                        összezavart strófák eredeti rendjében követve a kéziratokat. – Az előző
+                        énekkel együtt ez is Pécseli Király fiatalkori alkotása. Erre mutatnak a két
+                        ének közti gondolati és szövegbeli szoros egyezések (a feltűnőbbeket lásd
+                        alább), valamint az a körülmény, hogy <date when="1611">1611</date> táján
+                        már <persName>Detsi István<idno type="ITIdata">Q42870</idno></persName> beírta kódexébe. Mivel Pécseli <date from="1609-03" to="1609-05">1609 tavaszán</date> utazott
+                        <placeName>Heidelbergbe<idno type="ITIdata">Q9484</idno></placeName>, az ének <date from="1608" to="1609">1608–9</date> körül keletkezhetett. – Népszerűségére mutat, hogy első
+                        szakaszát bejegyezték a <hi rend="italic">Vasady-k.</hi> utolsó (124b)
+                        lapjára is: „Paisa szegeni feiemnek en Istenöm legi eltömnek batoritoia
+                        lelkömnek vigaztaloia sziuemnek. oh en lelköm elli Iesusban”
+                                (<bibl><abbr>ItK</abbr> 1913, 22.</bibl>). A névtelen <hi rend="italic">Comico tragoedia</hi> egyik részének (Sc. III. A. I. Sc.
+                        III.) nóta jelzéseként is énekünk első sora szerepel. (<bibl><abbr><hi rend="smallcaps">Alszeghy</hi>:
+                                Magyar drámai emlékek</abbr> 195.</bibl>)</p>
+</note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Istenes Énekek. Lőcse 1671. 488–92.</witness>
+<witness xml:id="II">Istenes Énekek. Lőcse 1670. 333–5.</witness>
+<witness xml:id="III">Istenes Énekek. Kolozsvár 1677. 258–60.</witness>
+<witness xml:id="IV">Istenes Énekek. Bártfa 1635–40. 342–6.</witness>
+<witness xml:id="V">Istenes Énekek. Kassa 1665. 388–92.</witness>
+<witness xml:id="VI">Detsi-k. 176a–178a.</witness>
+<witness xml:id="VII">Lipcsei-k. 20a–21a.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 2.</fw>
+<head type="title"><supplied>CANTIO OPTIMA</supplied></head>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><hi rend="bold">P</hi>aisa szegény fejemnek,</l>
+<l xml:id="l.2"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">En Istenem légy éltemnek,</lem><rdg wit="#VI #VII" xml:id="rdg.1">Istenöm; eltömnek</rdg><rdg wit="#II" xml:id="rdg.2"/><rdg wit="#III" xml:id="rdg.3"/></app></l>
+<l xml:id="l.3"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Bátoritoja sziv<corr>em</corr>nek,</lem><rdg wit="#I" xml:id="rdg.4">sziveimnek<note type="critic" xml:id="note.1">szótagszámhiba</note></rdg><rdg wit="#II #III #IV #V #VI #VII" xml:id="rdg.5">szivemnek</rdg><rdg wit="#III" xml:id="rdg.6"/></app></l>
+<l xml:id="l.4"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">S’ vigasztaloja lelkemnek,</lem><rdg wit="#VI" xml:id="rdg.7">Vigaztaloia lelkömnek</rdg><rdg wit="#VII" xml:id="rdg.8">Vigaztaloia lölkömnek</rdg><rdg wit="#III" xml:id="rdg.9"/></app></l>
+<l xml:id="l.5"><app xml:id="app.4">
+<lem wit="#KK" xml:id="lem.4">Oh én lelkem ély Jesusban ély.</lem>
+<rdg wit="#VI" xml:id="rdg.10">lelköm</rdg>
+<rdg wit="#VII" xml:id="rdg.11">lölköm<note type="critic" xml:id="note.2">A refrén e megismétlődő
+                                    variánsait a továbbiakban külön nem jelöljük.</note></rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.6"><app xml:id="app.5">
+<lem wit="#KK" xml:id="lem.5"><hi rend="bold">E</hi>n bünömnek sokaságát,</lem>
+<rdg wit="#VI #VII" xml:id="rdg.12">büneimnek soksagat</rdg>
+</app></l>
+<l xml:id="l.7"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">Ne nézd Uram álnokságát,</lem><rdg wit="#VI #VII" xml:id="rdg.13">Vram vndoksagat</rdg><rdg wit="#II" xml:id="rdg.14"/><rdg wit="#III" xml:id="rdg.15"/></app></l>
+<l xml:id="l.8"><app xml:id="app.7"><lem wit="#KK" xml:id="lem.7">Vedd-el inkább sok rútságát,</lem><rdg wit="#VI" xml:id="rdg.16">Vöd</rdg><rdg wit="#II" xml:id="rdg.17"/><rdg wit="#III" xml:id="rdg.18"/></app></l>
+<l xml:id="l.9"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">Es töröld-el poklossagát,</lem><rdg wit="#VI" xml:id="rdg.19">Es tizticz el</rdg><rdg wit="#II" xml:id="rdg.20"/><rdg wit="#III" xml:id="rdg.21"/></app></l>
+<l xml:id="l.10"><app xml:id="app.9">
+<lem wit="#KK" xml:id="lem.9">Oh én <corr>lelkem ély Jesusban ély</corr>.</lem>
+<rdg wit="#I" xml:id="rdg.22">Oh én ….<note type="critic" xml:id="note.3">A rövidített refrén
+                                    kiegészítésére a jegyzetben a továbbiakban nem
+                                utalunk.</note></rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.11"><app xml:id="app.10">
+<lem wit="#KK" xml:id="lem.10"><hi rend="bold">T</hi>suda melly igen ohajtya,</lem>
+<rdg wit="#VI" xml:id="rdg.23">möli igön</rdg>
+</app></l>
+<l xml:id="l.12">Irgalmassagodat várja,</l>
+<l xml:id="l.13"><app xml:id="app.11"><lem wit="#KK" xml:id="lem.11">En Istenem szomjuhozza,</lem><rdg wit="#VI #VII" xml:id="rdg.24">Istenöm</rdg><rdg wit="#II" xml:id="rdg.25"/><rdg wit="#III" xml:id="rdg.26"/></app></l>
+<l xml:id="l.14"><app xml:id="app.12"><lem wit="#KK" xml:id="lem.12">Szegény lelkem ugy kévánnya,</lem><rdg wit="#VI" xml:id="rdg.27">lelköm</rdg><rdg wit="#VII" xml:id="rdg.28">Az en lölköm</rdg><rdg wit="#III #IV #V #VI #VII" xml:id="rdg.29">kivannya</rdg></app></l>
+<l xml:id="l.15">Oh én lelkem ély Jesusban ély.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.16"><app xml:id="app.13">
+<lem wit="#KK" xml:id="lem.13"><hi rend="bold">E</hi>ngem azért fohászkodót,</lem>
+<rdg wit="#VI" xml:id="rdg.30">Engöm</rdg>
+</app></l>
+<l xml:id="l.17"><app xml:id="app.14"><lem wit="#KK" xml:id="lem.14">Szivböl hozzád folyamodót,</lem><rdg wit="#VI #VII" xml:id="rdg.31">Hitböl hozzad</rdg><rdg wit="#II" xml:id="rdg.32"/><rdg wit="#III" xml:id="rdg.33"/></app></l>
+<l xml:id="l.18"><app xml:id="app.15"><lem wit="#KK" xml:id="lem.15">Végy kegyelmedben illy juhot,</lem><rdg wit="#VII" xml:id="rdg.34">Vigy</rdg><rdg wit="#II" xml:id="rdg.35"/><rdg wit="#III" xml:id="rdg.36"/></app></l>
+<l xml:id="l.19"><app xml:id="app.16"><lem wit="#KK" xml:id="lem.16">Önts-ki menyböl reám sok jót,</lem><rdg wit="#VI" xml:id="rdg.37">möniböl</rdg><rdg wit="#VII" xml:id="rdg.38">ream menyböl</rdg><rdg wit="#III" xml:id="rdg.39"/></app></l>
+<l xml:id="l.20">Oh én lelkem <corr>ély Jesusban ély</corr>.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.21"><app xml:id="app.17">
+<lem wit="#KK" xml:id="lem.17"><hi rend="bold">L</hi>ám igirted irgalmadat,</lem>
+<rdg wit="#II #III #IV #V #VI #VII" xml:id="rdg.40">igérted</rdg>
+<rdg wit="#VII" xml:id="rdg.41">irgalmadot</rdg>
+</app></l>
+<l xml:id="l.22"><app xml:id="app.18"><lem wit="#KK" xml:id="lem.18">Szent igédben jó voltodat,</lem><rdg wit="#VI #VII" xml:id="rdg.42">igedböl</rdg><rdg wit="#II" xml:id="rdg.43"/><rdg wit="#III" xml:id="rdg.44"/></app></l>
+<l xml:id="l.23"><app xml:id="app.19"><lem wit="#KK" xml:id="lem.19">Azért küldéd szent Fiadat,</lem><rdg wit="#VII" xml:id="rdg.45">fiadot</rdg><rdg wit="#II" xml:id="rdg.46"/><rdg wit="#III" xml:id="rdg.47"/></app></l>
+<l xml:id="l.24"><app xml:id="app.20"><lem wit="#KK" xml:id="lem.20">Hogy velünk közlöd magadat,</lem><rdg wit="#VI" xml:id="rdg.48">velönk</rdg><rdg wit="#VII" xml:id="rdg.49">velem közlöd magadot</rdg><rdg wit="#III" xml:id="rdg.50"/></app></l>
+<l xml:id="l.25">Oh én <corr>lelkem ély Jesusban ély</corr>.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.26"><hi rend="bold">I</hi>gy szólván: Nem akarom én,</l>
+<l xml:id="l.27"><app xml:id="app.21"><lem wit="#KK" xml:id="lem.21">Hogy egy bünös-is el-veszszen,</lem><rdg wit="#VI #VII" xml:id="rdg.51">Egi bünösis
+                        hogi el vezzön</rdg><rdg wit="#II" xml:id="rdg.52"/><rdg wit="#III" xml:id="rdg.53"/></app></l>
+<l xml:id="l.28"><app xml:id="app.22"><lem wit="#KK" xml:id="lem.22">Söt inkább hozzám meg térjen,</lem><rdg wit="#VI" xml:id="rdg.54">teriön</rdg><rdg wit="#VII" xml:id="rdg.55">hozzad</rdg><rdg wit="#III" xml:id="rdg.56"/></app></l>
+<l xml:id="l.29"><app xml:id="app.23"><lem wit="#KK" xml:id="lem.23">Es örökké velem éllyen,</lem><rdg wit="#VI" xml:id="rdg.57">eliön</rdg><rdg wit="#VII" xml:id="rdg.58"><sic>örökén</sic> veled legien</rdg><rdg wit="#III" xml:id="rdg.59"/></app></l>
+<l xml:id="l.30">Oh én lelkem ély Jesusban ély.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.31"><app xml:id="app.24">
+<lem wit="#KK" xml:id="lem.24"><hi rend="bold">I</hi>gy tselekedél Dáviddal,</lem>
+<rdg wit="#VI" xml:id="rdg.60">czeleködel</rdg>
+</app></l>
+<l xml:id="l.32"><app xml:id="app.25"><lem wit="#KK" xml:id="lem.25">Es szent Péter Apostollal,<note type="critic" xml:id="note.4">Az előző <ref target="rmkt-17-2.tei.pki-1">1. sz.</ref> ének 19–20.
+                                    soraiban szintén Dávidot és Pétert említi hasonló
+                                    értelemben.</note></lem><rdg wit="#VI" xml:id="rdg.61">Petör</rdg><rdg wit="#II" xml:id="rdg.62"/><rdg wit="#III" xml:id="rdg.63"/></app></l>
+<l xml:id="l.33"><app xml:id="app.26"><lem wit="#KK" xml:id="lem.26">A’ szegény Magdalénával,</lem><rdg wit="#VI #VII" xml:id="rdg.64">Az</rdg><rdg wit="#II" xml:id="rdg.65"/><rdg wit="#III" xml:id="rdg.66"/></app></l>
+<l xml:id="l.34"><app xml:id="app.27"><lem wit="#KK" xml:id="lem.27">Es töb bünös fiaiddal,</lem><rdg wit="#VII" xml:id="rdg.67">bünes</rdg><rdg wit="#II" xml:id="rdg.68"/><rdg wit="#III" xml:id="rdg.69"/></app></l>
+<l xml:id="l.35">Oh én lelkem <corr>ély Jesusban ély</corr>.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.36"><app xml:id="app.28">
+<lem wit="#KK" xml:id="lem.28"><hi rend="bold">M</hi>ikor bünökért sirnának,</lem>
+<rdg wit="#VI" xml:id="rdg.70">bünükert</rdg>
+<rdg wit="#VII" xml:id="rdg.71">bünökirt</rdg>
+</app></l>
+<l xml:id="l.37"><app xml:id="app.29"><lem wit="#KK" xml:id="lem.29">Szivek szerint bánkodnának,</lem><rdg wit="#III #IV #V" xml:id="rdg.72">szerént</rdg><rdg wit="#VI" xml:id="rdg.73">Szivük szörent</rdg><rdg wit="#VII" xml:id="rdg.74">jaigatnanak</rdg></app></l>
+<l xml:id="l.38"><app xml:id="app.30"><lem wit="#KK" xml:id="lem.30">Kegyelmet töled várnának,</lem><rdg wit="#VI" xml:id="rdg.75">Tüled kegielmet</rdg><rdg wit="#VII" xml:id="rdg.76">tüled</rdg><rdg wit="#III" xml:id="rdg.77"/></app></l>
+<l xml:id="l.39"><app xml:id="app.31"><lem wit="#KK" xml:id="lem.31">Ök jó válaszszal járának,</lem><rdg wit="#VI" xml:id="rdg.78">Sok io</rdg><rdg wit="#VII" xml:id="rdg.79">iarnanak</rdg><rdg wit="#III" xml:id="rdg.80"/></app></l>
+<l xml:id="l.40">Oh én <corr>lelkem ély Jesusban ély</corr>.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.41"><app xml:id="app.32">
+<lem wit="#KK" xml:id="lem.32"><hi rend="bold">R</hi>eménsęgek nem tsalaték,</lem>
+<rdg wit="#VI" xml:id="rdg.81">Remensegük</rdg>
+<rdg wit="#VII" xml:id="rdg.82">Remensigök nem czalatik</rdg>
+</app></l>
+<l xml:id="l.42"><app xml:id="app.33"><lem wit="#KK" xml:id="lem.33">Irgalmassagod nyújtaték,<note type="critic" xml:id="note.5">Vö. az <ref target="rmkt-17-2.tei.pki-1">előző ének</ref> 21. sorával:
+                                    „irgalmasságod nyújtád”.</note></lem><rdg wit="#VII" xml:id="rdg.83">niutatik</rdg><rdg wit="#II" xml:id="rdg.84"/><rdg wit="#III" xml:id="rdg.85"/></app></l>
+<l xml:id="l.43"><app xml:id="app.34"><lem wit="#KK" xml:id="lem.34">Bünöst nem utálsz meg-tettzék,</lem><rdg wit="#VII" xml:id="rdg.86">teczik</rdg><rdg wit="#II" xml:id="rdg.87"/><rdg wit="#III" xml:id="rdg.88"/></app></l>
+<l xml:id="l.44"><app xml:id="app.35"><lem wit="#KK" xml:id="lem.35">Kik meg-térnek bizonyodék,</lem><rdg wit="#VII" xml:id="rdg.89">bizoniodik</rdg><rdg wit="#II" xml:id="rdg.90"/><rdg wit="#III" xml:id="rdg.91"/></app></l>
+<l xml:id="l.45">Oh én lelkem ély Jesusban ély.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.46"><app xml:id="app.36">
+<lem wit="#KK" xml:id="lem.36"><hi rend="bold">E</hi>ngemet-is ugy kegyessen,</lem>
+<rdg wit="#VI" xml:id="rdg.92">Engömetis ur kegiössen</rdg>
+<rdg wit="#VII" xml:id="rdg.93">Engemetis ily kegiessen</rdg>
+</app></l>
+<l xml:id="l.47"><app xml:id="app.37"><lem wit="#KK" xml:id="lem.37">Végy kedvedben szerelmessen,</lem><rdg wit="#VI" xml:id="rdg.94">Vigi</rdg><rdg wit="#VII" xml:id="rdg.95">ily kegiessen</rdg><rdg wit="#III" xml:id="rdg.96"/></app></l>
+<l xml:id="l.48"><app xml:id="app.38"><lem wit="#KK" xml:id="lem.38">Bünben ne hadgy fekélyessen,</lem><rdg wit="#VI" xml:id="rdg.97">fekeliösen</rdg><rdg wit="#VII" xml:id="rdg.98">fökeliessen</rdg><rdg wit="#III" xml:id="rdg.99"/></app></l>
+<l xml:id="l.49"><app xml:id="app.39"><lem wit="#KK" xml:id="lem.39">Söt tisztits-meg kegyelmessen,</lem><rdg wit="#VI" xml:id="rdg.100">kögielmessen</rdg><rdg wit="#II" xml:id="rdg.101"/><rdg wit="#III" xml:id="rdg.102"/></app></l>
+<l xml:id="l.50">Oh én lelkem <corr>ély Jesusban ély</corr>.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.51"><app xml:id="app.40">
+<lem wit="#KK" xml:id="lem.40"><hi rend="bold">K</hi>egyelmes menybéli Király,</lem>
+<rdg wit="#VI" xml:id="rdg.103">Hatalmas mönibeli kirali</rdg>
+<rdg wit="#VII" xml:id="rdg.104">Hatalmas mennybeli Isten</rdg>
+</app></l>
+<l xml:id="l.52"><app xml:id="app.41"><lem wit="#KK" xml:id="lem.41">Kérlek engem meg ne utály,</lem><rdg wit="#VI #VII" xml:id="rdg.105">utali</rdg><rdg wit="#II" xml:id="rdg.106"/><rdg wit="#III" xml:id="rdg.107"/></app></l>
+<l xml:id="l.53">Söt táboroddal mellém szály,</l>
+<l xml:id="l.54"><app xml:id="app.42"><lem wit="#KK" xml:id="lem.42">Es eröddel környülem ály,</lem><rdg wit="#VI" xml:id="rdg.108">körniülem iari</rdg><rdg wit="#II" xml:id="rdg.109"/><rdg wit="#III" xml:id="rdg.110"/></app></l>
+<l xml:id="l.55">Oh én <corr>lelkem ély Jesusban ély</corr>.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.56"><app xml:id="app.43">
+<lem wit="#KK" xml:id="lem.43"><hi rend="bold">I</hi>rigy ördög ne árthasson,</lem>
+<rdg wit="#III" xml:id="rdg.111">ördög <sic>de</sic> árthasson</rdg>
+<rdg wit="#VI" xml:id="rdg.112">Iregh; ne banthasson</rdg>
+<rdg wit="#VII" xml:id="rdg.113">Iregy</rdg>
+</app></l>
+<l xml:id="l.57"><app xml:id="app.44"><lem wit="#KK" xml:id="lem.44">Hogy kisirtet ne bánthasson,</lem><rdg wit="#IV #V" xml:id="rdg.114">kisértet</rdg><rdg wit="#VI" xml:id="rdg.115">kesertet ne
+                        arthasson</rdg><rdg wit="#VII" xml:id="rdg.116">késirtet</rdg></app></l>
+<l xml:id="l.58">Tsak hozzám se járulhasson,</l>
+<l xml:id="l.59"><app xml:id="app.45"><lem wit="#KK" xml:id="lem.45">Es bünökre ne hajthasson,</lem><rdg wit="#VII" xml:id="rdg.117">Es gonosra</rdg><rdg wit="#II" xml:id="rdg.118"/><rdg wit="#III" xml:id="rdg.119"/></app></l>
+<l xml:id="l.60">Oh én <corr>lelkem ély Jesusban ély</corr>.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.61"><app xml:id="app.46">
+<lem wit="#KK" xml:id="lem.46"><hi rend="bold">R</hi>epüly s’ örüly azért lelkem,</lem>
+<rdg wit="#IV" xml:id="rdg.120">Röpüly</rdg>
+<rdg wit="#VI" xml:id="rdg.121">Röpüli örüli azert lelköm</rdg>
+<rdg wit="#VII" xml:id="rdg.122">Röpöly örüly azért lölköm</rdg>
+</app></l>
+<l xml:id="l.62"><app xml:id="app.47"><lem wit="#KK" xml:id="lem.47">Indullyon hozzád bus szivem,</lem><rdg wit="#VI" xml:id="rdg.123">Induli
+                        viduli oh en szivem</rdg><rdg wit="#VII" xml:id="rdg.124">Induli viduli en bü sziüem</rdg><rdg wit="#III" xml:id="rdg.125"/></app></l>
+<l xml:id="l.63"><app xml:id="app.48"><lem wit="#KK" xml:id="lem.48">Hálá-adást mutat hitem,</lem><rdg wit="#VI" xml:id="rdg.126">Hala adast aldast hittem</rdg><rdg wit="#VII" xml:id="rdg.127">Hala adast adhas hitöm</rdg><rdg wit="#III" xml:id="rdg.128"/></app></l>
+<l xml:id="l.64"><app xml:id="app.49"><lem wit="#KK" xml:id="lem.49">Néked mig lészen életem,</lem><rdg wit="#VI" xml:id="rdg.129">Mutat neköm
+                        migh lez eltöm</rdg><rdg wit="#VII" xml:id="rdg.130">Mutat néköd mi les eltöm</rdg><rdg wit="#III" xml:id="rdg.131"/></app></l>
+<l xml:id="l.65">Oh én lel<corr>kem ély Jesusban ély</corr>.</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.66"><hi rend="bold">A</hi>z Ur Jesus áldozattya,</l>
+<l xml:id="l.67"><app xml:id="app.50"><lem wit="#KK" xml:id="lem.50">Lelkemnek nemes záloga,</lem><rdg wit="#III #IV" xml:id="rdg.132">zálaga</rdg><rdg wit="#VI" xml:id="rdg.133">Lelkönknek nömös szalagia</rdg><rdg wit="#VII" xml:id="rdg.134">Lölkunknek nemös zalagia</rdg></app></l>
+<l xml:id="l.68"><app xml:id="app.51"><lem wit="#KK" xml:id="lem.51">Rajtam légyen fel-költ Napja,</lem><rdg wit="#IV" xml:id="rdg.135">föl-költ</rdg><rdg wit="#VI" xml:id="rdg.136">Raitonk legiön föl költ</rdg><rdg wit="#VII" xml:id="rdg.137">Raitunk legien föl költ</rdg></app></l>
+<l xml:id="l.69"><app xml:id="app.52"><lem wit="#KK" xml:id="lem.52">Es töled meg-nyerje s’ adgya,</lem><rdg wit="#VI" xml:id="rdg.138">tüled</rdg><rdg wit="#VII" xml:id="rdg.139">Hogy ezt töled megh nierhessük</rdg><rdg wit="#III" xml:id="rdg.140"/></app></l>
+<l xml:id="l.70">Oh én <corr>lelkem ély Jesusban ély</corr>.</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.71"><app xml:id="app.53">
+<lem wit="#KK" xml:id="lem.53"><hi rend="bold">A</hi>ldott a’ te neved légyen,</lem>
+<rdg wit="#VI #VII" xml:id="rdg.141">az</rdg>
+<rdg wit="#VI" xml:id="rdg.142">legiön</rdg>
+</app></l>
+<l xml:id="l.72"><app xml:id="app.54"><lem wit="#KK" xml:id="lem.54">Szent Lelked minket segéllyen,</lem><rdg wit="#VI" xml:id="rdg.143">lelköd; segelliön</rdg><rdg wit="#VII" xml:id="rdg.144">lölköd</rdg><rdg wit="#III" xml:id="rdg.145"/></app></l>
+<l xml:id="l.73"><app xml:id="app.55"><lem wit="#KK" xml:id="lem.55">Minden jóra vezérellyen,</lem><rdg wit="#VI" xml:id="rdg.146">vezerölliön</rdg><rdg wit="#VII" xml:id="rdg.147">Es minden iora vezérlien</rdg><rdg wit="#III" xml:id="rdg.148"/></app></l>
+<l xml:id="l.74"><app xml:id="app.56"><lem wit="#KK" xml:id="lem.56">Erre minden mondgya Amen,</lem><rdg wit="#VI" xml:id="rdg.149">mindön
+                        mondgion ament</rdg><rdg wit="#II" xml:id="rdg.150"/><rdg wit="#III" xml:id="rdg.151"/></app></l>
+<l xml:id="l.75">Oh én lelkem ély Jesusban ély.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

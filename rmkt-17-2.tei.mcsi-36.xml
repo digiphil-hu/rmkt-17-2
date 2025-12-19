@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">36.</title>
+<title key="body" n="36" type="main">NAENIA SENILI VENA CUSA, IN FUNERE GENEROSISSIMAE MATRONAE SOPHIAE DERSI
+                    GENEROSISSIMI DOMINI GEORGII CHERNEL CONJUGIS</title>
+<author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>Informatizált kritikai kiadás</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName><surname>Hernády</surname><forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno></persName>
+</respStmt>
+<respStmt>
+<resp>TEI-specification</resp>
+<persName><surname>Fellegi</surname><forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName><ref type="url">https://iti.abtk.hu</ref></publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                        International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-2.tei.mcsi-36</idno>
+<ref type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi rend="bold">Diarium Apod.</hi> 122a–123a.</bibl> – A latin cím jelentése: A
+                        nemes <persName>Dersi Zsófia</persName> úrnőnek, a nemes <persName>Chernel
+                            György</persName> úr feleségének temetésén elmondott gyászének.
+                        Előadatott a pataki templomban, <date when="1617-01-29">jan. 29-én</date>, szerdán.</p>
+<p xml:id="crit.1.p.2"><persName>Chernel Györgyről</persName> lásd a <ref target="rmkt-17-2.tei.mcsi-34">34. sz.</ref> vers
+                        jegyzetét. Csulyak <persName>Chernel György</persName> gyermekének halálára
+                        írta a <ref target="rmkt-17-2.tei.mcsi-34">34. sz.</ref> éneket. Az ének keletkezési ideje bizonytalan,
+                        mert Csulyak <persName>Dersi Zsófia</persName> temetésének csak hónapját és
+                        napját közli, az évét nem. A <title><hi rend="italic">Diarium</hi></title>ban <persName>Dersi Zsófia</persName> elsőszülött
+                        leányának, <persName>Máriának<idno corresp="Dersi Mária"/></persName> halálára <date when="1616-02-01">1616. febr.
+                            1-én</date> írt ének után van beírva. Ekkor még élt <persName>Dersi
+                            Zsófia</persName>, mert az ének 10. sorában mint élőről beszél róla
+                        Csulyak. Legkorábban tehát <date when="1617-01">1617. januárjában</date> halhatott meg. Az
+                        is lehetséges, hogy valamelyik későbbi évben történt a halála és csak az
+                        azonos család miatt került az ének szövege a <ref target="rmkt-17-2.tei.mcsi-34">34. sz.</ref> ének
+                        után.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl><title type="main">Pécseli Király Imre, Miskolczi Csulyak István és Nyéki Vörös Mátyás versei</title><title type="sub">Régi Magyar Költők Tára XVII. század</title><title type="sub">2.</title><author><persName><surname>Pécseli Király</surname><forename>Imre</forename><idno type="ITIdata">Q149638</idno></persName></author><author><persName><surname>Miskolczi Csulyak</surname><forename>István</forename><idno type="ITIdata">Q148690</idno></persName></author><author><persName><surname>Nyéki Vörös</surname><forename>Mátyás</forename><idno type="ITIdata">Q159146</idno></persName></author><respStmt>
+<resp>arranged for publication</resp>
+<persName><surname>Jenei</surname><forename>Ferenc</forename><idno type="ITIdata">Q243061</idno></persName>
+<persName><surname> Klaniczay</surname><forename> Tibor</forename><idno type="ITIdata">Q46342</idno></persName>
+<persName><surname> Kovács</surname><forename> József</forename><idno type="ITIdata">Q253164</idno></persName>
+<persName><surname>Stoll </surname><forename>Béla</forename><idno type="ITIdata">Q253314</idno></persName>
+</respStmt><date when="1962">1962</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai Kiadó</publisher><idno type="ITIdata"/><ref target="https://github.com/digiphil-hu/rmkt-17-2" type="url">A kiadás TEI
+                                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI">10.5281/zenodo.17989726</idno></bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="I">Diarium Apod. 122a–123a.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/2:] 36.</fw>
+<head type="title">NAENIA SENILI VENA CUSA, IN FUNERE GENEROSISSIMAE MATRONAE SOPHIAE DERSI
+                    GENEROSISSIMI DOMINI GEORGII CHERNEL CONJUGIS</head>
+<head type="subtitle">Recitata in templo Patakinensi 29 Januarii die Mercurii.</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Hoc, Sophia Egregii conjunx dilecta Georgi</l>
+<l rend="level_3" xml:id="l.2">A Chernel posuit mortua membra, Loco.</l>
+<l xml:id="l.3">Dersiadum prognata atavis mehoribus. Etsi</l>
+<l rend="level_3" xml:id="l.4">Percelebri nupsit digna marita Viro,</l>
+<l xml:id="l.5">Provida, casta, pia et custos domus, osor iniqui</l>
+<l rend="level_3" xml:id="l.6">Et coluit verâ relligione Deum,</l>
+<l xml:id="l.7">Terdenas octoque chori numerabat aristas,</l>
+<l rend="level_3" xml:id="l.8">Unque decim thalami pignora chara dedit:</l>
+<l xml:id="l.9">Cincta tamen non his potuit virtutibus, eheu!</l>
+<l rend="level_3" xml:id="l.10"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Vitare in fundae spicula sa<corr>e</corr>va Necis.</lem><rdg wit="#I" xml:id="rdg.1"><sic>sava</sic></rdg></app></l>
+<l xml:id="l.11">Sed bené habet. Postquam immundi mala plurima mundi</l>
+<l rend="level_3" xml:id="l.12">Sensit, jam fruitur nectare Christe tuo.</l>
+<l xml:id="l.13">Quare age Tu qui longa cupis per secula vitam</l>
+<l rend="level_3" xml:id="l.14">Ducere, dic Sophiae hic molliter ossa cubent.</l>
+</lg>
+<l xml:id="l.15">MAGIAROL MAID ENNIT TESZEN</l>
+<lg xml:id="lg.2">
+<l xml:id="l.16"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Kegiesseggel ekes virtusock<corr>a</corr>l teljes</lem><rdg wit="#I" xml:id="rdg.2"><sic>virtusockel</sic></rdg></app></l>
+<l rend="level_3" xml:id="l.17">Chernel Giörgy Urunc tarsa,</l>
+<l xml:id="l.18">meg hidegűlt testét nem utolso részét</l>
+<l rend="level_3" xml:id="l.19">Nemes Dersi Sophia,</l>
+<l xml:id="l.20">Le tötte ez boltban kies kamoraban</l>
+<l rend="level_3" xml:id="l.21">Chendesen niugodnia.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.22">Uri nagy nemzetböl vötte volt szűlektöl</l>
+<l rend="level_3" xml:id="l.23">ezt az halando testet:</l>
+<l xml:id="l.24">Oly Férjetis talalt az kit szive kivant</l>
+<l rend="level_3" xml:id="l.25">mert szent volt az szeretet.</l>
+<l xml:id="l.26">Vigiazot honniaban, szűz, szent volt dolgaban</l>
+<l rend="level_3" xml:id="l.27">utalt feslet eletet.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.28">Az Istent uralta mert hitit vallotta</l>
+<l rend="level_3" xml:id="l.29">nem kep mutato szivel,</l>
+<l xml:id="l.30">harmincz niolcz esztendöt, szamlalt anni idöt</l>
+<l rend="level_3" xml:id="l.31">férhez menetelivel</l>
+<l xml:id="l.32">tizen egy magzatot férjenekis adot</l>
+<l rend="level_3" xml:id="l.33">felesegi hűseggel.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.34">Noha soc joszaggal mint anni gemantal</l>
+<l rend="level_3" xml:id="l.35">Isten tűndököltette,</l>
+<l xml:id="l.36">de azert az halalt mihelt rea talalt</l>
+<l rend="level_3" xml:id="l.37">mégis el nem űzhette;</l>
+<l xml:id="l.38">hanem e séljeben mint setét tömlöczben</l>
+<l rend="level_3" xml:id="l.39">kedvűnc ellen fektette.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.40">De jol járt. Sok butol űrűlt niavaliaktol</l>
+<l rend="level_3" xml:id="l.41">kickel élte terhes volt.</l>
+<l xml:id="l.42">Az Christustol immar menyben coronat var</l>
+<l rend="level_3" xml:id="l.43">meliet néki chinalt volt.</l>
+<l xml:id="l.44">Eszic Ambrosiat, iszic ollian Nectart</l>
+<l rend="level_3" xml:id="l.45">Kit soha nemis kostolt.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.46">Soc esztendöt elni kivanszé valaki</l>
+<l rend="level_3" xml:id="l.47">szemeiddel latnia.</l>
+<l xml:id="l.48">Mondgiad hogy aludgion chendesen niugodgion</l>
+<l rend="level_3" xml:id="l.49">meg hidegedet chiontia,</l>
+<l xml:id="l.50">Dersi Sophianac Isten Leanianac</l>
+<l rend="level_3" xml:id="l.51">meddig Isten akarja.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>
